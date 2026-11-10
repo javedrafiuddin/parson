@@ -161,6 +161,37 @@ cannot enter the ranked table; it is not rejected.
 
 Instructions given to every batch: `batches/BATCH_INSTRUCTIONS.md`. Results: `batches/<batch>.json`, summarised below as they land.
 
+## R3 as actually run (budget-scaled on 2026-11-10)
+
+The 25-batch subagent swarm was abandoned: the pilot batch (T1-14) died on the 5-hour usage limit before writing output, and the user
+reported the Fable allowance at 50%. Verification was instead done in code plus targeted filing reads by the main session.
+Nothing below was cut silently; names not reached are UNVERIFIED, not rejected.
+
+| # | Step | Names in | Names out | Cut | Rule / evidence |
+|---|---|---|---|---|---|
+| L1 | Evidence packs read in code (latest 10-Q + 10-K text, regex) | 407 | 407 | 0 | flags found: going-concern language 125; variable-price/equity-line terms 50; ATM 222; listing-deficiency 32 (`data/derived/tier1_lean.parquet`) |
+| L2 | Real business (5.2): TTM revenue ≥ $5M or registered Phase 2+ trial | 407 | 311 | 96 | XBRL revenue; ClinicalTrials.gov lead-sponsor match. The 96 are deferred to a filing check that was not run |
+| L3 | Survival, first-class (5.2): runway ≥ 2 years or cash-flow-positive | 311 | 196 | 115 | 5.1 formula on filed values. Names with 12–24 months pass the gate but were deferred (ordering choice, not a rejection) |
+| L4 | No going-concern language in the latest 10-Q/10-K | 196 | 171 | 25 | regex on filing text; context not hand-read for the 25 |
+| L5 | Size where the cohort's EV is positive and a 25x path is conceivable: cap $30M–$3B | 171 | 113 | 58 | cohort: < $32M deep-drawdown stratum returned −0.20 per $1 with 58% wipeouts; > $3B needs > $75B at 25x |
+| L6 | Human–model cross-check (8.7): model top quartile AND human top half | 113 | 20 | 93 | 26 are disagreements (excluded from the buy set); 67 are simply not top-ranked |
+| L7 | Filing-level read by the main session, in combined-rank order | 20 | 15 read | 5 not reached | TTEC, RENT, CHGG, RILY, TENX not reached |
+| L8 | Stage 1/2 outcome of the 15 read | 15 | 10 | 5 | SSTK, XRX: no wave case (5.6). ANNA (5.5 deSPAC blanks), BATL (FD count not assemblable; auditor change), KLXE (listing form unexplained; liquidity) → Could-Not-Verify |
+| L9 | R5 math (Section 6) | 10 | 4 | 6 | RXST, TE, BLNK: LIFT < 2.5x. METC, ABAT: EV < 0. FLNC: plausible ceiling 7.4x, below the white-swan class |
+
+Survivors into R6: **VRRM, ALIT, KLC, FMC**. Human rubric as code: `scripts/r3_lean_rank.py` and the pool file `data/derived/r3_pool.parquet`.
+
+### Vehicle choice (5.7) for the four
+Durability rule first: common stock is indefinite, conditional on survival. Alternatives examined: (a) listed warrants — none of the four has one;
+(b) LEAPS — would need a written roll plan and ≥ 18-month expiries; at $2–13 share prices on a $80–400 allocation one contract controls
+100 shares, expiries fall far short of a 5-year window, and every roll re-pays spread on a thin chain: the cumulative roll cost consumes the
+asymmetry, so LEAPS are excluded without pricing a chain; (c) converts/preferreds — none listed for these issuers. Common stock is the vehicle for all four.
+
+### Warrants (Section 5.4) — status
+Seven warrants reached the universe. CORZW: issuer fails Stage 1 (8-K 4.02). OPENW/OPENZ: issuer fails the survival gate. RGTIW: expiry inside
+a year or so — fails the 3-year life rule. OPTXW: quoted spread 19% > 15%. DJTWW: issuer needs a survival check that was not run.
+HTZWW: long-dated, but the warrant agreement itself is not readable from this environment → Could-Not-Verify. No warrant is VERIFIED.
+
 ## R3 batches
 
-(appended per batch)
+No subagent batch completed. `batches/` holds the batch plan, instructions and cluster files for a later run if budget allows.

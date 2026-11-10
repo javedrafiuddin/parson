@@ -1,0 +1,1830 @@
+{
+ "base_factors": {
+  "survival": 0.6554777322584908,
+  "wave": 0.02522935779816514,
+  "leads": 0.39284113016170424,
+  "captures": 0.6041666666666666
+ },
+ "wave_map": {
+  "0": 0.01,
+  "1": 0.02522935779816514,
+  "2": 0.05,
+  "3": 0.08,
+  "4": 0.11,
+  "5": 0.131
+ },
+ "lead_map": {
+  "leader": 0.55,
+  "participant": 0.25,
+  "laggard": 0.1,
+  "n/a": 0.39284113016170424
+ },
+ "capture_range": [
+  0.6,
+  0.68,
+  0.77
+ ],
+ "all_bases": {
+  "n": 58644,
+  "p_zero": 0.10226110087988541,
+  "p_muddle": 0.8344417161175909,
+  "p_rerate": 0.05859081918013778,
+  "p_swan10": 0.004706363822385922,
+  "p_peak25": 0.0034786167382852467,
+  "M_muddle": 1.1114497089087354,
+  "M_rerate": 4.542201284158891,
+  "M_swan": 26.839550136294843,
+  "alive": 0.6458631744082941,
+  "acq": 0.2642384557670009,
+  "dead": 0.089898369824705,
+  "ev_mean": 0.3204667497257223,
+  "ev_cap25": 0.27310705476224517,
+  "median": 1.0
+ },
+ "names": {
+  "VRRM": {
+   "sym": "VRRM",
+   "name": "Verra Mobility",
+   "px": 2.13,
+   "hi": 30.84,
+   "hi_d": "2024-07-23",
+   "sh": 152000000.0,
+   "extra": 4300000.0,
+   "cash": 140100000.0,
+   "debt": 1032600000.0,
+   "due": 9500000.0,
+   "ocf": 251700000.0,
+   "rev": 1003900000.0,
+   "run": "cashpos",
+   "acc": "10-Q filed 2026-10-30, 0001628280-26-068455",
+   "wave": 2,
+   "lead": "leader",
+   "cluster": "levered cash-generative fallen leaders",
+   "kind": "S",
+   "wave_line": "No theme wave; stub re-rating if tolling/photo-enforcement cash flow holds. Analogue: 2022-25 levered fallen leaders (CVNA 129x in 37 months, measured)",
+   "cats": "FY2026 10-K ~2027-02; NYCDOT contract status in each 10-Q",
+   "bear": "NYCDOT (24.1% of Q3 revenue) and one of the three large Commercial Services customers (which gave, then withdrew, a termination notice in 2026) leave; $1.03B term loan (2032) then exceeds what the remaining cash flow supports",
+   "inval": "Thesis is dead if FY2027 operating cash flow (10-K due by 2028-03-15) is below $100M, or NYCDOT is no longer a customer by then",
+   "dd": 0.9309338521400778,
+   "stratum": [
+    ">=90",
+    "cashpos"
+   ],
+   "stratum_table": {
+    "n": 811,
+    "p_zero": 0.17139334155363747,
+    "p_muddle": 0.7472256473489519,
+    "p_rerate": 0.0468557336621455,
+    "p_swan10": 0.0345252774352651,
+    "p_peak25": 0.02096177558569667,
+    "M_muddle": 1.058313463832926,
+    "M_rerate": 5.289736639330444,
+    "M_swan": 65.54730442578749,
+    "alive": 0.48581997533908755,
+    "acq": 0.35141800246609123,
+    "dead": 0.16276202219482122,
+    "ev_mean": 2.3027636319661253,
+    "ev_cap25": 0.6318860394767525,
+    "median": 1.0
+   },
+   "mcap": 323760000.0,
+   "p_zero_model": 0.060313539676983954,
+   "p_zero_used": 0.11153778093590258,
+   "p_swan_table": 0.021358732353363347,
+   "p_swan_table_range": [
+    0.01814869011302203,
+    0.04122747160286856
+   ],
+   "rank_table": [
+    147.0,
+    255.0
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.009640665592960911,
+    "lift": 2.4562307720047185,
+    "factor_lifts": {
+     "survival": 0.7865158329948163,
+     "wave": 1.981818181818182,
+     "leads": 1.4000570657497216,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 103.72727799314454,
+    "p4_low": 0.002213383354439582,
+    "p4_high": 0.026542240661415743
+   },
+   "filtered": {
+    "survival": 0.5155436145968401,
+    "wave": 0.05,
+    "leads": 0.55,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.36554361459684004,
+    "wave": 0.02522935779816514,
+    "leads": 0.4,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.61554361459684,
+    "wave": 0.08,
+    "leads": 0.7,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 160860000.0,
+     "3": 170656374.0,
+     "5": 181049347.1766
+    },
+    "3.0": {
+     "1": 156560000.0,
+     "3": 166094504.0,
+     "5": 176209659.29360002
+    },
+    "10.0": {
+     "1": 156560000.0,
+     "3": 166094504.0,
+     "5": 176209659.29360002
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 53.25,
+     "cap_busd": 9.383164357384201
+    },
+    "50": {
+     "price": 106.5,
+     "cap_busd": 18.766328714768402
+    },
+    "190": {
+     "price": 404.7,
+     "cap_busd": 71.31204911611994
+    }
+   },
+   "m_plaus": 18.734404866484233,
+   "m_swan": 18.734404866484233,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.11153778093590258,
+    "Muddle": 0.831965819808991,
+    "Re-rate": 0.0468557336621455,
+    "White Swan": 0.009640665592960911
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 1.0472542084227086,
+    "Re-rate": 5.289736639330444,
+    "White Swan": 18.734404866484233
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.2997463295750886,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.8712797060588147,
+     "Re-rate": 0.2478544911153599,
+     "White Swan": 0.180612132400914
+    },
+    "ev_cap_50x": 0.2997463295750886,
+    "ev_cap_25x": 0.2997463295750886,
+    "breakeven_p_swan_alone": 0.05337772975051882,
+    "breakeven_p_swan_given_other_rows": 0.0
+   },
+   "ev_cap50": 0.2997463295750886,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     1.05
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     5.3
+    ],
+    "White Swan": [
+     1.2,
+     5.8,
+     18.7
+    ]
+   },
+   "kelly_base": -0.0522412663065675,
+   "kelly_filtered": -0.04620329093465238,
+   "runway_years": null
+  },
+  "KLC": {
+   "sym": "KLC",
+   "name": "KinderCare Learning",
+   "px": 2.33,
+   "hi": 29.41,
+   "hi_d": "2024-10-30",
+   "sh": 118500000.0,
+   "extra": 300000.0,
+   "cash": 173700000.0,
+   "debt": 925700000.0,
+   "due": 9600000.0,
+   "ocf": 209500000.0,
+   "rev": 2735000000.0,
+   "run": "cashpos",
+   "acc": "10-Q filed 2026-08-13, 0001193125-26-349480",
+   "wave": 2,
+   "lead": "leader",
+   "cluster": "levered cash-generative fallen leaders",
+   "kind": "S",
+   "wave_line": "No theme wave; largest US child-care operator priced at 1.3x operating cash flow. Same stub-recovery analogue",
+   "cats": "Q3 10-Q ~2026-11; FY2026 10-K ~2027-03",
+   "bear": "Enrollment and subsidy funding fall; $407M operating loss (impairments) repeats; $926M debt against shrinking cash flow",
+   "inval": "Thesis is dead if FY2027 operating cash flow (10-K due by 2028-03-31) is below $100M or a covenant waiver/default is disclosed before then",
+   "dd": 0.9207752465147909,
+   "stratum": [
+    ">=90",
+    "cashpos"
+   ],
+   "stratum_table": {
+    "n": 811,
+    "p_zero": 0.17139334155363747,
+    "p_muddle": 0.7472256473489519,
+    "p_rerate": 0.0468557336621455,
+    "p_swan10": 0.0345252774352651,
+    "p_peak25": 0.02096177558569667,
+    "M_muddle": 1.058313463832926,
+    "M_rerate": 5.289736639330444,
+    "M_swan": 65.54730442578749,
+    "alive": 0.48581997533908755,
+    "acq": 0.35141800246609123,
+    "dead": 0.16276202219482122,
+    "ev_mean": 2.3027636319661253,
+    "ev_cap25": 0.6318860394767525,
+    "median": 1.0
+   },
+   "mcap": 276105000.0,
+   "p_zero_model": 0.04840838904566146,
+   "p_zero_used": 0.10558520562024135,
+   "p_swan_table": 0.0258189122174285,
+   "p_swan_table_range": [
+    0.020746161222157288,
+    0.05157549944201009
+   ],
+   "rank_table": [
+    112.5,
+    224.5
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.009705256733477446,
+    "lift": 2.472687182135927,
+    "factor_lifts": {
+     "survival": 0.7917853814712764,
+     "wave": 1.981818181818182,
+     "leads": 1.4000570657497216,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 103.03694456124857,
+    "p4_low": 0.002234297916938191,
+    "p4_high": 0.02669118023248917
+   },
+   "filtered": {
+    "survival": 0.5189976862822163,
+    "wave": 0.05,
+    "leads": 0.55,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.3689976862822163,
+    "wave": 0.02522935779816514,
+    "leads": 0.4,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.6189976862822163,
+    "wave": 0.08,
+    "leads": 0.7,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 122355000.0,
+     "3": 129806419.5,
+     "5": 137711630.44755
+    },
+    "3.0": {
+     "1": 122055000.0,
+     "3": 129488149.5,
+     "5": 137373977.80455
+    },
+    "10.0": {
+     "1": 122055000.0,
+     "3": 129488149.5,
+     "5": 137373977.80455
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 58.25,
+     "cap_busd": 8.002034207115036
+    },
+    "50": {
+     "price": 116.5,
+     "cap_busd": 16.004068414230073
+    },
+    "190": {
+     "price": 442.7,
+     "cap_busd": 60.81545997407428
+    }
+   },
+   "m_plaus": 16.33218305712764,
+   "m_swan": 16.33218305712764,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.10558520562024135,
+    "Muddle": 0.8378538039841358,
+    "Re-rate": 0.0468557336621455,
+    "White Swan": 0.009705256733477446
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 1.058313463832926,
+    "Re-rate": 5.289736639330444,
+    "White Swan": 16.33218305712764
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.29307448218297827,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.886711961480044,
+     "Re-rate": 0.2478544911153599,
+     "White Swan": 0.1585080295875743
+    },
+    "ev_cap_50x": 0.29307448218297827,
+    "ev_cap_25x": 0.29307448218297827,
+    "breakeven_p_swan_alone": 0.06122880183880765,
+    "breakeven_p_swan_given_other_rows": 0.0
+   },
+   "ev_cap50": 0.29307448218297827,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     1.06
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     5.3
+    ],
+    "White Swan": [
+     1.2,
+     5.3,
+     16.3
+    ]
+   },
+   "kelly_base": -0.06104130411367829,
+   "kelly_filtered": -0.05488402840463297,
+   "runway_years": null
+  },
+  "ALIT": {
+   "sym": "ALIT",
+   "name": "Alight",
+   "px": 12.65,
+   "hi": 206.4,
+   "hi_d": "2024-03-21",
+   "sh": 26440000.0,
+   "extra": 300000.0,
+   "cash": 448000000.0,
+   "debt": 1991000000.0,
+   "due": 20000000.0,
+   "ocf": 305000000.0,
+   "rev": 2198000000.0,
+   "run": "cashpos",
+   "acc": "10-Q filed 2026-11-03, 0001628280-26-069567",
+   "wave": 2,
+   "lead": "leader",
+   "cluster": "levered cash-generative fallen leaders",
+   "kind": "S",
+   "wave_line": "No theme wave; benefits-administration leader at ~1.1x operating cash flow after a reverse split approved 2026-06-10",
+   "cats": "FY2026 10-K ~2027-02",
+   "bear": "Client attrition to AI-native platforms; $1.99B debt; 1-for-20 reverse split effective 2026-06-30 and an 8-K item 3.01 listing notice in the last 12 months; TTM net loss $1.0B",
+   "inval": "Thesis is dead if FY2027 revenue (10-K due by 2028-03-15) is below $1.7B or a covenant waiver/default is disclosed before then",
+   "dd": 0.9387112403100775,
+   "stratum": [
+    ">=90",
+    "cashpos"
+   ],
+   "stratum_table": {
+    "n": 811,
+    "p_zero": 0.17139334155363747,
+    "p_muddle": 0.7472256473489519,
+    "p_rerate": 0.0468557336621455,
+    "p_swan10": 0.0345252774352651,
+    "p_peak25": 0.02096177558569667,
+    "M_muddle": 1.058313463832926,
+    "M_rerate": 5.289736639330444,
+    "M_swan": 65.54730442578749,
+    "alive": 0.48581997533908755,
+    "acq": 0.35141800246609123,
+    "dead": 0.16276202219482122,
+    "ev_mean": 2.3027636319661253,
+    "ev_cap25": 0.6318860394767525,
+    "median": 1.0
+   },
+   "mcap": 334466000.0,
+   "p_zero_model": 0.03234408295993751,
+   "p_zero_used": 0.09755305257737937,
+   "p_swan_table": 0.021358732353363347,
+   "p_swan_table_range": [
+    0.01814869011302203,
+    0.04122747160286856
+   ],
+   "rank_table": [
+    147.0,
+    255.0
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.00979241328309335,
+    "lift": 2.494892765047614,
+    "factor_lifts": {
+     "survival": 0.7988958870231087,
+     "wave": 1.981818181818182,
+     "leads": 1.4000570657497216,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 102.11987291493354,
+    "p4_low": 0.002262519141854296,
+    "p4_high": 0.026892152982191716
+   },
+   "filtered": {
+    "survival": 0.5236584643365427,
+    "wave": 0.05,
+    "leads": 0.55,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.3736584643365427,
+    "wave": 0.02522935779816514,
+    "leads": 0.4,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.6236584643365427,
+    "wave": 0.08,
+    "leads": 0.7,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 27533200.0,
+     "3": 29209971.88,
+     "5": 30988859.167492002
+    },
+    "3.0": {
+     "1": 27233200.0,
+     "3": 28891701.88,
+     "5": 30651206.524492
+    },
+    "10.0": {
+     "1": 27233200.0,
+     "3": 28891701.88,
+     "5": 30651206.524492
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 316.25,
+     "cap_busd": 9.693444063370594
+    },
+    "50": {
+     "price": 632.5,
+     "cap_busd": 19.386888126741187
+    },
+    "190": {
+     "price": 2403.5,
+     "cap_busd": 73.67017488161652
+    }
+   },
+   "m_plaus": 21.111753331647208,
+   "m_swan": 21.111753331647208,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.09755305257737937,
+    "Muddle": 0.8457988004773819,
+    "Re-rate": 0.0468557336621455,
+    "White Swan": 0.00979241328309335
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 1.058313463832926,
+    "Re-rate": 5.289736639330444,
+    "White Swan": 21.111753331647208
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.3497097631085242,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.8951202582389518,
+     "Re-rate": 0.2478544911153599,
+     "White Swan": 0.2067350137542124
+    },
+    "ev_cap_50x": 0.3497097631085242,
+    "ev_cap_25x": 0.3497097631085242,
+    "breakeven_p_swan_alone": 0.047366980103020026,
+    "breakeven_p_swan_given_other_rows": 0.0
+   },
+   "ev_cap50": 0.3497097631085242,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     1.06
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     5.3
+    ],
+    "White Swan": [
+     1.2,
+     6.2,
+     21.1
+    ]
+   },
+   "kelly_base": -0.045602026758457086,
+   "kelly_filtered": -0.03944285578510608,
+   "runway_years": null
+  },
+  "FMC": {
+   "sym": "FMC",
+   "name": "FMC Corp",
+   "px": 5.41,
+   "hi": 67.53,
+   "hi_d": "2024-05-10",
+   "sh": 155560000.0,
+   "extra": 3400000.0,
+   "cash": 735800000.0,
+   "debt": 4177700000.0,
+   "due": 222800000.0,
+   "ocf": 426000000.0,
+   "rev": 2814900000.0,
+   "run": "cashpos",
+   "acc": "10-Q filed 2026-10-30, 0000037785-26-000171",
+   "wave": 2,
+   "lead": "leader",
+   "cluster": "levered cash-generative fallen leaders",
+   "kind": "S",
+   "wave_line": "No theme wave; crop-protection cycle recovery. Equity is negative (-$19M) after $4.3B of TTM losses",
+   "cats": "FY2026 10-K ~2027-02",
+   "bear": "Negative book equity, $4.18B debt, covenant headroom after 8-K items 2.05/2.06 charges; a debt-for-equity exchange leaves holders a stub; revolver covenants were amended in April 2026",
+   "inval": "Thesis is dead if a covenant waiver, default or debt exchange is disclosed, or FY2026 operating cash flow (10-K due by 2027-03-01) is negative",
+   "dd": 0.919887457426329,
+   "stratum": [
+    ">=90",
+    "cashpos"
+   ],
+   "stratum_table": {
+    "n": 811,
+    "p_zero": 0.17139334155363747,
+    "p_muddle": 0.7472256473489519,
+    "p_rerate": 0.0468557336621455,
+    "p_swan10": 0.0345252774352651,
+    "p_peak25": 0.02096177558569667,
+    "M_muddle": 1.058313463832926,
+    "M_rerate": 5.289736639330444,
+    "M_swan": 65.54730442578749,
+    "alive": 0.48581997533908755,
+    "acq": 0.35141800246609123,
+    "dead": 0.16276202219482122,
+    "ev_mean": 2.3027636319661253,
+    "ev_cap25": 0.6318860394767525,
+    "median": 1.0
+   },
+   "mcap": 841579600.0,
+   "p_zero_model": 0.0385192575804551,
+   "p_zero_used": 0.10064063988763816,
+   "p_swan_table": 0.021358732353363347,
+   "p_swan_table_range": [
+    0.01814869011302203,
+    0.04122747160286856
+   ],
+   "rank_table": [
+    147.0,
+    255.0
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.009758910005060179,
+    "lift": 2.486356862450993,
+    "factor_lifts": {
+     "survival": 0.7961625841846036,
+     "wave": 1.981818181818182,
+     "leads": 1.4000570657497216,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 102.47046027491606,
+    "p4_low": 0.002251670805739938,
+    "p4_high": 0.026814898364609343
+   },
+   "filtered": {
+    "survival": 0.5218668451903837,
+    "wave": 0.05,
+    "leads": 0.55,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.3718668451903837,
+    "wave": 0.02522935779816514,
+    "leads": 0.4,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.6218668451903837,
+    "wave": 0.08,
+    "leads": 0.7,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 163626800.0,
+     "3": 173591672.12,
+     "5": 184163404.952108
+    },
+    "3.0": {
+     "1": 160226800.0,
+     "3": 169984612.12,
+     "5": 180336674.99810803
+    },
+    "10.0": {
+     "1": 160226800.0,
+     "3": 169984612.12,
+     "5": 180336674.99810803
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 135.25,
+     "cap_busd": 24.39053529349411
+    },
+    "50": {
+     "price": 270.5,
+     "cap_busd": 48.78107058698822
+    },
+    "190": {
+     "price": 1027.9,
+     "cap_busd": 185.36806823055528
+    }
+   },
+   "m_plaus": 16.151193496154136,
+   "m_swan": 16.151193496154136,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.10064063988763816,
+    "Muddle": 0.8427447164451563,
+    "Re-rate": 0.0468557336621455,
+    "White Swan": 0.009758910005060179
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 1.052688150152225,
+    "Re-rate": 5.289736639330444,
+    "White Swan": 16.151193496154136
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.29261991152385436,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.8871473766052129,
+     "Re-rate": 0.2478544911153599,
+     "White Swan": 0.15761804380328148
+    },
+    "ev_cap_50x": 0.29261991152385436,
+    "ev_cap_25x": 0.29261991152385436,
+    "breakeven_p_swan_alone": 0.061914929087941176,
+    "breakeven_p_swan_given_other_rows": 0.0
+   },
+   "ev_cap50": 0.29261991152385436,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     1.05
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     5.3
+    ],
+    "White Swan": [
+     1.2,
+     5.3,
+     16.2
+    ]
+   },
+   "kelly_base": -0.061817363102124566,
+   "kelly_filtered": -0.05559838942130482,
+   "runway_years": null
+  },
+  "RXST": {
+   "sym": "RXST",
+   "name": "RxSight",
+   "px": 4.86,
+   "hi": 64.29,
+   "hi_d": "2024-05-15",
+   "sh": 41930000.0,
+   "extra": 6800000.0,
+   "cash": 254700000.0,
+   "debt": 0.0,
+   "due": 0.0,
+   "ocf": 23700000.0,
+   "rev": 115300000.0,
+   "run": "cashpos",
+   "burn_override": 18000000.0,
+   "acc": "10-Q filed 2026-11-03, 0001193125-26-445381",
+   "wave": 0,
+   "lead": "n/a",
+   "cluster": "net-cash single-product medtech",
+   "kind": "N",
+   "wave_line": "No wave case and no analogue claimed. Trades below cash + short-term investments ($254.7M vs $204M cap); floor value, not a theme",
+   "cats": "FY2026 10-K ~2027-02",
+   "bear": "LAL volumes keep falling (23,128 in Q3-2026 vs 26,045 a year earlier; 3 LDDs sold vs 25); cash is spent defending a shrinking franchise",
+   "inval": "Thesis is dead if cash + short-term investments fall below $150M in any 10-Q/10-K filed by 2028-03-15",
+   "dd": 0.9244050396640224,
+   "stratum": [
+    ">=90",
+    "cashpos"
+   ],
+   "stratum_table": {
+    "n": 811,
+    "p_zero": 0.17139334155363747,
+    "p_muddle": 0.7472256473489519,
+    "p_rerate": 0.0468557336621455,
+    "p_swan10": 0.0345252774352651,
+    "p_peak25": 0.02096177558569667,
+    "M_muddle": 1.058313463832926,
+    "M_rerate": 5.289736639330444,
+    "M_swan": 65.54730442578749,
+    "alive": 0.48581997533908755,
+    "acq": 0.35141800246609123,
+    "dead": 0.16276202219482122,
+    "ev_mean": 2.3027636319661253,
+    "ev_cap25": 0.6318860394767525,
+    "median": 1.0
+   },
+   "mcap": 203779800.0,
+   "p_zero_model": 0.051643181125106685,
+   "p_zero_used": 0.10720260165996395,
+   "p_swan_table": 0.0258189122174285,
+   "p_swan_table_range": [
+    0.020746161222157288,
+    0.05157549944201009
+   ],
+   "rank_table": [
+    112.5,
+    224.5
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.001383901653028905,
+    "lift": 0.35258787817302684,
+    "factor_lifts": {
+     "survival": 0.7903535731555498,
+     "wave": 0.39636363636363636,
+     "leads": 1.0,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 722.5947001445727,
+    "p4_low": 0.0005362794256705442,
+    "p4_high": 0.006517780338926692
+   },
+   "filtered": {
+    "survival": 0.518059167814395,
+    "wave": 0.01,
+    "leads": 0.39284113016170424,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.36805916781439496,
+    "wave": 0.01,
+    "leads": 0.24284113016170425,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.618059167814395,
+    "wave": 0.02522935779816514,
+    "leads": 0.5428411301617042,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 49987900.0,
+     "3": 53032163.11,
+     "5": 56261821.843399
+    },
+    "3.0": {
+     "1": 43187900.0,
+     "3": 45818043.11,
+     "5": 48608361.935399
+    },
+    "10.0": {
+     "1": 43187900.0,
+     "3": 45818043.11,
+     "5": 48608361.935399
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 121.50000000000001,
+     "cap_busd": 5.90591597515098
+    },
+    "50": {
+     "price": 243.00000000000003,
+     "cap_busd": 11.81183195030196
+    },
+    "190": {
+     "price": 923.4000000000001,
+     "cap_busd": 44.884961411147444
+    }
+   },
+   "m_plaus": 17.11639467532651,
+   "m_swan": 17.11639467532651,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.10720260165996395,
+    "Muddle": 0.8445577630248616,
+    "Re-rate": 0.0468557336621455,
+    "White Swan": 0.001383901653028905
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 0.9474716304136999,
+    "Re-rate": 5.289736639330444,
+    "White Swan": 17.11639467532651
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.0717364187121523,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.8001945207117128,
+     "Re-rate": 0.2478544911153599,
+     "White Swan": 0.023687406885079504
+    },
+    "ev_cap_50x": 0.0717364187121523,
+    "ev_cap_25x": 0.0717364187121523,
+    "breakeven_p_swan_alone": 0.05842351844349044,
+    "breakeven_p_swan_given_other_rows": 0.0
+   },
+   "ev_cap50": 0.0717364187121523,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     0.95
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     5.3
+    ],
+    "White Swan": [
+     1.2,
+     5.5,
+     17.1
+    ]
+   },
+   "kelly_base": -0.05788009351583565,
+   "kelly_filtered": -0.06057884612428932,
+   "runway_years": 14.15
+  },
+  "FLNC": {
+   "sym": "FLNC",
+   "name": "Fluence Energy",
+   "px": 5.4,
+   "hi": 32.23,
+   "hi_d": "2026-02-03",
+   "sh": 184600000.0,
+   "extra": 19000000.0,
+   "cash": 365000000.0,
+   "debt": 400000000.0,
+   "due": 0.0,
+   "ocf": -100800000.0,
+   "rev": 2631900000.0,
+   "run": ">=2y",
+   "acc": "10-Q filed 2026-08-05, 0001868941-26-000029",
+   "wave": 3,
+   "lead": "leader",
+   "cluster": "grid storage / power",
+   "kind": "T",
+   "wave_line": "Grid-scale storage: $2.6B revenue shows a real market; the energy/power cluster's leader basket rose 30x (2019-21) and 16x (2022-26), measured. Backlog figure not retrieved",
+   "cats": "FY2026 10-K ~2026-11-25",
+   "bear": "9% gross margin against Chinese integrators and Tesla; cash burn resumes; $400M 2030 converts (conversion ~$21) sit above the equity",
+   "inval": "Thesis is dead if cash falls below $150M or going-concern language appears in any filing through the FY2027 10-K (due by 2027-12-15)",
+   "partial": "convertible principal and backlog not re-traced to the note",
+   "dd": 0.8324542351846106,
+   "stratum": [
+    "80-90",
+    ">=2y"
+   ],
+   "stratum_table": {
+    "n": 548,
+    "p_zero": 0.34306569343065696,
+    "p_muddle": 0.5802919708029197,
+    "p_rerate": 0.06751824817518248,
+    "p_swan10": 0.009124087591240875,
+    "p_peak25": 0.0072992700729927005,
+    "M_muddle": 0.959573208706963,
+    "M_rerate": 4.8058756825817674,
+    "M_swan": 29.561287680512898,
+    "alive": 0.6697080291970803,
+    "acq": 0.058394160583941604,
+    "dead": 0.2718978102189781,
+    "ev_mean": 0.1581941601068646,
+    "ev_cap25": 0.08316035555467338,
+    "median": 0.424143234406245
+   },
+   "mcap": 996840000.0000001,
+   "p_zero_model": 0.056020624922819305,
+   "p_zero_used": 0.16395921757089868,
+   "p_swan_table": 0.018807294286897966,
+   "p_swan_table_range": [
+    0.013530942943816213,
+    0.04777009132114972
+   ],
+   "rank_table": [
+    100.0,
+    698.0
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.023008177586897965,
+    "lift": 5.861980508685111,
+    "factor_lifts": {
+     "survival": 1.1731747010849958,
+     "wave": 3.170909090909091,
+     "leads": 1.4000570657497216,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 43.462807787499486,
+    "p4_low": 0.0074278787113227105,
+    "p4_high": 0.05152241073286029
+   },
+   "filtered": {
+    "survival": 0.7689898926102259,
+    "wave": 0.08,
+    "leads": 0.55,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.6189898926102259,
+    "wave": 0.05,
+    "leads": 0.4,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.8689898926102259,
+    "wave": 0.11,
+    "leads": 0.7,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 209138000.0,
+     "3": 229970388.97366256,
+     "5": 287342400.4769735
+    },
+    "3.0": {
+     "1": 190138000.0,
+     "3": 206391565.45340228,
+     "5": 237106683.5725283
+    },
+    "10.0": {
+     "1": 190138000.0,
+     "3": 204277547.75590503,
+     "5": 223797833.74718466
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 135.0,
+     "cap_busd": 30.21270755586993
+    },
+    "50": {
+     "price": 270.0,
+     "cap_busd": 60.42541511173986
+    },
+    "190": {
+     "price": 1026.0,
+     "cap_busd": 229.61657742461145
+    }
+   },
+   "m_plaus": 7.384713024723673,
+   "m_swan": 7.384713024723673,
+   "swan_class": false,
+   "probs": {
+    "Zero": 0.16395921757089868,
+    "Muddle": 0.7455143566670208,
+    "Re-rate": 0.06751824817518248,
+    "White Swan": 0.023008177586897965
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 0.7604033527530248,
+    "Re-rate": 4.8058756825817674,
+    "White Swan": 7.384713024723673
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.06128471207186803,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.566891616335117,
+     "Re-rate": 0.3244843070356303,
+     "White Swan": 0.1699087887011207
+    },
+    "ev_cap_50x": 0.06128471207186803,
+    "ev_cap_25x": 0.06128471207186803,
+    "breakeven_p_swan_alone": 0.13541487619790327,
+    "breakeven_p_swan_given_other_rows": 0.014709315888861822
+   },
+   "ev_cap50": 0.06128471207186803,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     0.76
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     4.8
+    ],
+    "White Swan": [
+     1.2,
+     3.3,
+     7.4
+    ]
+   },
+   "kelly_base": -0.15208438005615407,
+   "kelly_filtered": -0.1300122978252112,
+   "runway_years": 3.621031746031746
+  },
+  "METC": {
+   "sym": "METC",
+   "name": "Ramaco Resources",
+   "px": 6.82,
+   "hi": 54.55,
+   "hi_d": "2025-10-14",
+   "sh": 63680351.90615836,
+   "extra": 10781250.0,
+   "cash": 233800000.0,
+   "debt": 453600000.0,
+   "due": 0.0,
+   "ocf": -52800000.0,
+   "rev": 544500000.0,
+   "run": ">=2y",
+   "acc": "10-Q filed 2026-11-03, 0001104659-26-122070",
+   "wave": 3,
+   "lead": "participant",
+   "cluster": "critical minerals / coal",
+   "kind": "T",
+   "wave_line": "Critical-minerals onshoring had its wave in 2025 (this name's own high was 2025-10-14); a second wave is the claim. The 10-Q itself says reserves at Brook Mine are not established",
+   "cats": "Brook Mine technical reports; FY2026 10-K ~2027-03",
+   "bear": "Met-coal operations burn cash (-$52.8M TTM) under $453.6M of notes; Brook Mine never reaches reserves; share count not confirmed from the cover (COULD NOT VERIFY)",
+   "inval": "Thesis is dead if no mineral reserve is reported for Brook Mine by 2028-12-31 and FY2027 operating cash flow is negative",
+   "partial": "share count taken from market cap / price",
+   "dd": 0.8749770852428964,
+   "stratum": [
+    "80-90",
+    ">=2y"
+   ],
+   "stratum_table": {
+    "n": 548,
+    "p_zero": 0.34306569343065696,
+    "p_muddle": 0.5802919708029197,
+    "p_rerate": 0.06751824817518248,
+    "p_swan10": 0.009124087591240875,
+    "p_peak25": 0.0072992700729927005,
+    "M_muddle": 0.959573208706963,
+    "M_rerate": 4.8058756825817674,
+    "M_swan": 29.561287680512898,
+    "alive": 0.6697080291970803,
+    "acq": 0.058394160583941604,
+    "dead": 0.2718978102189781,
+    "ev_mean": 0.1581941601068646,
+    "ev_cap25": 0.08316035555467338,
+    "median": 0.424143234406245
+   },
+   "mcap": 434300000.0,
+   "p_zero_model": 0.16614885062254342,
+   "p_zero_used": 0.21902333042076075,
+   "p_swan_table": 0.018807294286897966,
+   "p_swan_table_range": [
+    0.013530942943816213,
+    0.04777009132114972
+   ],
+   "rank_table": [
+    100.0,
+    698.0
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.009769450509282957,
+    "lift": 2.4890423524282967,
+    "factor_lifts": {
+     "survival": 1.095905953565941,
+     "wave": 3.170909090909091,
+     "leads": 0.6363895753407824,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 102.35990233532556,
+    "p4_low": 0.0017050258476359462,
+    "p4_high": 0.027725425239301948
+   },
+   "filtered": {
+    "survival": 0.718341949211982,
+    "wave": 0.08,
+    "leads": 0.25,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.568341949211982,
+    "wave": 0.05,
+    "leads": 0.1,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.818341949211982,
+    "wave": 0.11,
+    "leads": 0.4,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 76372012.46334311,
+     "3": 81023068.02236071,
+     "5": 100037395.67365497
+    },
+    "3.0": {
+     "1": 65590762.46334311,
+     "3": 69585239.89736071,
+     "5": 79538532.84779978
+    },
+    "10.0": {
+     "1": 65590762.46334311,
+     "3": 69585239.89736071,
+     "5": 75979904.5661116
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 170.5,
+     "cap_busd": 12.954573728522027
+    },
+    "50": {
+     "price": 341.0,
+     "cap_busd": 25.909147457044053
+    },
+    "190": {
+     "price": 1295.8,
+     "cap_busd": 98.4547603367674
+    }
+   },
+   "m_plaus": 10.055608358708772,
+   "m_swan": 10.055608358708772,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.21902333042076075,
+    "Muddle": 0.7036889708947739,
+    "Re-rate": 0.06751824817518248,
+    "White Swan": 0.009769450509282957
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 0.7547671529763134,
+    "Re-rate": 4.8058756825817674,
+    "White Swan": 10.055608358708772
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": -0.04615660362015206,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.5311213211430803,
+     "Re-rate": 0.3244843070356303,
+     "White Swan": 0.09823776820113737
+    },
+    "ev_cap_50x": -0.04615660362015206,
+    "ev_cap_25x": -0.04615660362015206,
+    "breakeven_p_swan_alone": 0.09944699160184961,
+    "breakeven_p_swan_given_other_rows": 0.014359585881866121
+   },
+   "ev_cap50": -0.04615660362015206,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     0.75
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     4.8
+    ],
+    "White Swan": [
+     1.2,
+     4.0,
+     10.1
+    ]
+   },
+   "kelly_base": -0.10607038905246706,
+   "kelly_filtered": -0.09958052469568636,
+   "runway_years": 4.428030303030303
+  },
+  "TE": {
+   "sym": "TE",
+   "name": "T1 Energy",
+   "px": 2.29,
+   "hi": 12.04,
+   "hi_d": "2026-06-02",
+   "sh": 294500000.0,
+   "extra": 82100000.0,
+   "cash": 156400000.0,
+   "debt": 583400000.0,
+   "due": 51600000.0,
+   "ocf": 3900000.0,
+   "rev": 996900000.0,
+   "run": "cashpos",
+   "burn_override": 60000000.0,
+   "acc": "10-Q filed 2026-08-12, 0001992243-26-000022",
+   "wave": 2,
+   "lead": "participant",
+   "cluster": "US solar manufacturing",
+   "kind": "T",
+   "wave_line": "US solar onshoring is policy-made demand; one customer was 78% of sales (10-K). Six 8-K item 3.02 equity issuances and four resale prospectuses in 12 months",
+   "cats": "Q3 10-Q ~2026-11",
+   "bear": "Customer concentration, $583M debt incl. converts at ~$6, $189M capex with ~$4M operating cash flow: survives by issuing stock",
+   "inval": "Thesis is dead if going-concern language appears or the largest customer is lost by the FY2027 10-K (due by 2028-03-31)",
+   "dd": 0.8098006644518272,
+   "stratum": [
+    "80-90",
+    "cashpos"
+   ],
+   "stratum_table": {
+    "n": 982,
+    "p_zero": 0.23116089613034624,
+    "p_muddle": 0.6221995926680245,
+    "p_rerate": 0.12321792260692464,
+    "p_swan10": 0.023421588594704685,
+    "p_peak25": 0.008146639511201629,
+    "M_muddle": 1.151511837172336,
+    "M_rerate": 4.975183770021976,
+    "M_swan": 16.47330666486396,
+    "alive": 0.6211812627291242,
+    "acq": 0.16191446028513237,
+    "dead": 0.21690427698574338,
+    "ev_mean": 0.7168446430406459,
+    "ev_cap25": 0.699260903250394,
+    "median": 1.0
+   },
+   "mcap": 674405000.0,
+   "p_zero_model": 0.1261768094356161,
+   "p_zero_used": 0.17154054321067974,
+   "p_swan_table": 0.02260741880584018,
+   "p_swan_table_range": [
+    0.015084398703602554,
+    0.05910363707587098
+   ],
+   "rank_table": [
+    50.0,
+    596.0
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.005585906740510567,
+    "lift": 1.4231668854491155,
+    "factor_lifts": {
+     "survival": 1.0025748649298731,
+     "wave": 1.981818181818182,
+     "leads": 0.6363895753407824,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 179.0219648222407,
+    "p4_low": 0.00076772759005315,
+    "p4_high": 0.018656557892491807
+   },
+   "filtered": {
+    "survival": 0.657165498883596,
+    "wave": 0.05,
+    "leads": 0.25,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.507165498883596,
+    "wave": 0.02522935779816514,
+    "leads": 0.1,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.757165498883596,
+    "wave": 0.08,
+    "leads": 0.4,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 393031312.46967494,
+     "3": 477837370.6363416,
+     "5": 567808117.7453582
+    },
+    "3.0": {
+     "1": 310140980.42079914,
+     "3": 368553880.74192405,
+     "5": 416468688.2561385
+    },
+    "10.0": {
+     "1": 309368965.47445095,
+     "3": 353170936.78632873,
+     "5": 384616359.68697566
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 57.25,
+     "cap_busd": 22.019286592079357
+    },
+    "50": {
+     "price": 114.5,
+     "cap_busd": 44.038573184158714
+    },
+    "190": {
+     "price": 435.1,
+     "cap_busd": 167.34657809980314
+    }
+   },
+   "m_plaus": 6.03864931972092,
+   "m_swan": 6.03864931972092,
+   "swan_class": false,
+   "probs": {
+    "Zero": 0.17154054321067974,
+    "Muddle": 0.699655627441885,
+    "Re-rate": 0.12321792260692464,
+    "White Swan": 0.005585906740510567
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 0.7699712063068256,
+    "Re-rate": 4.975183770021976,
+    "White Swan": 6.03864931972092
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.18547782812919134,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.5387146874607872,
+     "Re-rate": 0.6130318087297955,
+     "White Swan": 0.03373133193860864
+    },
+    "ev_cap_50x": 0.18547782812919134,
+    "ev_cap_25x": 0.18547782812919134,
+    "breakeven_p_swan_alone": 0.16559994579155585,
+    "breakeven_p_swan_given_other_rows": 0.0
+   },
+   "ev_cap50": 0.18547782812919134,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     0.77
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     5.0
+    ],
+    "White Swan": [
+     1.2,
+     2.9,
+     6.0
+    ]
+   },
+   "kelly_base": -0.19376192671300946,
+   "kelly_filtered": -0.19177136703669445,
+   "runway_years": 1.7466666666666666
+  },
+  "ABAT": {
+   "sym": "ABAT",
+   "name": "American Battery Technology",
+   "px": 1.42,
+   "hi": 11.33,
+   "hi_d": "2025-10-14",
+   "sh": 142600000.0,
+   "extra": 13000000.0,
+   "cash": 49500000.0,
+   "debt": 8000000.0,
+   "due": 8000000.0,
+   "ocf": -24200000.0,
+   "rev": 21700000.0,
+   "run": ">=2y",
+   "acc": "10-K filed 2026-09-14, 0001493152-26-042497",
+   "wave": 2,
+   "lead": "participant",
+   "cluster": "critical minerals / coal",
+   "kind": "T",
+   "wave_line": "Battery-materials recycling and a lithium claystone project; gross profit is negative (-$3.1M TTM). Funded by an ATM and a new S-3 (2026-09-18)",
+   "cats": "Q1 FY2027 10-Q ~2026-11-14",
+   "bear": "Two years of cash at the current burn, negative gross margin, ATM dilution; the 12-month liquidity statement is all management gives",
+   "inval": "Thesis is dead if shares outstanding exceed 285M (2x) by the FY2028 10-K (due by 2028-09-30) or cash falls below 12 months of burn",
+   "dd": 0.8746690203000883,
+   "stratum": [
+    "80-90",
+    ">=2y"
+   ],
+   "stratum_table": {
+    "n": 548,
+    "p_zero": 0.34306569343065696,
+    "p_muddle": 0.5802919708029197,
+    "p_rerate": 0.06751824817518248,
+    "p_swan10": 0.009124087591240875,
+    "p_peak25": 0.0072992700729927005,
+    "M_muddle": 0.959573208706963,
+    "M_rerate": 4.8058756825817674,
+    "M_swan": 29.561287680512898,
+    "alive": 0.6697080291970803,
+    "acq": 0.058394160583941604,
+    "dead": 0.2718978102189781,
+    "ev_mean": 0.1581941601068646,
+    "ev_cap25": 0.08316035555467338,
+    "median": 0.424143234406245
+   },
+   "mcap": 202492000.0,
+   "p_zero_model": 0.4781574616310693,
+   "p_zero_used": 0.3750276359250237,
+   "p_swan_table": 0.022747061034411847,
+   "p_swan_table_range": [
+    0.01966072803464334,
+    0.03840154150703445
+   ],
+   "rank_table": [
+    143.5,
+    436.5
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.004886218771257865,
+    "lift": 1.2449016915879363,
+    "factor_lifts": {
+     "survival": 0.876992823579418,
+     "wave": 1.981818181818182,
+     "leads": 0.6363895753407824,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 204.65723022519697,
+    "p4_low": 0.000643120450358929,
+    "p4_high": 0.016628285943975744
+   },
+   "filtered": {
+    "survival": 0.5748492672068076,
+    "wave": 0.05,
+    "leads": 0.25,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.4248492672068076,
+    "wave": 0.02522935779816514,
+    "leads": 0.1,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.6748492672068076,
+    "wave": 0.08,
+    "leads": 0.4,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 165439032.8638498,
+     "3": 215107212.06228483,
+     "5": 267800183.3739046
+    },
+    "3.0": {
+     "1": 151860454.4398187,
+     "3": 186817839.27542484,
+     "5": 214761825.00629726
+    },
+    "10.0": {
+     "1": 151295285.4179855,
+     "3": 176745212.1737209,
+     "5": 193972681.0826735
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 35.5,
+     "cap_busd": 6.8860301784349085
+    },
+    "50": {
+     "price": 71.0,
+     "cap_busd": 13.772060356869817
+    },
+    "190": {
+     "price": 269.8,
+     "cap_busd": 52.33382935610531
+    }
+   },
+   "m_plaus": 8.79856367602655,
+   "m_swan": 8.79856367602655,
+   "swan_class": false,
+   "probs": {
+    "Zero": 0.3750276359250237,
+    "Muddle": 0.5525678971285359,
+    "Re-rate": 0.06751824817518248,
+    "White Swan": 0.004886218771257865
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 0.6548958239681486,
+    "Re-rate": 4.8058756825817674,
+    "White Swan": 8.79856367602655
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": -0.2706495776821214,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.3618744082883397,
+     "Re-rate": 0.3244843070356303,
+     "White Swan": 0.042991706993908536
+    },
+    "ev_cap_50x": -0.2706495776821214,
+    "ev_cap_25x": -0.2706495776821214,
+    "breakeven_p_swan_alone": 0.11365491423613838,
+    "breakeven_p_swan_given_other_rows": 0.03564687331076644
+   },
+   "ev_cap50": -0.2706495776821214,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     0.65
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     4.8
+    ],
+    "White Swan": [
+     1.2,
+     3.7,
+     8.8
+    ]
+   },
+   "kelly_base": -0.12380046142285969,
+   "kelly_filtered": -0.12271596831965566,
+   "runway_years": 1.7148760330578512
+  },
+  "BLNK": {
+   "sym": "BLNK",
+   "name": "Blink Charging",
+   "px": 0.517,
+   "hi": 4.44,
+   "hi_d": "2023-11-15",
+   "sh": 145200000.0,
+   "extra": 11600000.0,
+   "cash": 30500000.0,
+   "debt": 0.0,
+   "due": 0.0,
+   "ocf": -6000000.0,
+   "rev": 96500000.0,
+   "run": ">=2y",
+   "acc": "10-Q filed 2026-11-05, 0001437749-26-035322",
+   "wave": 2,
+   "lead": "participant",
+   "cluster": "EV charging",
+   "kind": "T",
+   "wave_line": "EV charging had its wave in 2020-21 (this name rose 27x then, measured). Revenue is down 38% from its 2024 peak",
+   "cats": "Nasdaq bid-price cure deadline (two 8-K item 3.01 notices in 12 months)",
+   "bear": "Sub-$1 price with a Nasdaq bid-price deficiency (reverse split likely), late 10-K (NT filed 2026-03-16), S-1 offering Dec 2025, new S-3 Oct 2026, ATM reactivated",
+   "inval": "Thesis is dead if FY2026 revenue (10-K due by 2027-03-31) is below $80M or going-concern language appears",
+   "dd": 0.8835585585585586,
+   "stratum": [
+    "80-90",
+    ">=2y"
+   ],
+   "stratum_table": {
+    "n": 548,
+    "p_zero": 0.34306569343065696,
+    "p_muddle": 0.5802919708029197,
+    "p_rerate": 0.06751824817518248,
+    "p_swan10": 0.009124087591240875,
+    "p_peak25": 0.0072992700729927005,
+    "M_muddle": 0.959573208706963,
+    "M_rerate": 4.8058756825817674,
+    "M_swan": 29.561287680512898,
+    "alive": 0.6697080291970803,
+    "acq": 0.058394160583941604,
+    "dead": 0.2718978102189781,
+    "ev_mean": 0.1581941601068646,
+    "ev_cap25": 0.08316035555467338,
+    "median": 0.424143234406245
+   },
+   "mcap": 75068400.0,
+   "p_zero_model": 0.16109993444535264,
+   "p_zero_used": 0.21649887233216536,
+   "p_swan_table": 0.029275529790175784,
+   "p_swan_table_range": [
+    0.025559727556185702,
+    0.05264961179744455
+   ],
+   "rank_table": [
+    92.5,
+    202.5
+   ],
+   "fragile": false,
+   "fermi": {
+    "p4_base": 0.003924983638688161,
+    "p4_filtered": 0.006125643528220076,
+    "lift": 1.5606800160490444,
+    "factor_lifts": {
+     "survival": 1.0994484008074314,
+     "wave": 1.981818181818182,
+     "leads": 0.6363895753407824,
+     "captures": 1.1255172413793104
+    },
+    "one_in_base": 254.77813210304944,
+    "one_in_filtered": 163.24815431931756,
+    "p4_low": 0.0008638490902928359,
+    "p4_high": 0.02022115959239325
+   },
+   "filtered": {
+    "survival": 0.7206639444964794,
+    "wave": 0.05,
+    "leads": 0.25,
+    "captures": 0.68
+   },
+   "low": {
+    "survival": 0.5706639444964794,
+    "wave": 0.02522935779816514,
+    "leads": 0.1,
+    "captures": 0.6
+   },
+   "high": {
+    "survival": 0.8206639444964794,
+    "wave": 0.08,
+    "leads": 0.4,
+    "captures": 0.77
+   },
+   "traj": {
+    "1.0": {
+     "1": 161156000.0,
+     "3": 170970400.4,
+     "5": 193557438.68270516
+    },
+    "3.0": {
+     "1": 149556000.0,
+     "3": 158663960.4,
+     "5": 172856173.48140544
+    },
+    "10.0": {
+     "1": 149556000.0,
+     "3": 158663960.4,
+     "5": 169859329.83676192
+    }
+   },
+   "paths": {
+    "25": {
+     "price": 12.925,
+     "cap_busd": 2.195431838140148
+    },
+    "50": {
+     "price": 25.85,
+     "cap_busd": 4.390863676280296
+    },
+    "190": {
+     "price": 98.23,
+     "cap_busd": 16.685281969865123
+    }
+   },
+   "m_plaus": 11.011865447155236,
+   "m_swan": 11.011865447155236,
+   "swan_class": true,
+   "probs": {
+    "Zero": 0.21649887233216536,
+    "Muddle": 0.7098572359644321,
+    "Re-rate": 0.06751824817518248,
+    "White Swan": 0.006125643528220076
+   },
+   "payoffs": {
+    "Zero": 0.0,
+    "Muddle": 0.8637741381471875,
+    "Re-rate": 4.8058756825817674,
+    "White Swan": 11.011865447155236
+   },
+   "ev": {
+    "prob_sum": 1.0,
+    "ev_per_dollar": 0.0050953915483491485,
+    "terms": {
+     "Zero": 0.0,
+     "Muddle": 0.613156322202722,
+     "Re-rate": 0.3244843070356303,
+     "White Swan": 0.06745476230999675
+    },
+    "ev_cap_50x": 0.0050953915483491485,
+    "ev_cap_25x": 0.0050953915483491485,
+    "breakeven_p_swan_alone": 0.09081113502511387,
+    "breakeven_p_swan_given_other_rows": 0.005662925238317123
+   },
+   "ev_cap50": 0.0050953915483491485,
+   "scenario_paths": {
+    "Zero": [
+     0.6,
+     0.2,
+     0.0
+    ],
+    "Muddle": [
+     0.9,
+     0.95,
+     0.86
+    ],
+    "Re-rate": [
+     1.1,
+     2.2,
+     4.8
+    ],
+    "White Swan": [
+     1.2,
+     4.2,
+     11.0
+    ]
+   },
+   "kelly_base": -0.09556446931279311,
+   "kelly_filtered": -0.09314400424298311,
+   "runway_years": 5.083333333333333
+  }
+ }
+}

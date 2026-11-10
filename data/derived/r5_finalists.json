@@ -1,0 +1,103 @@
+{
+ "finalists": [
+  "VRRM",
+  "ALIT",
+  "KLC",
+  "FMC"
+ ],
+ "alloc": {
+  "VRRM": 400,
+  "ALIT": 200,
+  "KLC": 120,
+  "FMC": 80
+ },
+ "alloc_note": "proposed, pre-R6",
+ "alloc_footer": "Proposed allocations are provisional: the PRIMARY is fixed only after R6 (deep verification + red team). No ticket exists before the Nov 15 lock.",
+ "survival_score": {
+  "VRRM": 78,
+  "ALIT": 66,
+  "KLC": 72,
+  "FMC": 55
+ },
+ "quotes": {
+  "VRRM": [
+   2.11,
+   2.02,
+   2.13
+  ],
+  "KLC": [
+   2.1859,
+   1.83,
+   2.22
+  ],
+  "ALIT": [
+   12.21,
+   11.92,
+   14.0
+  ],
+  "FMC": [
+   5.2766,
+   5.3,
+   5.71
+  ]
+ },
+ "quote_note": "Nasdaq quote API, after-hours 2026-11-10 17:40 ET",
+ "staleness": "As-of 2026-11-10. Closes are 2026-11-09 (Yahoo, delayed); bid/ask are Nasdaq after-hours quotes of 2026-11-10 17:40 ET and will be replaced by regular-hours quotes at the Sun Nov 15 lock. Fundamentals are XBRL values as filed, with accession numbers below.",
+ "rejections": [
+  [
+   "RXST",
+   "R5 NO-TRADE",
+   "LIFT 0.4x < 2.5x: no wave case (wave score 0); EV +0.07 comes from the cash floor, not from a swan path"
+  ],
+  [
+   "FLNC",
+   "R5 not white-swan class",
+   "plausible ceiling 7.4x (1.5x its 3-year high, diluted) is below the 10x terminal class; 25x needs a $30B market cap. LIFT 5.9x, EV +0.06"
+  ],
+  [
+   "METC",
+   "R5 NO-TRADE",
+   "EV \u22120.05 at filtered numbers (P(zero) 0.22, burning cash under $454M of notes); share count not confirmed from the cover"
+  ],
+  [
+   "TE",
+   "R5 NO-TRADE",
+   "LIFT 1.4x < 2.5x; plausible ceiling 6.0x; share count nearly doubles on the flat path (1.93x)"
+  ],
+  [
+   "ABAT",
+   "R5 NO-TRADE",
+   "EV \u22120.27; LIFT 1.2x; model P(zero) 0.48"
+  ],
+  [
+   "BLNK",
+   "R5 NO-TRADE",
+   "LIFT 1.6x < 2.5x; EV +0.005; Nasdaq bid-price deficiency, late 10-K, serial equity issuance"
+  ],
+  [
+   "SSTK",
+   "R3 Stage 2 (5.6)",
+   "no wave case \u2014 the AI wave is the cause of its decline; revenue \u221220% y/y; current liabilities 2.1x current assets; 8-K item 1.02 termination of a material agreement"
+  ],
+  [
+   "XRX",
+   "R3 Stage 2 (5.6)",
+   "no wave case; equity \u2212$683M, interest expense $431M vs operating cash flow $131M; NT 10-K filed 2026-03-02"
+  ],
+  [
+   "ANNA",
+   "R3 Stage 1 (5.5) \u2192 Could-Not-Verify",
+   "deSPAC row: old-vs-new CUSIP and closing 8-K not readable (older than the mirror's window); any blank = excluded"
+  ],
+  [
+   "BATL",
+   "R3 Stage 1 (5.3) \u2192 Could-Not-Verify",
+   "fully diluted count not assemblable: $221M redeemable convertible preferred (conversion $6) vs $43M cap, shares +47% in six weeks, ATM; auditor-change 8-K (4.01) and listing notice (3.01) unresolved"
+  ],
+  [
+   "KLXE",
+   "R3 Stage 1 \u2192 Could-Not-Verify",
+   "cash $5.0M vs current liabilities $155M; 105.7M of 110M authorized shares issued with a PRE 14A; exchange Form 25-NSE filed 2026-09-24 not explained"
+  ]
+ ]
+}

@@ -1,7 +1,7 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
-**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R3 in progress (Stage 1 code pass done; verification batches next) · R4 cohort + models DONE early
-**Last updated:** 2026-11-10 ~17:15 UTC
+**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R6 (finalist deep verification + red team) — R1–R5 complete (R3 budget-scaled)
+**Last updated:** 2026-11-10 ~23:15 UTC
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
 > stands, continue at the next incomplete stage. Never redo a completed stage except to correct a logged error.
@@ -72,20 +72,16 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
   - [x] DuckDB views (`ah/store.py`), PIT series (`ah/pit.py`), 6 leakage tests pass (`tests/test_leakage.py`)
   - [x] R1 stage report posted (`stage_reports/R1.md`)
 - [x] **R2 — Universe build** (Tue Nov 10) — COMPLETE 2026-11-10 ~12:25 UTC: 14,177 enumerated → 1,930 in `universe.csv` (1,836 issuers); ledger F0–D1 in `screen_log.md`; report `stage_reports/R2.md`
-- [ ] **R3 — Screen** (Wed–Thu) — STARTED early 2026-11-10
-  - [x] Stage 1 code pass (`scripts/r3_stage1.py` → `data/derived/stage1.parquet`): 1,930 → 1,723 continue (1,509 PASS; 142 need lead-asset check; 72 need survival check); 207 FAIL logged
-  - [x] company descriptions pulled for theme discovery (`data/derived/profiles.parquet`, 1,623 of 1,637 issuers; vendor text = lead only)
-  - [ ] emergent theme clusters + fallen leaders written to `screen_log.md`
-  - [ ] filing-level verification batches (≤ 25 names, subagents) in rank order → `asymmetry-hunter-state/batches/`
-  - [ ] wave-formation evidence per surviving theme; vehicle choice; INSTRUMENT TERMS for surviving warrants
-- [ ] **R4 — Cohort + ML ranking + cross-check** (Thu–Fri)
-  - [x] cohort built (`scripts/r4_build_cohort.py`): 58,644 matured bases, 363 swan name-dates / 121 CIKs, 5,268 graveyard; `cohort_report.md` WRITTEN
-  - [x] pre-flight count + validation (`scripts/r4_model.py`, `r4_baserate_model.py`): swan ranking FAILED benchmarks → elastic-net swan model RETIRED, base-rate table used; wipeout model PASSED 4/4 purged folds (model version `ah-v3-e679a99d598d`)
-  - [x] measured Fermi factors (`scripts/r4_wave_rates.py` → `wave_rates.json`): survival 0.655, wave 0.0252, leads 0.393, captures 0.604 → 1-in-255 for a ≥25x peak
-  - [x] today's field scored: `data/derived/baserate_scores.parquet` (P(swan) table + sweep range + P(zero))
-  - [ ] blind human–model cross-check (8.7) on verified survivors
-- [ ] **R5 — White-swan math + finalists** (Fri)
-- [ ] **R6 — Finalist deep verification + red team** (Sat)
+- [x] **R3 — Screen** — COMPLETE AS SCALED 2026-11-10 (see `screen_log.md` "R3 as actually run"): Stage 1 code pass 1,930 → 1,723; theme clusters; wave atlas;
+  407 evidence packs read in code; funnel L1–L9 → 15 names read at filing level by the main session → 10 into the math. The 25-batch swarm did NOT run
+  (pilot hit the 5-hour limit; user reported 50% Fable use). Unreached names are unverified, not rejected.
+- [x] **R4 — Cohort + ML ranking + cross-check** — COMPLETE 2026-11-10: `cohort_report.md`; swan ranking FAILED validation (elastic-net retired; base-rate table used);
+  wipeout model PASSED 4/4 purged folds (`ah-v3-e679a99d598d`); measured Fermi factors; cross-check recorded in `ranked_table.md`
+- [x] **R5 — White-swan math + finalists** — COMPLETE 2026-11-10: `ranked_table.md` (`scripts/r5_math.py`, `scripts/r5_write_table.py`, `data/derived/r5_math.json`, `r5_finalists.json`)
+  Finalists: VRRM, ALIT, KLC, FMC (one cluster; effective N ≈ 1.6). NO-TRADE branch fired individually for RXST, METC, TE, ABAT, BLNK; FLNC fails the white-swan class.
+- [ ] **R6 — Finalist deep verification + red team** (Sat Nov 14; started early)
+  - [ ] red-team memos in `redteam/<SYM>.md` (one independent subagent for all four — budget-scaled), each answered line-by-line in `redteam/ANSWERS.md`
+  - [ ] every ranked-table number re-traced; dilution trajectory re-modelled; Schwab tradability pre-flight (7.1.1) per name
 - [ ] **R7 — Buy set lock (Sun Nov 15), buy day + close-out (Mon Nov 16)**
 
 ## Blockers and open issues
@@ -103,7 +99,10 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 
 ## Token-budget notes (Section 3.3)
 
-- 2026-11-10: session 1 running. Reset not yet used. No allowance warning issued yet.
+- 2026-11-10: session 1 ran R1–R5. The pilot verification agent hit the 5-hour limit (reset 21:20 UTC). User reported Fable use at 50% and asked to scale to resources.
+- 2026-11-10 22:35 UTC, said in session: "Weekly Fable allowance nearly exhausted — apply the free Fable limit reset now to refuel the run." (conditional on 50% being the cap
+  on included Fable use). Reset status: not confirmed by the user.
+- Budget rule from here: no swarms. Main-session code + targeted greps; one red-team subagent for all finalists; keep reserve for the Nov 15 lock and Nov 16 report.
 
 ## Funding status / settled-cash tracker (user-reported only)
 
@@ -113,7 +112,15 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 
 ## Finalists
 
-None yet (R5).
+| Ticker | Status | Verification | EV per $1 (5y) | LIFT | Proposed allocation (pre-R6) |
+|---|---|---|---|---|---|
+| VRRM | finalist, pending R6 | VERIFIED (10-Q 0001628280-26-068455) | +0.300 | 2.5x | $400 |
+| ALIT | finalist, pending R6 | VERIFIED (10-Q 0001628280-26-069567) | +0.350 | 2.5x | $200 |
+| KLC | finalist, pending R6 | VERIFIED (10-Q 0001193125-26-349480; Q3 10-Q due this week — re-read) | +0.293 | 2.5x | $120 |
+| FMC | finalist, pending R6 | VERIFIED (10-Q 0000037785-26-000171); covenant amendments April 2026 to be read | +0.293 | 2.5x | $80 |
+
+Kill conditions (7.4) to check at every session until the lock: `python3 scripts/tools.py recent SYM --months 1` for new 8-Ks (items 1.03, 2.04, 3.01, 4.01, 4.02, 5.02);
+a going-concern paragraph, covenant waiver, trading suspension or toxic financing removes the finalist.
 
 ## Buy-set status
 
@@ -121,11 +128,13 @@ NOT LOCKED.
 
 ## Next three actions, in order
 
-1. If `data/pit` or `data/prices` are missing (fresh container): rebuild with `python3 scripts/r1_secmaster_frames.py && python3 scripts/r1_pull_facts.py`,
-   then `python3 scripts/r2_pull_prices.py data/tmp/syms_listed.csv listed` (see README), then `python3 scripts/r2_build_universe.py map` / `scan`.
-2. R3: read `data/derived/stage1.parquet` (Stage 1 outcomes); cluster survivors by theme; run filing-level verification batches of ≤ 25
-   (subagents, `scripts/filing.py` is their reader); append each batch to `screen_log.md`; write INSTRUMENT TERMS for surviving warrants.
-3. R4: read `data/derived/cohort_counts.json`; write `cohort_report.md`; run the pre-flight class count and the model or its mandated degradation.
+1. R6: read `redteam/*.md` when the red-team agent finishes (if absent, launch ONE subagent with the brief in `redteam/BRIEF.md`); answer every kill argument
+   line-by-line from filings in `redteam/ANSWERS.md`; remove any finalist whose kill cannot be answered and report it. Re-read KLC's Q3 10-Q when filed.
+   Schwab tradability pre-flight (all four are exchange-listed commons above $1: confirm whole-share orderable, no OTC fee).
+2. Refresh prices and the filing index (`scripts/r2_pull_prices.py` on a 4-symbol csv; `scripts/tools.py recent`); re-run `scripts/r5_math.py` + `scripts/r5_write_table.py`
+   with regular-hours bid/ask in `data/derived/r5_finalists.json`.
+3. R7 on Sun Nov 15: lock `buy_set.md` (Section 9 format; allocations sum to exactly $800; PRIMARY largest), open `paper_shadow.csv` on all finalists and the six R5
+   rejects, write `monitoring.md`; Mon Nov 16: log fills as reported, reconcile, write `final_report.md`. If funding has not been reported, mark "awaiting funding report".
 
 ## Stage reports (appended)
 
@@ -133,3 +142,6 @@ NOT LOCKED.
   16,594 CIKs; 7.5M filings; 13.6M as-first-filed facts; 22.1M daily price rows; leakage tests pass. Blockers B1–B3 above.
 - R2 — complete 2026-11-10. Full text: `stage_reports/R2.md`. Summary: 14,177 securities enumerated → 7,455 in scope → 6,794 with CIK →
   5,444 pass the 10-K+10-Q floor → 5,338 priced → 3,891 liquid → 1,930 priced-for-failure (universe.csv). Rules as written, not tuned to 800–1,500.
+- R3 — complete as scaled 2026-11-10. `stage_reports/R3-R5.md`. 1,723 Stage-1 survivors → 407 first-tier packs → 113-name pool → 20 agreed → 15 read → 10 to math.
+- R4 — complete 2026-11-10. Swan ranking FAILED validation; wipeout model PASSED 4/4; base-rate tables adopted. `cohort_report.md`.
+- R5 — complete 2026-11-10. Four finalists (VRRM, ALIT, KLC, FMC), one cluster, lift at the 2.5x bar, EV +0.29 to +0.35 per $1. `ranked_table.md`.
