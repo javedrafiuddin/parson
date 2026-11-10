@@ -1,0 +1,45 @@
+topic,terms,n,n_dd60,n_dd80,share_dd60,median_dd,fallen_leaders,n_fallen_leaders
+41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",85,72,41,0.85,0.79,"SPRB, VKTX, RXRX, GPCR, MLTX, XFOR",19
+1,"disease, diseases, biotechnology, gene, rare, potential, genetic",44,40,22,0.91,0.8,"ALNY, IONS, INDP, DYN, WGS, NTLA",10
+35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",39,34,17,0.87,0.75,"COIN, MBLY, SKYA, AMKR, ORBS, PL",8
+11,"energy, power, fuel, nuclear, clean, renewable, reliable",53,31,15,0.58,0.71,"OKLO, SMR, FRMI, ENPH, QS, UEC",6
+25,"cancer, phase, patients, clinical, treatment, lead, trial",32,30,22,0.94,0.89,"CBIO, IRLA, NVCR, OLMA, ALT, PALI",8
+44,"media, digital, advertising, news, content, local, marketing",60,28,16,0.47,0.59,"FIG, HUBS, DJT, SOUN, DV",5
+38,"communications, connectivity, wireless, mobile, network, internet, broadband",44,27,10,0.61,0.63,"ORCL, ASTS, CHTR, AAOI, LUMN, AD",10
+33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",28,27,14,0.96,0.8,"JBIO, CABA, VOR, NKTR, SANA, CAPR",6
+8,"com, www, information, visit, visit www, information visit, learn",78,26,11,0.33,0.36,"WDC, RDDT, SRPT, SBET, XRAY",5
+32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",48,25,6,0.52,0.62,"VELO, TTMI, FPS, AXTI, GPK, ACMR",8
+6,"health, care, wellness, health wellness, better, health care, consumers",48,25,12,0.52,0.6,"ENHA, CELH, HIMS, FIVN",4
+18,"security, defense, national security, space, national, critical, mission",37,24,12,0.65,0.69,"AXON, KTOS, KRMN",3
+24,"systems, power, technologies, control, safety, industrial, leader",33,22,7,0.67,0.68,"SNDK, SMCI, RGTI, QBTS, OLED, NVTS",6
+40,"healthcare, care, patient, improve, clinical, outcomes, providers",67,22,5,0.33,0.43,"DOCS, PRCT, QDEL",3
+30,"steel, metals, processing, production, facilities, producer, metal",38,18,7,0.47,0.57,"MP, USAR, LNZA, AMR",4
+19,"technology, clients, expertise, organizations, helps, deep, outcomes",38,18,4,0.47,0.52,"CRWV, IT",2
+17,"medical, device, medical device, patients, treatment, therapy, fda",25,17,9,0.68,0.74,"ADGM, INSP, ATEC, RXST, ICU, EMBC",6
+9,"infrastructure, data, computing, data centers, compute, centers, digital",18,17,9,0.94,0.79,"IREN, CIFR, AVX, RUM, HOST",5
+12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",27,16,10,0.59,0.63,"MSTR, BMNR, OWL, ASST, XXI",5
+15,"gaming, entertainment, sports, betting, sports betting, experiences, games",29,15,7,0.52,0.63,"ADBE, RBLX, FLUT, DKNG",4
+14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",51,14,4,0.27,0.44,"NKE, LULU, SFM, FND",4
+5,"gas, oil, natural gas, natural, oil natural, production, oil gas",37,12,4,0.32,0.37,KOS,1
+31,"europe, asia, europe asia, middle east, middle, east, australia",36,12,4,0.33,0.42,"TTD, WLK, GLXY, MOD",4
+27,"automotive, vehicles, parts, vehicle, dealerships, repair, trucks",39,11,4,0.28,0.43,"RKLB, LKQ",2
+3,"properties, trust, investment trust, investment, estate investment, office, office properties",27,11,6,0.41,0.57,"SVC, MPT, HPP, SAFE, AIV",5
+42,"construction, infrastructure, industrial, electrical, maintenance, building, projects",44,10,2,0.23,0.43,"STRL, AGX, LGN",3
+21,"provider, leading provider, management, countries, managed, employees countries, government",29,10,3,0.34,0.45,"CAR, KD, CLVT, VRRM",4
+22,"supply, supply chain, chain, logistics, freight, network, brokerage",42,10,6,0.24,0.35,FICO,1
+34,"home, furniture, residential, custom, design, furnishings, categories",50,9,1,0.18,0.35,"BLDR, Z, UPST",3
+39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",26,9,4,0.35,0.42,"JOBY, ACHR",2
+2,"estate, real estate, real, commercial real, commercial, investment, mortgage",25,9,5,0.36,0.4,"CSGP, ARE, WD",3
+4,"food, foods, consumer, foodservice, beverages, retail, packaged",17,8,3,0.47,0.5,"FMC, BRBR",2
+43,"outdoor, equipment, recreation, outdoor recreation, enthusiasts, outdoors, outdoor enthusiasts",36,8,2,0.22,0.34,,0
+26,"billion, sales, sales billion, net sales, net, employees, fiscal",46,8,1,0.17,0.35,QXO,1
+23,"stock, exchange, stock exchange, traded, symbol, publicly, traded stock",28,8,4,0.29,0.34,CNTN,1
+29,"restaurants, restaurant, dining, casual, guests, casual dining, locations",32,7,1,0.22,0.42,FOUR,1
+36,"education, learning, university, students, programs, learners, higher",25,7,3,0.28,0.5,"DUOL, BFAM",2
+7,"insurance, casualty, property casualty, property, casualty insurance, reinsurance, holding",42,5,1,0.12,0.11,,0
+20,"homes, homebuilding, nation, mortgage, largest, nation largest, communities",16,5,3,0.31,0.48,UWMC,1
+13,"financial, businesses, institutions, financial institutions, money, credit, payments",30,5,1,0.17,0.33,"FISV, CRCL, FIS",3
+37,"water, wastewater, water wastewater, water treatment, treatment, resources, chemical",22,5,3,0.23,0.35,FUN,1
+28,"owns, limited, logistics, midstream, partnership, crude, transportation",18,5,2,0.28,0.24,,0
+10,"bank, banking, management, holding, wealth, wealth management, loan",19,4,0,0.21,0.18,"FLG, LAC",2
+16,"world, countries, world largest, largest, world leading, nyse, innovation",15,3,0,0.2,0.32,SNAP,1

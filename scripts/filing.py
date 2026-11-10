@@ -26,8 +26,46 @@ def cik_for(symbol):
     return int(hits[0][0]) if hits else None
 
 
+def _rows_cached(symbol):
+    """Filing list cached for 12 hours per symbol (keeps parallel verification batches off the Nasdaq API)."""
+    import time, json as _j
+    f = CACHE / f"_list_{symbol.replace('/', '_')}.json"
+    if f.exists() and time.time() - f.stat().st_mtime < 12 * 3600:
+        return _j.loads(f.read_text())
+    rows = nasdaq.sec_filings(symbol, limit=100)
+    f.write_text(_j.dumps(rows))
+    return rows
+
+
+def _subs_cached(cik):
+    import time, json as _j
+    f = CACHE / f"_subs_{cik}.json"
+    if f.exists() and time.time() - f.stat().st_mtime < 12 * 3600:
+        return _j.loads(f.read_text())
+    s = get_json(f"https://data.sec.gov/submissions/CIK{cik:010d}.json")
+    r = s["filings"]["recent"]
+    out = {"form": r["form"][:400], "filingDate": r["filingDate"][:400], "accessionNumber": r["accessionNumber"][:400], "items": r["items"][:400]}
+    f.write_text(_j.dumps(out))
+    return out
+
+
+def _cik_cached(symbol):
+    f = CACHE / f"_cik_{symbol.replace('/', '_')}.txt"
+    if f.exists():
+        return int(f.read_text())
+    try:
+        st = pd.read_parquet(pathlib.Path(__file__).resolve().parent.parent / "data" / "derived" / "field_scan.parquet", columns=["symbol", "cik"])
+        m = st[st.symbol == symbol]
+        cik = int(m.cik.iloc[0]) if len(m) else cik_for(symbol)
+    except Exception:
+        cik = cik_for(symbol)
+    if cik:
+        f.write_text(str(cik))
+    return cik
+
+
 def listing(symbol, forms=None, n=60):
-    rows = nasdaq.sec_filings(symbol, limit=max(n, 100))
+    rows = _rows_cached(symbol)
     df = pd.DataFrame([{"form": r["formType"], "filed": pd.to_datetime(r["filed"]).strftime("%Y-%m-%d"),
                         "period": r.get("period"), "link": r["view"]["htmlLink"]} for r in rows])
     if df.empty:
@@ -38,11 +76,10 @@ def listing(symbol, forms=None, n=60):
         df = df[df.form.isin(fs) | df.form.str.replace("/A", "").isin(fs)]
     df = df[~df.form.isin(["3", "4", "5", "144", "SC 13G", "SC 13G/A", "SCHEDULE 13G", "SCHEDULE 13G/A"])] if not forms else df
     df = df.head(n).reset_index(drop=True)
-    cik = cik_for(symbol)
+    cik = _cik_cached(symbol)
     df["accession"] = None
     if cik:
-        s = get_json(f"https://data.sec.gov/submissions/CIK{cik:010d}.json")
-        r = s["filings"]["recent"]
+        r = _subs_cached(cik)
         m = {}
         for a, f, d in zip(r["accessionNumber"], r["form"], r["filingDate"]):
             m.setdefault((f, d), []).append(a)
@@ -90,7 +127,7 @@ if __name__ == "__main__":
         print(f"({k} match(es) shown)")
     elif a.cmd == "facts":
         from ah import pit
-        cik = cik_for(a.symbol)
+        cik = _cik_cached(a.symbol)
         p = pit.asof_panel([pd.Timestamp.now().strftime("%Y-%m-%d")], pit.con(), ciks=[cik])
         cols = ["cik", "bs_end", "bs_known", "bs_accn", "cash_total", "debt_total", "debt_due_12m", "pref_liq", "rev_ttm", "rev_ttm_e",
                 "ocf_ttm", "ocf_last2q", "runway_years", "runway_years_2q", "shares", "shares_e", "shares_src", "float_usd", "antidil",

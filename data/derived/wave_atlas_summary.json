@@ -1,0 +1,1057 @@
+{
+ "W1_2015-2018": {
+  "n_names": 2646,
+  "n_25x": 11,
+  "share_25x": 0.0042,
+  "median_months_trough_to_crest_25x": 27.9,
+  "n_100x": 1,
+  "industries_with_leader_basket_ge_10x": 2,
+  "n_industries": 72,
+  "top_industries": [
+   {
+    "sic3": 720,
+    "n": 9,
+    "leader_median_x": 15.3,
+    "leader_months_median": 29.5,
+    "n_25x": 1,
+    "leaders": "DOGP, EVI, YELP"
+   },
+   {
+    "sic3": 100,
+    "n": 16,
+    "leader_median_x": 10.2,
+    "leader_months_median": 28.1,
+    "n_25x": 0,
+    "leaders": "LAR, CLF, USAS, VALE"
+   },
+   {
+    "sic3": 283,
+    "n": 271,
+    "leader_median_x": 9.9,
+    "leader_months_median": 20.8,
+    "n_25x": 7,
+    "leaders": "CNBX, IGC, CVSI, ACB, CGC, MDGL"
+   },
+   {
+    "sic3": 104,
+    "n": 36,
+    "leader_median_x": 9.2,
+    "leader_months_median": 11.2,
+    "n_25x": 0,
+    "leaders": "NAK, TMQ, TGB, CDE, HMY, GLDG"
+   },
+   {
+    "sic3": 281,
+    "n": 10,
+    "leader_median_x": 9.1,
+    "leader_months_median": 23.4,
+    "n_25x": 0,
+    "leaders": "VHI, TROX, NL"
+   },
+   {
+    "sic3": 441,
+    "n": 24,
+    "leader_median_x": 8.4,
+    "leader_months_median": 21.5,
+    "n_25x": 1,
+    "leaders": "GLBS, SB, SBLK, GNK, NMM"
+   },
+   {
+    "sic3": 596,
+    "n": 9,
+    "leader_median_x": 8.4,
+    "leader_months_median": 32.4,
+    "n_25x": 0,
+    "leaders": "BZUN, NXH, W"
+   },
+   {
+    "sic3": 820,
+    "n": 14,
+    "leader_median_x": 8.1,
+    "leader_months_median": 30.3,
+    "n_25x": 0,
+    "leaders": "CHGG, PRDO, EDU"
+   },
+   {
+    "sic3": 140,
+    "n": 11,
+    "leader_median_x": 7.5,
+    "leader_months_median": 26.5,
+    "n_25x": 0,
+    "leaders": "LEU, IPI, SQM"
+   },
+   {
+    "sic3": 131,
+    "n": 45,
+    "leader_median_x": 6.7,
+    "leader_months_median": 26.5,
+    "n_25x": 0,
+    "leaders": "GBR, GPRK, PBR.A, WTI, NOG, SM"
+   },
+   {
+    "sic3": 737,
+    "n": 128,
+    "leader_median_x": 6.5,
+    "leader_months_median": 29.7,
+    "n_25x": 1,
+    "leaders": "GRVY, CCLD, EGAN, FIVN, XYZ, SHOP"
+   },
+   {
+    "sic3": 619,
+    "n": 23,
+    "leader_median_x": 6.3,
+    "leader_months_median": 30.8,
+    "n_25x": 0,
+    "leaders": "YRD, BNC, GDOT, LITS, FWDI"
+   }
+  ],
+  "top_names": [
+   {
+    "ticker": "CNBX",
+    "name": "CNBX Pharmaceuticals Inc.",
+    "mult": 215.0,
+    "months": 15.2,
+    "td": "2015-11-18",
+    "pd": "2017-02-21"
+   },
+   {
+    "ticker": "IGC",
+    "name": "IGC Pharma, Inc.",
+    "mult": 92.9,
+    "months": 35.0,
+    "td": "2015-11-04",
+    "pd": "2018-10-02"
+   },
+   {
+    "ticker": "CVSI",
+    "name": "CV Sciences, Inc.",
+    "mult": 64.8,
+    "months": 31.3,
+    "td": "2016-01-13",
+    "pd": "2018-08-22"
+   },
+   {
+    "ticker": "ACB",
+    "name": "AURORA CANNABIS INC",
+    "mult": 60.6,
+    "months": 37.8,
+    "td": "2015-08-24",
+    "pd": "2018-10-15"
+   },
+   {
+    "ticker": "GLBS",
+    "name": "GLOBUS MARITIME LTD",
+    "mult": 59.3,
+    "months": 9.9,
+    "td": "2016-01-20",
+    "pd": "2016-11-16"
+   },
+   {
+    "ticker": "CGC",
+    "name": "Canopy Growth Corp",
+    "mult": 49.9,
+    "months": 36.6,
+    "td": "2015-09-29",
+    "pd": "2018-10-15"
+   },
+   {
+    "ticker": "MDGL",
+    "name": "MADRIGAL PHARMACEUTICALS, INC.",
+    "mult": 47.2,
+    "months": 27.9,
+    "td": "2016-02-10",
+    "pd": "2018-06-06"
+   },
+   {
+    "ticker": "CDNA",
+    "name": "CareDx, Inc.",
+    "mult": 38.2,
+    "months": 19.2,
+    "td": "2017-04-27",
+    "pd": "2018-12-03"
+   },
+   {
+    "ticker": "GRVY",
+    "name": "GRAVITY Co., Ltd.",
+    "mult": 35.5,
+    "months": 24.8,
+    "td": "2016-02-11",
+    "pd": "2018-03-06"
+   },
+   {
+    "ticker": "DOGP",
+    "name": "Dogecoin Cash, Inc.",
+    "mult": 30.0,
+    "months": 22.3,
+    "td": "2016-02-24",
+    "pd": "2018-01-03"
+   },
+   {
+    "ticker": "SIGA",
+    "name": "SIGA TECHNOLOGIES INC",
+    "mult": 26.9,
+    "months": 32.2,
+    "td": "2015-12-24",
+    "pd": "2018-08-30"
+   }
+  ]
+ },
+ "W2_2019-2021": {
+  "n_names": 3441,
+  "n_25x": 101,
+  "share_25x": 0.0294,
+  "median_months_trough_to_crest_25x": 13.6,
+  "n_100x": 11,
+  "industries_with_leader_basket_ge_10x": 34,
+  "n_industries": 89,
+  "top_industries": [
+   {
+    "sic3": 619,
+    "n": 60,
+    "leader_median_x": 57.6,
+    "leader_months_median": 12.9,
+    "n_25x": 12,
+    "leaders": "MARA, RIOT, HIVE, BTBT, MWAI, ABTS"
+   },
+   {
+    "sic3": 286,
+    "n": 19,
+    "leader_median_x": 38.8,
+    "leader_months_median": 9.3,
+    "n_25x": 5,
+    "leaders": "AMTX, ALTO, GEVO, WNDW"
+   },
+   {
+    "sic3": 362,
+    "n": 9,
+    "leader_median_x": 36.4,
+    "leader_months_median": 17.5,
+    "n_25x": 2,
+    "leaders": "FCEL, PLUG, BE"
+   },
+   {
+    "sic3": 140,
+    "n": 14,
+    "leader_median_x": 29.3,
+    "leader_months_median": 20.1,
+    "n_25x": 2,
+    "leaders": "ABAT, LEU, UUUU"
+   },
+   {
+    "sic3": 596,
+    "n": 13,
+    "leader_median_x": 28.1,
+    "leader_months_median": 10.8,
+    "n_25x": 2,
+    "leaders": "NXH, JMIA, W"
+   },
+   {
+    "sic3": 369,
+    "n": 22,
+    "leader_median_x": 27.4,
+    "leader_months_median": 10.3,
+    "n_25x": 3,
+    "leaders": "OZSC, BLNK, POLA, BYRN, BEEM"
+   },
+   {
+    "sic3": 131,
+    "n": 59,
+    "leader_median_x": 23.1,
+    "leader_months_median": 19.3,
+    "n_25x": 6,
+    "leaders": "GBR, MTDR, SM, AR, PR, OBE"
+   },
+   {
+    "sic3": 441,
+    "n": 30,
+    "leader_median_x": 17.0,
+    "leader_months_median": 15.5,
+    "n_25x": 1,
+    "leaders": "DAC, ESEA, PSHG, CTRM, GSL, NMM"
+   },
+   {
+    "sic3": 701,
+    "n": 22,
+    "leader_median_x": 16.8,
+    "leader_months_median": 19.3,
+    "n_25x": 1,
+    "leaders": "PENN, FLL, CZR, RRR, CNTY"
+   },
+   {
+    "sic3": 308,
+    "n": 8,
+    "leader_median_x": 16.1,
+    "leader_months_median": 20.6,
+    "n_25x": 1,
+    "leaders": "LWLG, CMT, WMS"
+   },
+   {
+    "sic3": 122,
+    "n": 8,
+    "leader_median_x": 15.9,
+    "leader_months_median": 11.5,
+    "n_25x": 0,
+    "leaders": "BTU, AREC, CNR"
+   },
+   {
+    "sic3": 100,
+    "n": 19,
+    "leader_median_x": 15.8,
+    "leader_months_median": 17.1,
+    "n_25x": 1,
+    "leaders": "GSM, LAR, WWR, CLF"
+   }
+  ],
+  "top_names": [
+   {
+    "ticker": "BRTX",
+    "name": "BioRestorative Therapies, Inc.",
+    "mult": 420.0,
+    "months": 7.2,
+    "td": "2020-03-24",
+    "pd": "2020-10-29"
+   },
+   {
+    "ticker": "AITX",
+    "name": "Artificial Intelligence Technology Solutions Inc.",
+    "mult": 263.0,
+    "months": 3.0,
+    "td": "2020-11-12",
+    "pd": "2021-02-10"
+   },
+   {
+    "ticker": "MARA",
+    "name": "MARA Holdings, Inc.",
+    "mult": 190.2,
+    "months": 19.8,
+    "td": "2020-03-18",
+    "pd": "2021-11-09"
+   },
+   {
+    "ticker": "FCEL",
+    "name": "FUELCELL ENERGY INC",
+    "mult": 174.7,
+    "months": 19.6,
+    "td": "2019-06-25",
+    "pd": "2021-02-09"
+   },
+   {
+    "ticker": "RTB",
+    "name": "RTB Digital, Inc.",
+    "mult": 165.8,
+    "months": 12.3,
+    "td": "2020-03-27",
+    "pd": "2021-04-06"
+   },
+   {
+    "ticker": "ABAT",
+    "name": "AMERICAN BATTERY TECHNOLOGY Co",
+    "mult": 163.0,
+    "months": 12.6,
+    "td": "2020-01-09",
+    "pd": "2021-01-25"
+   },
+   {
+    "ticker": "MVIS",
+    "name": "MICROVISION, INC.",
+    "mult": 155.5,
+    "months": 13.4,
+    "td": "2020-03-16",
+    "pd": "2021-04-26"
+   },
+   {
+    "ticker": "DRIO",
+    "name": "DarioHealth Corp.",
+    "mult": 149.1,
+    "months": 15.0,
+    "td": "2019-11-14",
+    "pd": "2021-02-12"
+   },
+   {
+    "ticker": "FLNA",
+    "name": "FILANA THERAPEUTICS, INC.",
+    "mult": 130.1,
+    "months": 23.0,
+    "td": "2019-08-29",
+    "pd": "2021-07-28"
+   },
+   {
+    "ticker": "GME",
+    "name": "GameStop Corp.",
+    "mult": 124.1,
+    "months": 9.8,
+    "td": "2020-04-03",
+    "pd": "2021-01-27"
+   },
+   {
+    "ticker": "RIOT",
+    "name": "Riot Platforms, Inc.",
+    "mult": 119.8,
+    "months": 11.1,
+    "td": "2020-03-18",
+    "pd": "2021-02-17"
+   },
+   {
+    "ticker": "HIVE",
+    "name": "HIVE Digital Technologies Ltd.",
+    "mult": 89.5,
+    "months": 14.1,
+    "td": "2019-12-17",
+    "pd": "2021-02-19"
+   },
+   {
+    "ticker": "BTBT",
+    "name": "Bit Digital, Inc",
+    "mult": 88.7,
+    "months": 9.4,
+    "td": "2020-03-25",
+    "pd": "2021-01-04"
+   },
+   {
+    "ticker": "NVAX",
+    "name": "NOVAVAX INC",
+    "mult": 86.7,
+    "months": 14.7,
+    "td": "2019-11-20",
+    "pd": "2021-02-08"
+   },
+   {
+    "ticker": "VXRT",
+    "name": "Vaxart, Inc.",
+    "mult": 83.3,
+    "months": 14.4,
+    "td": "2019-11-21",
+    "pd": "2021-02-02"
+   },
+   {
+    "ticker": "MWAI",
+    "name": "MedWellAI, Inc.",
+    "mult": 83.1,
+    "months": 11.7,
+    "td": "2020-02-28",
+    "pd": "2021-02-19"
+   },
+   {
+    "ticker": "MPU",
+    "name": "Mega Matrix Inc",
+    "mult": 82.4,
+    "months": 17.8,
+    "td": "2020-04-06",
+    "pd": "2021-09-29"
+   },
+   {
+    "ticker": "OCGN",
+    "name": "Ocugen, Inc.",
+    "mult": 80.7,
+    "months": 6.9,
+    "td": "2020-07-14",
+    "pd": "2021-02-08"
+   },
+   {
+    "ticker": "KOSS",
+    "name": "KOSS CORP",
+    "mult": 78.0,
+    "months": 9.9,
+    "td": "2020-04-03",
+    "pd": "2021-01-29"
+   },
+   {
+    "ticker": "OZSC",
+    "name": "OZOP ENERGY SOLUTIONS, INC.",
+    "mult": 77.2,
+    "months": 6.2,
+    "td": "2020-08-05",
+    "pd": "2021-02-08"
+   },
+   {
+    "ticker": "AMTX",
+    "name": "AEMETIS, INC",
+    "mult": 70.6,
+    "months": 12.7,
+    "td": "2020-03-18",
+    "pd": "2021-04-08"
+   },
+   {
+    "ticker": "UAVS",
+    "name": "AgEagle Aerial Systems Inc.",
+    "mult": 68.2,
+    "months": 18.2,
+    "td": "2019-08-07",
+    "pd": "2021-02-10"
+   },
+   {
+    "ticker": "PMTS",
+    "name": "CPI Card Group Inc.",
+    "mult": 66.7,
+    "months": 18.0,
+    "td": "2020-03-17",
+    "pd": "2021-09-14"
+   },
+   {
+    "ticker": "KOPN",
+    "name": "KOPIN CORP",
+    "mult": 64.6,
+    "months": 11.1,
+    "td": "2020-03-16",
+    "pd": "2021-02-16"
+   },
+   {
+    "ticker": "CELZ",
+    "name": "CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.",
+    "mult": 64.3,
+    "months": 2.7,
+    "td": "2020-11-20",
+    "pd": "2021-02-10"
+   },
+   {
+    "ticker": "LFMD",
+    "name": "LifeMD, Inc.",
+    "mult": 61.1,
+    "months": 19.8,
+    "td": "2019-06-25",
+    "pd": "2021-02-17"
+   },
+   {
+    "ticker": "NLST",
+    "name": "NETLIST INC",
+    "mult": 60.9,
+    "months": 15.4,
+    "td": "2020-04-08",
+    "pd": "2021-07-21"
+   },
+   {
+    "ticker": "BNGO",
+    "name": "Bionano Genomics, Inc.",
+    "mult": 59.9,
+    "months": 10.5,
+    "td": "2020-04-02",
+    "pd": "2021-02-16"
+   },
+   {
+    "ticker": "ABTS",
+    "name": "Abits Group Inc",
+    "mult": 58.5,
+    "months": 16.2,
+    "td": "2020-03-09",
+    "pd": "2021-07-13"
+   },
+   {
+    "ticker": "IBIO",
+    "name": "iBio, Inc.",
+    "mult": 58.3,
+    "months": 8.0,
+    "td": "2019-11-19",
+    "pd": "2020-07-20"
+   },
+   {
+    "ticker": "BTCS",
+    "name": "BTCS Inc.",
+    "mult": 56.7,
+    "months": 11.5,
+    "td": "2020-01-30",
+    "pd": "2021-01-14"
+   },
+   {
+    "ticker": "IZEA",
+    "name": "IZEA Worldwide, Inc.",
+    "mult": 52.3,
+    "months": 10.4,
+    "td": "2020-03-16",
+    "pd": "2021-01-25"
+   },
+   {
+    "ticker": "ANVS",
+    "name": "Annovis Bio, Inc.",
+    "mult": 48.4,
+    "months": 15.4,
+    "td": "2020-04-02",
+    "pd": "2021-07-13"
+   },
+   {
+    "ticker": "IQST",
+    "name": "iQSTEL Inc",
+    "mult": 47.4,
+    "months": 13.7,
+    "td": "2020-01-02",
+    "pd": "2021-02-22"
+   },
+   {
+    "ticker": "ALTO",
+    "name": "Alto Ingredients, Inc.",
+    "mult": 47.1,
+    "months": 7.1,
+    "td": "2020-03-17",
+    "pd": "2020-10-19"
+   },
+   {
+    "ticker": "BLNK",
+    "name": "Blink Charging Co.",
+    "mult": 46.4,
+    "months": 10.3,
+    "td": "2020-03-18",
+    "pd": "2021-01-26"
+   },
+   {
+    "ticker": "NXH",
+    "name": "NEIGHBORHOOD INTELLIGENCE, INC.",
+    "mult": 46.2,
+    "months": 5.2,
+    "td": "2020-03-16",
+    "pd": "2020-08-20"
+   },
+   {
+    "ticker": "CAR",
+    "name": "AVIS BUDGET GROUP, INC.",
+    "mult": 45.9,
+    "months": 19.5,
+    "td": "2020-03-18",
+    "pd": "2021-11-02"
+   },
+   {
+    "ticker": "DXLG",
+    "name": "DESTINATION XL GROUP, INC.",
+    "mult": 44.3,
+    "months": 10.8,
+    "td": "2020-12-23",
+    "pd": "2021-11-17"
+   },
+   {
+    "ticker": "CODX",
+    "name": "Co-Diagnostics, Inc.",
+    "mult": 43.3,
+    "months": 13.4,
+    "td": "2019-06-24",
+    "pd": "2020-08-03"
+   }
+  ]
+ },
+ "W3_2022-2026": {
+  "n_names": 4321,
+  "n_25x": 124,
+  "share_25x": 0.0287,
+  "median_months_trough_to_crest_25x": 24.4,
+  "n_100x": 9,
+  "industries_with_leader_basket_ge_10x": 30,
+  "n_industries": 110,
+  "top_industries": [
+   {
+    "sic3": 599,
+    "n": 14,
+    "leader_median_x": 36.6,
+    "leader_months_median": 3.3,
+    "n_25x": 2,
+    "leaders": "INHD, NEGG, WOOF"
+   },
+   {
+    "sic3": 619,
+    "n": 93,
+    "leader_median_x": 31.7,
+    "leader_months_median": 22.8,
+    "n_25x": 12,
+    "leaders": "MI, DFDV, IREN, CIFR, CD, WULF"
+   },
+   {
+    "sic3": 366,
+    "n": 33,
+    "leader_median_x": 30.4,
+    "leader_months_median": 26.5,
+    "n_25x": 4,
+    "leaders": "ONDS, UMAC, LITE, PL, VISN, CIEN"
+   },
+   {
+    "sic3": 170,
+    "n": 16,
+    "leader_median_x": 27.3,
+    "leader_months_median": 22.7,
+    "n_25x": 3,
+    "leaders": "PHOE, LMB, AGX, AMRC"
+   },
+   {
+    "sic3": 357,
+    "n": 45,
+    "leader_median_x": 22.6,
+    "leader_months_median": 32.4,
+    "n_25x": 4,
+    "leaders": "SNDK, WDC, SMCI, QMCO, STX, DELL"
+   },
+   {
+    "sic3": 622,
+    "n": 8,
+    "leader_median_x": 22.4,
+    "leader_months_median": 15.3,
+    "n_25x": 1,
+    "leaders": "BCHG, LTCN, GXLM"
+   },
+   {
+    "sic3": 874,
+    "n": 31,
+    "leader_median_x": 21.3,
+    "leader_months_median": 8.7,
+    "n_25x": 2,
+    "leaders": "TSSI, VCIG, SUPX, ROMA, CTM, RTB"
+   },
+   {
+    "sic3": 362,
+    "n": 11,
+    "leader_median_x": 20.3,
+    "leader_months_median": 28.0,
+    "n_25x": 1,
+    "leaders": "BE, AMSC, FCEL"
+   },
+   {
+    "sic3": 100,
+    "n": 29,
+    "leader_median_x": 19.7,
+    "leader_months_median": 31.2,
+    "n_25x": 1,
+    "leaders": "ASM, ALOY, USAS, TMC, THM, HBM"
+   },
+   {
+    "sic3": 367,
+    "n": 127,
+    "leader_median_x": 19.0,
+    "leader_months_median": 36.4,
+    "n_25x": 8,
+    "leaders": "AAOI, AXTI, CLS, VRT, CRDO, KULR"
+   },
+   {
+    "sic3": 807,
+    "n": 20,
+    "leader_median_x": 18.9,
+    "leader_months_median": 41.7,
+    "n_25x": 0,
+    "leaders": "CELC, PSNL, CDNA, NTRA"
+   },
+   {
+    "sic3": 356,
+    "n": 37,
+    "leader_median_x": 17.0,
+    "leader_months_median": 30.2,
+    "n_25x": 0,
+    "leaders": "OUST, RR, GHM, CECO, AP, AZ"
+   }
+  ],
+  "top_names": [
+   {
+    "ticker": "OPTT",
+    "name": "Ocean Power Technologies, Inc.",
+    "mult": 161.5,
+    "months": 19.4,
+    "td": "2024-06-17",
+    "pd": "2026-01-27"
+   },
+   {
+    "ticker": "AAOI",
+    "name": "APPLIED OPTOELECTRONICS, INC.",
+    "mult": 148.7,
+    "months": 46.1,
+    "td": "2022-07-11",
+    "pd": "2026-05-13"
+   },
+   {
+    "ticker": "SEZL",
+    "name": "Sezzle Inc.",
+    "mult": 138.9,
+    "months": 32.6,
+    "td": "2023-10-27",
+    "pd": "2026-07-15"
+   },
+   {
+    "ticker": "WGS",
+    "name": "GeneDx Holdings Corp.",
+    "mult": 135.1,
+    "months": 24.4,
+    "td": "2023-11-13",
+    "pd": "2025-11-25"
+   },
+   {
+    "ticker": "CVNA",
+    "name": "CARVANA CO.",
+    "mult": 128.6,
+    "months": 36.9,
+    "td": "2022-12-27",
+    "pd": "2026-01-22"
+   },
+   {
+    "ticker": "TSSI",
+    "name": "TSS, Inc.",
+    "mult": 124.4,
+    "months": 25.6,
+    "td": "2023-05-10",
+    "pd": "2025-06-26"
+   },
+   {
+    "ticker": "AXTI",
+    "name": "AXT INC",
+    "mult": 121.4,
+    "months": 13.4,
+    "td": "2025-04-11",
+    "pd": "2026-05-22"
+   },
+   {
+    "ticker": "QBTS",
+    "name": "D-Wave Quantum Inc.",
+    "mult": 108.4,
+    "months": 29.2,
+    "td": "2023-05-12",
+    "pd": "2025-10-15"
+   },
+   {
+    "ticker": "MI",
+    "name": "NFT Ltd",
+    "mult": 101.2,
+    "months": 0.1,
+    "td": "2026-05-15",
+    "pd": "2026-05-19"
+   },
+   {
+    "ticker": "DRUG",
+    "name": "BRIGHT MINDS BIOSCIENCES INC.",
+    "mult": 100.0,
+    "months": 17.9,
+    "td": "2024-07-11",
+    "pd": "2026-01-07"
+   },
+   {
+    "ticker": "PSIX",
+    "name": "POWER SOLUTIONS INTERNATIONAL, INC.",
+    "mult": 92.6,
+    "months": 37.6,
+    "td": "2022-08-08",
+    "pd": "2025-09-23"
+   },
+   {
+    "ticker": "DFDV",
+    "name": "DeFi Development Corp.",
+    "mult": 86.3,
+    "months": 8.6,
+    "td": "2024-09-04",
+    "pd": "2025-05-22"
+   },
+   {
+    "ticker": "MNPR",
+    "name": "Monopar Therapeutics",
+    "mult": 85.7,
+    "months": 33.0,
+    "td": "2023-11-20",
+    "pd": "2026-08-19"
+   },
+   {
+    "ticker": "UAMY",
+    "name": "UNITED STATES ANTIMONY CORP",
+    "mult": 83.2,
+    "months": 19.8,
+    "td": "2024-02-20",
+    "pd": "2025-10-14"
+   },
+   {
+    "ticker": "BW",
+    "name": "Babcock & Wilcox Enterprises, Inc.",
+    "mult": 83.1,
+    "months": 12.8,
+    "td": "2025-04-21",
+    "pd": "2026-05-15"
+   },
+   {
+    "ticker": "NFE",
+    "name": "New Fortress Energy Inc.",
+    "mult": 82.9,
+    "months": 2.3,
+    "td": "2025-11-14",
+    "pd": "2026-01-23"
+   },
+   {
+    "ticker": "APP",
+    "name": "AppLovin Corp",
+    "mult": 78.9,
+    "months": 35.9,
+    "td": "2022-12-27",
+    "pd": "2025-12-22"
+   },
+   {
+    "ticker": "SNDK",
+    "name": "Sandisk Corp",
+    "mult": 78.8,
+    "months": 14.1,
+    "td": "2025-04-22",
+    "pd": "2026-06-25"
+   },
+   {
+    "ticker": "KOD",
+    "name": "Kodiak Sciences Inc.",
+    "mult": 76.5,
+    "months": 36.5,
+    "td": "2023-10-25",
+    "pd": "2026-11-09"
+   },
+   {
+    "ticker": "IREN",
+    "name": "IREN Ltd",
+    "mult": 72.1,
+    "months": 34.3,
+    "td": "2022-12-28",
+    "pd": "2025-11-05"
+   },
+   {
+    "ticker": "CIFR",
+    "name": "Cipher Digital Inc.",
+    "mult": 70.8,
+    "months": 41.7,
+    "td": "2022-12-28",
+    "pd": "2026-06-18"
+   },
+   {
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile, Inc.",
+    "mult": 66.2,
+    "months": 25.9,
+    "td": "2024-04-02",
+    "pd": "2026-05-28"
+   },
+   {
+    "ticker": "CD",
+    "name": "Chaince Digital Holdings Inc.",
+    "mult": 64.4,
+    "months": 34.9,
+    "td": "2022-11-11",
+    "pd": "2025-10-06"
+   },
+   {
+    "ticker": "MGRT",
+    "name": "Mega Fortune Co Ltd",
+    "mult": 62.4,
+    "months": 9.5,
+    "td": "2025-07-28",
+    "pd": "2026-05-13"
+   },
+   {
+    "ticker": "QUBT",
+    "name": "Quantum Computing Inc.",
+    "mult": 61.0,
+    "months": 5.6,
+    "td": "2024-07-01",
+    "pd": "2024-12-18"
+   },
+   {
+    "ticker": "BCHG",
+    "name": "Grayscale Bitcoin Cash Trust (BCH)",
+    "mult": 60.1,
+    "months": 15.0,
+    "td": "2023-01-03",
+    "pd": "2024-04-02"
+   },
+   {
+    "ticker": "ASBP",
+    "name": "Aspire-Lakewood Holdings, Inc.",
+    "mult": 59.7,
+    "months": 3.9,
+    "td": "2026-05-07",
+    "pd": "2026-09-03"
+   },
+   {
+    "ticker": "CLS",
+    "name": "CELESTICA INC",
+    "mult": 57.1,
+    "months": 44.2,
+    "td": "2022-09-26",
+    "pd": "2026-06-02"
+   },
+   {
+    "ticker": "DFSC",
+    "name": "DEFSEC Technologies Inc.",
+    "mult": 56.5,
+    "months": 1.9,
+    "td": "2025-04-23",
+    "pd": "2025-06-20"
+   },
+   {
+    "ticker": "APLD",
+    "name": "Applied Digital Corp.",
+    "mult": 56.4,
+    "months": 46.5,
+    "td": "2022-07-13",
+    "pd": "2026-05-28"
+   },
+   {
+    "ticker": "ENLT",
+    "name": "Enlight Renewable Energy Ltd.",
+    "mult": 54.8,
+    "months": 40.9,
+    "td": "2023-01-03",
+    "pd": "2026-05-29"
+   },
+   {
+    "ticker": "SMMT",
+    "name": "Summit Therapeutics Inc.",
+    "mult": 54.0,
+    "months": 28.8,
+    "td": "2022-12-01",
+    "pd": "2025-04-24"
+   },
+   {
+    "ticker": "WULF",
+    "name": "TERAWULF INC.",
+    "mult": 53.7,
+    "months": 39.1,
+    "td": "2023-03-16",
+    "pd": "2026-06-18"
+   },
+   {
+    "ticker": "STLN",
+    "name": "Starling Oncology, Inc.",
+    "mult": 53.4,
+    "months": 22.1,
+    "td": "2024-11-20",
+    "pd": "2026-09-22"
+   },
+   {
+    "ticker": "DBVT",
+    "name": "DBV Technologies S.A.",
+    "mult": 52.3,
+    "months": 14.0,
+    "td": "2024-11-22",
+    "pd": "2026-01-23"
+   },
+   {
+    "ticker": "NUTX",
+    "name": "Nutex Health Inc.",
+    "mult": 51.8,
+    "months": 26.9,
+    "td": "2024-07-09",
+    "pd": "2026-10-05"
+   },
+   {
+    "ticker": "PHOE",
+    "name": "Phoenix Asia Holdings Ltd",
+    "mult": 51.8,
+    "months": 8.9,
+    "td": "2025-05-05",
+    "pd": "2026-01-30"
+   },
+   {
+    "ticker": "ROOT",
+    "name": "Root, Inc.",
+    "mult": 51.4,
+    "months": 24.4,
+    "td": "2023-03-13",
+    "pd": "2025-03-24"
+   },
+   {
+    "ticker": "IDAI",
+    "name": "T Stamp Inc",
+    "mult": 50.1,
+    "months": 2.0,
+    "td": "2024-11-07",
+    "pd": "2025-01-06"
+   },
+   {
+    "ticker": "VCIG",
+    "name": "VCI Global Ltd",
+    "mult": 48.3,
+    "months": 0.1,
+    "td": "2026-10-30",
+    "pd": "2026-11-02"
+   }
+  ]
+ }
+}
