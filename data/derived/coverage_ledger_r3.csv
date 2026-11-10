@@ -1,0 +1,2 @@
+step,in,out,cut,rule
+S1,1930,1723,207,"Stage 1 code pass (Section 5.2): PASS = 1509; NEEDS_FILING_CHECK: lead asset = 142; FAIL: runway<12m, no financing filed since = 95; NEEDS_FILING_CHECK: survival = 72; FAIL: late filing (NT) with <12m runway = 70; FAIL: 8-K item 4.02 non-reliance (restatement) within 12m = 39; FAIL: exchange financial-status flag E = 2; FAIL: exchange financial-status flag H = 1"

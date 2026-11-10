@@ -1,6 +1,6 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
-**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R1 in progress (data layer building), R2 started in parallel
+**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R3 in progress (Stage 1 code pass running; cohort build running)
 **Last updated:** 2026-11-10 ~12:30 UTC
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
@@ -62,18 +62,18 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 
 ## Per-stage checklist
 
-- [ ] **R1 — Blueprint + data layer** (Tue Nov 10)
+- [x] **R1 — Blueprint + data layer** (Tue Nov 10) — COMPLETE 2026-11-10 ~12:15 UTC
   - [x] state folder created; rules restated; waiver recorded (2026-11-10)
   - [x] source probe done; environment `parson` created with public data hosts (2026-11-10)
   - [x] blueprint.md written (schemas ×4, feature schema, label pseudocode, warrant form, ledger/ticket/buy-set templates)
   - [x] survivorship-free CIK master: 16,594 CIKs from XBRL frames 2009Q2–2026Q3 → `data/derived/frames_cover.parquet`
-  - [ ] FILINGS tables: submissions + companyfacts for all master CIKs → `data/pit/` (running: `scripts/r1_pull_facts.py`, resumable)
-  - [ ] PRICES table: full daily history for 7,457 listed non-ETF securities → `data/prices/listed/` (running: `scripts/r2_pull_prices.py`, resumable)
-  - [ ] DuckDB views + data dictionary check; leakage tests
-  - [ ] R1 stage report posted
-- [ ] **R2 — Universe build** (Tue Nov 10): field enumerated (13,241 listed securities); floors + damage scan pending the pulls
-- [ ] **R3 — Screen** (Wed–Thu)
-- [ ] **R4 — Cohort + ML ranking + cross-check** (Thu–Fri)
+  - [x] FILINGS tables: 16,594 entities, 7,530,896 filings, 13,601,520 as-first-filed facts → `data/pit/` (rebuild: `scripts/r1_pull_facts.py`, ~70 min)
+  - [x] PRICES: 7,454 listed symbols (22.1M rows to 2026-11-09), 361 Nasdaq warrants, 616 OTC → `data/prices/` (rebuild: `scripts/r2_pull_prices.py`, `r2_pull_nasdaq_hist.py`, ~45 min)
+  - [x] DuckDB views (`ah/store.py`), PIT series (`ah/pit.py`), 6 leakage tests pass (`tests/test_leakage.py`)
+  - [x] R1 stage report posted (`stage_reports/R1.md`)
+- [x] **R2 — Universe build** (Tue Nov 10) — COMPLETE 2026-11-10 ~12:25 UTC: 14,177 enumerated → 1,930 in `universe.csv` (1,836 issuers); ledger F0–D1 in `screen_log.md`; report `stage_reports/R2.md`
+- [ ] **R3 — Screen** (Wed–Thu) — STARTED early 2026-11-10: Stage 1 code pass `scripts/r3_stage1.py` → `data/derived/stage1.parquet`; verification batches not yet started
+- [ ] **R4 — Cohort + ML ranking + cross-check** (Thu–Fri) — cohort build STARTED early: `scripts/r4_build_cohort.py` → `data/derived/cohort_bases.parquet`, `cohort_counts.json`
 - [ ] **R5 — White-swan math + finalists** (Fri)
 - [ ] **R6 — Finalist deep verification + red team** (Sat)
 - [ ] **R7 — Buy set lock (Sun Nov 15), buy day + close-out (Mon Nov 16)**
@@ -85,6 +85,8 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
   read through the QuoteMedia mirror that Nasdaq's filing pages link to (works; covers currently listed symbols).
   Possible remedy, user's decision: SEC asks automated clients to declare a contact email in the User-Agent. I will
   not send the user's email to any outside service without his explicit say-so. Asked in session 2026-11-10; no answer yet.
+  The mirror serves only the latest 10-K, latest 10-Q and ~6 months of other filings: original warrant-agreement exhibits from earlier
+  years are NOT readable → affected warrants go to Could-Not-Verify (PARTIALLY_VERIFIED), never the ranked table, unless B1 is lifted.
 - **B2 — OTC Markets site returns a maintenance page.** OTC discovery uses the EDGAR `exchanges` field instead.
 - **B3 — Yahoo purges most delisted tickers** (tested: 20 of 25 known-dead tickers return nothing). Handled in the
   cohort design as the `S2_UNPRICED` subset; documented in `blueprint.md` §8.2.
@@ -109,12 +111,15 @@ NOT LOCKED.
 
 ## Next three actions, in order
 
-1. Wait for `scripts/r1_pull_facts.py` and `scripts/r2_pull_prices.py` to finish (both resumable — just re-run them);
-   then build DuckDB views and run the leakage tests; post the R1 stage report.
-2. R2: map symbols ↔ CIKs, add SEC-reporting OTC names, apply floors F1–F5 and damage scan D1, write `universe.csv`
-   and the coverage ledger in `screen_log.md`; post the R2 stage report.
-3. R3: begin hard-filter + survival scoring on the R2 universe in verification batches of ≤ 25; start the cohort build.
+1. If `data/pit` or `data/prices` are missing (fresh container): rebuild with `python3 scripts/r1_secmaster_frames.py && python3 scripts/r1_pull_facts.py`,
+   then `python3 scripts/r2_pull_prices.py data/tmp/syms_listed.csv listed` (see README), then `python3 scripts/r2_build_universe.py map` / `scan`.
+2. R3: read `data/derived/stage1.parquet` (Stage 1 outcomes); cluster survivors by theme; run filing-level verification batches of ≤ 25
+   (subagents, `scripts/filing.py` is their reader); append each batch to `screen_log.md`; write INSTRUMENT TERMS for surviving warrants.
+3. R4: read `data/derived/cohort_counts.json`; write `cohort_report.md`; run the pre-flight class count and the model or its mandated degradation.
 
 ## Stage reports (appended)
 
-(none yet)
+- R1 — complete 2026-11-10. Full text: `stage_reports/R1.md`. Summary: state folder live; blueprint written; survivorship-free master of
+  16,594 CIKs; 7.5M filings; 13.6M as-first-filed facts; 22.1M daily price rows; leakage tests pass. Blockers B1–B3 above.
+- R2 — complete 2026-11-10. Full text: `stage_reports/R2.md`. Summary: 14,177 securities enumerated → 7,455 in scope → 6,794 with CIK →
+  5,444 pass the 10-K+10-Q floor → 5,338 priced → 3,891 liquid → 1,930 priced-for-failure (universe.csv). Rules as written, not tuned to 800–1,500.

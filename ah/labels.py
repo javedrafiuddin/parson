@@ -73,7 +73,8 @@ def classify(df, swan_peak=25.0, swan_term=10.0, H=5, grave_drop=0.95):
     """SWAN / GRAVEYARD / MUDDLE / UNRESOLVED for the priced subset.
     A window that has not matured (resolved_H False) is UNRESOLVED unless the swan peak was ALREADY reached
     (a peak that has happened cannot un-happen) - shortened windows never become zeros or muddles silently."""
-    mfe, term, res = df[f"mfe_{H}y"], df[f"term_{H}y"], df[f"resolved_{H}y"]
+    mfe, term = df[f"mfe_{H}y"], df[f"term_{H}y"]
+    res = df[f"resolved_{H}y"].fillna(False).astype(bool)
     swan = (mfe >= swan_peak) | (term >= swan_term)
     grave = res & (term <= (1 - grave_drop))
     out = np.where(swan, "SWAN", np.where(~res, "UNRESOLVED", np.where(grave, "GRAVEYARD", "MUDDLE")))

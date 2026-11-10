@@ -110,7 +110,18 @@ def sec_filings(symbol, limit=100, group=None):
     if group:
         p["formGroup"] = group
     j = get_json(f"{API}/company/{symbol}/sec-filings", params=p)
-    return (((j or {}).get("data") or {}).get("rows")) or []
+    d = (j or {}).get("data") or {}
+    rows = list(d.get("rows") or [])
+    have = {(r["formType"], r["filed"]) for r in rows}
+    # the mirror lists ~6 months of filings; the latest 10-K / 10-Q are always exposed under "latest"
+    for x in d.get("latest") or []:
+        m = re.search(r"dateFiled=(\d{4})-(\d{2})-(\d{2})", x.get("value") or "")
+        if not m:
+            continue
+        filed = f"{m.group(2)}/{m.group(3)}/{m.group(1)}"
+        if (x["label"], filed) not in have:
+            rows.append({"formType": x["label"], "filed": filed, "period": "", "view": {"htmlLink": x["value"]}})
+    return rows
 
 
 def filing_text(html_link, maxlen=None):

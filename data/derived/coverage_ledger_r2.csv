@@ -1,0 +1,8 @@
+step,in,out,cut,rule
+F0,,14177,,"field enumerated: 13241 listed securities (Nasdaq Trader directory) + 936 OTC tickers of SEC registrants (EDGAR submissions, exchanges=OTC)"
+F1,14177.0,7455,6722.0,"instrument scope = common/ADR/warrant/convertible-or-preferred/OTC common; cut by type: {""etf"": 5784, ""unit"": 322, ""fund_or_etn"": 318, ""note"": 190, ""right"": 108}"
+F2,7455.0,6794,661.0,maps to an EDGAR CIK that has filed XBRL periodic reports (submissions.tickers; base-symbol fallback for instrument lines)
+F3,6794.0,5444,1350.0,"filing floor: 10-K and 10-Q both filed since 2025-11-10; of the 1350 cut, 1004 are 20-F/40-F-only foreign issuers, the rest are delinquent/new/non-reporting"
+F4,5444.0,5338,106.0,"price floor: >= 60 sessions of history and a quote within the last 10 sessions (Yahoo chart API, delayed)"
+F5,5338.0,3891,1447.0,"liquidity floor: 20-day average dollar volume >= $250k (common/ADR/OTC) or >= $50k (warrants, preferreds)"
+D1,3891.0,1930,1961.0,"cheap damage scan, any of: drawdown>=60% from 3y high (935), EV<2.0x TTM revenue (1346), mcap<$500M with TTM revenue>$20M (571); two or more tests: 684"

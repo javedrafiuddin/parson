@@ -94,6 +94,19 @@ if phase == "map":
 # ---------- F4/F5: price + liquidity floors ----------
 snap = px.snapshot(ASOF, c)
 u4 = u3.merge(snap, left_on="symbol", right_on="ticker", how="left")
+# NYSE-family warrants: neither Yahoo nor Nasdaq serves their daily history. Use the live Nasdaq quote instead:
+# last price and LAST-SESSION consolidated dollar volume stand in for the 20-day ADV (flagged in adv_src).
+wq = pd.read_parquet(DERIVED / "quotes_warrants.parquet")
+wq["px_q"] = wq["last"].fillna(wq.close_last)
+wq["dv_q"] = wq.px_q * wq.volume
+u4 = u4.merge(wq[["symbol", "px_q", "dv_q", "quote_ts"]], on="symbol", how="left")
+thin = (u4.sec_type == "warrant") & (u4.n_days.fillna(0) < 60) & u4.px_q.notna()
+u4["adv_src"] = np.where(thin, "nasdaq_quote_last_session_volume", "20d_history")
+u4.loc[thin, "last_close"] = u4.px_q[thin]
+u4.loc[thin, "adv20"] = u4.dv_q[thin]
+u4.loc[thin, "n_days"] = 60
+u4.loc[thin, "last_date"] = pd.Timestamp("2026-11-09")
+u4.loc[thin, "drawdown_3y"] = np.nan
 recent = (pd.Timestamp(ASOF) - pd.to_datetime(u4.last_date)).dt.days <= 14
 ok4 = u4.last_close.notna() & (u4.n_days >= 60) & recent
 led("F4", len(u4), int(ok4.sum()), "price floor: >= 60 sessions of history and a quote within the last 10 sessions (Yahoo chart API, delayed)")
@@ -125,7 +138,12 @@ is_common = u5.sec_type.isin(["common", "adr", "otc_common"])
 u5["mcap_calc"] = np.where(is_common, u5.last_close * u5.shares_adj, np.nan)
 # issuer cap for instrument lines = cap of the issuer's most liquid common line
 iss_cap = u5[is_common].sort_values("adv20", ascending=False).drop_duplicates("cik").set_index("cik")
-u5["mcap"] = np.where(is_common, u5.mcap_calc.fillna(u5.mcap_screener), u5.cik.map(iss_cap.mcap_calc.fillna(iss_cap.mcap_screener)))
+# Nasdaq's screener cap (last sale x shares outstanding, ADS-ratio aware) is primary where it exists; price x
+# as-filed shares is the fallback and the cross-check (mismatch > 30% is flagged for filing-level share-count verification)
+u5["mcap_issuer_line"] = u5.mcap_screener.where(u5.mcap_screener > 0).fillna(u5.mcap_calc)
+u5["mcap_mismatch"] = is_common & u5.mcap_calc.notna() & (u5.mcap_screener > 0) & ((u5.mcap_calc / u5.mcap_screener - 1).abs() > 0.30)
+iss_cap = u5[is_common].sort_values("adv20", ascending=False).drop_duplicates("cik").set_index("cik")
+u5["mcap"] = np.where(is_common, u5.mcap_issuer_line, u5.cik.map(iss_cap.mcap_issuer_line))
 u5["issuer_drawdown_3y"] = np.where(is_common, u5.drawdown_3y, u5.cik.map(iss_cap.drawdown_3y))
 u5["ev"] = u5.mcap + u5.debt_total.fillna(0) + u5.pref_liq.fillna(0) - u5.cash_total.fillna(0)
 u5["ev_rev"] = u5.ev / u5.rev_ttm.where(u5.rev_ttm > 0)

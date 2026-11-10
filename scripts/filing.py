@@ -32,6 +32,7 @@ def listing(symbol, forms=None, n=60):
                         "period": r.get("period"), "link": r["view"]["htmlLink"]} for r in rows])
     if df.empty:
         return df
+    df = df.sort_values("filed", ascending=False).reset_index(drop=True)
     if forms:
         fs = set(forms.split(","))
         df = df[df.form.isin(fs) | df.form.str.replace("/A", "").isin(fs)]

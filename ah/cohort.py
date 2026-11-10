@@ -180,6 +180,8 @@ def build(base_dates=None, rt_cost=None, verbose=True):
         mx.append(g[["cik", "base_date"]].merge(w.groupby("cik").val.max().rename("float_max_3y"), on="cik", how="left"))
     B = B.merge(pd.concat(mx), on=["cik", "base_date"], how="left")
     B["float_dd"] = 1 - B.float_usd / B.float_max_3y
+    B = B.reset_index(drop=True)
+    s1 = B.subset == "S1_PRICED"
 
     # ---- 5. entry condition ----
     S = SCREEN
