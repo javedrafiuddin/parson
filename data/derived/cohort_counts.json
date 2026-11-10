@@ -1,0 +1,133 @@
+{
+ "log": [
+  [
+   "cik-dates with any balance sheet known before the base date",
+   391355
+  ],
+  [
+   "... of which active 10-K/10-Q filer at the base date",
+   346854
+  ],
+  [
+   "priced CIKs (a quoted line exists today)",
+   5404
+  ],
+  [
+   "dropped: priced CIK with no quote near that base date (pre-listing / halted)",
+   5503
+  ],
+  [
+   "float proxy threshold where >=50% of priced names clear the $250k ADV floor (USD)",
+   56234133
+  ]
+ ],
+ "active_filer_cik_dates": 341351,
+ "by_subset_all": {
+  "S2_UNPRICED": 195434,
+  "S1_PRICED": 145917
+ },
+ "qualifying_bases_exact": {
+  "S1_PRICED": 55791,
+  "S2_UNPRICED": 36740
+ },
+ "qualifying_bases_safe": {
+  "S1_PRICED": 51892,
+  "S2_UNPRICED": 36740
+ },
+ "exact_class_by_subset": {
+  "S1_PRICED": {
+   "UNRESOLVED": 26883,
+   "MUDDLE": 26642,
+   "GRAVEYARD": 1752,
+   "SWAN": 514
+  },
+  "S2_UNPRICED": {
+   "MUDDLE": 25664,
+   "UNRESOLVED": 5536,
+   "GRAVEYARD": 3443,
+   "GRAVEYARD_BROAD": 1358,
+   "POSSIBLE_SWAN_UNPRICED": 739
+  }
+ },
+ "exact_class_by_year_S1": {
+  "2012": {
+   "MUDDLE": 816,
+   "GRAVEYARD": 23,
+   "SWAN": 3
+  },
+  "2013": {
+   "MUDDLE": 1483,
+   "GRAVEYARD": 42,
+   "SWAN": 1
+  },
+  "2014": {
+   "MUDDLE": 1907,
+   "GRAVEYARD": 82,
+   "SWAN": 4
+  },
+  "2015": {
+   "MUDDLE": 2341,
+   "GRAVEYARD": 94,
+   "SWAN": 11
+  },
+  "2016": {
+   "MUDDLE": 2700,
+   "GRAVEYARD": 82,
+   "SWAN": 48
+  },
+  "2017": {
+   "MUDDLE": 2876,
+   "GRAVEYARD": 140,
+   "SWAN": 32
+  },
+  "2018": {
+   "MUDDLE": 3255,
+   "GRAVEYARD": 180,
+   "SWAN": 43
+  },
+  "2019": {
+   "MUDDLE": 3680,
+   "GRAVEYARD": 191,
+   "SWAN": 61
+  },
+  "2020": {
+   "MUDDLE": 4546,
+   "GRAVEYARD": 403,
+   "SWAN": 127
+  },
+  "2021": {
+   "MUDDLE": 3038,
+   "UNRESOLVED": 1358,
+   "GRAVEYARD": 515,
+   "SWAN": 39
+  },
+  "2022": {
+   "UNRESOLVED": 6483,
+   "SWAN": 61
+  },
+  "2023": {
+   "UNRESOLVED": 6636,
+   "SWAN": 42
+  },
+  "2024": {
+   "UNRESOLVED": 6926,
+   "SWAN": 27
+  },
+  "2025": {
+   "UNRESOLVED": 5480,
+   "SWAN": 15
+  }
+ },
+ "distinct_cik_by_class_exact": {
+  "GRAVEYARD": 743,
+  "GRAVEYARD_BROAD": 225,
+  "MUDDLE": 3965,
+  "POSSIBLE_SWAN_UNPRICED": 133,
+  "SWAN": 163,
+  "UNRESOLVED": 3682
+ },
+ "swan_25x_peak_name_dates": 355,
+ "swan_10x_terminal_name_dates": 276,
+ "swan_distinct_ciks": 163,
+ "elapsed_s": 87.3
+}

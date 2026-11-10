@@ -1,7 +1,7 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
-**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R3 in progress (Stage 1 code pass running; cohort build running)
-**Last updated:** 2026-11-10 ~12:30 UTC
+**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R3 in progress (Stage 1 code pass done; verification batches next) · R4 cohort + models DONE early
+**Last updated:** 2026-11-10 ~17:15 UTC
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
 > stands, continue at the next incomplete stage. Never redo a completed stage except to correct a logged error.
@@ -72,8 +72,18 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
   - [x] DuckDB views (`ah/store.py`), PIT series (`ah/pit.py`), 6 leakage tests pass (`tests/test_leakage.py`)
   - [x] R1 stage report posted (`stage_reports/R1.md`)
 - [x] **R2 — Universe build** (Tue Nov 10) — COMPLETE 2026-11-10 ~12:25 UTC: 14,177 enumerated → 1,930 in `universe.csv` (1,836 issuers); ledger F0–D1 in `screen_log.md`; report `stage_reports/R2.md`
-- [ ] **R3 — Screen** (Wed–Thu) — STARTED early 2026-11-10: Stage 1 code pass `scripts/r3_stage1.py` → `data/derived/stage1.parquet`; verification batches not yet started
-- [ ] **R4 — Cohort + ML ranking + cross-check** (Thu–Fri) — cohort build STARTED early: `scripts/r4_build_cohort.py` → `data/derived/cohort_bases.parquet`, `cohort_counts.json`
+- [ ] **R3 — Screen** (Wed–Thu) — STARTED early 2026-11-10
+  - [x] Stage 1 code pass (`scripts/r3_stage1.py` → `data/derived/stage1.parquet`): 1,930 → 1,723 continue (1,509 PASS; 142 need lead-asset check; 72 need survival check); 207 FAIL logged
+  - [x] company descriptions pulled for theme discovery (`data/derived/profiles.parquet`, 1,623 of 1,637 issuers; vendor text = lead only)
+  - [ ] emergent theme clusters + fallen leaders written to `screen_log.md`
+  - [ ] filing-level verification batches (≤ 25 names, subagents) in rank order → `asymmetry-hunter-state/batches/`
+  - [ ] wave-formation evidence per surviving theme; vehicle choice; INSTRUMENT TERMS for surviving warrants
+- [ ] **R4 — Cohort + ML ranking + cross-check** (Thu–Fri)
+  - [x] cohort built (`scripts/r4_build_cohort.py`): 58,644 matured bases, 363 swan name-dates / 121 CIKs, 5,268 graveyard; `cohort_report.md` WRITTEN
+  - [x] pre-flight count + validation (`scripts/r4_model.py`, `r4_baserate_model.py`): swan ranking FAILED benchmarks → elastic-net swan model RETIRED, base-rate table used; wipeout model PASSED 4/4 purged folds (model version `ah-v3-e679a99d598d`)
+  - [x] measured Fermi factors (`scripts/r4_wave_rates.py` → `wave_rates.json`): survival 0.655, wave 0.0252, leads 0.393, captures 0.604 → 1-in-255 for a ≥25x peak
+  - [x] today's field scored: `data/derived/baserate_scores.parquet` (P(swan) table + sweep range + P(zero))
+  - [ ] blind human–model cross-check (8.7) on verified survivors
 - [ ] **R5 — White-swan math + finalists** (Fri)
 - [ ] **R6 — Finalist deep verification + red team** (Sat)
 - [ ] **R7 — Buy set lock (Sun Nov 15), buy day + close-out (Mon Nov 16)**

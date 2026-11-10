@@ -107,15 +107,32 @@ class Prep:
         return Z.fillna(self.med).fillna(0.0)
 
 
+def case_control(X, y, max_neg=12000, seed=0):
+    """Keep every positive and a seeded random sample of negatives (8.2 ii allows case-control FITTING; every
+    probability is re-anchored to the true prevalence afterwards by prior_correct)."""
+    y = np.asarray(y)
+    neg = np.flatnonzero(y == 0)
+    if len(neg) <= max_neg:
+        return X, y
+    r = np.random.default_rng(seed)
+    keep = np.sort(np.concatenate([np.flatnonzero(y == 1), r.choice(neg, size=max_neg, replace=False)]))
+    return X.iloc[keep], y[keep]
+
+
 def fit_enet(X, y, w=None, C=0.05, l1_ratio=0.5, seed=0):
-    m = make_pipeline(StandardScaler(), LogisticRegression(penalty="elasticnet", solver="saga", C=C, l1_ratio=l1_ratio,
-                                                           class_weight="balanced", max_iter=4000, random_state=seed))
+    X, y = case_control(X, y, seed=seed)
+    w = None
+    m = make_pipeline(StandardScaler(), LogisticRegression(solver="saga", C=C, l1_ratio=l1_ratio,
+                                                           class_weight="balanced", max_iter=3000, tol=2e-3, random_state=seed))
     m.fit(X, y, logisticregression__sample_weight=w)
     return m
 
 
 def fit_gbm(X, y, w=None, seed=0):
     import lightgbm as lgb
+    X, y = case_control(X, y, seed=seed)
+    y = pd.Series(y)
+    w = None
     pos = max(y.sum(), 1)
     m = lgb.LGBMClassifier(n_estimators=250, learning_rate=0.02, max_depth=2, num_leaves=4, min_child_samples=40,
                            min_child_weight=5.0, subsample=0.7, subsample_freq=1, colsample_bytree=0.7, reg_lambda=10.0,
@@ -144,24 +161,29 @@ def random_benchmark(y, k, draws=1000, seed=0):
     return hits
 
 
-def walk_forward(D, X, ycol, rubric_col="rubric", horizon_years=5, test_years=None, model="enet", ks=(25, 50, 100)):
+def walk_forward(D, X, ycol, rubric_col="rubric", horizon_years=5, test_years=None, model="enet", ks=(25, 50, 100),
+                 train_pool=None, X_pool=None, min_train_pos=8):
     """Expanding-window purged walk-forward. Train = bases whose label window closed before the test year's first
     base date (purge), test = bases of one calendar year. Because training never uses bases after the test block,
     the post-test embargo is satisfied by construction. Returns per-fold metrics + out-of-fold predictions."""
     D = D.copy()
     D["byear"] = pd.to_datetime(D.base_date).dt.year
     years = sorted(D.byear.unique())
-    test_years = test_years or [y for y in years if y - horizon_years - 1 >= years[0]]
+    y0 = years[0] if train_pool is None else int(pd.to_datetime(train_pool.base_date).dt.year.min())
+    test_years = test_years or [y for y in years if y - horizon_years - 1 >= y0]
     rows, oof = [], []
     for ty in test_years:
         t0 = pd.to_datetime(D.loc[D.byear == ty, "base_date"]).min()
-        tr = D[pd.to_datetime(D.base_date) + pd.Timedelta(days=int(365.25 * horizon_years) + 15) < t0]
+        TP, XP = (D, X) if train_pool is None else (train_pool, X_pool)
+        tr = TP[pd.to_datetime(TP.base_date) + pd.Timedelta(days=int(365.25 * horizon_years) + 15) < t0]
+        tr = tr.assign(byear=pd.to_datetime(tr.base_date).dt.year)
         te = D[D.byear == ty]
-        if tr[ycol].sum() < 8 or len(te) < 50:
-            rows.append({"test_year": ty, "skipped": f"train positives {int(tr[ycol].sum())}, test n {len(te)}"})
+        if tr[ycol].sum() < min_train_pos or len(te) < 50:
+            rows.append({"test_year": ty, "skipped": f"train positives {int(tr[ycol].sum())} (< {min_train_pos}), test n {len(te)}, test positives {int(te[ycol].sum())}"})
             continue
-        pr = Prep().fit(X.loc[tr.index])
-        Xtr, Xte = pr.transform(X.loc[tr.index]), pr.transform(X.loc[te.index])
+        pr = Prep().fit(XP.loc[tr.index])
+        Xtr, Xte = pr.transform(XP.loc[tr.index]), pr.transform(X.loc[te.index])
+        Xte = Xte.reindex(columns=Xtr.columns, fill_value=0.0)
         m = fit_enet(Xtr, tr[ycol].astype(int)) if model == "enet" else fit_gbm(Xtr, tr[ycol].astype(int))
         pbal = m.predict_proba(Xte)[:, 1]
         prev = tr[ycol].mean()                                    # climatology known at training time
@@ -171,6 +193,7 @@ def walk_forward(D, X, ycol, rubric_col="rubric", horizon_years=5, test_years=No
         y = te[ycol].astype(int).to_numpy()
         clim = np.full(len(y), prev)
         r = {"test_year": ty, "train_years": f"{tr.byear.min()}-{tr.byear.max()}", "n_train": len(tr), "train_pos": int(tr[ycol].sum()),
+             "train_pos_ciks": int(tr[tr[ycol] == 1].cik.nunique()),
              "n_test": len(te), "test_pos": int(y.sum()), "test_base_rate": float(y.mean()),
              "brier_model": brier_score_loss(y, p), "brier_clim": brier_score_loss(y, clim),
              "logloss_model": log_loss(y, np.clip(p, 1e-6, 1 - 1e-6), labels=[0, 1]),

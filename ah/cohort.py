@@ -140,7 +140,7 @@ def build(base_dates=None, rt_cost=None, verbose=True):
     P, sp = price_block(c, tmap, base_dates, rt)
     say("priced CIKs (a quoted line exists today)", P.cik.nunique())
     B = F.merge(P, on=["cik", "base_date"], how="left")
-    B["subset"] = np.where(B.entry_ask.notna(), "S1_PRICED", "S2_UNPRICED")
+    B["subset"] = np.where(B.close_bd.notna(), "S1_PRICED", "S2_UNPRICED")
     # a CIK that is priced today but had no quote at that base date (pre-IPO shell, pre-listing) is not a base
     priced_ciks = set(P.cik.unique())
     pre = (B.subset == "S2_UNPRICED") & B.cik.isin(priced_ciks)
@@ -224,3 +224,44 @@ def build(base_dates=None, rt_cost=None, verbose=True):
                      np.where(died_in, "DARK_OR_DEREGISTERED", "STILL_FILING_UNPRICED"))))
     B["death_date"] = death.where(died_in)
     return B, log
+
+
+def postprocess(B, c, dates):
+    """Shared by the historical cohort AND today's field so model inputs are built by one code path:
+    prior-year values (same CIK, decision date one year earlier), filing-index flags known before the date,
+    SIC, and the survivorship-free sector context."""
+    from . import model
+    ent = c.execute("SELECT cik, sic, name AS sec_name FROM entities").df()
+    B = B.merge(ent, on="cik", how="left")
+    prev = B[["cik", "base_date", "rev_ttm", "shares", "float_usd"]].copy()
+    prev["base_date"] = prev.base_date + pd.DateOffset(years=1)
+    prev = prev.rename(columns={"rev_ttm": "rev_ttm_prev", "shares": "shares_prev", "float_usd": "float_prev"})
+    B = B.merge(prev.drop_duplicates(["cik", "base_date"]), on=["cik", "base_date"], how="left")
+    c.execute("CREATE OR REPLACE TEMP TABLE bdt AS SELECT CAST(d AS DATE) d FROM (SELECT unnest(?) d)", [list(dates)])
+    fx = c.execute("""SELECT f.cik, b.d AS base_date,
+            max(CASE WHEN (f.form LIKE '424B%' OR f.form IN ('S-1','S-1/A','S-3','S-3/A','S-3ASR')) AND CAST(f.filed AS DATE) >= b.d - INTERVAL 90 DAY THEN 1 ELSE 0 END) offering_doc_90d,
+            max(CASE WHEN f.form LIKE 'NT 10-%' THEN 1 ELSE 0 END) nt_12m_flag
+         FROM bdt b JOIN filings f ON CAST(f.filed AS DATE) < b.d AND CAST(f.filed AS DATE) >= b.d - INTERVAL 365 DAY
+         WHERE f.form LIKE '424B%' OR f.form IN ('S-1','S-1/A','S-3','S-3/A','S-3ASR') OR f.form LIKE 'NT 10-%'
+         GROUP BY 1,2""").df()
+    fx["base_date"] = pd.to_datetime(fx.base_date)
+    B = B.merge(fx, on=["cik", "base_date"], how="left")
+    B = B.reset_index(drop=True)
+    return pd.concat([B, model.sector_context(B)], axis=1)
+
+
+def classify_all(Q, asof="2026-11-09", H=5, swan_peak=25.0, swan_term=10.0):
+    """One class column for both subsets. A base is MATURED when its H-year window has closed.
+    S1: path labels. S2 (unpriced): BANKRUPTCY -> GRAVEYARD; DARK -> GRAVEYARD_BROAD; merged/acquired or still filing
+    at window end -> MUDDLE, except float-implied value multiple >= 10x -> POSSIBLE_SWAN_UNPRICED (upper-bound bracket)."""
+    Q = Q.copy()
+    s1 = Q.subset == "S1_PRICED"
+    Q["matured"] = Q.base_date + pd.Timedelta(days=int(365.25 * H) + 15) <= pd.Timestamp(asof)
+    c1 = labels.classify(Q[s1], swan_peak=swan_peak, swan_term=swan_term, H=H)
+    ev = Q.s2_event
+    poss = Q.float_mult_max_5y >= 10
+    c2 = np.where(ev == "BANKRUPTCY", "GRAVEYARD", np.where(ev == "DARK_OR_DEREGISTERED", "GRAVEYARD_BROAD",
+         np.where(poss, "POSSIBLE_SWAN_UNPRICED", np.where(Q.matured, "MUDDLE", "UNRESOLVED"))))
+    Q["cls"] = pd.Series(c2, index=Q.index)
+    Q.loc[s1, "cls"] = c1
+    return Q

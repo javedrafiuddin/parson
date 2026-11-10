@@ -24,7 +24,7 @@ def _fwd_min(a, n):
     return out
 
 
-def path_labels(px, base_dates, rt_cost=0.02, horizons=(1, 3, 5), extra=(4, 6)):
+def path_labels(px, base_dates, rt_cost=0.02, horizons=(1, 3, 5), extra=(4, 6), allow_open=True):
     """px: one ticker's frame sorted by date with columns date, close, adjclose, volume.
     Returns one row per base date at which the ticker had a quote within 7 days at/before the base date."""
     d = px["date"].to_numpy()
@@ -32,7 +32,7 @@ def path_labels(px, base_dates, rt_cost=0.02, horizons=(1, 3, 5), extra=(4, 6)):
     adj = px["adjclose"].to_numpy(float)
     vol = px["volume"].to_numpy(float)
     n = len(d)
-    if n < 2:
+    if n < 1:
         return None
     half = rt_cost / 2.0
     rows = []
@@ -40,10 +40,20 @@ def path_labels(px, base_dates, rt_cost=0.02, horizons=(1, 3, 5), extra=(4, 6)):
     fm = {h: _fwd_max(cl, SESS[h]) for h in set(horizons) | set(extra)}
     fmin5 = _fwd_min(cl, SESS[5])
     for bd, i in zip(base_dates, idx):
-        if i < 0 or i + 1 >= n:
+        if i < 0:
             continue
         if (np.datetime64(bd) - d[i]) > np.timedelta64(7, "D"):
             continue                       # no quote near the base date -> not tradable there
+        if i + 1 >= n:
+            # base date is the present: no entry session exists yet. Emit an OPEN row (no labels) so that the
+            # feature path is identical for today's field; every label field stays NaN / unresolved.
+            if allow_open:
+                r = {"base_date": bd, "entry_date": np.datetime64("NaT"), "entry_close": np.nan, "entry_ask": np.nan, "entry_vol": np.nan}
+                for h in set(horizons) | set(extra):
+                    r[f"mfe_{h}y"], r[f"term_{h}y"], r[f"resolved_{h}y"] = np.nan, np.nan, False
+                r["min_5y"], r["last_date"], r["last_over_entry"] = np.nan, d[n - 1], np.nan
+                rows.append(r)
+            continue
         j = i + 1                          # entry session = next session after the base date
         if (d[j] - np.datetime64(bd)) > np.timedelta64(10, "D"):
             continue                       # next quote is far away -> untradable at the base (logged upstream)
