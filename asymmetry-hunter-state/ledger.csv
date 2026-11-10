@@ -1,0 +1,2 @@
+log_id,event_type,ts_et,ts_utc,ticker,vehicle_terms,thesis,ev_decomposition,bear_case,invalidation,doctrine_ref,sizing_math,bid_lock,ask_lock,spread_lock,bid_fill,ask_fill,spread_fill,limit_price,fill_price,quantity,fees,settled_cash_before,settled_cash_after,model_version,exit_price,exit_reason,gross_pl_usd,gross_pl_pct,net_pl_usd,net_pl_pct,hold_days,followed_doctrine,notes
+L0001,stage event,2026-11-10 06:02,2026-11-10 11:02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"R1 started: state folder created, rules restated, waiver recorded; source probe; CIK master 16,594 built"
