@@ -48,7 +48,9 @@ def classify(name, symbol=""):
         return "adr"
     if re.search(r"common stock|common shares?|ordinary shares?|class [a-c]\b|common units|capital stock|shares of beneficial|subordinate voting|limited partner|lp units|\bstock\b|\bshares\b", n):
         return "common"
-    return "other"
+    if re.search(r"\betns?\b|strats|tr ctf|\bpfd\b|trust for|pplus|certificates", n):
+        return "note"
+    return "common"   # bare company names in the directory are common stock
 
 
 def screener():
