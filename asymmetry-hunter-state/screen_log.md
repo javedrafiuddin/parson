@@ -39,6 +39,7 @@ Notes on method limits (also in could_not_verify.md):
 | # | Step | Names in | Names out | Cut | Rule / evidence |
 |---|---|---|---|---|---|
 | S1 | Stage 1 hard filters (code) | 1,930 | 1,723 | 207 | fails: runway < 12 months with no financing document filed since the balance sheet (95); late filer (NT 10-K/10-Q) with < 12 months runway (70); 8-K item 4.02 non-reliance/restatement inside 12 months (39); exchange financial-status flag (3). Per-name outcomes: `data/derived/stage1.parquet` column `stage1` |
+| P1 | 25x plausibility pre-check (Section 6.3 applied early) | 436 tier-1 | 407 | 29 | names with market cap > $10B: a 25x path needs > $250B, a level only 43 of 3,414 scanned US issuers hold today, so the upside is capped below the 25x class. Logged per name in `batches/plausibility_precheck_cut.csv` (ORCL, SNDK, WDC, ADBE, NKE, MSTR, RKLB, RBLX, COIN, FISV, CRWV, AXON, …). The $10B line is my threshold, stated here so it can be challenged |
 
 | Stage 1 outcome | Names |
 |---|---|
