@@ -1,0 +1,799 @@
+{
+ "batch": "VA-06",
+ "as_of": "2026-11-10",
+ "n_names": 12,
+ "themes": [
+  {
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "members": [
+    "SRPT",
+    "XRAY",
+    "OM",
+    "ORGO",
+    "DH",
+    "QDEL",
+    "PRCT"
+   ],
+   "maturity_signals": [
+    "SRPT product revenue 9M 2026 $983.0M vs $1,494.7M (-34%) (10-Q, filed 2026-11-05, 0001193125-26-449721)",
+    "QDEL total revenues 9M 2026 $1,869.6M vs $2,006.6M; Point of Care $340.6M vs $428.5M; US donor screening wound down (10-Q, filed 2026-11-04, 0001906324-26-000042)",
+    "ORGO 9M 2026 net loss $179.1M vs $6.7M; accounts receivable fell to $92.7M from $217.5M (10-Q, filed 2026-11-05, 0001193125-26-449888)",
+    "PRCT TTM revenue $352.3M and OM TTM revenue $122.0M (pack XBRL; 10-Q 0001588978-26-000039 and 0001193125-26-447683) \u2014 real installed-base revenue but cash-burning"
+   ],
+   "adoption_evidence": [
+    "QDEL: one customer 11% of total revenues (10-Q 0001906324-26-000042)",
+    "SRPT collaboration and other revenue $530.4M in 9M 2026 vs $260.6M (10-Q) \u2014 partner money replacing falling product sales",
+    "No program-of-record or named contracts with stated values found in the filings read"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-2021 medtech/procedure-recovery wave",
+    "trough": "2020-03",
+    "crest": "2021-11",
+    "leader_basket": [
+     "ISRG"
+    ],
+    "leader_peak_multiples": {
+     "ISRG": 3.0
+    },
+    "months_trough_to_crest": 20,
+    "similar": "Procedure-volume recovery lifted device leaders; ISRG 3.0x 2020-03 to 2021-11 (tools.py px). OM and PRCT IPO'd into that wave (OM peaked 2020-11, PRCT 2021-10)",
+    "different": "These names are post-IPO wreckage of that wave, and medtech waves are low-multiple: even the leader made 3x, nowhere near 25x. The current names are fragmented across unrelated sub-markets, not one theme."
+   },
+   "wave_window_years": 5,
+   "wave_score": 1,
+   "wave_score_reason": "No shared theme; revenue is shrinking at SRPT, QDEL and ORGO, and the best historical analogue produced 3x for the leader."
+  },
+  {
+   "sub_theme": "Non-healthcare cyclicals and deep tech (rate-sensitive mortgage/CRE finance, restaurant franchisor, rental cars, silicon-anode batteries)",
+   "members": [
+    "WD",
+    "LDI",
+    "JACK",
+    "HTZ",
+    "ENVX"
+   ],
+   "maturity_signals": [
+    "HTZ revenues 9M 2026 $7,017M vs $6,476M (+8%) (10-Q, filed 2026-11-05, 0001657853-26-000086)",
+    "LDI received NYSE minimum-price notice 2026-08-21; may seek a reverse split at the annual meeting 'anticipated for early June 2027' (10-Q, filed 2026-11-09, 0001831631-26-000116)",
+    "ENVX TTM revenue $35.9M with $477.6M cash+investments and $532.5M of 2028/2030 convertible notes (10-Q, filed 2026-08-12, 0001828318-26-000056)"
+   ],
+   "adoption_evidence": [
+    "None theme-level; these are cyclical recoveries (rates, travel) or a pre-scale battery maker, not a single theme"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-2021 low-rate refinance/CRE-lending wave",
+    "trough": "2020-04",
+    "crest": "2021-11",
+    "leader_basket": [
+     "WD"
+    ],
+    "leader_peak_multiples": {
+     "WD": 6.2
+    },
+    "months_trough_to_crest": 20,
+    "similar": "WD ran 6.2x as rates fell (tools.py px); LDI and WD are the same rate-sensitive exposure today",
+    "different": "Rate-cycle recoveries are bounded (6x for the leader, RKT round-tripped); a 25x shape would need equity-stub leverage to work, which is what makes LDI/HTZ fragile."
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "A rate-cut cycle could lift WD/LDI, but that is a cyclical recovery with a bounded prior analogue, not a white-swan theme; JACK/HTZ/ENVX share no theme."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "JACK",
+   "cik": 807882,
+   "sub_theme": "Non-healthcare cyclicals and deep tech (rate-sensitive mortgage/CRE finance, restaurant franchisor, rental cars, silicon-anode batteries)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-12",
+    "accession": "0000807882-26-000091",
+    "period": "2026-07-05"
+   },
+   "latest_10k": {
+    "filed": "2025-11-19",
+    "accession": "0000807882-25-000072"
+   },
+   "business": "Quick-service restaurant franchisor/operator (Jack in the Box).",
+   "revenue_ttm_usd": 1465300000,
+   "lead_asset": null,
+   "cash_usd": 46300000,
+   "debt_total_usd": 1492000000,
+   "debt_due_12m_usd": 73700000,
+   "ocf_ttm_usd": 162400000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 19179330,
+   "shares_asof": "2026-08-05",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Levered franchisor (debt $1.49B vs $284M market cap, pack XBRL); no theme exposure"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "All balance-sheet numbers are pack XBRL; not cross-read in the 10-Q text",
+    "Revenue TTM is through FY2025 (2025-09-28) in the pack, not current",
+    "No going-concern/substantial-doubt text found in 10-Q search"
+   ],
+   "notes": "Survives mechanically; no white-swan theme. Clustered by boilerplate 'visit www' text."
+  },
+  {
+   "symbol": "ENVX",
+   "cik": 1828318,
+   "sub_theme": "Non-healthcare cyclicals and deep tech (rate-sensitive mortgage/CRE finance, restaurant franchisor, rental cars, silicon-anode batteries)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-12",
+    "accession": "0001828318-26-000056",
+    "period": "2026-07-05"
+   },
+   "latest_10k": {
+    "filed": "2026-02-25",
+    "accession": "0001828318-26-000006"
+   },
+   "business": "Silicon-anode lithium-ion battery developer/manufacturer; post-SPAC successor of Rodgers Silicon Valley Acquisition Corp. (10-K).",
+   "revenue_ttm_usd": 35900000,
+   "lead_asset": null,
+   "cash_usd": 477600000,
+   "debt_total_usd": 532800000,
+   "debt_due_12m_usd": 10600000,
+   "ocf_ttm_usd": -107400000,
+   "runway_years": 4.35,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 219448535,
+   "shares_asof": "2026-08-07",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "5,500,000 Private Placement Warrants at $10.66, expired 2026-07-14 (10-Q/10-K)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "3.0% Convertible Senior Notes due 2028, $172.5M issued 2023-04-20; 2030 Convertible Senior Notes $360.0M (10-Q); conversion prices not captured",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": null,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "deSPAC: business combination with Rodgers Silicon Valley Acquisition Corp. in 2021; common stock began trading as ENVX on Nasdaq on 2021-07-14 'after the Business Combination' (10-K). The ticker is the post-combination equity; one share = one share of Enovix Corporation common stock, successor registrant. Exact closing date not stated in text read (trading-start date used).",
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Revenue still small ($35.9M TTM) against $107M burn",
+    "Cash and investments $477.6M vs $532.5M converts maturing 2028/2030"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Conversion prices of 2028/2030 notes",
+    "ATM existence/capacity \u2014 new S-3 filed 2026-11-02 not read",
+    "Q3 2026 10-Q not in mirror"
+   ],
+   "notes": "New S-3 filed 2026-11-02 signals possible issuance; not a closed financing."
+  },
+  {
+   "symbol": "HTZ",
+   "cik": 1657853,
+   "sub_theme": "Non-healthcare cyclicals and deep tech (rate-sensitive mortgage/CRE finance, restaurant franchisor, rental cars, silicon-anode batteries)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001657853-26-000086",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001657853-26-000008"
+   },
+   "business": "Vehicle rental (Hertz, Dollar, Thrifty); revenues $7,017M for 9M 2026 (10-Q).",
+   "revenue_ttm_usd": null,
+   "lead_asset": null,
+   "cash_usd": 1123000000,
+   "debt_total_usd": 18300000000,
+   "debt_due_12m_usd": 2038000000,
+   "ocf_ttm_usd": 1394000000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 357465791,
+   "shares_asof": "2026-10-29",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "Public warrants listed on Nasdaq, each for one share at $12.81 (10-Q cover); count not captured",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "Exchangeable Notes due 2029 8.00% $294M (PIK accreting); Exchangeable Notes due 2030 5.50% $425M; Exchangeable First Lien Notes due 2030 6.75% $380M (new in 2026) (10-Q debt table); exchange prices not captured",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Post-bankruptcy: Second Modified Third Amended Chapter 11 Plan dated 2021-06-10; Warrant Agreement and Registration Rights Agreement dated 2021-06-30 (10-K exhibit index) mark the effective date. HTZ is the reorganized equity of Hertz Global Holdings, Inc.; one share = one share of the post-reorganization common stock.",
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "$18.3B debt (mostly vehicle financing) vs $583M market cap \u2014 equity is a thin stub",
+    "Senior Notes due 12/2026 $199M (10-Q)",
+    "Wells Fargo post-petition interest litigation ~$125M (10-K)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Exchange prices / share counts of the three exchangeable note series",
+    "Unrestricted cash vs vehicle-level restricted cash split"
+   ],
+   "notes": "PACK CONTRADICTED: pack revenue TTM $249.0M is wrong \u2014 10-Q shows Q3 2026 revenues $2,617M and 9M $7,017M. 424B5 2026-06-26 and 3.02 8-K 2026-06-29 relate to the 2026 exchangeable first-lien issuance (not read)."
+  },
+  {
+   "symbol": "SRPT",
+   "cik": 873303,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-449721",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-02",
+    "accession": "0001193125-26-084144"
+   },
+   "business": "Commercial rare-disease (Duchenne) RNA and gene therapy company; product revenue $983.0M in 9M 2026 (10-Q).",
+   "revenue_ttm_usd": null,
+   "lead_asset": null,
+   "cash_usd": 888900000,
+   "debt_total_usd": 857364000,
+   "debt_due_12m_usd": 157971000,
+   "ocf_ttm_usd": 185600000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 107235848,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "convertible notes; current portion $158.0M and long-term $699.4M (10-Q balance sheet); conversion prices not captured",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Product revenue falling 34% YoY in 9M 2026 while collaboration revenue doubled to $530.4M (10-Q)",
+    "Cash $888.9M covers the $158.0M current debt"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Pack TTM revenue $1,352.6M looks understated vs 9M 2026 total revenues $1,513.4M \u2014 not reconciled",
+    "Conversion terms of notes",
+    "Unregistered sale 8-K 2025-12-11 not read"
+   ],
+   "notes": "Survives; product franchise in decline."
+  },
+  {
+   "symbol": "XRAY",
+   "cik": 818479,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0000818479-26-000287",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0000818479-26-000075"
+   },
+   "business": "Dental equipment and consumables manufacturer (Dentsply Sirona).",
+   "revenue_ttm_usd": 3575000000,
+   "lead_asset": null,
+   "cash_usd": 195000000,
+   "debt_total_usd": 1985000000,
+   "debt_due_12m_usd": 215000000,
+   "ocf_ttm_usd": 272000000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 198153678,
+   "shares_asof": "2026-10-23",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Restructuring charges in 2026 periods (10-Q XBRL tags); mature dental market, no theme wave"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Balance-sheet numbers are pack XBRL; not cross-read in 10-Q text",
+    "No going-concern text found in 10-Q search"
+   ],
+   "notes": "$1.89B market cap; mature business, wrong shape for 25x."
+  },
+  {
+   "symbol": "OM",
+   "cik": 1484612,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001193125-26-447683",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-13",
+    "accession": "0001193125-26-051278"
+   },
+   "business": "Tablo hemodialysis system maker (vendor lead; not re-read in filing).",
+   "revenue_ttm_usd": 122000000,
+   "lead_asset": null,
+   "cash_usd": 136600000,
+   "debt_total_usd": 98400000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -42400000,
+   "runway_years": 3.22,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 18872597,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": null,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Installed-base revenue $122M TTM with burn narrowing to ~$40M/yr (pack XBRL)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Business description, debt terms, dilutive securities \u2014 not read in filing text (budget)",
+    "No going-concern text found in 10-Q search"
+   ],
+   "notes": "Price-adjusted history shows prior reverse split (pre-2021 prices ~$550-960 split-adjusted)."
+  },
+  {
+   "symbol": "ORGO",
+   "cik": 1661181,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "COULD_NOT_VERIFY: survival gate \u2014 Series A redeemable convertible preferred (liquidation preference $150.9M at 2026-09-30) is 'redeemable at the option of the holder' (10-K) but the redemption date/trigger was not found, against cash of $21.3M; if redeemable within 12 months the gate fails",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-449888",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001193125-26-076730"
+   },
+   "business": "Regenerative medicine / advanced wound care and surgical & sports medicine products (10-Q segment tags).",
+   "revenue_ttm_usd": 352000000,
+   "lead_asset": null,
+   "cash_usd": 21326000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 10300000,
+   "runway_years": "cash-positive on TTM; 9M 2026 OCF -$29.1M",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 129801720,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "130,000 Series A redeemable convertible preferred, liquidation preference $150,922k, cumulative dividend $8.7M in 9M 2026; held by Avista affiliates (10-Q/10-K); conversion price not captured",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Price $0.907 < $1.00 on Nasdaq Capital Market; no deficiency notice found in 12-month index or 10-Q text",
+   "fraud_flags": null,
+   "lineage_trap": "deSPAC: combination with Avista Acquisition Corp.; A&R Registration Rights Agreement dated 2018-12-10 (10-K exhibit index). ORGO Class A is the post-combination equity.",
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Preferred redemption timing \u2014 searched 10-K for 'require the Company to redeem', 'fifth anniversary', 'redemption right'",
+    "ATM size/remaining (ATM sales in August 2026 per XBRL tags)",
+    "Cause of 9M net loss $179.1M (includes ~$30M deferred-tax write-off)"
+   ],
+   "notes": "Management states cash 'will be sufficient ... for at least the next twelve months' (10-Q). Insiders/Avista control 54.1% of Class A (10-K)."
+  },
+  {
+   "symbol": "DH",
+   "cik": 1861795,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-449839",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001193125-26-076782"
+   },
+   "business": "Healthcare commercial-intelligence data and analytics subscriptions (vendor lead; 10-Q confirms goodwill impairments and a debt agreement).",
+   "revenue_ttm_usd": 227300000,
+   "lead_asset": null,
+   "cash_usd": 190000000,
+   "debt_total_usd": 158500000,
+   "debt_due_12m_usd": 8800000,
+   "ocf_ttm_usd": 37200000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 107163253,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Nasdaq bid-price notice received 2026-06-18; on 2026-10-30 Nasdaq notified the company it had regained compliance (closing bid >= $1.00 from 2026-10-16 to 2026-10-29) (10-Q). Price $1.12 \u2014 still close to threshold.",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Goodwill impairment charges in 2026 (10-Q); net cash ~$31M; no growth evidence read"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Up-C structure (Class B / LLC units) dilution \u2014 not traced",
+    "Revenue trend \u2014 not read"
+   ],
+   "notes": "Listing issue resolved per filing."
+  },
+  {
+   "symbol": "QDEL",
+   "cik": 1906324,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001906324-26-000042",
+    "period": "2026-09-27"
+   },
+   "latest_10k": {
+    "filed": "2026-02-19",
+    "accession": "0001906324-26-000008"
+   },
+   "business": "In-vitro diagnostics: Labs, Immunohematology, Point of Care, Molecular (10-Q revenue table).",
+   "revenue_ttm_usd": 2593200000,
+   "lead_asset": null,
+   "cash_usd": 166400000,
+   "debt_total_usd": 2937300000,
+   "debt_due_12m_usd": 424400000,
+   "ocf_ttm_usd": 7900000,
+   "runway_years": "cash-positive on TTM formula; last-2-quarter OCF -$91.0M",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 68612588,
+   "shares_asof": "2026-10-28",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Revenue 9M 2026 $1,869.6M vs $2,006.6M; Point of Care -21% (10-Q)",
+    "Current borrowings $424.4M vs cash $166.4M; 9M 2026 financing included $235.0M net revolver draws (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revolver availability amount (table truncated)",
+    "Pack total debt $2,512.9M is long-term only; total incl. current is $2,937.3M (10-Q)"
+   ],
+   "notes": "Gate passes only on the positive TTM OCF definition; recent quarters burn cash and the company is drawing its revolver to cover $424.4M of current debt. Fragile."
+  },
+  {
+   "symbol": "PRCT",
+   "cik": 1588978,
+   "sub_theme": "Medtech, diagnostics, rare-disease therapy and healthcare data (robotic urology, home dialysis, wound care, IVD, dental, gene therapy, provider data)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001588978-26-000039",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001588978-26-000009"
+   },
+   "business": "Surgical robotics for benign prostatic hyperplasia (Aquablation) (vendor lead; not re-read).",
+   "revenue_ttm_usd": 352300000,
+   "lead_asset": null,
+   "cash_usd": 221400000,
+   "debt_total_usd": 52000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -76700000,
+   "runway_years": 2.89,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 57536121,
+   "shares_asof": "2026-10-29",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Largest revenue base among the cash-burning device names here ($352M TTM, pack XBRL) with burn narrowing (last-2-quarter runway 3.9y)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Business, installed base and debt terms not read in filing text (budget)",
+    "No going-concern text found in 10-Q search"
+   ],
+   "notes": "$1.29B market cap; leader only within its niche."
+  },
+  {
+   "symbol": "WD",
+   "cik": 1497770,
+   "sub_theme": "Non-healthcare cyclicals and deep tech (rate-sensitive mortgage/CRE finance, restaurant franchisor, rental cars, silicon-anode batteries)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001104659-26-122986",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001104659-26-020249"
+   },
+   "business": "Commercial real-estate finance (agency multifamily lending, servicing) (vendor lead).",
+   "revenue_ttm_usd": 355800000,
+   "lead_asset": null,
+   "cash_usd": 231600000,
+   "debt_total_usd": 804600000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 1553200000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 34534009,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Prior-wave leader: 6.2x 2020-04 to 2021-11 (tools.py px)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "OCF is dominated by loans-held-for-sale flows and is not a burn measure",
+    "Revenue TTM $355.8M (pack) looks low for this business \u2014 not reconciled"
+   ],
+   "notes": "Cyclical rate play, not a white swan."
+  },
+  {
+   "symbol": "LDI",
+   "cik": 1831631,
+   "sub_theme": "Non-healthcare cyclicals and deep tech (rate-sensitive mortgage/CRE finance, restaurant franchisor, rental cars, silicon-anode batteries)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-09",
+    "accession": "0001831631-26-000116",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-12",
+    "accession": "0001831631-26-000028"
+   },
+   "business": "Residential mortgage originator and servicer (10-Q).",
+   "revenue_ttm_usd": 1241100000,
+   "lead_asset": null,
+   "cash_usd": 333500000,
+   "debt_total_usd": 2016100000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 312700000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": null,
+   "shares_asof": null,
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": "Up-C: 228,569,593 Class A and 106,207,433 Class B shares outstanding as of 2026-02-11 after Class C/D conversion (10-Q); Holdings units exchangeable",
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": null,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Possible reverse stock split subject to stockholder approval no later than the next annual meeting, anticipated early June 2027 (10-Q)",
+   "listing_risk": "NYSE minimum share price notice received 2026-08-21 (price $0.531); six-month cure period (10-Q)",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Sub-$1 stock with $2.0B corporate debt; rate-sensitive"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Current cover share count (pack n/a; latest figure found is as of 2026-02-11)",
+    "424B5 2026-05-15 offering terms not read"
+   ],
+   "notes": "Listing-risk flag: below $1 with NYSE notice and reverse split under consideration."
+  }
+ ]
+}

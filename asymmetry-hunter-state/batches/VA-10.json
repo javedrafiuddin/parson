@@ -1,0 +1,773 @@
+{
+ "batch": "VA-10",
+ "as_of": "2026-11-10",
+ "n_names": 12,
+ "themes": [
+  {
+   "sub_theme": "power semiconductors (GaN/SiC) for AI-datacenter and grid power delivery",
+   "members": [
+    "NVTS"
+   ],
+   "maturity_signals": [
+    "NVTS TTM revenue only $40.4M (XBRL, 10-Q filed 2026-11-03, 0001628280-26-069551) against $531.8M cash - the technology ships but revenue scale is small",
+    "NVTS acquired Claros, Inc., a power-management developer, on 2026-10-06 (10-Q subsequent events, 0001628280-26-069551)",
+    "NVTS sold 17,397k shares through its ATM for $380.7M gross in 2026 (10-Q equity statement) - capital markets funding the build-out rather than customer cash"
+   ],
+   "adoption_evidence": [
+    "No named datacenter customer contract with a stated value found in the NVTS filings read; 10-K says it depends on a few key distributors (10-K filed 2026-02-27, 0001821769-26-000007)",
+    "Single-issuer evidence only in this batch; peers' filings not read"
+   ],
+   "comparable_prior_wave": {
+    "name": "2025-26 AI-power semiconductor wave (this same theme)",
+    "trough": "2025-04",
+    "crest": "2026-05/2026-06",
+    "leader_basket": [
+     "NVTS",
+     "AOSL",
+     "POWI"
+    ],
+    "leader_peak_multiples": {
+     "NVTS": 19.8,
+     "AOSL": 3.3,
+     "POWI": 2.8
+    },
+    "months_trough_to_crest": 14,
+    "similar": "Same narrative (GaN/SiC for AI datacenter power) and same lead name; tools.py px 2024-06-01..2026-11-09: NVTS 2025-04-03 $1.605 -> 2026-05-26 $31.79 (13.8 months). Earlier analogue: 2020-22 SiC/EV-power wave, ON 9.1x and AEHR 23.8x from 2020-03-18 (29-33 months).",
+    "different": "The wave already happened: NVTS is now 69.9% below its 2026-05-26 crest, so a new 25x would be a second wave from a $2.6B base, not a first one from a $0.3B base."
+   },
+   "wave_window_years": 3,
+   "wave_score": 2,
+   "wave_score_reason": "A real, measured wave in this theme just crested (NVTS 19.8x), but NVTS revenue stays tiny, no customer contracts are in its filings, and the setup now is post-crest wreckage."
+  },
+  {
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "members": [
+    "BRBR",
+    "BRCC",
+    "PEW",
+    "KOS",
+    "CLVT",
+    "BLND",
+    "CTM"
+   ],
+   "maturity_signals": [
+    "Not a theme: members are mature, revenue-generating businesses whose drawdowns stem from company-specific leverage, demand or competitive problems (see per-name notes)"
+   ],
+   "adoption_evidence": [
+    "None that is theme-level; e.g. BRBR 74.0% of FY2025 net sales from Walmart, Costco and Amazon (10-K filed 2025-11-18, 0001772016-25-000153) is concentration, not adoption of a new theme"
+   ],
+   "comparable_prior_wave": {
+    "name": "none",
+    "trough": null,
+    "crest": null,
+    "leader_basket": [],
+    "leader_peak_multiples": {},
+    "months_trough_to_crest": null,
+    "similar": "none",
+    "different": "No shared theme to compare; recoveries would be idiosyncratic turnarounds."
+   },
+   "wave_window_years": null,
+   "wave_score": 0,
+   "wave_score_reason": "No common theme and no wave evidence; any upside would come from single-company turnarounds."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "PEW",
+   "cik": 2051380,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-13",
+    "accession": "0001193125-26-349206",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-12",
+    "accession": "0001193125-26-104172"
+   },
+   "business": "Online firearms/ammunition retailer (GrabAGun.com) with wholesale distribution (Camfour) and logistics services.",
+   "revenue_ttm_usd": 101000000,
+   "lead_asset": null,
+   "cash_usd": 97500000,
+   "debt_total_usd": 7900000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -9000000,
+   "runway_years": 10.89,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "Note 2 is titled 'Liquidity and Going Concern'; no 'substantial doubt' language found in the 10-Q; MD&A says Business Combination proceeds are believed sufficient",
+   "shares_outstanding": 29513438,
+   "shares_asof": "2026-08-11",
+   "dilutive": {
+    "options": null,
+    "rsus": 641778,
+    "warrants": 10666667,
+    "warrant_terms": "Public and private warrants at $11.50, expire 2030-07-15, redeemable at $0.01 (10-Q/10-K)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "deSPAC: Colombier Acquisition Corp. II business combination consummated 2025-07-15; PEW is the post-combination common stock of GrabAGun Digital Holdings Inc. (holding company of GrabAGun LLC, ex-Metroplex); one share = one common share of that holding company",
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "$101.0M TTM revenue, operating loss, small share of a regulated niche"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Q3 2026 10-Q not yet in filing index (due mid-Nov)",
+    "RSU count is at 2025-12-31",
+    "10-K Note 14 'revisions' of previously filed statements - not read, described as revisions not restatement"
+   ],
+   "notes": "Net cash ~$90M exceeds the $55.8M market cap; EV negative."
+  },
+  {
+   "symbol": "BRCC",
+   "cik": 1891101,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-02",
+    "accession": "0001891101-26-000049",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-02",
+    "accession": "0001891101-26-000022"
+   },
+   "business": "Veteran-founded premium coffee and beverage brand (Black Rifle Coffee) sold through retail, wholesale and DTC.",
+   "revenue_ttm_usd": 437000000,
+   "lead_asset": null,
+   "cash_usd": 9200000,
+   "debt_total_usd": 34900000,
+   "debt_due_12m_usd": 10600000,
+   "ocf_ttm_usd": 1700000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 25057574,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": 846545,
+    "rsus": 1771178,
+    "warrants": null,
+    "warrant_terms": "Common Units 13,045,498 exchangeable (already counted as Class B); incentive units 122,185",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1-for-10 reverse split effected 2026-08-21 (10-Q)",
+   "listing_risk": "NYSE 3.01 8-K filed 2026-02-13 (content not read); split since effected; price now $10.09",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Cash $9.2M; ABL availability ~$49.9M; term loan $40.0M to 2029-12-27",
+    "Four customers = 52% of receivables (10-K)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Feb 2026 NYSE notice content and cure status",
+    "RSU figure combines RSUs 695,240 + PSUs 1,075,938"
+   ],
+   "notes": "PACK CONTRADICTED: mismatch flag True arises because price x pre-split wavg shares (64.9M) gives $654.9M; post-split Class A 12,012,076 + Class B 13,045,498 = 25,057,574 shares, ~$252.8M, consistent with the screener. Current debt includes $8.6M expected from the Manchester facility sale."
+  },
+  {
+   "symbol": "VRNO",
+   "cik": 1848416,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "COULD_NOT_VERIFY: no filing text retrievable - filing.py lists no filings for this OTC symbol and www.sec.gov is unreachable; pack holds XBRL numbers only",
+   "flag": "UNVERIFIABLE",
+   "latest_10q": {
+    "filed": "2026-10-29",
+    "accession": "0001848416-26-000005",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-12",
+    "accession": "0001628280-26-017011"
+   },
+   "business": "Multi-state cannabis operator (per SIC/vendor description; not confirmed in a filing read)",
+   "revenue_ttm_usd": 845200000,
+   "lead_asset": null,
+   "cash_usd": 102100000,
+   "debt_total_usd": 390200000,
+   "debt_due_12m_usd": 10400000,
+   "ocf_ttm_usd": 111700000,
+   "runway_years": "cash-positive (pack XBRL, unverified)",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 72934412,
+   "shares_asof": "2026-10-27",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "All figures are pack XBRL; 10-Q 2026-10-29 and 10-K 2026-03-12 text not retrievable (filing.py list VRNO -> no rows)",
+    "Dilutive securities, ATM (S-3 filed 2026-07-08), going-concern language all unread"
+   ],
+   "notes": "OTC-traded; federal cannabis status is a policy binary not testable from filings here."
+  },
+  {
+   "symbol": "BRBR",
+   "cik": 1772016,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-04",
+    "accession": "0001772016-26-000022",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2025-11-18",
+    "accession": "0001772016-25-000153"
+   },
+   "business": "Consumer brands company selling ready-to-drink protein shakes and powders (Premier Protein, Dymatize).",
+   "revenue_ttm_usd": 2321000000,
+   "lead_asset": null,
+   "cash_usd": 51000000,
+   "debt_total_usd": 1140000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 234100000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 116278194,
+   "shares_asof": "2026-07-28",
+   "dilutive": {
+    "options": 200000,
+    "rsus": 1200000,
+    "warrants": null,
+    "warrant_terms": "Anti-dilutive: options 0.2M, RSUs 0.7M, PSUs 0.5M (Q3 FY26)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Dymatize described as a market leader (10-K)",
+    "$234.1M TTM OCF; revolver $500M to 2030 (10-Q)"
+   ],
+   "dated_catalysts": [
+    "~2026-11-18 FY2026 10-K due (prior year filed 2025-11-18)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revenue TTM in pack runs only through 2025-12-31",
+    "FY Q4 (Sep-2026) results not yet filed"
+   ],
+   "notes": "Walmart, Costco and Amazon were ~74.0% of FY2025 net sales (10-K). Inventory rose to $480.6M from $330.4M."
+  },
+  {
+   "symbol": "KOS",
+   "cik": 1509991,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-02",
+    "accession": "0001509991-26-000061",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-02",
+    "accession": "0001509991-26-000017"
+   },
+   "business": "Deepwater oil and gas producer with assets offshore Ghana, Mauritania/Senegal and the US Gulf.",
+   "revenue_ttm_usd": 1682700000,
+   "lead_asset": null,
+   "cash_usd": 158200000,
+   "debt_total_usd": 2631600000,
+   "debt_due_12m_usd": 231800000,
+   "ocf_ttm_usd": 480900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": "Reserve-based Facility amended and restated October 2026: final maturity extended to 2033-04-01, margin 4.50% (10-Q)",
+   "going_concern_language": null,
+   "shares_outstanding": 595551401,
+   "shares_asof": "2026-10-29",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "3.125% Convertible Senior Notes due 2030 with capped call; if-converted value below principal at 2026-09-30; conversion price not seen",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Debt cover ratio > 2.50x at 2026-09-30 test (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Convert conversion price/shares",
+    "RSU count"
+   ],
+   "notes": "Debt due within 12 months ($231.8M) exceeds cash ($158.2M); survival rests on operating cash flow and the refinanced facility. Equity offering 424B5 2026-03-12."
+  },
+  {
+   "symbol": "SLQT",
+   "cik": 1794783,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "REJECTED: survival gate - cash $14.3M less current debt $21.6M is negative, last-two-quarter OCF -$20.5M, and a $438.6M senior preferred (5.5x market cap) accretes ahead of common; NYSE price notice and a 1:10-1:20 reverse split proposal",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001794783-26-000076",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-08-25",
+    "accession": "0001794783-26-000057"
+   },
+   "business": "Direct-to-consumer insurance distributor (Medicare, life) with pharmacy and healthcare services.",
+   "revenue_ttm_usd": 1569700000,
+   "lead_asset": null,
+   "cash_usd": 14300000,
+   "debt_total_usd": 401600000,
+   "debt_due_12m_usd": 21593000,
+   "ocf_ttm_usd": 36300000,
+   "runway_years": "formula cash-positive on TTM OCF; negative numerator",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 179442235,
+   "shares_asof": "2026-10-31",
+   "dilutive": {
+    "options": 423399,
+    "rsus": 20502904,
+    "warrants": 36401693,
+    "warrant_terms": "Senior preferred warrants up to 30,833,333 in three tranches (A: 13,481,481 at $0.01), 10-year term; lender warrants 5,568,360 in four tranches (2024)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "350,000 Senior Non-Convertible Preferred, liquidation preference $438.6M at 2026-09-30 (from $423.2M at 2026-06-30)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Reverse split 1-for-10 to 1-for-20 proposal at 2026-11-10 annual meeting (DEF 14A 0001794783-26-000065)",
+   "listing_risk": "NYSE 3.01 8-K 2026-03-25; close $0.447 on 2026-11-09",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "Q1 FY27 OCF -$17.2M; quarterly preferred dividends accumulated $15.3M plus $4.8M accretion. Pack debt-due-12m $28.6M vs $21.6M current portion on balance sheet."
+  },
+  {
+   "symbol": "TONX",
+   "cik": 1566610,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "COULD_NOT_VERIFY: 2026 10-K and 10-Qs (latest 2026-08-11) not in filing mirror - mirror and pack snippets are from the 2025 Verb Technology filings; business is now a GRAM/TON token treasury, so revenue and cash definitions cannot be checked",
+   "flag": "UNVERIFIABLE",
+   "latest_10q": {
+    "filed": "2026-08-11",
+    "accession": "0001493152-26-037002",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-31",
+    "accession": "0001493152-26-013931"
+   },
+   "business": "Per vendor lead only: accumulates and stakes GRAM (Telegram's TON token); formerly Verb Technology (MARKET.live).",
+   "revenue_ttm_usd": 29600000,
+   "lead_asset": null,
+   "cash_usd": 140700000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -24400000,
+   "runway_years": 5.77,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 55071989,
+   "shares_asof": "2026-08-04",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Nasdaq 3.01 8-K 2026-06-23 (unread)",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "filing.py list TONX shows only 2025 10-Q/10-K and a 13D/A",
+    "Whether $140.7M 'cash+ST' includes digital assets",
+    "Composition of $29.6M TTM revenue (staking? legacy?)"
+   ],
+   "notes": "Pack snippets are stale (2025-05-13 10-Q). 1-for-200 reverse split 2024-10-08."
+  },
+  {
+   "symbol": "BLND",
+   "cik": 1855747,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001855747-26-000073",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-16",
+    "accession": "0001855747-26-000016"
+   },
+   "business": "Cloud software for banks, credit unions and mortgage lenders to originate mortgages and consumer loans.",
+   "revenue_ttm_usd": 129200000,
+   "lead_asset": null,
+   "cash_usd": 44200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 19300000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 238270480,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": 35364000,
+    "rsus": 12739000,
+    "warrants": 11709000,
+    "warrant_terms": "Haveli Warrant 11,111k; Series G warrant 598k (10-K, 2025-12-31)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Series A redeemable convertible preferred, carrying $174.3M; redeemable at holder option from 5th anniversary or on change of control (10-Q)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Close $0.986 (below $1); no NYSE notice in filing index yet",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "RPO $189.4M at 2025-12-31 (10-K); TTM revenue $129.2M"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Option/RSU/warrant counts are at 2025-12-31 (10-K): options 15,170k + co-founder options 20,194k; PSAs 7,260k",
+    "Conversion price of Series A preferred not seen"
+   ],
+   "notes": "Cover: 235,014,095 Class A + 3,256,385 Class B at 2026-10-30. Preferred of $174.3M equals ~75% of market cap and sits ahead of common. Pack cash $46.1M vs filing $44.2M cash+marketable securities."
+  },
+  {
+   "symbol": "CTM",
+   "cik": 1877939,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001877939-26-000096",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-09",
+    "accession": "0001877939-26-000016"
+   },
+   "business": "IT, cybersecurity, software and engineering services contractor to US federal defense and intelligence customers.",
+   "revenue_ttm_usd": 55400000,
+   "lead_asset": null,
+   "cash_usd": 15700000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 400000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 95023801,
+   "shares_asof": "2026-11-04",
+   "dilutive": {
+    "options": 13352500,
+    "rsus": null,
+    "warrants": 5653981,
+    "warrant_terms": "Weighted-average exercise $2.05, 2.37 years remaining (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Series A 5,875,000 (-> ~587,500 common), Series C 570,000 (-> 356,250 common)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Price $0.375 on NYSE American; 10-Q says no reverse-split notification received",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "$55.4M revenue services contractor; funded entirely by operations in 2026 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Option count is at 2026-03-06 (10-K)"
+   ],
+   "notes": "No equity or debt transactions in 9M 2026; repaid $0.4M related-party convertible note."
+  },
+  {
+   "symbol": "CLVT",
+   "cik": 1764046,
+   "sub_theme": "levered or shrinking consumer, energy, fintech and info-services incumbents (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-03",
+    "accession": "0001764046-26-000126",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-24",
+    "accession": "0001764046-26-000019"
+   },
+   "business": "Provider of data, analytics and workflow solutions for academia, government and intellectual-property markets.",
+   "revenue_ttm_usd": 2271400000,
+   "lead_asset": null,
+   "cash_usd": 257000000,
+   "debt_total_usd": 4138400000,
+   "debt_due_12m_usd": 1600000,
+   "ocf_ttm_usd": 558900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 639904301,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": null,
+    "rsus": 30500000,
+    "warrants": null,
+    "warrant_terms": "30.5M gross share-based award shares excluded (Q3 2026)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "$768.6M available borrowing; $558.9M TTM OCF",
+    "Divested LS&H (discontinued ops loss)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "9M 2026 net loss $389.6M incl. $267.3M discontinued operations."
+  },
+  {
+   "symbol": "SITC",
+   "cik": 894315,
+   "sub_theme": "liquidating retail REIT",
+   "outcome": "REJECTED: real business test - company is selling its last properties 'in anticipation of subsequently winding up its operations', paid a $3.00/share ($158.1M) special dividend on 2026-11-05 and intends to delist from NYSE before 2026-12-04 (10-Q filed 2026-11-02)",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-02",
+    "accession": "0001193125-26-443679",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001193125-26-076905"
+   },
+   "business": "Retail-property REIT in wind-down; only remaining real estate is The Blocks (under contract for ~$18.2M) and a JV interest.",
+   "revenue_ttm_usd": 52700000,
+   "lead_asset": null,
+   "cash_usd": 200200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -29000000,
+   "runway_years": 6.9,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 52492781,
+   "shares_asof": "2026-10-29",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "NYSE 3.01 8-K 2026-10-16; voluntary delisting planned before 2026-12-04",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "After the $158.1M dividend, cash ~ $42M. Price $0.67 reflects remaining liquidation value, not an operating business."
+  },
+  {
+   "symbol": "NVTS",
+   "cik": 1821769,
+   "sub_theme": "power semiconductors (GaN/SiC) for AI-datacenter and grid power delivery",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-03",
+    "accession": "0001628280-26-069551",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-27",
+    "accession": "0001821769-26-000007"
+   },
+   "business": "Designs GaN and SiC power semiconductors and power-delivery solutions for AI datacenters, energy/grid and other markets.",
+   "revenue_ttm_usd": 40400000,
+   "lead_asset": null,
+   "cash_usd": 531800000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -75000000,
+   "runway_years": 7.09,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 269507528,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "Options/RSUs/ESPP: 3,688k dilutive shares excluded (Q3 2026)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": 0
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "deSPAC: Live Oak Acquisition Corp. II acquired Navitas Semiconductor Limited effective 2021-10-19 and renamed itself Navitas Semiconductor Corporation; NVTS is its Class A common stock (0 Class B outstanding); earnout settled Q2 2026",
+   "leadership": "participant",
+   "leadership_evidence": [
+    "GaN pioneer since 2014 (10-K) but TTM revenue only $40.4M",
+    "Largest net cash ($531.8M) among small power-semi names; acquired Claros 2026-10-06"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Remaining ATM capacity after the $380.7M raised in 2026 not stated in snippets"
+   ],
+   "notes": "Shares rose from 230.5M (2025-12-31) to 269.5M via ATM. Already ran 19.8x 2025-04 -> 2026-05; now -69.9% from crest."
+  }
+ ]
+}
