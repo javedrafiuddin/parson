@@ -1,7 +1,7 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
 **Run as-of:** 2026-11-11 (Wed) · **Current run stage:** R6 IN PROGRESS (red team relaunched; no memo on disk yet) — R1–R5 complete (R3 lean; swarm CUT for budget)
-**Last updated:** 2026-11-11 (burn-down audit)
+**Last updated:** 2026-11-11 (reset applied; R6 relaunched)
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
 > stands, continue at the next incomplete stage. Never redo a completed stage except to correct a logged error.
@@ -103,11 +103,11 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 | Item | Status |
 |---|---|
 | (a) 5-hour walls hit | 2026-11-10 ~08:16 ET (cleared 10:40 ET) · 2026-11-10 ~16:20 ET (killed pilot batch T1-14) · 2026-11-10 evening, reset 03:20 UTC Nov 11 (killed the red-team agent). Container clock is unreliable after restarts; wall times are as the user reported or as the API error stated |
-| (b) Free Fable limit reset | **UNUSED** (user instruction 2026-11-10: treat as unused; reserved for the weekly-allowance wall, never a 5-hour wall). Announced as binding on 2026-11-11 with the prescribed sentence |
-| Weekly allowance | user-reported: 50% used (Nov 10 midday) → **16% remaining** (Nov 11). No meter in this environment |
+| (b) Free Fable limit reset | **USED — applied by the user Wed Nov 11; weekly allowance restored.** (previously: UNUSED (user instruction 2026-11-10: treat as unused; reserved for the weekly-allowance wall, never a 5-hour wall). Announced as binding on 2026-11-11 with the prescribed sentence |
+| Weekly allowance | restored by the reset on Wed Nov 11. A red-team agent hit the Fable limit just before the reset (no memos written). Session model switched to Opus 5.5 by the user. Critical path estimated at ~25% of a full allowance |
 | (c) Calendar to the lock | Wed Nov 11 → Sat Nov 14 = 4 days, then lock Sun Nov 15, buy day Mon Nov 16 (reset expires Nov 16 11:59 pm PT) |
 | (d) Incomplete stages | R6 red team + answers + finalist verification ≈ 9% / 1 window · R7 lock ≈ 7% / 1 window (Sun) · close-out ≈ 5% / 1 window (Mon) · resume overhead ≈ 4% → **≈ 25% still required** |
-| Verdict | **TIGHT**: 16% on hand < 25% required; covered only if the reset is applied before the Nov 15 lock session |
+| Verdict | **ENOUGH** after the reset (~25% needed). Headroom used for ONE optional pass: verification of the 98 pool names in batches VA-01..VA-11 (4 agents), run in parallel with the red team, and dropped first if usage climbs |
 
 Estimated share of the ~84% used so far (estimates, not metered): R1 16 · R2 6 · R3 26 · R4 16 · R5 8 · R6 so far 6 · resumes/audits 6.
 
