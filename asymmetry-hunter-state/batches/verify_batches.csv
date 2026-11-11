@@ -1,0 +1,393 @@
+batch,symbol,cik,topic,topic_terms,fallen_leader,dd,mcap_musd,stage1,in_pool,flags
+VA-01,CDXS,1200375,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.809,121.6,PASS,True,A
+VA-01,KROS,1664710,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.87,180.0,PASS,True,A
+VA-01,ARVN,1655759,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.871,442.7,PASS,True,A
+VA-01,ARDX,1437402,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.699,736.5,PASS,True,A
+VA-01,AVXL,1314052,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.909,113.1,PASS,True,A
+VA-01,AKBA,1517022,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.867,147.9,PASS,True,A
+VA-01,GYRE,1124105,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.843,536.2,PASS,True,A
+VA-02,BCYC,1761612,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.863,264.3,PASS,True,
+VA-02,IRWD,1446847,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.697,774.8,PASS,True,
+VA-02,KURA,1422143,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.678,673.4,PASS,True,A
+VA-02,PLRX,1746473,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.959,49.5,PASS,True,A
+VA-02,ANTX,1880438,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.814,150.9,PASS,True,A
+VA-02,AVBP,1868279,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.603,698.2,PASS,True,A
+VA-03,FSP,1031316,3,"properties, trust, investment trust, investment, estate investment, office, office properties",False,0.855,40.7,PASS,True,A
+VA-03,HPP,1482512,3,"properties, trust, investment trust, investment, estate investment, office, office properties",True,0.861,510.4,PASS,True,A
+VA-03,SVC,945394,3,"properties, trust, investment trust, investment, estate investment, office, office properties",True,0.881,668.5,PASS,True,
+VA-03,SAFE,1095651,3,"properties, trust, investment trust, investment, estate investment, office, office properties",True,0.612,755.5,PASS,True,A
+VA-03,AIV,922864,3,"properties, trust, investment trust, investment, estate investment, office, office properties",True,0.837,223.7,PASS,True,
+VA-03,MPT,1287865,3,"properties, trust, investment trust, investment, estate investment, office, office properties",True,0.714,1077.7,PASS,True,A
+VA-04,MED,910329,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.823,149.5,PASS,True,
+VA-04,NAGE,1386570,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.842,180.6,PASS,True,A
+VA-04,LFMD,948320,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.861,101.0,PASS,True,A
+VA-04,HCAT,1636422,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.865,115.0,PASS,True,
+VA-04,EVH,1628908,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.864,532.7,PASS,True,
+VA-04,FIVN,1288847,6,"health, care, wellness, health wellness, better, health care, consumers",True,0.662,2173.9,PASS,True,
+VA-05,NVCR,1645113,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.625,1465.0,PASS,True,
+VA-05,PALI,1357459,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.917,207.4,PASS,True,L
+VA-05,TENX,34956,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.964,81.1,PASS,True,A
+VA-05,ALT,1326190,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.846,412.4,PASS,True,A
+VA-05,OLMA,1750284,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.795,644.0,PASS,True,A
+VA-05,CBIO,1253689,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.961,507.0,PASS,True,
+VA-06,JACK,807882,8,"com, www, information, visit, visit www, information visit, learn",False,0.825,284.4,PASS,True,
+VA-06,ENVX,1828318,8,"com, www, information, visit, visit www, information visit, learn",False,0.848,610.1,PASS,True,A
+VA-06,HTZ,1657853,8,"com, www, information, visit, visit www, information visit, learn",False,0.847,582.7,PASS,True,A
+VA-06,SRPT,873303,8,"com, www, information, visit, visit www, information visit, learn",True,0.895,1848.7,PASS,True,
+VA-06,XRAY,818479,8,"com, www, information, visit, visit www, information visit, learn",True,0.745,1890.4,PASS,True,
+VA-06,OM,1484612,40,"healthcare, care, patient, improve, clinical, outcomes, providers",False,0.956,77.8,PASS,True,
+VA-06,ORGO,1661181,40,"healthcare, care, patient, improve, clinical, outcomes, providers",False,0.861,117.7,PASS,True,A
+VA-06,DH,1861795,40,"healthcare, care, patient, improve, clinical, outcomes, providers",False,0.891,163.0,PASS,True,L
+VA-06,QDEL,1906324,40,"healthcare, care, patient, improve, clinical, outcomes, providers",True,0.84,829.5,PASS,True,
+VA-06,PRCT,1588978,40,"healthcare, care, patient, improve, clinical, outcomes, providers",True,0.775,1287.1,PASS,True,
+VA-06,WD,1497770,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",True,0.643,1432.8,PASS,True,
+VA-06,LDI,1831631,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",False,0.884,180.9,PASS,True,TAL
+VA-07,TTEC,1013880,44,"media, digital, advertising, news, content, local, marketing",False,0.937,68.8,PASS,True,
+VA-07,TSQ,1499832,44,"media, digital, advertising, news, content, local, marketing",False,0.867,32.1,PASS,True,
+VA-07,MNTN,1891027,44,"media, digital, advertising, news, content, local, marketing",False,0.835,386.7,PASS,True,A
+VA-07,SPT,1517375,44,"media, digital, advertising, news, content, local, marketing",False,0.832,654.3,PASS,True,
+VA-07,DV,1819928,44,"media, digital, advertising, news, content, local, marketing",True,0.681,2117.4,PASS,True,
+VA-07,SCYX,1178253,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.842,34.8,PASS,True,A
+VA-07,LXEO,1907108,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.833,257.6,PASS,True,A
+VA-07,WGS,1818331,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.608,1959.9,PASS,True,
+VA-07,ALDX,1341235,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.909,38.4,PASS,True,AL
+VA-07,EMBC,1872789,17,"medical, device, medical device, patients, treatment, therapy, fda",True,0.694,363.2,PASS,True,
+VA-07,INSP,1609550,17,"medical, device, medical device, patients, treatment, therapy, fda",True,0.744,1859.6,PASS,True,
+VA-07,ATEC,1350653,17,"medical, device, medical device, patients, treatment, therapy, fda",True,0.675,1144.9,PASS,True,A
+VA-08,MRDN,1437925,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,0.887,104.0,PASS,True,A
+VA-08,PLAY,1525769,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,0.88,285.3,PASS,True,
+VA-08,MYPS,1823878,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,0.838,55.6,PASS,True,
+VA-08,TRON,1956744,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,0.869,687.9,PASS,True,A
+VA-08,OEC,1609804,30,"steel, metals, processing, production, facilities, producer, metal",False,0.857,229.2,PASS,True,
+VA-08,TROX,1530804,30,"steel, metals, processing, production, facilities, producer, metal",False,0.866,432.0,PASS,True,
+VA-08,AMR,1704715,30,"steel, metals, processing, production, facilities, producer, metal",True,0.649,1967.8,PASS,True,
+VA-08,ASPI,1921865,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",False,0.848,328.1,PASS,True,
+VA-08,AXTI,1051627,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.695,2813.7,PASS,True,L
+VA-08,UCTT,1275014,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.678,2200.9,PASS,True,A
+VA-08,ASPN,1145986,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.807,506.3,PASS,True,
+VA-08,SLNH,64463,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.93,134.3,PASS,True,TA
+VA-09,ALLO,1737287,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.812,367.3,PASS,True,A
+VA-09,VOR,1817229,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",True,0.649,1227.5,PASS,True,A
+VA-09,NKTR,906709,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",True,0.623,1291.5,PASS,True,A
+VA-09,CHGG,1364954,36,"education, learning, university, students, programs, learners, higher",False,0.947,67.9,PASS,True,
+VA-09,COUR,1651562,36,"education, learning, university, students, programs, learners, higher",False,0.822,949.9,PASS,True,
+VA-09,BFAM,1437578,36,"education, learning, university, students, programs, learners, higher",True,0.631,2491.9,PASS,True,
+VA-09,TDUP,1484778,14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",False,0.887,181.7,PASS,True,
+VA-09,RENT,1468327,14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",False,0.937,85.9,PASS,True,A
+VA-09,RGP,1084765,19,"technology, clients, expertise, organizations, helps, deep, outcomes",False,0.813,93.7,PASS,True,
+VA-09,TTGT,2018064,19,"technology, clients, expertise, organizations, helps, deep, outcomes",False,0.924,219.8,PASS,True,A
+VA-09,AISP,1842566,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.872,59.6,PASS,True,
+VA-09,GTM,1794515,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.815,1030.0,PASS,True,
+VA-10,PEW,2051380,43,"outdoor, equipment, recreation, outdoor recreation, enthusiasts, outdoors, outdoor enthusiasts",False,0.892,55.8,PASS,True,
+VA-10,BRCC,1891101,43,"outdoor, equipment, recreation, outdoor recreation, enthusiasts, outdoors, outdoor enthusiasts",False,0.852,252.7,PASS,True,
+VA-10,VRNO,1848416,-1,(no description available),False,0.863,340.6,PASS,True,
+VA-10,BRBR,1772016,4,"food, foods, consumer, foodservice, beverages, retail, packaged",True,0.879,1119.2,PASS,True,
+VA-10,KOS,1509991,5,"gas, oil, natural gas, natural, oil natural, production, oil gas",True,0.708,1229.8,PASS,True,
+VA-10,SLQT,1794783,7,"insurance, casualty, property casualty, property, casualty insurance, reinsurance, holding",False,0.926,80.4,PASS,True,
+VA-10,TONX,1566610,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,0.967,162.5,PASS,True,
+VA-10,BLND,1855747,13,"financial, businesses, institutions, financial institutions, money, credit, payments",False,0.816,233.3,PASS,True,
+VA-10,CTM,1877939,18,"security, defense, national security, space, national, critical, mission",False,0.855,35.7,PASS,True,
+VA-10,CLVT,1764046,21,"provider, leading provider, management, countries, managed, employees countries, government",True,0.749,1510.2,PASS,True,
+VA-10,SITC,894315,23,"stock, exchange, stock exchange, traded, symbol, publicly, traded stock",False,0.965,36.0,PASS,True,
+VA-10,NVTS,1821769,24,"systems, power, technologies, control, safety, industrial, leader",True,0.699,2581.9,PASS,True,A
+VA-11,CWH,1669779,27,"automotive, vehicles, parts, vehicle, dealerships, repair, trucks",False,0.836,481.6,PASS,True,
+VA-11,AGNT,1495932,31,"europe, asia, europe asia, middle east, middle, east, australia",False,0.806,529.6,PASS,True,
+VA-11,UPST,1647639,34,"home, furniture, residential, custom, design, furnishings, categories",True,0.749,2200.7,PASS,True,TA
+VA-11,FUN,1999001,37,"water, wastewater, water wastewater, water treatment, treatment, resources, chemical",True,0.813,1100.9,PASS,True,
+VA-11,RILY,1464790,38,"communications, connectivity, wireless, mobile, network, internet, broadband",False,0.9,154.4,PASS,True,TA
+VA-11,BARK,1819574,39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",False,0.801,84.7,PASS,True,A
+VA-11,CDNL,2079999,42,"construction, infrastructure, industrial, electrical, maintenance, building, projects",False,0.839,738.3,PASS,True,
+VB-12,MGNX,1125345,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.891,149.1,PASS,False,
+VB-12,ZURA,1855644,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.824,119.4,PASS,False,G
+VB-12,SION,2036042,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.93,161.4,PASS,False,GA
+VB-12,JANX,1817713,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.809,780.7,PASS,False,GA
+VB-12,SBFM,1402328,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,1.0,2.1,PASS,False,A
+VB-12,CMPX,1738021,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.875,150.7,PASS,False,GA
+VB-12,LENZ,1815776,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.913,134.8,PASS,False,A
+VB-12,LPCN,1535955,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.847,19.0,PASS,False,A
+VB-12,VKTX,1607678,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.693,3696.9,PASS,False,A
+VB-12,MPLT,1770069,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.817,471.6,PASS,False,A
+VB-12,RXRX,1601830,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.755,2369.6,PASS,False,A
+VB-12,HRTX,818033,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.904,70.4,PASS,False,G
+VB-13,CRBP,1595097,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.943,68.1,PASS,False,A
+VB-13,ACRV,1781174,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.85,67.7,PASS,False,A
+VB-13,XFOR,1501697,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.924,340.0,PASS,False,GA
+VB-13,OKUR,1637715,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.959,129.2,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-13,GPCR,1888886,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.772,1526.7,NEEDS_FILING_CHECK: lead asset,False,A
+VB-13,IBIO,1420720,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.875,51.1,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-13,BBOT,1869105,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.832,184.4,NEEDS_FILING_CHECK: lead asset,False,
+VB-13,MLTX,1821586,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.802,1074.0,PASS,False,GA
+VB-13,RNTX,1420565,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.91,53.6,PASS,False,GTA
+VB-13,SPRB,1683553,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.998,141.8,PASS,False,GAL
+VB-13,VERU,863894,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.878,37.3,NEEDS_FILING_CHECK: survival,False,A
+VB-13,AARD,1774857,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.922,29.5,PASS,False,A
+VB-14,BOLD,1782303,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.827,56.9,NEEDS_FILING_CHECK: lead asset,False,A
+VB-14,IVVD,1832038,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.882,175.7,PASS,False,GAL
+VB-14,EDSA,1540159,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.864,33.6,PASS,False,GA
+VB-14,CING,1862150,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.962,64.7,PASS,False,GTA
+VB-14,GOSS,1728117,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",True,0.965,65.1,NEEDS_FILING_CHECK: survival,False,G
+VB-14,BMEA,1840439,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.97,43.1,NEEDS_FILING_CHECK: survival,False,GA
+VB-14,HOWL,1785530,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.872,49.1,NEEDS_FILING_CHECK: survival,False,GAL
+VB-14,DRMA,1853816,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.994,3.8,NEEDS_FILING_CHECK: survival,False,GA
+VB-14,TCRT,1107421,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.941,6.9,NEEDS_FILING_CHECK: survival,False,TL
+VB-14,AZTR,1701478,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,1.0,3.9,NEEDS_FILING_CHECK: survival,False,GT
+VB-14,VBIO,1787740,41,"biopharmaceutical, therapeutics, clinical-stage biopharmaceutical, clinical-stage, unmet, drug, developing",False,0.999,1.2,NEEDS_FILING_CHECK: lead asset,False,GTAL
+VB-15,IONS,874015,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.642,5151.7,PASS,False,
+VB-15,RCKT,1281895,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.921,277.7,PASS,False,A
+VB-15,QTRX,1503274,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.882,159.9,PASS,False,
+VB-15,KRRO,1703647,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.834,205.3,PASS,False,A
+VB-15,DYN,1818794,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.604,3489.1,PASS,False,A
+VB-15,WVE,1631574,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.837,686.4,PASS,False,GA
+VB-15,VYGR,1640266,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.816,123.8,PASS,False,A
+VB-15,PEPG,1835597,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.871,165.5,PASS,False,AL
+VB-15,UPB,2022626,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.89,196.1,PASS,False,GA
+VB-15,TNYA,1858848,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.942,89.8,PASS,False,A
+VB-15,ALMS,1847367,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.784,847.8,PASS,False,A
+VB-15,NTLA,1652130,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.631,1699.7,PASS,False,A
+VB-16,PMN,1374339,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.942,36.3,NEEDS_FILING_CHECK: lead asset,False,A
+VB-16,ATYR,1339970,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.971,19.3,PASS,False,A
+VB-16,LRMR,1374690,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.809,262.8,PASS,False,GA
+VB-16,ANVS,1477845,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.954,57.7,NEEDS_FILING_CHECK: survival,False,A
+VB-16,INO,1055726,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.891,166.4,NEEDS_FILING_CHECK: survival,False,GA
+VB-16,BIVI,1580149,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.998,13.9,NEEDS_FILING_CHECK: survival,False,G
+VB-16,AEMD,882291,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.994,8.8,NEEDS_FILING_CHECK: lead asset,False,A
+VB-16,SXTP,1946563,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.998,1.9,NEEDS_FILING_CHECK: survival,False,GA
+VB-16,INDP,1857044,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",True,0.96,480.7,NEEDS_FILING_CHECK: survival,False,GTL
+VB-16,CODX,1692415,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.994,2.8,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-16,GUTS,1572616,1,"disease, diseases, biotechnology, gene, rare, potential, genetic",False,0.994,11.9,NEEDS_FILING_CHECK: lead asset,False,GAL
+VB-17,ALXO,1810182,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.927,160.5,PASS,False,AL
+VB-17,ATNM,1388320,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.844,49.2,PASS,False,AL
+VB-17,CATX,728387,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.953,97.9,PASS,False,TA
+VB-17,STRO,1382101,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.812,175.9,PASS,False,A
+VB-17,IRLA,1662774,25,"cancer, phase, patients, clinical, treatment, lead, trial",True,0.962,366.2,PASS,False,G
+VB-17,ENGN,1980845,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.903,118.6,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-17,ZNTL,1725160,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.894,164.7,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-17,CRDF,1213037,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.865,62.3,NEEDS_FILING_CHECK: survival,False,G
+VB-17,MBRX,1659617,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.976,9.1,NEEDS_FILING_CHECK: survival,False,A
+VB-18,KTTA,1841330,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.941,18.1,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-18,KPTI,1503802,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.998,0.9,PASS,False,GA
+VB-18,HURA,1498382,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.88,105.8,NEEDS_FILING_CHECK: survival,False,GA
+VB-18,PDSB,1472091,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.836,113.4,NEEDS_FILING_CHECK: survival,False,GA
+VB-18,BIAF,1712762,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.998,4.1,NEEDS_FILING_CHECK: survival,False,GA
+VB-18,ABOS,1576885,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.949,17.1,NEEDS_FILING_CHECK: survival,False,GA
+VB-18,CRIS,1108205,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.998,4.7,NEEDS_FILING_CHECK: survival,False,GTA
+VB-18,CRVO,1053691,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,0.945,21.6,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-18,ONCO,1782107,25,"cancer, phase, patients, clinical, treatment, lead, trial",False,1.0,2.1,NEEDS_FILING_CHECK: lead asset,False,GT
+VB-19,EHTH,1333493,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.96,14.6,PASS,False,L
+VB-19,STEM,1758766,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.967,26.6,PASS,False,A
+VB-19,PL,1836833,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.72,5243.0,PASS,False,A
+VB-19,AMKR,1047127,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.626,8673.4,PASS,False,
+VB-19,MBLY,1910139,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.867,4982.0,PASS,False,
+VB-19,APLD,1144879,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.663,5055.9,PASS,False,
+VB-19,ORBS,1892492,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.984,302.0,PASS,False,GAL
+VB-19,LHAI,2017758,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.945,14.3,PASS,False,
+VB-19,IPW,1830072,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,1.0,0.9,PASS,False,GT
+VB-20,AIFA,1708341,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.816,25.1,PASS,False,
+VB-20,SKYA,1737995,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.999,150.0,NEEDS_FILING_CHECK: lead asset,False,A
+VB-20,SUIG,1425355,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.872,73.5,NEEDS_FILING_CHECK: lead asset,False,
+VB-20,PARA,1826011,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,1.0,0.2,NEEDS_FILING_CHECK: survival,False,
+VB-20,HYPD,1682639,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.986,39.8,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-20,CNSY,1095981,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.991,4.3,NEEDS_FILING_CHECK: survival,False,GA
+VB-20,AMOD,1862463,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",True,0.998,62.5,NEEDS_FILING_CHECK: lead asset,False,GTA
+VB-20,STEX,1530766,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.968,42.8,NEEDS_FILING_CHECK: lead asset,False,GTA
+VB-20,HSCS,1468492,35,"intelligence, artificial intelligence, artificial, agentic, finance, platform, agentic finance",False,0.899,13.1,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-21,QTTB,1661998,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.815,279.5,PASS,False,GA
+VB-21,NKTX,1787400,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.899,114.0,PASS,False,A
+VB-21,JBIO,1798749,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",True,0.986,992.1,PASS,False,GA
+VB-21,CAPR,1133869,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",True,0.721,572.7,NEEDS_FILING_CHECK: lead asset,False,A
+VB-21,KYTX,1994702,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.828,319.7,PASS,False,
+VB-21,RNAC,1453687,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.827,214.1,PASS,False,A
+VB-21,CRBU,1619856,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.949,45.4,PASS,False,AL
+VB-21,CABA,1759138,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",True,0.941,323.6,PASS,False,GA
+VB-22,AUTL,1730463,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.819,351.3,NEEDS_FILING_CHECK: survival,False,GA
+VB-22,YARW,1566044,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.926,146.9,NEEDS_FILING_CHECK: survival,False,GAL
+VB-22,TIL,1789769,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.923,43.9,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-22,JSPR,1788028,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.982,18.2,NEEDS_FILING_CHECK: survival,False,G
+VB-22,SANA,1770121,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",True,0.781,738.6,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-22,ACET,1720580,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.946,28.0,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-22,SNTI,1854270,33,"cell, autoimmune, autoimmune diseases, diseases, cell therapies, therapies, cell therapy",False,0.984,6.1,NEEDS_FILING_CHECK: lead asset,False,GTA
+VB-23,ENPH,1463101,11,"energy, power, fuel, nuclear, clean, renewable, reliable",True,0.788,3847.7,PASS,False,
+VB-23,UEC,1334933,11,"energy, power, fuel, nuclear, clean, renewable, reliable",True,0.622,3781.3,PASS,False,A
+VB-23,LTBR,1084554,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.825,187.6,NEEDS_FILING_CHECK: lead asset,False,A
+VB-23,IMSR,2019804,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.889,248.3,NEEDS_FILING_CHECK: lead asset,False,
+VB-23,XOS,1819493,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.825,33.8,PASS,False,GTA
+VB-23,QS,1811414,11,"energy, power, fuel, nuclear, clean, renewable, reliable",True,0.752,2842.8,NEEDS_FILING_CHECK: lead asset,False,A
+VB-23,NPWR,1845437,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.937,187.9,NEEDS_FILING_CHECK: lead asset,False,L
+VB-24,OKLO,1849056,11,"energy, power, fuel, nuclear, clean, renewable, reliable",True,0.846,5241.6,NEEDS_FILING_CHECK: lead asset,False,A
+VB-24,EU,1500881,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.858,135.6,NEEDS_FILING_CHECK: survival,False,A
+VB-24,EOSE,1805077,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.902,688.8,PASS,False,G
+VB-24,SMR,1822966,11,"energy, power, fuel, nuclear, clean, renewable, reliable",True,0.898,2336.5,NEEDS_FILING_CHECK: lead asset,False,A
+VB-24,FNGR,1602409,11,"energy, power, fuel, nuclear, clean, renewable, reliable",False,0.977,10.5,NEEDS_FILING_CHECK: survival,False,GT
+VB-24,FRMI,2071778,11,"energy, power, fuel, nuclear, clean, renewable, reliable",True,0.949,1064.5,NEEDS_FILING_CHECK: lead asset,False,GT
+VB-25,KTOS,1069258,18,"security, defense, national security, space, national, critical, mission",True,0.712,7096.0,PASS,False,
+VB-25,KRMN,2040127,18,"security, defense, national security, space, national, critical, mission",True,0.602,6078.7,PASS,False,
+VB-25,MRLN,2028707,18,"security, defense, national security, space, national, critical, mission",False,0.938,100.4,NEEDS_FILING_CHECK: lead asset,False,
+VB-25,MNTS,1781162,18,"security, defense, national security, space, national, critical, mission",False,0.998,43.9,NEEDS_FILING_CHECK: lead asset,False,TA
+VB-25,AIRO,1927958,18,"security, defense, national security, space, national, critical, mission",False,0.817,178.9,NEEDS_FILING_CHECK: lead asset,False,
+VB-25,FEAM,1888654,18,"security, defense, national security, space, national, critical, mission",False,0.962,96.3,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-25,YSS,2086587,18,"security, defense, national security, space, national, critical, mission",False,0.836,975.2,NEEDS_FILING_CHECK: lead asset,False,
+VB-26,SPCE,1706946,18,"security, defense, national security, space, national, critical, mission",False,0.947,436.6,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-26,CETX,1435064,18,"security, defense, national security, space, national, critical, mission",False,1.0,1.1,NEEDS_FILING_CHECK: survival,False,G
+VB-26,KDK,1853138,18,"security, defense, national security, space, national, critical, mission",False,0.867,295.9,NEEDS_FILING_CHECK: survival,False,GTA
+VB-26,QUCY,1874252,18,"security, defense, national security, space, national, critical, mission",False,0.913,59.6,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-26,CYAB,2032341,18,"security, defense, national security, space, national, critical, mission",False,0.976,3.0,NEEDS_FILING_CHECK: survival,False,G
+VB-26,KSCP,1600983,18,"security, defense, national security, space, national, critical, mission",False,0.989,9.9,NEEDS_FILING_CHECK: survival,False,GTA
+VB-27,IREN,1878848,9,"infrastructure, data, computing, data centers, compute, centers, digital",True,0.72,9085.5,PASS,False,A
+VB-27,CD,1527762,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,0.848,599.5,NEEDS_FILING_CHECK: lead asset,False,
+VB-27,RUM,1830081,9,"infrastructure, data, computing, data centers, compute, centers, digital",True,0.688,2518.7,PASS,False,
+VB-27,SOAR,1853070,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,1.0,11.1,PASS,False,GA
+VB-27,ZSQR,1759186,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,0.892,147.9,NEEDS_FILING_CHECK: lead asset,False,GT
+VB-27,CIFR,1819989,9,"infrastructure, data, computing, data centers, compute, centers, digital",True,0.767,3107.8,PASS,False,A
+VB-27,AGPU,1446159,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,0.864,86.9,NEEDS_FILING_CHECK: lead asset,False,GTA
+VB-27,HOST,1948864,9,"infrastructure, data, computing, data centers, compute, centers, digital",True,0.99,51.9,NEEDS_FILING_CHECK: survival,False,T
+VB-27,MOVE,1734750,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,0.952,159.3,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-27,AIB,2070542,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,0.803,53.4,NEEDS_FILING_CHECK: lead asset,False,
+VB-27,AVX,1826397,9,"infrastructure, data, computing, data centers, compute, centers, digital",True,1.0,41.5,NEEDS_FILING_CHECK: survival,False,G
+VB-27,BGDE,1218683,9,"infrastructure, data, computing, data centers, compute, centers, digital",False,0.962,18.6,NEEDS_FILING_CHECK: survival,False,GTA
+VB-28,CMTL,23197,38,"communications, connectivity, wireless, mobile, network, internet, broadband",False,0.91,33.8,PASS,False,G
+VB-28,THRY,1556739,38,"communications, connectivity, wireless, mobile, network, internet, broadband",False,0.947,56.9,PASS,False,G
+VB-28,AAOI,1158114,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.766,4729.2,PASS,False,A
+VB-28,CCOI,1158324,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.948,227.9,PASS,False,G
+VB-28,CABO,1632127,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.992,25.1,PASS,False,
+VB-28,LUMN,18926,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.635,4454.1,PASS,False,
+VB-28,VISN,1517228,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.8,838.8,NEEDS_FILING_CHECK: lead asset,False,
+VB-28,WATT,1575793,38,"communications, connectivity, wireless, mobile, network, internet, broadband",False,0.891,48.0,PASS,False,A
+VB-28,AD,821130,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.606,2625.3,PASS,False,
+VB-28,SCKT,944075,38,"communications, connectivity, wireless, mobile, network, internet, broadband",False,0.873,2.3,PASS,False,
+VB-28,GCTS,1851961,38,"communications, connectivity, wireless, mobile, network, internet, broadband",True,0.969,126.9,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-28,PRSO,890394,38,"communications, connectivity, wireless, mobile, network, internet, broadband",False,0.968,6.6,NEEDS_FILING_CHECK: survival,False,GTA
+VB-29,TYGO,1855447,24,"systems, power, technologies, control, safety, industrial, leader",False,0.853,59.0,PASS,False,GA
+VB-29,OLED,1005284,24,"systems, power, technologies, control, safety, industrial, leader",True,0.619,4052.6,PASS,False,A
+VB-29,PUSA,2009312,24,"systems, power, technologies, control, safety, industrial, leader",False,0.802,261.7,NEEDS_FILING_CHECK: lead asset,False,
+VB-29,QBTS,1907982,24,"systems, power, technologies, control, safety, industrial, leader",True,0.744,4354.3,PASS,False,TA
+VB-29,IPWR,1507957,24,"systems, power, technologies, control, safety, industrial, leader",False,0.825,38.5,NEEDS_FILING_CHECK: lead asset,False,G
+VB-29,PCT,1830033,24,"systems, power, technologies, control, safety, industrial, leader",False,0.878,414.1,PASS,False,G
+VB-29,RGTI,1838359,24,"systems, power, technologies, control, safety, industrial, leader",True,0.77,4332.3,NEEDS_FILING_CHECK: survival,False,A
+VB-29,UAVS,8504,24,"systems, power, technologies, control, safety, industrial, leader",False,0.998,23.2,PASS,False,G
+VB-29,SNES,1680378,24,"systems, power, technologies, control, safety, industrial, leader",False,0.962,6.2,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-29,XXII,1347858,24,"systems, power, technologies, control, safety, industrial, leader",False,1.0,0.9,NEEDS_FILING_CHECK: survival,False,GTA
+VB-30,EXOD,1821534,44,"media, digital, advertising, news, content, local, marketing",False,0.95,132.9,PASS,False,
+VB-30,SOUN,1840856,44,"media, digital, advertising, news, content, local, marketing",True,0.833,1948.1,PASS,False,A
+VB-30,GENK,1891856,44,"media, digital, advertising, news, content, local, marketing",False,0.891,49.6,NEEDS_FILING_CHECK: survival,False,
+VB-30,HYFM,1695295,44,"media, digital, advertising, news, content, local, marketing",False,0.934,3.7,NEEDS_FILING_CHECK: survival,False,L
+VB-30,DJT,1849635,44,"media, digital, advertising, news, content, local, marketing",True,0.939,1130.4,NEEDS_FILING_CHECK: survival,False,T
+VB-30,PLAG,1117057,44,"media, digital, advertising, news, content, local, marketing",False,0.938,5.3,PASS,False,G
+VB-30,CAST,1633369,44,"media, digital, advertising, news, content, local, marketing",False,0.871,64.5,NEEDS_FILING_CHECK: lead asset,False,GT
+VB-30,SLE,1621672,44,"media, digital, advertising, news, content, local, marketing",False,0.996,14.3,NEEDS_FILING_CHECK: survival,False,GT
+VB-30,XHLD,2030954,44,"media, digital, advertising, news, content, local, marketing",False,0.991,10.5,NEEDS_FILING_CHECK: lead asset,False,G
+VB-30,AUID,1534154,44,"media, digital, advertising, news, content, local, marketing",False,0.985,3.1,NEEDS_FILING_CHECK: lead asset,False,G
+VB-31,ACMR,1680062,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.608,3483.1,PASS,False,
+VB-31,FPS,2080126,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.65,6874.0,PASS,False,
+VB-31,TTMI,1116942,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.66,7937.9,PASS,False,
+VB-31,GPK,1408075,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.645,3209.6,PASS,False,
+VB-31,ATOM,1420520,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",False,0.808,124.3,NEEDS_FILING_CHECK: lead asset,False,A
+VB-31,VELO,1825079,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.992,200.3,PASS,False,GA
+VB-31,WKHS,1425287,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",True,0.997,36.3,NEEDS_FILING_CHECK: survival,False,
+VB-31,ASTI,1350102,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",False,0.984,15.0,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-31,FFR,1460702,32,"manufacturing, semiconductor, aerospace, applications, defense, industrial, design",False,0.976,20.4,NEEDS_FILING_CHECK: lead asset,False,G
+VB-32,AVD,5981,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.937,24.1,PASS,False,
+VB-32,CELH,1341766,6,"health, care, wellness, health wellness, better, health care, consumers",True,0.655,8316.0,PASS,False,
+VB-32,BYND,1655210,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.981,104.9,PASS,False,AL
+VB-32,HIMS,1773751,6,"health, care, wellness, health wellness, better, health care, consumers",True,0.666,5351.0,PASS,False,G
+VB-32,HAIN,910406,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.988,12.7,PASS,False,GA
+VB-32,DRIO,1533998,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.96,20.2,NEEDS_FILING_CHECK: survival,False,A
+VB-32,RKDA,1469443,6,"health, care, wellness, health wellness, better, health care, consumers",False,0.974,0.4,NEEDS_FILING_CHECK: lead asset,False,G
+VB-32,ENHA,1956439,6,"health, care, wellness, health wellness, better, health care, consumers",True,0.913,3355.1,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-33,EMPD,1829794,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,1.0,56.3,NEEDS_FILING_CHECK: lead asset,False,
+VB-33,UPXI,1775194,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,0.976,58.6,NEEDS_FILING_CHECK: survival,False,A
+VB-33,SRXH,1471727,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,0.999,17.9,NEEDS_FILING_CHECK: lead asset,False,TA
+VB-33,FWDI,38264,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,0.858,421.9,NEEDS_FILING_CHECK: survival,False,GTA
+VB-33,ELAB,1840563,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,1.0,1.3,NEEDS_FILING_CHECK: lead asset,False,TA
+VB-33,ASST,1920406,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",True,0.918,2732.5,NEEDS_FILING_CHECK: lead asset,False,A
+VB-33,XXI,2070457,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",True,0.889,3138.0,NEEDS_FILING_CHECK: lead asset,False,
+VB-33,INV,2001557,12,"value, capital, long-term, disciplined, growth, long-term value, shareholders",False,0.989,13.5,NEEDS_FILING_CHECK: lead asset,False,GT
+VB-34,LUNG,1127537,17,"medical, device, medical device, patients, treatment, therapy, fda",False,0.809,121.9,PASS,False,
+VB-34,CVRX,1235912,17,"medical, device, medical device, patients, treatment, therapy, fda",False,0.976,22.2,PASS,False,A
+VB-34,NVNO,1661053,17,"medical, device, medical device, patients, treatment, therapy, fda",False,0.971,4.8,NEEDS_FILING_CHECK: lead asset,False,A
+VB-34,ADGM,2006986,17,"medical, device, medical device, patients, treatment, therapy, fda",True,0.993,52.7,NEEDS_FILING_CHECK: lead asset,False,AL
+VB-34,TNON,1560293,17,"medical, device, medical device, patients, treatment, therapy, fda",False,0.998,4.7,NEEDS_FILING_CHECK: survival,False,GA
+VB-34,MODD,1074871,17,"medical, device, medical device, patients, treatment, therapy, fda",False,0.974,17.6,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-34,BEAT,1779372,17,"medical, device, medical device, patients, treatment, therapy, fda",False,0.882,22.9,NEEDS_FILING_CHECK: lead asset,False,GL
+VB-34,ICU,1831868,17,"medical, device, medical device, patients, treatment, therapy, fda",True,0.995,10.4,NEEDS_FILING_CHECK: lead asset,False,GTA
+VB-35,BYRN,1354866,8,"com, www, information, visit, visit www, information visit, learn",False,0.885,92.0,PASS,False,G
+VB-35,TGEN,1537435,8,"com, www, information, visit, visit www, information visit, learn",False,0.853,52.8,NEEDS_FILING_CHECK: survival,False,
+VB-35,INMB,1711754,8,"com, www, information, visit, visit www, information visit, learn",False,0.919,35.0,PASS,False,GA
+VB-35,SBET,1981535,8,"com, www, information, visit, visit www, information visit, learn",True,0.923,1332.3,PASS,False,GA
+VB-35,CNTX,1842952,8,"com, www, information, visit, visit www, information visit, learn",False,0.94,18.4,NEEDS_FILING_CHECK: lead asset,False,AL
+VB-35,BZAI,1871638,8,"com, www, information, visit, visit www, information visit, learn",False,0.987,29.0,NEEDS_FILING_CHECK: survival,False,GTA
+VB-35,CLRO,840715,8,"com, www, information, visit, visit www, information visit, learn",False,0.851,12.3,NEEDS_FILING_CHECK: lead asset,False,GAL
+VB-36,MP,1801368,30,"steel, metals, processing, production, facilities, producer, metal",True,0.617,6727.8,PASS,False,A
+VB-36,WWR,839470,30,"steel, metals, processing, production, facilities, producer, metal",False,0.882,53.5,NEEDS_FILING_CHECK: lead asset,False,A
+VB-36,UAMY,101538,30,"steel, metals, processing, production, facilities, producer, metal",False,0.801,520.8,PASS,False,A
+VB-36,USAR,1970622,30,"steel, metals, processing, production, facilities, producer, metal",True,0.774,3285.7,NEEDS_FILING_CHECK: lead asset,False,
+VB-36,LNZA,1843724,30,"steel, metals, processing, production, facilities, producer, metal",True,0.991,64.1,PASS,False,G
+VB-36,ATLX,1540684,30,"steel, metals, processing, production, facilities, producer, metal",False,0.949,52.2,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-37,GLXY,1859392,31,"europe, asia, europe asia, middle east, middle, east, australia",True,0.661,5671.8,PASS,False,A
+VB-37,TTD,1671933,31,"europe, asia, europe asia, middle east, middle, east, australia",True,0.893,7058.8,PASS,False,
+VB-37,MOD,67347,31,"europe, asia, europe asia, middle east, middle, east, australia",True,0.654,5649.5,PASS,False,
+VB-37,WLK,1262823,31,"europe, asia, europe asia, middle east, middle, east, australia",True,0.604,8203.9,PASS,False,A
+VB-37,TLRY,1731348,31,"europe, asia, europe asia, middle east, middle, east, australia",False,0.9,421.2,PASS,False,A
+VB-37,YYAI,1674440,31,"europe, asia, europe asia, middle east, middle, east, australia",False,1.0,4.3,PASS,False,A
+VB-38,ARE,1035443,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",True,0.659,7994.0,PASS,False,A
+VB-38,ABR,1253986,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",False,0.901,293.8,NEEDS_FILING_CHECK: lead asset,False,A
+VB-38,RC,1527590,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",False,0.909,165.8,NEEDS_FILING_CHECK: lead asset,False,A
+VB-38,FGC,1591890,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",False,0.972,26.7,NEEDS_FILING_CHECK: lead asset,False,
+VB-38,BLNE,1534708,2,"estate, real estate, real, commercial real, commercial, investment, mortgage",False,0.963,19.8,NEEDS_FILING_CHECK: survival,False,GTA
+VB-38,CIIT,1557798,22,"supply, supply chain, chain, logistics, freight, network, brokerage",False,0.994,2.8,PASS,False,
+VB-38,WORX,1674227,22,"supply, supply chain, chain, logistics, freight, network, brokerage",False,0.998,1.9,NEEDS_FILING_CHECK: lead asset,False,
+VB-38,FTFT,1066923,22,"supply, supply chain, chain, logistics, freight, network, brokerage",False,0.997,30.1,NEEDS_FILING_CHECK: lead asset,False,G
+VB-38,CJMB,2032545,22,"supply, supply chain, chain, logistics, freight, network, brokerage",False,0.952,3.2,NEEDS_FILING_CHECK: survival,False,TAL
+VB-38,CTNT,1951667,22,"supply, supply chain, chain, logistics, freight, network, brokerage",False,1.0,2.4,NEEDS_FILING_CHECK: lead asset,False,A
+VB-38,BCHG,1732409,-1,(no description available),False,0.918,83.4,NEEDS_FILING_CHECK: lead asset,False,
+VB-38,LTCN,1732406,-1,(no description available),False,0.922,88.4,NEEDS_FILING_CHECK: lead asset,False,
+VB-39,JOBY,1819848,39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",True,0.697,6293.0,PASS,False,A
+VB-39,ACHR,1824502,39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",True,0.647,3743.6,PASS,False,A
+VB-39,FJET,1947016,39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",False,0.965,59.9,NEEDS_FILING_CHECK: lead asset,False,G
+VB-39,HOVR,1930021,39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",False,0.868,94.0,NEEDS_FILING_CHECK: lead asset,False,A
+VB-39,SRFM,1936224,39,"airlines, air, aircraft, airline, aviation, destinations, scheduled",False,0.935,95.4,NEEDS_FILING_CHECK: survival,False,GTA
+VB-39,SFM,1575515,14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",True,0.724,4572.9,PASS,False,
+VB-39,FND,1507079,14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",True,0.601,5558.8,PASS,False,
+VB-39,PLCE,1041859,14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",False,0.993,4.2,PASS,False,
+VB-39,REED,1140215,14,"stores, footwear, apparel, accessories, women, lifestyle, retailer",False,0.932,36.3,NEEDS_FILING_CHECK: survival,False,G
+VB-39,BXBL,1906364,20,"homes, homebuilding, nation, mortgage, largest, nation largest, communities",False,0.874,64.7,NEEDS_FILING_CHECK: lead asset,False,
+VB-39,BAER,1941536,20,"homes, homebuilding, nation, mortgage, largest, nation largest, communities",False,0.972,12.3,PASS,False,A
+VB-39,UWMC,1783398,20,"homes, homebuilding, nation, mortgage, largest, nation largest, communities",True,0.845,2362.4,NEEDS_FILING_CHECK: survival,False,
+VB-40,FLL,891482,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,0.876,26.5,PASS,False,
+VB-40,DKNG,1883685,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",True,0.65,9318.0,PASS,False,
+VB-40,VENU,1770501,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,0.935,69.5,PASS,False,GA
+VB-40,TRUG,1857086,15,"gaming, entertainment, sports, betting, sports betting, experiences, games",False,1.0,1.1,PASS,False,T
+VB-40,LKQ,1065696,27,"automotive, vehicles, parts, vehicle, dealerships, repair, trucks",True,0.618,5151.4,PASS,False,
+VB-40,CHPT,1777393,27,"automotive, vehicles, parts, vehicle, dealerships, repair, trucks",False,0.813,332.1,PASS,False,A
+VB-40,CRMT,799850,27,"automotive, vehicles, parts, vehicle, dealerships, repair, trucks",False,0.986,9.5,PASS,False,G
+VB-40,PAL,1998768,27,"automotive, vehicles, parts, vehicle, dealerships, repair, trucks",False,0.835,94.8,NEEDS_FILING_CHECK: lead asset,False,A
+VB-40,JELD,1674335,42,"construction, infrastructure, industrial, electrical, maintenance, building, projects",False,0.946,101.5,PASS,False,
+VB-40,STRL,874238,42,"construction, infrastructure, industrial, electrical, maintenance, building, projects",True,0.707,8866.2,PASS,False,
+VB-40,AGX,100591,42,"construction, infrastructure, industrial, electrical, maintenance, building, projects",True,0.616,4297.1,PASS,False,
+VB-40,LGN,2052568,42,"construction, infrastructure, industrial, electrical, maintenance, building, projects",True,0.686,3475.7,PASS,False,T
+VB-41,CAR,723612,21,"provider, leading provider, management, countries, managed, employees countries, government",True,0.821,4510.9,PASS,False,A
+VB-41,KD,1867072,21,"provider, leading provider, management, countries, managed, employees countries, government",True,0.613,3665.0,PASS,False,
+VB-41,CYCU,1868419,21,"provider, leading provider, management, countries, managed, employees countries, government",False,0.997,8.0,NEEDS_FILING_CHECK: survival,False,TAL
+VB-41,SVIA,2076163,23,"stock, exchange, stock exchange, traded, symbol, publicly, traded stock",False,0.814,237.3,NEEDS_FILING_CHECK: survival,False,L
+VB-41,CNTN,1861657,23,"stock, exchange, stock exchange, traded, symbol, publicly, traded stock",True,0.975,153.8,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-41,LITS,1262104,23,"stock, exchange, stock exchange, traded, symbol, publicly, traded stock",False,0.879,28.4,NEEDS_FILING_CHECK: lead asset,False,A
+VB-41,Z,1617640,34,"home, furniture, residential, custom, design, furnishings, categories",True,0.66,6916.7,PASS,False,
+VB-41,BLDR,1316835,34,"home, furniture, residential, custom, design, furnishings, categories",True,0.688,7097.7,PASS,False,
+VB-41,NXH,1130713,34,"home, furniture, residential, custom, design, furnishings, categories",False,0.958,166.1,PASS,False,A
+VB-41,AHT,1232582,3,"properties, trust, investment trust, investment, estate investment, office, office properties",False,0.904,15.4,PASS,False,A
+VB-41,WHLR,1527541,3,"properties, trust, investment trust, investment, estate investment, office, office properties",False,1.0,0.8,NEEDS_FILING_CHECK: lead asset,False,
+VB-41,VITL,1579733,4,"food, foods, consumer, foodservice, beverages, retail, packaged",False,0.808,431.5,PASS,False,
+VB-42,PROP,1162896,5,"gas, oil, natural gas, natural, oil natural, production, oil gas",False,0.977,42.0,PASS,False,GTAL
+VB-42,TPET,1898766,5,"gas, oil, natural gas, natural, oil natural, production, oil gas",False,0.986,8.5,NEEDS_FILING_CHECK: lead asset,False,GTA
+VB-42,LAC,1966983,10,"bank, banking, management, holding, wealth, wealth management, loan",True,0.799,737.0,NEEDS_FILING_CHECK: lead asset,False,TA
+VB-42,FLG,910073,10,"bank, banking, management, holding, wealth, wealth management, loan",True,0.688,4211.2,NEEDS_FILING_CHECK: lead asset,False,T
+VB-42,LIDR,1818644,28,"owns, limited, logistics, midstream, partnership, crude, transportation",False,0.849,42.0,NEEDS_FILING_CHECK: lead asset,False,AL
+VB-42,SKYQ,1812447,28,"owns, limited, logistics, midstream, partnership, crude, transportation",False,0.95,15.0,NEEDS_FILING_CHECK: lead asset,False,GA
+VB-42,FOUR,1794669,29,"restaurants, restaurant, dining, casual, guests, casual dining, locations",True,0.642,3372.9,PASS,False,
+VB-42,SERV,1832483,29,"restaurants, restaurant, dining, casual, guests, casual dining, locations",False,0.858,297.9,PASS,False,A
+VB-42,AIRJ,1855474,37,"water, wastewater, water wastewater, water treatment, treatment, resources, chemical",False,0.912,194.0,NEEDS_FILING_CHECK: lead asset,False,TA
+VB-42,NKLR,2067627,37,"water, wastewater, water wastewater, water treatment, treatment, resources, chemical",False,0.853,296.1,NEEDS_FILING_CHECK: lead asset,False,G
+VB-42,DOCS,1516513,40,"healthcare, care, patient, improve, clinical, outcomes, providers",True,0.605,5864.3,PASS,False,
+VB-42,NUWE,1506492,40,"healthcare, care, patient, improve, clinical, outcomes, providers",False,1.0,2.0,NEEDS_FILING_CHECK: survival,False,GA
+VB-43,SNAP,1564408,16,"world, countries, world largest, largest, world leading, nyse, innovation",True,0.711,8710.6,PASS,False,
+VB-43,UPLD,1505155,19,"technology, clients, expertise, organizations, helps, deep, outcomes",False,0.928,10.8,PASS,False,A
+VB-43,DUOL,1562088,36,"education, learning, university, students, programs, learners, higher",True,0.715,7277.2,PASS,False,

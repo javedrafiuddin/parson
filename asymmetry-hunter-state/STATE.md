@@ -1,7 +1,7 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
-**Run as-of:** 2026-11-10 (Tue) · **Current run stage:** R6 (finalist deep verification + red team) — R1–R5 complete (R3 budget-scaled)
-**Last updated:** 2026-11-10 ~23:15 UTC
+**Run as-of:** 2026-11-11 (Wed) · **Current run stage:** R6 IN PROGRESS (red team relaunched; no memo on disk yet) — R1–R5 complete (R3 lean; swarm CUT for budget)
+**Last updated:** 2026-11-11 (burn-down audit)
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
 > stands, continue at the next incomplete stage. Never redo a completed stage except to correct a logged error.
@@ -80,7 +80,8 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 - [x] **R5 — White-swan math + finalists** — COMPLETE 2026-11-10: `ranked_table.md` (`scripts/r5_math.py`, `scripts/r5_write_table.py`, `data/derived/r5_math.json`, `r5_finalists.json`)
   Finalists: VRRM, ALIT, KLC, FMC (one cluster; effective N ≈ 1.6). NO-TRADE branch fired individually for RXST, METC, TE, ABAT, BLNK; FLNC fails the white-swan class.
 - [ ] **R6 — Finalist deep verification + red team** (Sat Nov 14; started early)
-  - [ ] red-team memos in `redteam/<SYM>.md` (one independent subagent for all four — budget-scaled), each answered line-by-line in `redteam/ANSWERS.md`
+  - [ ] red-team memos in `redteam/<SYM>.md` — two earlier agents died at 5-hour walls with nothing written; relaunched 2026-11-11 with memo-by-memo saving.
+        EXACT NEXT ACTION if a wall hits: `ls asymmetry-hunter-state/redteam/`; for any of VRRM, ALIT, KLC, FMC without a memo, launch ONE subagent with `redteam/BRIEF.md` for the missing names only; then write `redteam/ANSWERS.md`
   - [ ] every ranked-table number re-traced; dilution trajectory re-modelled; Schwab tradability pre-flight (7.1.1) per name
 - [ ] **R7 — Buy set lock (Sun Nov 15), buy day + close-out (Mon Nov 16)**
 
@@ -96,6 +97,30 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 - **B2 — OTC Markets site returns a maintenance page.** OTC discovery uses the EDGAR `exchanges` field instead.
 - **B3 — Yahoo purges most delisted tickers** (tested: 20 of 25 known-dead tickers return nothing). Handled in the
   cohort design as the `S2_UNPRICED` subset; documented in `blueprint.md` §8.2.
+
+## RESOURCE LEDGER (updated at every stage boundary; last update 2026-11-11, burn-down audit)
+
+| Item | Status |
+|---|---|
+| (a) 5-hour walls hit | 2026-11-10 ~08:16 ET (cleared 10:40 ET) · 2026-11-10 ~16:20 ET (killed pilot batch T1-14) · 2026-11-10 evening, reset 03:20 UTC Nov 11 (killed the red-team agent). Container clock is unreliable after restarts; wall times are as the user reported or as the API error stated |
+| (b) Free Fable limit reset | **UNUSED** (user instruction 2026-11-10: treat as unused; reserved for the weekly-allowance wall, never a 5-hour wall). Announced as binding on 2026-11-11 with the prescribed sentence |
+| Weekly allowance | user-reported: 50% used (Nov 10 midday) → **16% remaining** (Nov 11). No meter in this environment |
+| (c) Calendar to the lock | Wed Nov 11 → Sat Nov 14 = 4 days, then lock Sun Nov 15, buy day Mon Nov 16 (reset expires Nov 16 11:59 pm PT) |
+| (d) Incomplete stages | R6 red team + answers + finalist verification ≈ 9% / 1 window · R7 lock ≈ 7% / 1 window (Sun) · close-out ≈ 5% / 1 window (Mon) · resume overhead ≈ 4% → **≈ 25% still required** |
+| Verdict | **TIGHT**: 16% on hand < 25% required; covered only if the reset is applied before the Nov 15 lock session |
+
+Estimated share of the ~84% used so far (estimates, not metered): R1 16 · R2 6 · R3 26 · R4 16 · R5 8 · R6 so far 6 · resumes/audits 6.
+
+**Minimum-viable plan to the lock (critical path, in order):** (1) one red-team pass per finalist — ONE subagent, four memos, each written to disk as it is finished;
+(2) answer every kill argument in `redteam/ANSWERS.md`, remove what cannot be defended, re-trace the ranked-table numbers of what remains, Schwab tradability pre-flight;
+(3) Sun Nov 15: refresh quotes, re-run `scripts/r5_math.py` + `r5_write_table.py`, write `buy_set.md`, `paper_shadow.csv`, `monitoring.md`; (4) Mon Nov 16: fills, reconciliation, `final_report.md`.
+
+**CUT (first to go, in this order of size):** the reopened first-tier verification swarm (`batches/verify_batches.csv`, 43 batches, 392 names — NOT RUN); tiers 2 and 3;
+any re-run of the cohort, models or sweeps; a separate red-team agent per finalist; second verification passes; deeper dives on cut names; warrant / SEC-access work.
+**Never cut:** the coverage ledger (every unreached name is logged as unverified, not rejected), one red-team pass per finalist, the NO-TRADE arithmetic, state-saving.
+
+**Cost note:** this session's context is very large, so every step in it is expensive. A FRESH session started with the resume line is cheaper per step and can do
+R6/R7 from the repository alone: `data/derived/` is committed (incl. `pit_finalists_*.parquet`); `data/pit` and `data/prices` are NOT needed for R6/R7.
 
 ## Token-budget notes (Section 3.3)
 

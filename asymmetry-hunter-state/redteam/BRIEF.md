@@ -28,3 +28,5 @@ Write one memo per name to `asymmetry-hunter-state/redteam/<SYM>.md`: numbered k
 `VERDICT: KILL` (a filing-backed reason the equity is very likely worthless or the numbers in the ranked table are materially wrong), `WOUNDED`
 (serious, quantified, but not fatal) or `SURVIVES` (you tried and found nothing filing-backed). Also list numbers in the ranked table you found to be wrong.
 Reply with at most 12 lines: verdict per name and the single strongest argument for each.
+
+**SAVE AS YOU GO.** Work one name at a time in the order VRRM, ALIT, KLC, FMC and write that name's memo file BEFORE starting the next name. If a memo file already exists for a name, skip that name. A usage limit may stop you at any moment; only what is on disk survives.

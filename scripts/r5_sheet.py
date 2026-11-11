@@ -10,7 +10,9 @@ spec = importlib.util.spec_from_file_location("filing", str(pathlib.Path(__file_
 F = importlib.util.module_from_spec(spec); spec.loader.exec_module(F)
 c = store.connect()
 st = pd.read_parquet("data/derived/stage1.parquet").drop_duplicates("symbol").set_index("symbol")
-INST = pd.read_parquet("data/pit/series/instant.parquet"); TTM = pd.read_parquet("data/pit/series/ttm.parquet")
+_pp = pathlib.Path("data/pit/series/instant.parquet")
+INST = pd.read_parquet(_pp if _pp.exists() else "data/derived/pit_finalists_instant.parquet")
+TTM = pd.read_parquet("data/pit/series/ttm.parquet" if _pp.exists() else "data/derived/pit_finalists_ttm.parquet")
 M = lambda v: "n/a" if v is None or pd.isna(v) else f"{v/1e6:,.1f}"
 TXT = [("going-concern", r"substantial doubt[^.]{0,160}", 1), ("ATM", r"(at[- ]the[- ]market|equity distribution agreement)[^.]{0,200}", 1),
        ("convert", r"conver(sion|tible)[^.]{0,60}(price|rate) of[^.]{0,120}", 2), ("antidilutive", r"anti-?dilutive[^.]{0,90}\.[^.]{0,230}", 1),
