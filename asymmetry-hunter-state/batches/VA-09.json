@@ -1,0 +1,800 @@
+{
+ "batch": "VA-09",
+ "as_of": "2026-11-10",
+ "n_names": 12,
+ "themes": [
+  {
+   "sub_theme": "immune-reset therapeutics (allogeneic CAR-T, Treg stimulation, BAFF/APRIL) for autoimmune and heme disease",
+   "members": [
+    "ALLO",
+    "VOR",
+    "NKTR"
+   ],
+   "maturity_signals": [
+    "Allogeneic CAR-T cema-cel in a registered Phase 2 first-line MRD+ LBCL consolidation trial NCT06500273 (recruiting, primary completion 2027-12; ClinicalTrials.gov) - still pre-approval",
+    "Telitacicept in Phase 3 development (NCT07404865 per ClinicalTrials.gov sponsor match); Vor in-licensed it from RemeGen with a 16,000,000-share warrant as consideration (VOR 10-Q, filed 2026-10-30, 0001193125-26-439905)",
+    "Rezpegaldesleukin entered Phase 3 in atopic dermatitis, NCT07711418 (recruiting, primary completion 2028-06), after Phase 2b NCT06136741 (ClinicalTrials.gov)",
+    "No member has product revenue from the lead asset; NKTR's $54.6M TTM revenue (XBRL, 10-Q filed 2026-08-14, 0001193125-26-349805) is legacy royalty/collaboration income"
+   ],
+   "adoption_evidence": [
+    "Capital-market adoption only, no commercial adoption yet: VOR raised a $75.0M private placement in 2026 and $48.4M via ATM (10-Q 2026-10-30, 0001193125-26-439905); ALLO sold 12,476,533 ATM shares for $20.7M net in 9M 2026 (10-Q 2026-11-06, 0001628280-26-071191); NKTR completed public offerings in Feb and Apr 2026 (424B5s 0001193125-26-049191, 0001193125-26-171717)",
+    "No government programme or named commercial customer found in the filings for any member"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-21 cell & gene-editing therapy wave (allogeneic/iPSC cell therapy and CRISPR)",
+    "trough": "2020-03",
+    "crest": "2021-01 to 2021-09",
+    "leader_basket": [
+     "CRSP",
+     "NTLA",
+     "BEAM",
+     "FATE"
+    ],
+    "leader_peak_multiples": {
+     "CRSP": 6.2,
+     "NTLA": 18.7,
+     "BEAM": 10.0,
+     "FATE": 6.8
+    },
+    "months_trough_to_crest": 15,
+    "similar": "Same platform-promise shape: pre-revenue immune-cell / immune-modulation biotechs funded by equity, re-rated on early clinical data and sector flows (tools.py px 2020-01-01..2021-12-31; troughs 2020-03-16).",
+    "different": "ALLO is itself wreckage of that wave (allogeneic CAR-T was a 2020-21 leader theme), so this would be a second wave, driven by the autoimmune indication pivot rather than oncology; leader multiples of 6-19x in that wave fall short of 25x except at the extreme; rates and biotech funding today are not the zero-rate 2020 setting."
+   },
+   "wave_window_years": 4,
+   "wave_score": 2,
+   "wave_score_reason": "Phase 3 starts at two issuers and Phase 2 at a third are real maturity steps, but there is no approval, no product revenue and no payer adoption in any filing, and the prior wave in this very theme has already crested and broken."
+  },
+  {
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "members": [
+    "COUR",
+    "BFAM",
+    "TDUP",
+    "RGP",
+    "TTGT",
+    "AISP",
+    "GTM",
+    "CHGG"
+   ],
+   "maturity_signals": [
+    "Consolidation among incumbents: Coursera completed its combination with Udemy on 2026-05-11 and announced exit/disposal costs (8-K 2.05, filed 2026-11-10, 0001651562-26-000075)",
+    "Revenue declines at incumbents attributed in filings to AI search: Chegg sued Google over AI Overviews (CHGG 10-Q filed 2026-05-11, 0001364954-26-000048); TechTarget I&A revenue decline (TTGT 10-Q filed 2026-11-06, 0001193125-26-450764)",
+    "Airship AI reports AI video analytics revenue of $23.2M TTM (XBRL, 10-Q filed 2026-11-05, 0001654954-26-009546) with backlog of only $3.3M at 2025-12-31 (10-K filed 2026-02-17, 0001654954-26-001280)"
+   ],
+   "adoption_evidence": [
+    "TechTarget: 73 customers spent over $1M in 2025, top-50 = ~37% of revenue (10-K filed 2026-03-11, 0001193125-26-102183)",
+    "Airship AI: $2.8M commercial refresh award and NSSE-related federal work cited; validated pipeline $173.4M (management figure, not contract) (10-K filed 2026-02-17, 0001654954-26-001280)",
+    "Evidence points to AI as a disruptor of these incumbents' revenue, not a wave lifting them; no filing shows revenue mix shifting decisively toward AI products"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-21 pandemic edtech wave",
+    "trough": "2020-02/2020-03",
+    "crest": "2020-08 to 2021-02",
+    "leader_basket": [
+     "CHGG",
+     "LRN"
+    ],
+    "leader_peak_multiples": {
+     "CHGG": 4.1,
+     "LRN": 3.3
+    },
+    "months_trough_to_crest": 11,
+    "similar": "Online-learning/info platforms re-rated together on a demand shock (tools.py px 2019-06-01..2021-03-01: CHGG trough 2020-03-18 to 2021-02-12, 10.9 months; LRN 2020-02-10 to 2020-08-05, 5.8 months).",
+    "different": "That wave peaked at ~3-4x for leaders, nowhere near 25x, and CHGG/COUR are its wreckage; today's driver (generative AI) is a substitute for these products, i.e. the opposite sign."
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "Filings show AI eroding these incumbents' revenue and a prior wave that peaked at only 3-4x; no primary evidence of a theme wave that would lift them."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "ALLO",
+   "cik": 1737287,
+   "sub_theme": "immune-reset therapeutics (allogeneic CAR-T, Treg stimulation, BAFF/APRIL) for autoimmune and heme disease",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001628280-26-071191",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-12",
+    "accession": "0001628280-26-017242"
+   },
+   "business": "Clinical-stage developer of allogeneic (off-the-shelf) CAR T cell product candidates; lead cema-cel in first-line LBCL consolidation (10-Q 2026-11-06).",
+   "revenue_ttm_usd": 0,
+   "lead_asset": "cema-cel, Phase 2 NCT06500273 (ALPHA3, recruiting, primary completion 2027-12); ALLO-501A Phase 1/2 NCT04416984",
+   "cash_usd": 388900000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -108600000,
+   "runway_years": 3.58,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 346279825,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": 37872299,
+    "rsus": 16707459,
+    "warrants": null,
+    "warrant_terms": "No warrants on ALLO equity found (Antion warrants are an asset held by ALLO)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 135000000,
+    "pct_of_mcap": 36.8
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Authorized common already raised 400,000,000 -> 800,000,000 during 2026 (10-Q balance sheet); no pending split",
+   "listing_risk": "Price $1.06 (2026-11-09) is just above $1; no deficiency notice in filing index",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Pre-revenue; cema-cel only in Phase 2 (NCT06500273)",
+    "Largest cash pile of the three (388.9M) but no approved product; one of several allogeneic CAR-T developers"
+   ],
+   "dated_catalysts": [
+    "2027-12 ALPHA3 primary completion (ClinicalTrials.gov NCT06500273)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "TTM operating cash flow -$108.6M is the pack XBRL figure; cash-flow statement not re-read",
+    "ATM remaining: 10-Q says no shares sold under the June 2026 $135.0M supplement through 2026-09-30; remaining sentence truncated in mirror, $135.0M taken as remaining (36.8% of $367.3M mcap -> flag >25%)"
+   ],
+   "notes": "ESPP 1,460,674 further shares. Management guides runway into Q1 2029 (10-Q). ATM overhang >25% of market cap flagged."
+  },
+  {
+   "symbol": "VOR",
+   "cik": 1817229,
+   "sub_theme": "immune-reset therapeutics (allogeneic CAR-T, Treg stimulation, BAFF/APRIL) for autoimmune and heme disease",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-30",
+    "accession": "0001193125-26-439905",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-30",
+    "accession": "0001193125-26-130451"
+   },
+   "business": "Clinical-stage company developing telitacicept, a dual BAFF/APRIL fusion protein in-licensed from RemeGen, for autoantibody-driven autoimmune disease.",
+   "revenue_ttm_usd": null,
+   "lead_asset": "telitacicept, Phase 3 (NCT07404865 per ClinicalTrials.gov sponsor match)",
+   "cash_usd": 481600000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -119200000,
+   "runway_years": 4.04,
+   "closed_financing_since_bs": "New $150.0M ATM sales agreement with William Blair/RBC dated 2026-10-30 (subsequent event; capacity, not closed financing)",
+   "going_concern_language": null,
+   "shares_outstanding": 61434344,
+   "shares_asof": "2026-10-26",
+   "dilutive": {
+    "options": null,
+    "rsus": 186325,
+    "warrants": 34664213,
+    "warrant_terms": "2025 Warrants (PIPE + RemeGen): 31,172,260 outstanding at $0.002, no expiry, liability-classified FV $594.7M; 2024 Warrants: 3,491,953 at $16.76 (expiry not seen)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 150000000,
+    "pct_of_mcap": 12.2
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1-for-20 reverse split effected 2025-09-18 (past); authorized raised to 800,000,000",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Asset in-licensed from RemeGen (not owned IP); Phase 3 stage",
+    "$481.6M cash, runway guided into early 2029 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Option count at 2026-09-30 not in snippets",
+    "2024 Warrant expiry not seen",
+    "RSU count is 2025-12-31 (10-K)"
+   ],
+   "notes": "Penny warrants (31.2M) mean fully diluted ~96M shares, ~1.57x the cover count: effective market cap ~$1.9B, not $1.23B. Liabilities of $633.5M are mostly the non-cash warrant liability."
+  },
+  {
+   "symbol": "NKTR",
+   "cik": 906709,
+   "sub_theme": "immune-reset therapeutics (allogeneic CAR-T, Treg stimulation, BAFF/APRIL) for autoimmune and heme disease",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-14",
+    "accession": "0001193125-26-349805",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-13",
+    "accession": "0001193125-26-104547"
+   },
+   "business": "Biotech developing rezpegaldesleukin, a regulatory T-cell stimulator, for atopic dermatitis and other autoimmune/inflammatory diseases.",
+   "revenue_ttm_usd": 54600000,
+   "lead_asset": "rezpegaldesleukin, Phase 3 atopic dermatitis NCT07711418 (recruiting, PCD 2028-06); Phase 2b NCT06136741",
+   "cash_usd": 684300000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -233800000,
+   "runway_years": 2.93,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 34129664,
+   "shares_asof": "2026-06-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": 0,
+    "warrant_terms": "TCG pre-funded warrant fully exercised July 2025; options+RSUs weighted 2,502,775 excluded (Q2 2026)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1:15 reverse split effective 2025-06-08 (past)",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Phase 3 Treg-stimulator programme; legacy royalty revenue",
+    "$1,023.4M cash and investments incl. long-term (10-Q text) - strongest balance sheet in sub-theme"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Q3 2026 10-Q not in mirror as of run; figures are at 2026-06-30",
+    "May 2026 ATM size not seen (no shares issued under it at 2026-06-30)",
+    "Liability related to sale of future royalties not quantified",
+    "Revenue TTM is XBRL, includes non-cash royalty revenue"
+   ],
+   "notes": "Runway 2.93y uses $684.3M cash+ST; on $1,023.4M incl. long-term investments it is ~4.4y. Six 424B5s in 12 months."
+  },
+  {
+   "symbol": "CHGG",
+   "cik": 1364954,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "COULD_NOT_VERIFY: auditor change (8-K Item 4.01, filed 2026-04-15) not readable in the filing mirror, so disagreement status is unresolved; NYSE $1.00 price deficiency outstanding",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-03",
+    "accession": "0001437749-26-034534",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-09",
+    "accession": "0001364954-26-000021"
+   },
+   "business": "Online learning and student-help platform (subscriptions) facing AI-search disruption.",
+   "revenue_ttm_usd": 234200000,
+   "lead_asset": null,
+   "cash_usd": 45200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 12400000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 111058059,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": 212000,
+    "convert_terms": "Convertible notes: current portion $53.8M at 2025-12-31 repaid ($53.3M repayment in 9M 2026); 0 on balance sheet at 2026-09-30; stock-plan shares 6,040k weighted Q3",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "None found; a reverse split is the usual cure but none proposed in filings seen",
+   "listing_risk": "NYSE 802.01C notice 2026-07-24 (30-day avg close < $1.00; 8-K 0001364954-26-000082); close $0.61 on 2026-11-09; earlier Dec 2025 notice also disclosed",
+   "fraud_flags": "Auditor change 8-K 4.01 on 2026-04-15 - content unread",
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "8-K Item 4.01 (2026-04-15): whether dismissal/resignation and any disagreement - mirror covers ~6 months only; Q1 10-Q grep found nothing",
+    "Q3 10-Q filed by a different filing agent; no explanation sought"
+   ],
+   "notes": "Cash-positive and debt-free after note repayment, but revenue shrinking and listing at risk."
+  },
+  {
+   "symbol": "COUR",
+   "cik": 1651562,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001651562-26-000072",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-23",
+    "accession": "0001651562-26-000015"
+   },
+   "business": "Online learning platform with university and industry partners offering courses, certificates and degrees; combined with Udemy on 2026-05-11.",
+   "revenue_ttm_usd": 1067900000,
+   "lead_asset": null,
+   "cash_usd": 775500000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 16100000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 258600000,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": 9800000,
+    "rsus": 25000000,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Stockholder rights plan (one preferred purchase right per share) declared 2026-11-07 (8-K filed 2026-11-09, 0001140361-26-042621); authorized common raised 300M -> 600M",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Not bankruptcy/deSPAC; strategic merger with Udemy completed 2026-05-11",
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Largest revenue base among learning names in batch ($1,067.9M TTM incl. Udemy)",
+    "$775.5M cash and marketable securities, no debt (10-Q)",
+    "Repurchased 7.1M shares for $33.6M between 2026-10-01 and 2026-11-04 (10-Q subsequent events)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "TTM revenue is XBRL and only partly includes Udemy"
+   ],
+   "notes": "RSUs 24.1M + PSUs 0.9M; ESPP 0.5M. Cover count 253.3M at 2026-10-29 reflects buybacks. Restructuring (8-K 2.05) filed 2026-11-10. A 10-K/A was filed 2026-04-30 (not read)."
+  },
+  {
+   "symbol": "BFAM",
+   "cik": 1437578,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-30",
+    "accession": "0001437578-26-000024",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001437578-26-000006"
+   },
+   "business": "Provider of employer-sponsored early education and child care, back-up care and educational advisory services.",
+   "revenue_ttm_usd": 3066600000,
+   "lead_asset": null,
+   "cash_usd": 127000000,
+   "debt_total_usd": 1079300000,
+   "debt_due_12m_usd": 9400000,
+   "ocf_ttm_usd": 356000000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 47931035,
+   "shares_asof": "2026-10-22",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "Equity awards ~1.9M shares excluded from diluted EPS (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Self-described leading provider of employer-sponsored center-based and back-up care (10-K)",
+    "$356M TTM operating cash flow; revolver upsized to $900M (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revenue/OCF TTM are XBRL figures"
+   ],
+   "notes": "Net loss in 3 and 9 months to 2026-09-30 (10-Q), cause not traced. Shares fell from 55.6M to 48.1M in 2026 (buybacks). Not an AI-wave name; shape is a quality compounder that fell, not an option on a theme."
+  },
+  {
+   "symbol": "TDUP",
+   "cik": 1484778,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001484778-26-000033",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-02",
+    "accession": "0001484778-26-000007"
+   },
+   "business": "Online resale marketplace for secondhand apparel, shoes and accessories.",
+   "revenue_ttm_usd": 340400000,
+   "lead_asset": null,
+   "cash_usd": 57600000,
+   "debt_total_usd": 18000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 10700000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 133107214,
+   "shares_asof": "2026-10-28",
+   "dilutive": {
+    "options": 8456000,
+    "rsus": 7787000,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Price $1.365; no notice",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Self-described one of the largest online resale platforms (10-K)",
+    "9M 2026 OCF +$11.2M; Western Alliance term loan matures 2030-07-10 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "Cover: 112,783,815 Class A + 20,323,399 Class B at 2026-10-28."
+  },
+  {
+   "symbol": "RENT",
+   "cik": 1468327,
+   "sub_theme": "subscription fashion rental",
+   "outcome": "REJECTED: survival gate - formula passes only because OCF excludes rental-product purchases; H1 FY26 OCF -$5.0M plus net rental-product and fixed-asset spend -$16.6M against $29.0M cash, survival depends on serial controlling-holder financings, and a Nasdaq MVPHS deficiency arrived 2026-11-04",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-09-11",
+    "accession": "0001468327-26-000088",
+    "period": "2026-07-31"
+   },
+   "latest_10k": {
+    "filed": "2026-04-14",
+    "accession": "0001468327-26-000020"
+   },
+   "business": "Women's designer apparel rental subscription and resale business.",
+   "revenue_ttm_usd": 366900000,
+   "lead_asset": null,
+   "cash_usd": 29000000,
+   "debt_total_usd": 157500000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 700000,
+   "runway_years": "cash-positive (formula); ~0.7y on H1 FY26 free cash outflow",
+   "closed_financing_since_bs": "$15.0M rights offering completed 2026-10-20 at $3.55 incl. 1,724,089 backstop shares (~$6.1M) to Investor Group (8-K 0000950103-26-016172); $10.0M additional term loans via Third Amendment 2026-09-01 (10-Q subsequent event)",
+   "going_concern_language": null,
+   "shares_outstanding": 33757416,
+   "shares_asof": "2026-07-31",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "TriplePoint warrants at $150.80 expiring Oct-26; Temasek warrant 100,000 at $100.00 expiring 2030-01-31 (10-K)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Nasdaq notice 2026-11-04: market value of publicly held shares below $15M for Global Market (8-K filed 2026-11-10, 0000950103-26-017271)",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "ATM aggregate size and remaining capacity (baby-shelf limited to 1/3 of public float)",
+    "Q3 FY26 10-Q not yet filed",
+    "Additional 2,495,391 shares issued to Investor Group - purpose truncated"
+   ],
+   "notes": "Controlled company; $157.5M debt due Oct 2029 held by Investor Group."
+  },
+  {
+   "symbol": "RGP",
+   "cik": 1084765,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-07",
+    "accession": "0001084765-26-000080",
+    "period": "2026-08-29"
+   },
+   "latest_10k": {
+    "filed": "2026-07-24",
+    "accession": "0001084765-26-000051"
+   },
+   "business": "Professional services firm providing on-demand finance, digital and consulting talent to corporate clients.",
+   "revenue_ttm_usd": 429900000,
+   "lead_asset": null,
+   "cash_usd": 61200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -9600000,
+   "runway_years": 6.38,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 34702000,
+   "shares_asof": "2026-08-29",
+   "dilutive": {
+    "options": 1050489,
+    "rsus": 2457982,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Revenue falling, operating cash outflow; sold Sitrick; repeated executive changes (8-K 5.02s)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "Runway 1.83y on last-two-quarter burn. RSU/PSU and option counts are at 2026-05-30 (10-K). New 2026 credit facility undrawn per XBRL."
+  },
+  {
+   "symbol": "TTGT",
+   "cik": 2018064,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001193125-26-450764",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-11",
+    "accession": "0001193125-26-102183"
+   },
+   "business": "B2B technology market-intelligence, media and buyer-intent data provider majority-owned by Informa.",
+   "revenue_ttm_usd": 482100000,
+   "lead_asset": null,
+   "cash_usd": 35300000,
+   "debt_total_usd": 120100000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 10200000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 72792606,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Revenue declining; cash $35.3M; dependent on Informa revolver"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Drawn revolver derived as $250.0M facility minus $129.9M available = $120.1M; draw period through 2029-12-02 (10-Q) - pack showed $0 debt"
+   ],
+   "notes": "PACK CONTRADICTED: total debt $0 in pack vs ~$120.1M drawn on related-party Informa revolver. Controlled by Informa."
+  },
+  {
+   "symbol": "AISP",
+   "cik": 1842566,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001654954-26-009546",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-17",
+    "accession": "0001654954-26-001280"
+   },
+   "business": "AI video, sensor and data analytics software and edge hardware for national security, public safety and commercial customers.",
+   "revenue_ttm_usd": 23200000,
+   "lead_asset": null,
+   "cash_usd": 12700000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -2500000,
+   "runway_years": 5.02,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "ASC 205-40 assessment: 'In November 2026, the Company analyzed its cash requirements and operations at least through November 2027 and has determined that, based upon the Company's current avai...' (conclusion truncated in mirror; no substantial-doubt finding seen)",
+   "shares_outstanding": 34439562,
+   "shares_asof": "2026-11-05",
+   "dilutive": {
+    "options": 3946518,
+    "rsus": null,
+    "warrants": 19798924,
+    "warrant_terms": "Public 16,145,006 + private 515,000 SPAC warrants, expire five years after 2023-12-21 closing, redeemable at $0.01 when stock >= $18.00; other warrants 3,138,918; SARs 1,758,000 at $0.12 expiring Jan 2028",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": 3750000
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "DEF 14A 2026-11-06: reincorporation from Delaware to Nevada; no split or authorized increase",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "deSPAC: merger with BYTE Acquisition Corp effective 2023-12-21; AISP Class A is the post-combination common stock of Airship AI Holdings, Inc.; one share = one common share of the operating holding company",
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "$23.2M TTM revenue, backlog $3.3M at 2025-12-31, high customer concentration (57% one customer in 2024)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "SPAC warrant strike price not seen in filings read",
+    "Going-concern conclusion sentence truncated"
+   ],
+   "notes": "Fully diluted ~63.7M vs 34.4M outstanding. Positive net income driven by earnout/warrant fair-value gains."
+  },
+  {
+   "symbol": "GTM",
+   "cik": 1794515,
+   "sub_theme": "learning, workforce and B2B-information platforms repriced by generative AI",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001794515-26-000067",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-12",
+    "accession": "0001794515-26-000012"
+   },
+   "business": "B2B go-to-market data and software platform (ZoomInfo) for sales, marketing and customer-success teams.",
+   "revenue_ttm_usd": 1248500000,
+   "lead_asset": null,
+   "cash_usd": 139500000,
+   "debt_total_usd": 1228500000,
+   "debt_due_12m_usd": 5900000,
+   "ocf_ttm_usd": 392900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 291993252,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": 163660,
+    "rsus": 27069483,
+    "warrants": null,
+    "warrant_terms": "CEO premium-priced performance option 9,678,000; ESPP 1,294,100",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "$392.9M TTM OCF; 100M-company / 500M-contact dataset (vendor lead only)",
+    "First-lien term loan $575.3M due 2030-02-28"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Cause of Q3 2026 net loss of $(2.07)/share not traced"
+   ],
+   "notes": "Cover shares 293,442,121 at 2026-10-30. Restricted cash $23.3M excluded from cash."
+  }
+ ]
+}
