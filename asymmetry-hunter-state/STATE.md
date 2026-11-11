@@ -1,6 +1,6 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
-**Run as-of:** 2026-11-11 (Wed) · **Current run stage:** R6 IN PROGRESS — red team DONE (4 memos + ANSWERS.md): all four finalists now FAIL the NO-TRADE bar; VA verification batches running for possible new finalists
+**Run as-of:** 2026-11-11 (Wed) · **Current run stage:** R6 COMPLETE · R7 verdict LOCKED EARLY: **NO TRADE** (buy set empty). Remaining: Sun Nov 15 re-check, Mon Nov 16 confirm
 **Last updated:** 2026-11-11 (reset applied; R6 relaunched)
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
@@ -79,13 +79,16 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
   wipeout model PASSED 4/4 purged folds (`ah-v3-e679a99d598d`); measured Fermi factors; cross-check recorded in `ranked_table.md`
 - [x] **R5 — White-swan math + finalists** — COMPLETE 2026-11-10: `ranked_table.md` (`scripts/r5_math.py`, `scripts/r5_write_table.py`, `data/derived/r5_math.json`, `r5_finalists.json`)
   Finalists: VRRM, ALIT, KLC, FMC (one cluster; effective N ≈ 1.6). NO-TRADE branch fired individually for RXST, METC, TE, ABAT, BLNK; FLNC fails the white-swan class.
-- [ ] **R6 — Finalist deep verification + red team** (Sat Nov 14; started early)
+- [x] **R6 — Finalist deep verification + red team** — COMPLETE 2026-11-11: all four finalists WOUNDED → below 2.5x; 98 VA names verified, none can clear. Superseded detail follows: (Sat Nov 14; started early)
   - [x] red-team memos VRRM/ALIT/KLC/FMC written and answered (`redteam/ANSWERS.md`): all WOUNDED; after corrections LIFT 2.2/1.8/2.3/2.4x → NO TRADE for all four
   - [ ] VA-01..VA-11 verification (98 pool names) → any SURVIVOR goes through r5_math + its own red-team pass before the lock. EXACT NEXT ACTION: `ls asymmetry-hunter-state/batches/VA-*.json`; relaunch agents for missing batches
   - [ ] (superseded) red-team memos in `redteam/<SYM>.md` — two earlier agents died at 5-hour walls with nothing written; relaunched 2026-11-11 with memo-by-memo saving.
         EXACT NEXT ACTION if a wall hits: `ls asymmetry-hunter-state/redteam/`; for any of VRRM, ALIT, KLC, FMC without a memo, launch ONE subagent with `redteam/BRIEF.md` for the missing names only; then write `redteam/ANSWERS.md`
   - [ ] every ranked-table number re-traced; dilution trajectory re-modelled; Schwab tradability pre-flight (7.1.1) per name
 - [ ] **R7 — Buy set lock (Sun Nov 15), buy day + close-out (Mon Nov 16)**
+  - [x] NO-TRADE verdict written 2026-11-11: `ranked_table.md`, `buy_set.md` (EMPTY), `paper_shadow.csv` (10 names), `monitoring.md`, `final_report.md` (draft-final)
+  - [ ] Sun Nov 15 EXACT ACTION: `python3 scripts/tools.py recent SYM --months 1` for VRRM KLC ALIT FMC; re-mark `paper_shadow.csv` at regular-hours bid/ask; if nothing raises a name to LIFT ≥ 2.5x and EV > 0, write "confirmed unchanged" in buy_set.md
+  - [ ] Mon Nov 16: confirm in final_report.md that nothing was actuated; archive
 
 ## Blockers and open issues
 
@@ -109,6 +112,7 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 | Weekly allowance | restored by the reset on Wed Nov 11. A red-team agent hit the Fable limit just before the reset (no memos written). Session model switched to Opus 5.5 by the user. Critical path estimated at ~25% of a full allowance |
 | (c) Calendar to the lock | Wed Nov 11 → Sat Nov 14 = 4 days, then lock Sun Nov 15, buy day Mon Nov 16 (reset expires Nov 16 11:59 pm PT) |
 | (d) Incomplete stages | R6 red team + answers + finalist verification ≈ 9% / 1 window · R7 lock ≈ 7% / 1 window (Sun) · close-out ≈ 5% / 1 window (Mon) · resume overhead ≈ 4% → **≈ 25% still required** |
+| Spent so far (est.) | reset applied Nov 11; R6 (red team + 98-name verification) used an estimated 15–20% of the restored allowance; remaining work (Nov 15 re-check, Nov 16 confirm) ≈ 2–3% |
 | Verdict | **ENOUGH** after the reset (~25% needed). Headroom used for ONE optional pass: verification of the 98 pool names in batches VA-01..VA-11 (4 agents), run in parallel with the red team, and dropped first if usage climbs |
 
 Estimated share of the ~84% used so far (estimates, not metered): R1 16 · R2 6 · R3 26 · R4 16 · R5 8 · R6 so far 6 · resumes/audits 6.
@@ -151,7 +155,7 @@ a going-concern paragraph, covenant waiver, trading suspension or toxic financin
 
 ## Buy-set status
 
-NOT LOCKED.
+LOCKED EARLY (2026-11-11): **NO TRADE — EMPTY**. $800 stays cash. Funding report not needed.
 
 ## Next three actions, in order
 
