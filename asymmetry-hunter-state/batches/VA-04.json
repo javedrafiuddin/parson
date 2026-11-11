@@ -1,0 +1,442 @@
+{
+ "batch": "VA-04",
+ "as_of": "2026-11-10",
+ "n_names": 6,
+ "themes": [
+  {
+   "sub_theme": "Consumer metabolic health / weight-loss and longevity (coaching programs, NAD+ supplements, telehealth GLP-1 adjacency)",
+   "members": [
+    "MED",
+    "NAGE",
+    "LFMD"
+   ],
+   "maturity_signals": [
+    "MED reports cash+investments $172.5M and positive 9M OCF $5.3M but a $17.5M Q3 net loss and 'Catalyst Restructuring' costs, i.e. the incumbent coaching model is shrinking, not maturing (10-Q, filed 2026-10-26, 0001628280-26-067165)",
+    "NAGE Q3 2026 total net sales $27.2M vs $34.0M in Q3 2025, Niagen-related sales $23.3M consumer / $3.8M ingredients (10-Q, filed 2026-11-04, 0001386570-26-000056)",
+    "LFMD (virtual care/pharmacy) is restating revenue over-recognition for 2024 through Q2 2026 (NT 10-Q, filed 2026-11-09, 0001493152-26-050637)"
+   ],
+   "adoption_evidence": [
+    "No named enterprise or government contracts in any of the three filings; customer bases are individual consumers with no customer >10% (MED 10-K 0001628280-26-008656; NAGE 10-K 0001386570-26-000013; LFMD 10-K 0001493152-26-009549)",
+    "Revenue at both cash-positive members is falling year over year (NAGE Q3 -20%; MED 9M net loss), so the revenue mix is not shifting toward the theme at these issuers"
+   ],
+   "comparable_prior_wave": {
+    "name": "GLP-1 / obesity wave 2022-2025 (drug makers and cash-pay telehealth)",
+    "trough": "2022-06",
+    "crest": "2025-02",
+    "leader_basket": [
+     "HIMS",
+     "LLY"
+    ],
+    "leader_peak_multiples": {
+     "HIMS": 18.3,
+     "LLY": 4.9
+    },
+    "months_trough_to_crest": 32,
+    "similar": "Consumer weight-loss / metabolic spend surged; NAGE itself ran 12.1x (2022-09 to 2025-06) in the same window (tools.py px)",
+    "different": "This is the wreckage of that wave, not a first wave: the value accrued to drug owners (LLY still at high, 4.9x) and a telehealth distributor (HIMS 18.3x, now -67%); MED and NAGE are fading participants. A second wave is a different, unevidenced claim."
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "The metabolic-health wave already happened and crested in drug owners; these filings show shrinking revenue and no contract-level adoption evidence for the members."
+  },
+  {
+   "sub_theme": "Healthcare / enterprise analytics and AI software (data platforms, specialty care management, AI contact center)",
+   "members": [
+    "HCAT",
+    "EVH",
+    "FIVN"
+   ],
+   "maturity_signals": [
+    "FIVN agreed on 2026-11-05 to acquire Level AI for $325.0M cash (10-Q subsequent events, filed 2026-11-05, 0001288847-26-000145; 8-K 1.01 0001288847-26-000141); RPO $1,190.5M at 2025-12-31 (10-K, filed 2026-02-20, 0001288847-26-000023)",
+    "HCAT technology revenue Q3 2026 $40.7M vs $52.1M; divested Vitalware and repaid all term debt 2026-07-31 under 'Project Nexus' (10-Q, filed 2026-11-05, 0001636422-26-000125)",
+    "EVH specialty care management revenue recognised as variable consideration; reserve for claims and performance-based arrangements rose to $376.1M from $192.2M (10-Q, filed 2026-11-05, 0001628908-26-000100)"
+   ],
+   "adoption_evidence": [
+    "FIVN: over 3,000 customers, no customer >10% of revenue (10-K 0001288847-26-000023)",
+    "EVH: $1,544.7M of 2024 revenue from specialty care management solution (10-K, filed 2026-02-25, 0001628908-26-000015)",
+    "HCAT revenue down 26% YoY in Q3 2026, i.e. adoption is contracting at this issuer (10-Q 0001636422-26-000125)"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-2021 digital-health / cloud-software wave",
+    "trough": "2020-03",
+    "crest": "2021-10",
+    "leader_basket": [
+     "EVH",
+     "FIVN"
+    ],
+    "leader_peak_multiples": {
+     "EVH": 9.4,
+     "FIVN": 5.1
+    },
+    "months_trough_to_crest": 19,
+    "similar": "Same issuers, same thesis (software + data to cut healthcare / service cost); EVH ran 9.4x 2020-03 to 2021-10, FIVN 5.1x into 2021-08, HCAT and TDOC peaked 2021 (tools.py px)",
+    "different": "These names are wreckage of that wave; the current claim is a second (AI) wave, which the filings support only weakly (one acquisition at FIVN, shrinking revenue at HCAT, rising risk reserves at EVH). Even the first wave produced <10x for leaders, far short of 25x."
+   },
+   "wave_window_years": 4,
+   "wave_score": 2,
+   "wave_score_reason": "Real revenue and some AI M&A exist, but adoption evidence in the filings is mixed-to-negative and the prior wave in the same names topped out at 5-9x."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "MED",
+   "cik": 910329,
+   "sub_theme": "Consumer metabolic health / weight-loss and longevity (coaching programs, NAD+ supplements, telehealth GLP-1 adjacency)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-26",
+    "accession": "0001628280-26-067165",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-17",
+    "accession": "0001628280-26-008656"
+   },
+   "business": "Metabolic health and weight-loss programs and products sold to individual customers with coaching; no customer >10% of revenue (10-K).",
+   "revenue_ttm_usd": 299600000,
+   "lead_asset": null,
+   "cash_usd": 172500000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 0,
+   "runway_years": null,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 11182597,
+   "shares_asof": "2026-10-19",
+   "dilutive": {
+    "options": "options outstanding at 2025-12-31, exercise price $66.68 (10-K); count not captured",
+    "rsus": "dilutive equivalents 380k (Q3 2026) / 105k antidilutive restricted stock awards (9M) per 10-Q",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "9M 2026 OCF only $5.3M and Q3 net loss $17.5M with restructuring costs (10-Q 0001628280-26-067165)",
+    "No contracts, IP or partnerships with stated value in filing; value in the metabolic wave accrued to drug owners (see theme)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "TTM revenue $299.6M and TTM OCF ~$0 \u2014 pack XBRL, I saw only the 9M OCF $5.3M in the 10-Q, not quarterly revenue lines",
+    "option count \u2014 10-K snippet gives only strike"
+   ],
+   "notes": "Cash+investments $172.5M (cash $58.4M + investments $114.2M at 2026-09-30, 10-Q) exceed $149.5M market cap; runway effectively unlimited (no debt, OCF ~breakeven). Survives gates; laggard on leadership."
+  },
+  {
+   "symbol": "NAGE",
+   "cik": 1386570,
+   "sub_theme": "Consumer metabolic health / weight-loss and longevity (coaching programs, NAD+ supplements, telehealth GLP-1 adjacency)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001386570-26-000056",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-04",
+    "accession": "0001386570-26-000013"
+   },
+   "business": "Sells Niagen (nicotinamide riboside) as Tru Niagen consumer products and as an ingredient; divested the Analytical Reference Standards segment in 2026 (10-Q).",
+   "revenue_ttm_usd": 122300000,
+   "lead_asset": null,
+   "cash_usd": 69500000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 4900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 79196903,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": "9,762k options at $3.83 WAEP, 5.6y remaining (10-Q)",
+    "rsus": "1,595k RSUs/PSUs antidilutive (10-Q)",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 50000000,
+    "pct_of_mcap": 27.7
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Owner of the Niagen NR franchise with consumer and ingredient channels (10-Q segment table)",
+    "Balance sheet: $69.4M unrestricted cash, undrawn $10M Western Alliance line, net buyback $5.1M in 9M 2026 (10-Q)",
+    "But Q3 sales fell to $27.2M from $34.0M (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "ATM remaining capacity: facility is $50.0M (Sales Agreement 2026-06-26, Canaccord/Roth, 10-Q); no ATM proceeds appear in 9M financing cash flows, so I took remaining = $50.0M; no Q4 usage checked"
+   ],
+   "notes": "FLAG: ATM capacity $50.0M = 27.7% of $180.6M market cap (>25%). 9M 2026 OCF $4.2M, net income $6.1M including $4.8M gain on segment sale. 10-K says no going concern; 10-Q: 'existing cash resources and available borrowings are sufficient ... at least the next twelve months'."
+  },
+  {
+   "symbol": "LFMD",
+   "cik": 948320,
+   "sub_theme": "Consumer metabolic health / weight-loss and longevity (coaching programs, NAD+ supplements, telehealth GLP-1 adjacency)",
+   "outcome": "REJECTED: F fraud flag \u2014 pending restatement: NT 10-Q (filed 2026-11-09, 0001493152-26-050637) says the company must 'correct the over recognition of revenue and under recognition of cost of revenue and general and administrative expenses' for 2024 through June 30, 2026; Q3 10-Q late; prior 10-K already contained an error correction with clawback analysis and material weaknesses; no clean subsequent audit",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-05",
+    "accession": "0001493152-26-036200",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-10",
+    "accession": "0001493152-26-009549"
+   },
+   "business": "Virtual healthcare and pharmacy for consumers across a broad set of conditions (10-K).",
+   "revenue_ttm_usd": 164700000,
+   "lead_asset": null,
+   "cash_usd": 25100000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -9900000,
+   "runway_years": 2.54,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 48200837,
+   "shares_asof": "2026-08-04",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "672,877 at 2026-06-30",
+    "warrant_terms": "$1.24-$12.00 range; Avenue warrants $1.24, 5-year term (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Series A cumulative preferred, liquidation preference $35.8M (10-Q balance sheet)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": "Revenue over-recognition restatement 2024-Q2 2026 announced in NT 10-Q 2026-11-09; 10-K 2026-03-10 cover box 'correction of an error ... Yes' and clawback recovery analysis 'Yes'; ICFR not effective at 2025-12-31 (material weaknesses)",
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "ATM size/remaining \u2014 10-Q snippet truncated; not pursued after rejection",
+    "restated revenue amounts \u2014 not yet filed"
+   ],
+   "notes": "Also had Citizens covenant waiver (interest coverage) for Q1 2026 (10-Q). Revenue and cash figures above are pre-restatement and unreliable."
+  },
+  {
+   "symbol": "HCAT",
+   "cik": 1636422,
+   "sub_theme": "Healthcare / enterprise analytics and AI software (data platforms, specialty care management, AI contact center)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001636422-26-000125",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-12",
+    "accession": "0001636422-26-000035"
+   },
+   "business": "Data and analytics technology and services (cloud data platform, applications, expertise) for healthcare organizations (10-K).",
+   "revenue_ttm_usd": 272200000,
+   "lead_asset": null,
+   "cash_usd": 79000000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 26800000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 76155467,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": "all options fully vested at 2025-12-31 (10-K); count not captured",
+    "rsus": "RSUs/PRSUs outstanding, count not captured",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": "shares issuable as acquisition-related contingent consideration exist (10-Q EPS note); count not captured"
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Q3 2026 revenue $56.3M vs $76.3M (-26%); technology $40.7M vs $52.1M (10-Q)",
+    "Debt-free after repaying Silver Point term loan in full 2026-07-31 with Vitalware sale proceeds (10-Q)",
+    "9M OCF +$16.9M (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "10-K/A filed 2026-04-30 (0001636422-26-000055) content not read (likely Part III)",
+    "multiple 5.02 8-Ks in 2026 (management changes) not read; no internal-investigation language seen"
+   ],
+   "notes": "Survives gates comfortably (no debt, cash-positive) but the business is shrinking under a restructuring ('Project Nexus', April 2026 restructuring plan)."
+  },
+  {
+   "symbol": "EVH",
+   "cik": 1628908,
+   "sub_theme": "Healthcare / enterprise analytics and AI software (data platforms, specialty care management, AI contact center)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001628908-26-000100",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-25",
+    "accession": "0001628908-26-000015"
+   },
+   "business": "Specialty care management (oncology, cardiology, musculoskeletal) for health plans and risk-bearing entities (10-K).",
+   "revenue_ttm_usd": 2342900000,
+   "lead_asset": null,
+   "cash_usd": 155900000,
+   "debt_total_usd": 969480000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 64900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 113105519,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": "2029 Notes: 26.3125 sh/$1,000; 2031 Notes: 73.9098 sh/$1,000 (share count depends on principal outstanding, not captured)",
+    "convert_terms": "2029 Notes $402.5M issued 2023-12-08, 3.5%, conv. $38.00, mature 2029-12-01; 2031 Notes $166.75M issued 2025-08-21, 4.5%, conv. ~$13.53, mature 2031-08-15 (10-Q)",
+    "preferred": "no Series A dividends in 2026; 2025 exchange of Series A noted in 10-K; status not confirmed",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Scale: $1,544.7M of 2024 revenue from specialty care management (10-K)",
+    "Leverage: long-term debt $969.5M vs ~$533M market cap; first- and second-lien (Ares) credit agreements mature 2029-12-06 with springing maturity 180 days before convert maturity (10-Q)",
+    "Reserve for claims and performance-based arrangements $376.1M vs $192.2M at 2025-12-31 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Split of $969.5M between term loans and converts \u2014 not extracted",
+    "Series A preferred current status \u2014 10-K mentions exchange; not traced",
+    "XBRL header of the 10-Q contains placeholder text 'Subsequent Events OPEN FOR POTENTIAL ARES CREDIT AGREEMENT DISCLOSURE' \u2014 whether an Ares amendment occurred after 2026-09-30 is unknown; recent 8-K index shows none"
+   ],
+   "notes": "Gates pass (no debt due within 12 months, OCF positive) but the equity is a levered stub; springing maturity ~June 2029 is the real survival date."
+  },
+  {
+   "symbol": "FIVN",
+   "cik": 1288847,
+   "sub_theme": "Healthcare / enterprise analytics and AI software (data platforms, specialty care management, AI contact center)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001288847-26-000145",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-20",
+    "accession": "0001288847-26-000023"
+   },
+   "business": "Cloud contact-center software; over 3,000 customers, none >10% of revenue (10-K).",
+   "revenue_ttm_usd": 1241300000,
+   "lead_asset": null,
+   "cash_usd": 699700000,
+   "debt_total_usd": 738230000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 247900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 75300376,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": "146k (2026-09-30, 10-Q)",
+    "rsus": "8,235k incl. PRSUs (10-Q)",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": "~9.41M if all $747.5M converted at 12.5918 sh/$1,000",
+    "convert_terms": "2029 convertible senior notes, $747.5M issued March 2024, conversion price ~$79.42, capped calls (10-Q)",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "RPO $1,190.5M at 2025-12-31 (10-K)",
+    "Buying AI capability: Level AI for $325.0M cash, agreed 2026-11-05 (10-Q subsequent events)",
+    "$200.0M remaining under 2026 repurchase program (10-Q)"
+   ],
+   "dated_catalysts": [
+    "2026-11-05 definitive agreement to acquire Level AI, closing pending (10-Q / 8-K 0001288847-26-000141)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "$2.17B market cap; a 25x re-rate would require a ~$54B company. Not a contact-center pure healthcare name; clustered here by vendor text."
+  }
+ ]
+}

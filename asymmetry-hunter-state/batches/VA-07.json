@@ -1,0 +1,787 @@
+{
+ "batch": "VA-07",
+ "as_of": "2026-11-10",
+ "n_names": 12,
+ "themes": [
+  {
+   "sub_theme": "Performance/CTV ad software & social-data SaaS",
+   "members": [
+    "MNTN",
+    "SPT",
+    "DV"
+   ],
+   "maturity_signals": [
+    "MNTN: self-serve PTV platform, 9M-2026 OCF $43.5M, net cash $252.3M (10-Q filed 2026-11-10, 0001891027-26-000103)",
+    "SPT: 2,022 customers >= $50K ARR, up from 1,718 (10-K filed 2026-02-27, 0001517375-26-000015)",
+    "DV: being taken private at $13.60 cash (10-Q filed 2026-10-30, 0001104659-26-120666) \u2014 consolidation, a late-cycle signal"
+   ],
+   "adoption_evidence": [
+    "DV: two programmatic platforms collected ~24% and 12% of 2025 revenue (10-K 0001104659-26-020499)",
+    "MNTN top-10 customers ~17% of revenue (10-K 0001891027-26-000019); no named contracts with values"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-21 ad-tech/CTV wave",
+    "trough": "2020-03",
+    "crest": "2021-11",
+    "leader_basket": [
+     "TTD",
+     "MGNI"
+    ],
+    "leader_peak_multiples": {
+     "TTD": 7.7,
+     "MGNI": 14.9
+    },
+    "months_trough_to_crest": 20,
+    "similar": "CTV shift and programmatic measurement were the narrative then and now; current names are profitable with net cash",
+    "different": "That wave already happened; these are post-wave wreckage in a consolidating market (DV take-private). A second wave is a separate claim; leaders peaked at 8-15x, well below 25x."
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "Real revenue and cash flow, but the theme already had its wave and is consolidating; no multi-issuer evidence of a new adoption inflection."
+  },
+  {
+   "sub_theme": "Genetic medicine (gene therapy + genomic diagnostics)",
+   "members": [
+    "LXEO",
+    "WGS"
+   ],
+   "maturity_signals": [
+    "WGS: $460.8M TTM revenue from exome/genome tests (10-Q filed 2026-11-09, 0001628280-26-072203)",
+    "LXEO: LX2006 moved to Phase 2 NCT07721025; LX2020 Ph1/2 NCT06109181 (ClinicalTrials.gov); acquisition of Mantle 2026-09-29 (8-K 0001193125-26-407555)"
+   ],
+   "adoption_evidence": [
+    "Diagnostic revenue at scale at WGS; no program-of-record or named payer contracts with values verified (USAspending not queried)"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-21 gene-editing/genomics wave",
+    "trough": "2020-03",
+    "crest": "2021-01..2021-09",
+    "leader_basket": [
+     "NTLA",
+     "CRSP",
+     "BEAM"
+    ],
+    "leader_peak_multiples": {
+     "NTLA": 18.7,
+     "CRSP": 6.2,
+     "BEAM": 10.0
+    },
+    "months_trough_to_crest": 15,
+    "similar": "Clinical proof points plus a capital-markets window drove it; LXEO has similar clinical-stage shape",
+    "different": "Prior wave was rate-driven and broad; it already crested and these are partly its wreckage. Even NTLA peaked at ~19x, below 25x."
+   },
+   "wave_window_years": 4,
+   "wave_score": 2,
+   "wave_score_reason": "Commercial diagnostics revenue at WGS and Phase 2 gene-therapy progress at LXEO, but no multi-issuer adoption inflection evidenced in filings."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "TTEC",
+   "cik": 1013880,
+   "sub_theme": "Legacy media / CX outsourcing (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-09",
+    "accession": "0001104659-26-124608",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001104659-26-020532"
+   },
+   "business": "Global CX technology (TTEC Digital) and managed customer-engagement services (TTEC Engage) company (10-K 2026-02-26, 0001104659-26-020532).",
+   "revenue_ttm_usd": 2013900000,
+   "lead_asset": null,
+   "cash_usd": 91100000,
+   "debt_total_usd": 830000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 118500000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 49383048,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": null,
+    "rsus": "2.6M RSUs anti-dilutive Q3 2026 (10-Q 0001104659-26-124608)",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "0 outstanding",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "price $1.40 (> $1); none disclosed",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "$830.0M drawn on Credit Facility at 2026-09-30 vs $91.1M cash; net leverage 3.63x vs covenant max; 13th amendment 2026-11-09 extended maturity Nov 23 2027 -> Nov 23 2028 and cut commitments $960M->$945M, stepping to $915M by 2027-10-01 (10-Q 2026-11-09, 0001104659-26-124608)",
+    "Lender-agreed milestones toward a potential sale of the Digital business; failure cuts commitments a further $10M (same 10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Screen's total-debt $0.0M is WRONG: 10-Q shows $830.0M revolver borrowings \u2014 corrected here",
+    "Cover share count 49,383,048 taken from pack; 10-Q balance sheet shows 49,295,940 at 2026-09-30"
+   ],
+   "notes": "Passes the formula gate only because OCF is positive ($115.9M 9M 2026) and the revolver matures 2028; survival depends on covenant amendments (10-Q states noncompliance would permit acceleration). No going-concern language found."
+  },
+  {
+   "symbol": "TSQ",
+   "cik": 1499832,
+   "sub_theme": "Legacy media / CX outsourcing (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001628280-26-069765",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-16",
+    "accession": "0001499832-26-000020"
+   },
+   "business": "Local radio broadcaster and digital marketing (Townsquare Ignite/Interactive) company outside top-50 US markets (10-K 2026-03-16, 0001499832-26-000020).",
+   "revenue_ttm_usd": 429600000,
+   "lead_asset": null,
+   "cash_usd": 4610000,
+   "debt_total_usd": 467535000,
+   "debt_due_12m_usd": 13700000,
+   "ocf_ttm_usd": 25500000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 18237422,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": "7,019,473 @ WAEP $7.14 at 2026-09-30",
+    "rsus": "737K RSUs + 1,150K market-condition RSUs (anti-dilutive Q3)",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "none issued",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Debt $467.5M (Term Loan $446.6M, Revolver $20.0M of $20M facility, vendor $0.9M) vs cash $4.6M (10-Q 2026-11-04, 0001628280-26-069765)",
+    "Broadcast advertising revenue fell $209.9M (2024) -> $183.4M (2025) (10-K 0001499832-26-000020)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Debt due <12m $13.7M is the screen's figure; maturity table for Term Loan amortization not re-read"
+   ],
+   "notes": "Equity is a thin stub on ~$467M senior secured debt; revolver fully drawn. Screen share count (16.26M wavg) understates cover count 18,237,422 (Class A 16,922,126 + B 815,296 + C 500,000)."
+  },
+  {
+   "symbol": "MNTN",
+   "cik": 1891027,
+   "sub_theme": "Performance/CTV ad software & social-data SaaS",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-10",
+    "accession": "0001891027-26-000103",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-19",
+    "accession": "0001891027-26-000019"
+   },
+   "business": "Self-serve performance Connected-TV advertising software platform; claims to be 'first mover and category creator of PTV' (10-K 2026-02-19, 0001891027-26-000019).",
+   "revenue_ttm_usd": 313300000,
+   "lead_asset": null,
+   "cash_usd": 252300000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 72900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 75789711,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": null,
+    "rsus": "5,268,004 options+RSUs anti-dilutive Q3 2026",
+    "warrants": "none outstanding at Q3 2026 (Series D warrants terminated at IPO)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": "up to 1,574,721 Maximum Effort earnout shares, period extended to 2027-03-31 (10-K)"
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Cash $252.3M, no revolver borrowings, $44.9M availability at 2026-09-30 (10-Q 0001891027-26-000103)",
+    "9M 2026 OCF $43.5M; top-10 customers ~17% of 2025 revenue (10-K)",
+    "New CEO appointed 2026-11-01 (10-Q subsequent events)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revenue TTM and OCF TTM ($313.3M, $72.9M) are the screen's through 2026-06-30; Q3-inclusive TTM not recomputed (Q4 2025 not re-read)"
+   ],
+   "notes": "Cover: 62,879,081 Class A + 12,910,630 Class B as of 2026-10-30. CEO change 2026-11-01."
+  },
+  {
+   "symbol": "SPT",
+   "cik": 1517375,
+   "sub_theme": "Performance/CTV ad software & social-data SaaS",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001517375-26-000070",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-27",
+    "accession": "0001517375-26-000015"
+   },
+   "business": "AI-enabled social media management/intelligence SaaS platform (10-K 2026-02-27, 0001517375-26-000015).",
+   "revenue_ttm_usd": 491400000,
+   "lead_asset": null,
+   "cash_usd": 103733000,
+   "debt_total_usd": null,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 55300000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 58839666,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": "none (2025 10-K)",
+    "rsus": "7,744,818 at 2026-09-30",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "2,022 customers >= $50K ARR at 2025-12-31 vs 1,718 a year earlier (10-K)",
+    "9M 2026 OCF $44.4M; Facility maturity extended to 2030-04-04; in covenant compliance (10-Q 0001517375-26-000070)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Outstanding balance on $100M Facility at 2026-09-30 not found in snippets (screen shows $0 debt; 10-Q cites a weighted avg rate on 'the outstanding balance', so some borrowings existed) \u2014 searched 10-Q for borrowings/outstanding"
+   ],
+   "notes": "Cover: 53,390,309 Class A + 5,449,357 Class B (2026-10-30)."
+  },
+  {
+   "symbol": "DV",
+   "cik": 1819928,
+   "sub_theme": "Performance/CTV ad software & social-data SaaS",
+   "outcome": "REJECTED: I/shape \u2014 stockholders adopted a $13.60-per-share all-cash merger with Neptune BidCo US Inc. on 2026-10-29 (10-Q 2026-10-30, 0001104659-26-120666); with price $13.56 the equity is a fixed-cash deal claim, not a re-rating vehicle",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-30",
+    "accession": "0001104659-26-120666",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001104659-26-020499"
+   },
+   "business": "Digital-media verification/measurement platform for advertisers (10-K 2026-02-26, 0001104659-26-020499).",
+   "revenue_ttm_usd": 785800000,
+   "lead_asset": null,
+   "cash_usd": 250900000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 209100000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 156211128,
+   "shares_asof": "2026-10-26",
+   "dilutive": {
+    "options": null,
+    "rsus": "stock-based awards; ~weighted-avg anti-dilutive per 10-Q",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [
+    "pending merger close (date not stated in snippets)"
+   ],
+   "binary_flip_shape": true,
+   "could_not_verify": [],
+   "notes": "Merger Agreement dated 2026-08-06; ESPP terminated 2026-10-29."
+  },
+  {
+   "symbol": "SCYX",
+   "cik": 1178253,
+   "sub_theme": "Small-cap specialty pharma (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-448644",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-04",
+    "accession": "0001178253-26-000007"
+   },
+   "business": "Biotech with fungerp antifungal platform (BREXAFEMME licensed to GSK; SCY-247 clinical) and SCY-770 for ADPKD (10-Q 0001193125-26-448644).",
+   "revenue_ttm_usd": 18900000,
+   "lead_asset": "Ibrexafungerp (BREXAFEMME) approved/licensed to GSK; Phase 3 NCT05178862 terminated 2025-11; SCY-247 clinical (no Phase 2+ NCT found for SCY-247/SCY-770)",
+   "cash_usd": 63200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -12100000,
+   "runway_years": 5.2,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 9953155,
+   "shares_asof": "2026-11-01",
+   "dilutive": {
+    "options": "639,693",
+    "rsus": "449,854",
+    "warrants": "5,437,464 common (Mar-2026 PIPE) + 1,875,003 (Apr-2022) + 24,851 (loan) + 50,000 @ $5.50 (Danforth); pre-funded 1,093,744 + 398,727",
+    "warrant_terms": "Mar-2026 PIPE common warrant strike/expiry not seen",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1:8 reverse split done 2026-05-29; authorized increase approved 2026-06-25 (completed)",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Cash+investments $63.2M; company says funded 'into 2029' (10-Q)",
+    "9M 2026 OCF -$30.5M -> annualized runway ~1.6y; TTM-basis 5.2y benefits from GSK receipts"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Strike/expiry of March 2026 PIPE common warrants \u2014 not in snippets; ATM remaining capacity with Cantor \u2014 not stated in snippets"
+   ],
+   "notes": "1-for-8 reverse split effective 2026-05-29; authorized shares then raised (stockholder approval 2026-06-25) to 60M. TTM revenue is mostly license revenue and lumpy."
+  },
+  {
+   "symbol": "LXEO",
+   "cik": 1907108,
+   "sub_theme": "Genetic medicine (gene therapy + genomic diagnostics)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-12",
+    "accession": "0001193125-26-345724",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-30",
+    "accession": "0001193125-26-132085"
+   },
+   "business": "Clinical-stage AAV gene therapy company for genetic cardiac/neurologic disease: LX2006 (Friedreich ataxia cardiomyopathy), LX2020 (PKP2-ACM).",
+   "revenue_ttm_usd": null,
+   "lead_asset": "LX2006 Phase 2 NCT07721025 (recruiting) and Ph1/2 NCT05445323; LX2020 Ph1/2 NCT06109181 (ClinicalTrials.gov)",
+   "cash_usd": 234200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -88400000,
+   "runway_years": 2.65,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 82046255,
+   "shares_asof": "2026-08-10",
+   "dilutive": {
+    "options": null,
+    "rsus": "20,781,902 total potential shares (options/RSUs/PRSUs/warrants) at 2026-06-30",
+    "warrants": "May-2025 PIPE warrants exercisable to 2029-05-28; pre-funded warrants (no expiry, $0.0001)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": "Mantle acquisition milestones partly payable in stock at 30-day VWAP over 12 years (8-K 2026-09-29, 0001193125-26-407555)"
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Runway 'into 2028' per 10-Q; $75M Leerink ATM used ($25.0M H1 + $14.6M July 2026)",
+    "Acquired Mantle Therapeutics for stock 2026-09-29 (8-K 0001193125-26-407555)"
+   ],
+   "dated_catalysts": [
+    "2026-12 primary completion LX2020 NCT06109181 (ClinicalTrials.gov)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Shares issued for Mantle \u2014 not in snippet of 8-K; Q3 2026 10-Q not yet in mirror; ATM remaining capacity (~$35M implied if same $75M agreement, not confirmed)"
+   ],
+   "notes": "Latest 10-Q is Q2; numbers stale by one quarter."
+  },
+  {
+   "symbol": "WGS",
+   "cik": 1818331,
+   "sub_theme": "Genetic medicine (gene therapy + genomic diagnostics)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-09",
+    "accession": "0001628280-26-072203",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-23",
+    "accession": "0001818331-26-000015"
+   },
+   "business": "Genomic diagnostics (exome/genome sequencing tests) and genomic-data company (10-K 2026-02-23, 0001818331-26-000015).",
+   "revenue_ttm_usd": 460800000,
+   "lead_asset": null,
+   "cash_usd": 170100000,
+   "debt_total_usd": 150000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -75100000,
+   "runway_years": 2.26,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 29972493,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": "199,454 @ $65.29 at 2025-12-31",
+    "rsus": "1,652,618 options+RSUs at 2026-09-30",
+    "warrants": "none (expired 2026-07-22)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 100000000,
+    "pct_of_mcap": 0.051
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Revenue TTM $460.8M, largest revenue base in this sub-theme",
+    "Management: liquidity sufficient for at least 12 months; Blackstone term loan SOFR+4.50% (10-Q 0001628280-26-072203)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Term loan maturity date not found in snippets; $100M ATM capacity from Oct-2025 shelf \u2014 usage not confirmed"
+   ],
+   "notes": "9M 2026 OCF -$72.0M vs +$36.4M in 9M 2025 \u2014 operating swing negative; financing +$93.4M (term loan)."
+  },
+  {
+   "symbol": "ALDX",
+   "cik": 1341235,
+   "sub_theme": "Small-cap specialty pharma (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-449742",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-27",
+    "accession": "0001193125-26-083012"
+   },
+   "business": "Biotech developing RASP modulators; late-stage reproxalap for dry eye/allergic conjunctivitis (NDA not approved; resubmission timing uncertain).",
+   "revenue_ttm_usd": null,
+   "lead_asset": "Reproxalap: multiple completed Phase 3 (e.g. NCT06493604); Phase 3 NCT07402876 recruiting (ClinicalTrials.gov)",
+   "cash_usd": 41000000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -19100000,
+   "runway_years": 2.14,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 60356541,
+   "shares_asof": "2026-11-03",
+   "dilutive": {
+    "options": "8,886,608 @ WAEP $4.39",
+    "rsus": "59,688",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Closing bid below $1.00 since 2026-10-02; no Nasdaq deficiency notice received as of 10-Q (0001193125-26-449742); notice likely if it persists",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Cash funds operations 'into 2029' per company; AbbVie option on reproxalap unexercised as of 2026-11-05 (10-Q)"
+   ],
+   "dated_catalysts": [
+    "2026-12 primary completion NCT07402876 (ClinicalTrials.gov)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Cover shares 60,356,541 from pack, not re-seen"
+   ],
+   "notes": "Securities class action over reproxalap NDA disclosures pending (not a listed fraud flag)."
+  },
+  {
+   "symbol": "EMBC",
+   "cik": 1872789,
+   "sub_theme": "Medical devices (not theme-scored this batch)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-07",
+    "accession": "0001872789-26-000033",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2025-11-25",
+    "accession": "0001872789-25-000036"
+   },
+   "business": "Insulin-delivery and diabetes-care device maker (pen needles, syringes) (10-K 2025-11-25).",
+   "revenue_ttm_usd": 1018700000,
+   "lead_asset": null,
+   "cash_usd": 218200000,
+   "debt_total_usd": 1469300000,
+   "debt_due_12m_usd": 139400000,
+   "ocf_ttm_usd": 174100000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 56659599,
+   "shares_asof": "2026-07-31",
+   "dilutive": {
+    "options": null,
+    "rsus": "TVUs 2,055.4K + 3,430.7K granted FY26; ~3.3M anti-dilutive",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Term Loan B $950M matures 2029-03; revolver cut $500M->$310M with $210M extended to 2028-12-30 (First Amendment 2026-08-06)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "FY2026 10-K (fiscal year ended 2026-09-30) not yet in mirror"
+   ],
+   "notes": "Highly levered (debt ~4x market cap) but OCF positive."
+  },
+  {
+   "symbol": "INSP",
+   "cik": 1609550,
+   "sub_theme": "Medical devices (not theme-scored this batch)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-02",
+    "accession": "0001609550-26-000053",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-13",
+    "accession": "0001609550-26-000016"
+   },
+   "business": "Hypoglossal-nerve neurostimulation therapy for obstructive sleep apnea (10-K 2026-02-13).",
+   "revenue_ttm_usd": 880900000,
+   "lead_asset": null,
+   "cash_usd": 328000000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 135000000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 28966119,
+   "shares_asof": "2026-10-28",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "No debt; 95.6% US revenue; VA/military contract covers 5-10% of implants (10-K)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Option/RSU counts not extracted"
+   ],
+   "notes": "Pixel-tracking class action settlement term sheet 2026-10-05."
+  },
+  {
+   "symbol": "ATEC",
+   "cik": 1350653,
+   "sub_theme": "Medical devices (not theme-scored this batch)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-29",
+    "accession": "0001193125-26-438050",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-24",
+    "accession": "0001193125-26-067393"
+   },
+   "business": "Spine-surgery device and imaging (EOS) company (10-K 2026-02-24).",
+   "revenue_ttm_usd": 839700000,
+   "lead_asset": null,
+   "cash_usd": 79900000,
+   "debt_total_usd": 649800000,
+   "debt_due_12m_usd": 10600000,
+   "ocf_ttm_usd": 61300000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 155139824,
+   "shares_asof": "2026-10-22",
+   "dilutive": {
+    "options": "1,636K",
+    "rsus": "10,457K",
+    "warrants": "8,177K: Squadron 845K@$3.15, 4,839K@$2.17, 1,076K@$4.88 (exp May 2027), Executive 1,327K@$5.00",
+    "warrant_terms": null,
+    "convert_shares": "34,527K (2030 Notes)",
+    "convert_terms": "$405.0M 0.75% due 2030-03-15, capped call",
+    "preferred": "3,319K redeemable preferred, $23.6M",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "OCF TTM positive $61.3M; refinanced term loan 2026"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "2030 Notes conversion price not seen"
+   ],
+   "notes": ""
+  }
+ ]
+}

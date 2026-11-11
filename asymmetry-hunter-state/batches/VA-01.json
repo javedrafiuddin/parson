@@ -1,0 +1,498 @@
+{
+ "batch": "VA-01",
+ "as_of": "2026-11-10",
+ "n_names": 7,
+ "themes": [
+  {
+   "sub_theme": "targeted protein degradation (PROTAC / degraders)",
+   "members": [
+    "ARVN",
+    "GYRE"
+   ],
+   "maturity_signals": [
+    "ARVN 10-Q (filed 2026-11-03, 0001628280-26-069464): 'We have one product, VEPPANU, approved for commercial sale in the United States' -- first approved degrader, out-licensed to Rigel in Q2 2026",
+    "ARVN 10-Q (same): Rigel License Agreement revenue $63.0M in 9M 2026, of which only $0.5M is sales-based royalties -- commercial uptake still negligible",
+    "GYRE 10-Q (filed 2026-11-06, 0001193125-26-450334): acquired Cullgen (degrader and DAC pipeline) in 2026 and intends to run early-stage trials in the PRC -- a second issuer funding degraders from operating cash flow"
+   ],
+   "adoption_evidence": [
+    "ARVN 10-Q (0001628280-26-069464): Pfizer collaboration and Novartis licence revenue lines; Rigel holds global commercialization rights to VEPPANU",
+    "No program-of-record or multi-issuer product revenue for degraders found; royalties $0.5M in Q3 2026 (ARVN 10-Q)"
+   ],
+   "comparable_prior_wave": {
+    "name": "2019-2021 protein-degrader wave (ARVN plus the 2020 KYMR/NRIX/CCCC IPOs)",
+    "trough": "2018-12",
+    "crest": "2021-07",
+    "leader_basket": [
+     "ARVN"
+    ],
+    "leader_peak_multiples": {
+     "ARVN": 9.6
+    },
+    "months_trough_to_crest": 31,
+    "similar": "Same modality, same lead issuer, cash-rich balance sheet trading near or below cash",
+    "different": "That wave was a first wave on platform promise; this would be a second wave after the first approved PROTAC launched through a licensee with minimal royalties. KYMR, NRIX and CCCC listed in 2020, so they have no measurable trough-to-crest (tools.py px: peaked within months of IPO). Today's names are wreckage of that wave"
+   },
+   "wave_window_years": 4,
+   "wave_score": 2,
+   "wave_score_reason": "One approved degrader and two issuers funding pipelines are real maturity signals, but commercial adoption evidence is a $0.5M royalty quarter and the first wave already happened."
+  },
+  {
+   "sub_theme": "commercial-stage specialty biopharma & enabling platforms (kidney/GI, TGF-beta, enzymatic manufacturing)",
+   "members": [
+    "ARDX",
+    "AKBA",
+    "KROS",
+    "CDXS"
+   ],
+   "maturity_signals": [
+    "ARDX 10-Q (filed 2026-11-03, 0001437402-26-000059): two approved products (IBSRELA, XPHOZAH); TTM revenue $468.2M per pack XBRL",
+    "AKBA 10-Q (filed 2026-11-05, 0001517022-26-000084): Vafseo approved; cash-positive TTM operating cash flow $15.8M (pack XBRL)",
+    "KROS 10-Q (filed 2026-11-05, 0001664710-26-000066): $40.0M licence revenue in Q3 2026 from the Takeda elritercept licence"
+   ],
+   "adoption_evidence": [
+    "ARDX 10-Q: lawsuit against CMS over phosphate-lowering drug coverage (Note 14) -- reimbursement is the adoption bottleneck, not technology",
+    "CDXS 10-K (filed 2026-03-11, 0001200375-26-000006): one customer was about 51% of 2025 revenue of $70.4M"
+   ],
+   "comparable_prior_wave": {
+    "name": "2022-2025 nephrology re-rating (XPHOZAH/Vafseo approvals)",
+    "trough": "2022-06",
+    "crest": "2024-02",
+    "leader_basket": [
+     "ARDX",
+     "AKBA"
+    ],
+    "leader_peak_multiples": {
+     "ARDX": 19.1,
+     "AKBA": 16.0
+    },
+    "months_trough_to_crest": 20,
+    "similar": "Same issuers, again priced near trough; both have approved drugs and revenue",
+    "different": "ARDX and AKBA are the wreckage of that wave (ARDX -70% and AKBA -87% from those crests per tools.py px; AKBA crest 2025-07 after 32 months). A second wave needs reimbursement change, not a first approval. KROS and CDXS share no common wave driver with them"
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "A heterogeneous group of issuers with real revenue but no shared theme driver; the nephrology wave already ran its course."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "CDXS",
+   "cik": 1200375,
+   "sub_theme": "commercial-stage specialty biopharma & enabling platforms (kidney/GI, TGF-beta, enzymatic manufacturing)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-11",
+    "accession": "0001200375-26-000019",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-11",
+    "accession": "0001200375-26-000006"
+   },
+   "business": "Provider of technology for therapeutics manufacturing using its CodeEvolver directed-evolution enzyme platform (10-K filed 2026-03-11)",
+   "revenue_ttm_usd": 77700000,
+   "lead_asset": null,
+   "cash_usd": 57000000,
+   "debt_total_usd": 42200000,
+   "debt_due_12m_usd": 7057000,
+   "ocf_ttm_usd": -10400000,
+   "runway_years": 4.8,
+   "closed_financing_since_bs": "Underwritten offering of 16,666,667 shares plus 1,333,333 over-allotment shares at $1.50 (about $27.0M gross), agreement dated 2026-07-23 (10-Q Note 13 subsequent event, 0001200375-26-000019; 424B5s 2026-07-23/24). Shares on the 10-Q cover rose from 91.4M at 6/30 to 109.5M at 8/6, consistent with closing",
+   "going_concern_language": null,
+   "shares_outstanding": 109505765,
+   "shares_asof": "2026-08-06",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": 424028,
+    "warrant_terms": "Innovatus warrant, $2.83 exercise price, cashless, expires 10 years from 2024-02-13 (10-Q 0001200375-26-000019)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 26400000,
+    "pct_of_mcap": 21.7
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Proprietary CodeEvolver platform (10-K)",
+    "Customer concentration: one customer about 51% of 2025 revenue (10-K 0001200375-26-000006)",
+    "Innovatus $40M term loan matures 2029-02-13; covenant compliance at 6/30/2026 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Options/RSU counts: the anti-dilutive table in 10-Q 0001200375-26-000019 did not parse in the text mirror",
+    "Closing 8-K 2026-07-27 (0001193125-26-318042) not read; net proceeds not confirmed",
+    "Cash $57.0M and TTM revenue/OCF taken from the pack XBRL, not re-seen in text"
+   ],
+   "notes": "Pack debt due <12m of $17.6M is contradicted by the balance sheet: current portion of long-term debt is $7,057K (10-Q). Runway was recomputed: (57.0-7.1)/10.4 = 4.8y. On the last-2-quarter burn ($22.8M) it is about 1.1y before the July raise and about 1.6y after it. Income-statement-driven survivor that needs the July raise; ATM remaining $26.4M is about 22% of the $121.6M market cap"
+  },
+  {
+   "symbol": "KROS",
+   "cik": 1664710,
+   "sub_theme": "commercial-stage specialty biopharma & enabling platforms (kidney/GI, TGF-beta, enzymatic manufacturing)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001664710-26-000066",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-04",
+    "accession": "0001664710-26-000018"
+   },
+   "business": "Clinical-stage company developing TGF-beta family protein therapeutics; lead rinvatercept (KER-065) in Phase 2 for DMD; elritercept licensed to Takeda (10-Q filed 2026-11-05)",
+   "revenue_ttm_usd": 40400000,
+   "lead_asset": "rinvatercept (KER-065), ongoing Phase 2 in Duchenne muscular dystrophy (10-Q)",
+   "cash_usd": 260900000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -47900000,
+   "runway_years": 5.45,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "None. 10-Q: 'existing cash and cash equivalents as of September 30, 2026 will allow the Company to continue its operations for at least the next 12 months'",
+   "shares_outstanding": 19624374,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": 4087183,
+    "rsus": 275860,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Q3 2026 licence revenue $40.0M (9M total revenue $40.376M) from the Takeda licence (10-Q 0001664710-26-000066)",
+    "Cash $260.9M against a $180M market cap; 21.27M treasury shares bought back (10-Q)"
+   ],
+   "dated_catalysts": [
+    "undated: rinvatercept DMD Phase 2 data (10-Q forward-looking statements)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Remaining ATM capacity under the Leerink agreement: not stated in the snippets; new $350M S-3 filed 2026-09-10",
+    "NCT id for the rinvatercept trial not checked on ClinicalTrials.gov"
+   ],
+   "notes": "Option and RSU counts are Q3 anti-dilutive weighted figures. Revenue is lumpy licence income, not product revenue"
+  },
+  {
+   "symbol": "ARVN",
+   "cik": 1655759,
+   "sub_theme": "targeted protein degradation (PROTAC / degraders)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-03",
+    "accession": "0001628280-26-069464",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-24",
+    "accession": "0001628280-26-011226"
+   },
+   "business": "PROTAC protein-degrader company; one product, VEPPANU, approved in the US and licensed to Rigel (10-Q filed 2026-11-03)",
+   "revenue_ttm_usd": 275300000,
+   "lead_asset": null,
+   "cash_usd": 558900000,
+   "debt_total_usd": 400000,
+   "debt_due_12m_usd": 200000,
+   "ocf_ttm_usd": -158300000,
+   "runway_years": 3.53,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 65485006,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": 8800000,
+    "rsus": 3300000,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 262800000,
+    "pct_of_mcap": 59.4
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Only approved PROTAC (VEPPANU), commercialized by Rigel; royalties $0.5M in Q3 2026 (10-Q)",
+    "Cash $558.9M exceeds the $442.7M market cap",
+    "Peer NRIX (cluster_members.csv) is larger at a $1.76B market cap"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Remaining ATM capacity: the 10-Q says 'up to approximately $262.8 million' with no sales in 9M 2026; whether that figure is the remaining amount is unconfirmed"
+   ],
+   "notes": "Revenue recomputed: FY2025 $262.6M - 9M25 $253.1M + 9M26 $265.8M = $275.3M (10-Q revenue table). Mostly one-time milestone and licence income; Q3 2026 revenue was $0.5M. 9M 2026 net income $57.9M. Flag: ATM >25% of market cap if the full $262.8M remains. New S-3 filed 2026-11-03"
+  },
+  {
+   "symbol": "ARDX",
+   "cik": 1437402,
+   "sub_theme": "commercial-stage specialty biopharma & enabling platforms (kidney/GI, TGF-beta, enzymatic manufacturing)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-03",
+    "accession": "0001437402-26-000059",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-19",
+    "accession": "0001437402-26-000013"
+   },
+   "business": "Commercial biopharma with two US-approved products, IBSRELA and XPHOZAH (tenapanor) (10-K filed 2026-02-19)",
+   "revenue_ttm_usd": 468200000,
+   "lead_asset": null,
+   "cash_usd": 285300000,
+   "debt_total_usd": 252400000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -15500000,
+   "runway_years": 18.39,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 251372553,
+   "shares_asof": "2026-10-27",
+   "dilutive": {
+    "options": 26880000,
+    "rsus": 14506000,
+    "warrants": null,
+    "warrant_terms": "Option weighted-average exercise price $5.68 (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 100000000,
+    "pct_of_mcap": 13.6
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Two approved products with $468M TTM revenue, largest in the sub-theme",
+    "SLR loan maturity extended to 2030-07-01 (10-Q 0001437402-26-000059)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "TTM revenue and OCF taken from the pack XBRL; quarterly income statement not re-seen"
+   ],
+   "notes": "Q3 2026 net loss only $0.7M; near breakeven. The $100M Jefferies ATM is unused. CMS lawsuit pending"
+  },
+  {
+   "symbol": "AVXL",
+   "cik": 1314052,
+   "sub_theme": "CNS small molecule (sigma-1)",
+   "outcome": "REJECTED: F fraud red flag -- CEO terminated 'for Cause' on 2026-04-30 after a Special Committee review, which led to restated filings (10-K/A and 10-Q/A filed 2026-08-28, 0001731122-26-001164/-001165), plus NT 10-Q filings and a Nasdaq 5250(c)(1) delinquency notice (8-K 2026-05-22)",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-28",
+    "accession": "0001731122-26-001167",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2025-11-25",
+    "accession": "0001731122-25-001596"
+   },
+   "business": "Clinical-stage CNS biopharmaceutical company (10-Q)",
+   "revenue_ttm_usd": null,
+   "lead_asset": "Phase 2b/3 trials registered (pack: 10 P2-P3, e.g. NCT04304482)",
+   "cash_usd": 118300000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -29300000,
+   "runway_years": 4.04,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 92696842,
+   "shares_asof": "2026-08-28",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Nasdaq Listing Rule 5250(c)(1) late-filing deficiency; compliance plan submitted 2026-07-20 (10-Q)",
+   "fraud_flags": "CEO terminated for cause after an independent Special Committee review, then restatement via 10-K/A and 10-Q/A (10-K/A explanatory note, 0001731122-26-001164); delinquent filings (NT 10-Q 2026-05-11 and 2026-08-10)",
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Whether a clean re-audit accompanies the 10-K/A: auditor report not read",
+    "Nature of the 8-K 5.02 departures on 2026-11-02/03 not read"
+   ],
+   "notes": "Cash $118.3M confirmed in 10-Q MD&A. Rejected on governance until a clean subsequent audit and resolution are filed"
+  },
+  {
+   "symbol": "AKBA",
+   "cik": 1517022,
+   "sub_theme": "commercial-stage specialty biopharma & enabling platforms (kidney/GI, TGF-beta, enzymatic manufacturing)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001517022-26-000084",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001517022-26-000020"
+   },
+   "business": "Fully integrated kidney-disease biopharma; Vafseo (vadadustat) approved and marketed (10-Q filed 2026-11-05)",
+   "revenue_ttm_usd": 197200000,
+   "lead_asset": null,
+   "cash_usd": 160200000,
+   "debt_total_usd": 52400000,
+   "debt_due_12m_usd": 37493000,
+   "ocf_ttm_usd": 15800000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": "No substantial-doubt finding. 10-Q: if Vafseo revenue projections are not met 'the Company would be required to obtain additional financing to fund its operating plan or continue as a going concern in the future'",
+   "shares_outstanding": 277663875,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": 20214145,
+    "rsus": 7629992,
+    "warrants": 2115385,
+    "warrant_terms": "Kreos/BlackRock warrants at a $1.30 exercise price, 8-year term from issuance (10-Q); SARs 635,313",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Authorized common raised from 350M to 500M during 2026 (10-Q balance sheet); no reverse-split proposal found",
+   "listing_risk": "Price $0.533. Nasdaq minimum-bid deficiency letter received 2026-10-21, compliance deadline 2027-04-19 (10-Q; 8-K 3.01 filed 2026-10-23). A reverse split is likely if the price is not cured",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Approved oral HIF-PH inhibitor Vafseo with $197M TTM revenue",
+    "Cash-positive TTM OCF"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Remaining Jefferies ATM capacity not stated in the snippets read"
+   ],
+   "notes": "Pack debt due <12m of $50.6M is contradicted: the balance sheet shows current portion of long-term debt $37,493K, plus a $9,846K Working Capital Fund liability. BlackRock loan amortizes from 2027 and matures 2028-01-29. Q3 2026 net loss $14.4M"
+  },
+  {
+   "symbol": "GYRE",
+   "cik": 1124105,
+   "sub_theme": "targeted protein degradation (PROTAC / degraders)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001193125-26-450334",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-13",
+    "accession": "0001193125-26-106251"
+   },
+   "business": "US-listed biopharma with commercial fibrosis products (ETUARY pirfenidone) in China, plus the Cullgen degrader/DAC pipeline acquired in 2026 (10-Q filed 2026-11-06)",
+   "revenue_ttm_usd": 121800000,
+   "lead_asset": null,
+   "cash_usd": 57400000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -23200000,
+   "runway_years": 2.48,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "None; 10-Q says resources are 'sufficient to fund our operating activities and obligations for at least the next 12 months'",
+   "shares_outstanding": 115321017,
+   "shares_asof": "2026-11-01",
+   "dilutive": {
+    "options": 23404916,
+    "rsus": null,
+    "warrants": 540666,
+    "warrant_terms": "Series X preferred-stock warrants held by GNI USA, $4,915 per preferred share, expire 2033-10-30; 540,666 common as-converted",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "3,552,427 Series B preferred, convertible at 5.0 into 17,762,135 common (10-Q)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 50000000,
+    "pct_of_mcap": 9.3
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Degrader pipeline is early-stage, PRC-based trials (10-Q)",
+    "Cash flows come from China pirfenidone, not degraders"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Series B preferred redemption or liquidation terms not read; carried at $21.6M outside permanent equity",
+    "9M OCF of -$17.5M confirmed; TTM -$23.2M from the pack"
+   ],
+   "notes": "9M 2026 net loss $35.3M after the Cullgen acquisition (8-K 2026-05-04, items 2.01/3.02). Comparatives are 'As Recast' for the common-control combination, not a restatement. Controlled by GNI group. Also holds $12.6M short-term investments and long-term CDs not included in cash"
+  }
+ ]
+}

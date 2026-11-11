@@ -37,25 +37,25 @@ CAPT = (0.60, 0.68, 0.77)   # common stock: hold-only measured (0.604) .. with a
 
 # ---------- verified inputs (from filings; accession numbers in the evidence column) ----------
 N = [
- dict(sym="VRRM", name="Verra Mobility", px=2.13, hi=30.84, hi_d="2024-07-23", sh=152.0e6, extra=4.3e6, cash=140.1e6, debt=1032.6e6, due=9.5e6, ocf=251.7e6, rev=1003.9e6, run="cashpos",
+ dict(sym="VRRM", name="Verra Mobility", px=2.13, hi=30.84, hi_d="2024-07-23", sh=152.0e6, extra=4.3e6, cash=140.1e6, debt=1032.6e6, due=9.5e6, ocf=251.7e6, rev=1003.9e6, run="cashpos", rt_pz=0.08,
       acc="10-Q filed 2026-10-30, 0001628280-26-068455", wave=2, lead="leader", cluster="levered cash-generative fallen leaders", kind="S",
       wave_line="No theme wave; stub re-rating if tolling/photo-enforcement cash flow holds. Analogue: 2022-25 levered fallen leaders (CVNA 129x in 37 months, measured)",
-      cats="FY2026 10-K ~2027-02; NYCDOT contract status in each 10-Q", bear="NYCDOT (24.1% of Q3 revenue) and one of the three large Commercial Services customers (which gave, then withdrew, a termination notice in 2026) leave; $1.03B term loan (2032) then exceeds what the remaining cash flow supports",
+      cats="FY2026 10-K ~2027-02; NYCDOT contract status in each 10-Q", bear="NYCDOT (24.1% of Q3 revenue) and one rental-car tolling contract already terminated (effective 2027-01-30), a second renewed on materially worse terms, the third in procurement; Commercial Services is 59% of segment profit; $350M notes due 2029-04-15 + $689M term loan due 2032; class action, CEO and CFO replaced",
       inval="Thesis is dead if FY2027 operating cash flow (10-K due by 2028-03-15) is below $100M, or NYCDOT is no longer a customer by then"),
- dict(sym="KLC", name="KinderCare Learning", px=2.33, hi=29.41, hi_d="2024-10-30", sh=118.5e6, extra=0.3e6, cash=173.7e6, debt=925.7e6, due=9.6e6, ocf=209.5e6, rev=2735.0e6, run="cashpos",
+ dict(sym="KLC", name="KinderCare Learning", px=2.33, hi=29.41, hi_d="2024-10-30", sh=118.5e6, extra=0.3e6, cash=173.7e6, debt=925.7e6, due=9.6e6, ocf=209.5e6, rev=2735.0e6, run="cashpos", rt_pz=0.05,
       acc="10-Q filed 2026-08-13, 0001193125-26-349480", wave=2, lead="leader", cluster="levered cash-generative fallen leaders", kind="S",
       wave_line="No theme wave; largest US child-care operator priced at 1.3x operating cash flow. Same stub-recovery analogue",
-      cats="Q3 10-Q ~2026-11; FY2026 10-K ~2027-03", bear="Enrollment and subsidy funding fall; $407M operating loss (impairments) repeats; $926M debt against shrinking cash flow",
+      cats="Q3 10-Q ~2026-11; FY2026 10-K ~2027-03", bear="Enrollment and subsidy funding fall; $407M operating loss (impairments) repeats; $926M debt plus $1,584M operating leases against $174M cash; same-center occupancy down 240 bp to 68.6%; Q2 operating income $2.4M vs $68.7M",
       inval="Thesis is dead if FY2027 operating cash flow (10-K due by 2028-03-31) is below $100M or a covenant waiver/default is disclosed before then"),
- dict(sym="ALIT", name="Alight", px=12.65, hi=206.40, hi_d="2024-03-21", sh=26.44e6, extra=0.3e6, cash=448.0e6, debt=1991.0e6, due=20.0e6, ocf=305.0e6, rev=2198.0e6, run="cashpos",
+ dict(sym="ALIT", name="Alight", px=12.65, hi=206.40, hi_d="2024-03-21", sh=26.44e6, extra=0.3e6, cash=448.0e6, debt=1991.0e6, due=20.0e6, ocf=305.0e6, rev=2198.0e6, run="cashpos", rt_pz=0.25,
       acc="10-Q filed 2026-11-03, 0001628280-26-069567", wave=2, lead="leader", cluster="levered cash-generative fallen leaders", kind="S",
       wave_line="No theme wave; benefits-administration leader at ~1.1x operating cash flow after a reverse split approved 2026-06-10",
-      cats="FY2026 10-K ~2027-02", bear="Client attrition to AI-native platforms; $1.99B debt; 1-for-20 reverse split effective 2026-06-30 and an 8-K item 3.01 listing notice in the last 12 months; TTM net loss $1.0B",
+      cats="FY2026 10-K ~2027-02", bear="All $1.99B of debt is one term loan due 2028-08-31; refinancing talks failed and the company 'elected not to actively pursue' one (8-K 2026-10-14, 0001628280-26-065893); revenue −6.2% in Q3; unrestricted cash $212M; 1-for-20 reverse split effective 2026-06-30 and an 8-K item 3.01 listing notice in the last 12 months; TTM net loss $1.0B",
       inval="Thesis is dead if FY2027 revenue (10-K due by 2028-03-15) is below $1.7B or a covenant waiver/default is disclosed before then" ),
- dict(sym="FMC", name="FMC Corp", px=5.41, hi=67.53, hi_d="2024-05-10", sh=155.56e6, extra=3.4e6, cash=735.8e6, debt=4177.7e6, due=222.8e6, ocf=426.0e6, rev=2814.9e6, run="cashpos",
+ dict(sym="FMC", name="FMC Corp", px=5.41, hi=67.53, hi_d="2024-05-10", sh=155.56e6, extra=3.4e6, cash=735.8e6, debt=4177.7e6, due=222.8e6, ocf=-300.0e6, rev=2814.9e6, run=">=2y", rt_pz=0.15,
       acc="10-Q filed 2026-10-30, 0000037785-26-000171", wave=2, lead="leader", cluster="levered cash-generative fallen leaders", kind="S",
-      wave_line="No theme wave; crop-protection cycle recovery. Equity is negative (-$19M) after $4.3B of TTM losses",
-      cats="FY2026 10-K ~2027-02", bear="Negative book equity, $4.18B debt, covenant headroom after 8-K items 2.05/2.06 charges; a debt-for-equity exchange leaves holders a stub; revolver covenants were amended in April 2026",
+      wave_line="No theme wave; no cycle story: Q3 revenue −80% on price cuts and a new rebate model (10-Q). Equity −$19M after $4.3B of TTM losses",
+      cats="FY2026 10-K ~2027-02", bear="Negative book equity, $4.18B debt, covenant headroom after 8-K items 2.05/2.06 charges; leverage covenant suspended Q1–Q3 2026 and re-tested from Q4 2026 at 6.75x; YTD operating cash flow −$231M",
       inval="Thesis is dead if a covenant waiver, default or debt exchange is disclosed, or FY2026 operating cash flow (10-K due by 2027-03-01) is negative" ),
  dict(sym="RXST", name="RxSight", px=4.86, hi=64.29, hi_d="2024-05-15", sh=41.93e6, extra=6.8e6, cash=254.7e6, debt=0.0, due=0.0, ocf=23.7e6, rev=115.3e6, run="cashpos", burn_override=18.0e6,
       acc="10-Q filed 2026-11-03, 0001193125-26-445381", wave=0, lead="n/a", cluster="net-cash single-product medtech", kind="N",
@@ -97,6 +97,7 @@ for d in N:
     S = ST.get((ddb, d["run"]), ALL)
     mcap = d["px"] * d["sh"]
     pz_model = float(r.p_zero); pz = 0.5 * (pz_model + S["dead"])          # human-set: mean of validated model and stratum wipeout rate
+    pz = min(0.90, pz + d.get("rt_pz", 0.0))                               # R6 red-team adjustment (redteam/ANSWERS.md)
     # ---- Fermi: base (measured) vs filtered ----
     surv_f = min(0.95, S["alive"] * (1 - pz) / max(1 - S["dead"], 1e-9))
     filt = {"survival": surv_f, "wave": WAVE[d["wave"]], "leads": LEAD[d["lead"]], "captures": CAPT[1]}
