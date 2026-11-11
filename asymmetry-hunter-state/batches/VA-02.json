@@ -1,0 +1,438 @@
+{
+ "batch": "VA-02",
+ "as_of": "2026-11-10",
+ "n_names": 6,
+ "themes": [
+  {
+   "sub_theme": "precision oncology & hematology (menin, EGFR TKI, peptide/drug conjugates, boron small molecules)",
+   "members": [
+    "KURA",
+    "AVBP",
+    "BCYC",
+    "ANTX",
+    "PLRX"
+   ],
+   "maturity_signals": [
+    "KURA 10-Q (filed 2026-08-12, 0001193125-26-346884): KOMZIFTI (ziftomenib) approved by FDA 2025-11-13; product revenue $9.1M in Q2 2026 and $14.9M in 1H 2026 -- first menin-inhibitor revenue",
+    "AVBP: two Phase 3 firmonertinib trials registered (ClinicalTrials.gov NCT05607550 active, primary completion 2026-10-06; NCT07185997 recruiting, 2029-02)",
+    "BCYC 10-Q (filed 2026-10-29, 0001104659-26-119864): zelenectide pevedotin (Nectin-4 Bicycle drug conjugate) in the ongoing Phase II Duravelo-2"
+   ],
+   "adoption_evidence": [
+    "KURA 10-Q: Kyowa Kirin collaboration, $570.0M in upfront and milestone payments received to date",
+    "BCYC 10-K (filed 2026-03-17, 0001104659-26-028971): Novartis gave notice of termination of its collaboration (contract modification Q4 2025) -- negative adoption signal"
+   ],
+   "comparable_prior_wave": {
+    "name": "2023-24 menin-inhibitor re-rating ahead of the first approvals",
+    "trough": "2023-10",
+    "crest": "2024-03",
+    "leader_basket": [
+     "KURA",
+     "SNDX"
+    ],
+    "leader_peak_multiples": {
+     "KURA": 3.1,
+     "SNDX": 2.2
+    },
+    "months_trough_to_crest": 5,
+    "similar": "Same mechanism and issuer; menin approvals have now arrived, with first revenue",
+    "different": "That move was a 2-3x anticipation run, not a 25x wave; KURA is now -68% from that crest. Approval has converted the story into a commercial-execution story. BCYC's own 2022 crest (2.5x in 6 months, tools.py px) has also passed"
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "Real approvals and Phase 3 programs, but these are product-specific stories without a shared multi-issuer adoption curve; prior moves in the same names topped out near 3x."
+  },
+  {
+   "sub_theme": "commercial GI franchise (cash-generative)",
+   "members": [
+    "IRWD"
+   ],
+   "maturity_signals": [
+    "IRWD 10-Q (filed 2026-11-05, 0001104659-26-123319): 9M 2026 net income $151.9M; repaid $200M 2026 convertible notes at maturity and $60M of the revolver"
+   ],
+   "adoption_evidence": [
+    "LINZESS is a mature, established franchise (10-K filed 2026-02-26, 0001104659-26-020489)"
+   ],
+   "comparable_prior_wave": {
+    "name": "2022-24 GI/nephrology re-rating (ARDX) -- see VA-01",
+    "trough": "2022-06",
+    "crest": "2024-02",
+    "leader_basket": [
+     "ARDX"
+    ],
+    "leader_peak_multiples": {
+     "ARDX": 19.1
+    },
+    "months_trough_to_crest": 20,
+    "similar": "GI-focused commercial issuer trading at low EV/revenue",
+    "different": "ARDX's wave was launch-driven from a $0.51 trough; IRWD is a mature cash-flow franchise with no launch inflection in the filings. IRWD's own 2018-2024 history shows no wave (tools.py px)"
+   },
+   "wave_window_years": 2,
+   "wave_score": 0,
+   "wave_score_reason": "No theme wave case: a mature single-franchise cash generator; any re-rating is a value or deleveraging story, not a white swan."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "BCYC",
+   "cik": 1761612,
+   "sub_theme": "precision oncology & hematology (menin, EGFR TKI, peptide/drug conjugates, boron small molecules)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-29",
+    "accession": "0001104659-26-119864",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-17",
+    "accession": "0001104659-26-028971"
+   },
+   "business": "Clinical-stage developer of Bicycle molecules (constrained synthetic peptides); lead zelenectide pevedotin in Phase II Duravelo-2 (10-Q)",
+   "revenue_ttm_usd": 83500000,
+   "lead_asset": "zelenectide pevedotin, ongoing Phase II Duravelo-2 (10-Q)",
+   "cash_usd": 469900000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -175200000,
+   "runway_years": 2.68,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "None; 'sufficient ... for at least 12 months from the date of filing' (10-Q)",
+   "shares_outstanding": 69993013,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": "9,803,106 at 2025-12-31 (WAEP $20.40); 2,805,346 granted in 2026 (10-Q option table)",
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Cash $469.9M vs $264M market cap",
+    "Novartis collaboration terminated (10-K) -- partner validation weakened"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "9/30/2026 option and RSU totals: the anti-dilutive table did not parse",
+    "ATM capacity not found in the snippets",
+    "NCT id for Duravelo-2 not pulled",
+    "Share count is ordinary + non-voting ordinary shares from the balance sheet, not the cover; ADS ratio not checked"
+   ],
+   "notes": "TTM revenue is largely collaboration revenue, including Novartis termination acceleration, and is not recurring. Two quarters of burn at $89.9M"
+  },
+  {
+   "symbol": "IRWD",
+   "cik": 1446847,
+   "sub_theme": "commercial GI franchise (cash-generative)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001104659-26-123319",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001104659-26-020489"
+   },
+   "business": "GI-focused biotech that co-commercializes LINZESS (linaclotide) in the US and is developing apraglutide (10-Q)",
+   "revenue_ttm_usd": 400300000,
+   "lead_asset": null,
+   "cash_usd": 86400000,
+   "debt_total_usd": 325000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 205400000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 165550760,
+   "shares_asof": "2026-10-31",
+   "dilutive": {
+    "options": 2005000,
+    "rsus": "874K time-based (Q3 anti-dilutive table); PSUs not parsed",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Only cash-generative GI franchise in the batch: 9M 2026 net income $151.9M (10-Q)",
+    "Deleveraging: $200M converts repaid June 2026; revolver cut from $385M to $325M"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revolver maturity date and covenant levels not extracted",
+    "Stockholders' deficit amount not extracted"
+   ],
+   "notes": "CONTRADICTION: the pack shows total debt $0.0M, but the balance sheet shows Revolving credit facility $325,000K (non-current) at 9/30/2026, down from $385,000K. Cash-positive, so the survival gate holds. Leadership is relative to a sub-theme with no wave case"
+  },
+  {
+   "symbol": "KURA",
+   "cik": 1422143,
+   "sub_theme": "precision oncology & hematology (menin, EGFR TKI, peptide/drug conjugates, boron small molecules)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-12",
+    "accession": "0001193125-26-346884",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-05",
+    "accession": "0001193125-26-092567"
+   },
+   "business": "Precision-oncology company commercializing KOMZIFTI (ziftomenib), the FDA-approved oral menin inhibitor, approved 2025-11-13 (10-Q)",
+   "revenue_ttm_usd": 77200000,
+   "lead_asset": null,
+   "cash_usd": 519000000,
+   "debt_total_usd": 9800000,
+   "debt_due_12m_usd": 4200000,
+   "ocf_ttm_usd": -111800000,
+   "runway_years": 4.61,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 88960619,
+   "shares_asof": "2026-08-07",
+   "dilutive": {
+    "options": "about 21,667,000 common stock equivalents in total at 6/30/2026 (10-Q); 13,408,557 plan options + 1,461,879 RSUs + 824,433 PSUs at 12/31/2025 (10-K)",
+    "rsus": null,
+    "warrants": 26078,
+    "warrant_terms": "$14.38 exercise price (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Screen flagged 'deSPAC lineage'. No business-combination or reverse-recapitalization language was found in 10-K 0001193125-26-092567. The ticker is the registrant's own common stock (88.95M shares issued at 6/30/2026). Effective date of any combination: not found",
+   "leadership": "participant",
+   "leadership_evidence": [
+    "First-wave approved menin inhibitor with growing product revenue ($9.1M Q2 2026)",
+    "Kyowa Kirin partnership ($570M received to date)",
+    "Peer SNDX also has an approved menin inhibitor"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "deSPAC lineage effective date -- not found in the 10-K; the screen flag is unresolved",
+    "ATM size (Leerink/Cantor, November 2023) not stated in the snippets; none sold as of the 10-K",
+    "Q3 2026 10-Q not yet in the index (latest is the Q2 10-Q)"
+   ],
+   "notes": "Last-2-quarter burn of $148.4M gives a 1.73y runway versus 4.61y on TTM. Contract liabilities of $276.8M for Kyowa are deferred revenue, not debt. Term loan of $10M matures 2027-11-02 and amortizes from 2027-05-01"
+  },
+  {
+   "symbol": "PLRX",
+   "cik": 1746473,
+   "sub_theme": "precision oncology & hematology (menin, EGFR TKI, peptide/drug conjugates, boron small molecules)",
+   "outcome": "REJECTED: B real business -- no revenue (TTM $0) and no Phase 2+ lead asset; bexotegrast discontinued in IPF in June 2025 (10-Q 0001746473-26-000113) and lead PLN-101095 is in Phase 1a/1b",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-11",
+    "accession": "0001746473-26-000113",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-11",
+    "accession": "0001746473-26-000037"
+   },
+   "business": "Clinical-stage integrin-based therapeutics developer; development now centred on solid tumors (10-Q)",
+   "revenue_ttm_usd": 0,
+   "lead_asset": null,
+   "cash_usd": 159600000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -70900000,
+   "runway_years": 2.25,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 61921897,
+   "shares_asof": "2026-08-07",
+   "dilutive": {
+    "options": 11569019,
+    "rsus": 524714,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 50000000,
+    "pct_of_mcap": 101.0
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Stockholder rights plan adopted 2025-03-12 (10-Q Note 10)",
+   "listing_risk": "Price $0.80 < $1; no 3.01 deficiency 8-K in the 12-month index",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Phase stage of PLN-101095 (Phase 1a/1b) taken from the vendor text plus the absence of an active Phase 2 in the pack trial match (0 active)"
+   ],
+   "notes": "Cash is about 3x the market cap, but the business test fails"
+  },
+  {
+   "symbol": "ANTX",
+   "cik": 1880438,
+   "sub_theme": "precision oncology & hematology (menin, EGFR TKI, peptide/drug conjugates, boron small molecules)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-09",
+    "accession": "0001193125-26-452664",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-17",
+    "accession": "0001193125-26-110693"
+   },
+   "business": "Clinical-stage boron-chemistry small-molecule developer with programs in hematologic disease, infectious disease and oncology (10-Q/10-K)",
+   "revenue_ttm_usd": null,
+   "lead_asset": "epetraborole Phase 2 in polycythemia vera, NCT07891533 (ClinicalTrials.gov: PHASE2, NOT_YET_RECRUITING, primary completion 2029-04)",
+   "cash_usd": 64400000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -30400000,
+   "runway_years": 2.12,
+   "closed_financing_since_bs": "Private placement closed 2026-03-10: 8,245,611 shares at $2.85 plus 5,789,493 pre-funded warrants at $2.84999 (10-Q) -- before the 9/30 balance sheet, so already in cash",
+   "going_concern_language": "None; 'sufficient ... for at least the next 12 months' (10-Q)",
+   "shares_outstanding": 37943650,
+   "shares_asof": "2026-11-05",
+   "dilutive": {
+    "options": "5,466,222 at 2025-12-31 (10-K)",
+    "rsus": "856,160 at 2025-12-31 (10-K)",
+    "warrants": 8741493,
+    "warrant_terms": "Pre-funded warrants: 2,952,000 (2025 exchange) + 5,789,493 (2026 PIPE), $0.0001 exercise, not in the cover count (10-Q/10-K)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 80000000,
+    "pct_of_mcap": 53.0
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Lead Phase 2 is not yet recruiting; prior MAC lung Phase 2/3 NCT05327803 terminated"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Sales to date under the 2026 $80M Jefferies ATM (424B5 2026-04-20) not confirmed -- remaining capacity assumed to be the full $80M",
+    "Whether pre-funded warrants were exercised after 9/30"
+   ],
+   "notes": "FLAG: remaining ATM capacity of up to $80M is about 53% of the $150.9M market cap (>25%). Material weaknesses in ICFR disclosed in the 10-K -- not a listed fraud flag, but noted. Fully diluted count including pre-funded warrants is about 46.7M"
+  },
+  {
+   "symbol": "AVBP",
+   "cik": 1868279,
+   "sub_theme": "precision oncology & hematology (menin, EGFR TKI, peptide/drug conjugates, boron small molecules)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-09",
+    "accession": "0001104659-26-124513",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-05",
+    "accession": "0001104659-26-024127"
+   },
+   "business": "Clinical-stage oncology company developing firmonertinib (EGFR TKI) and next-generation ADCs (10-K)",
+   "revenue_ttm_usd": null,
+   "lead_asset": "firmonertinib Phase 3: NCT05607550 (EGFR exon 20, active not recruiting, primary completion 2026-10-06) and NCT07185997 (recruiting, 2029-02)",
+   "cash_usd": 393200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -152800000,
+   "runway_years": 2.57,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "None; 'sufficient ... through at least twelve months' (10-Q)",
+   "shares_outstanding": 51723074,
+   "shares_asof": "2026-11-05",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "Pre-funded warrants from the $19.50 offering (1,363,469 issued, $0.0001 exercise, no expiry); about 1.3M exercised by 9/30/2026 per the truncated 10-Q text",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 250000000,
+    "pct_of_mcap": 35.8
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Two registered Phase 3 trials",
+    "Undrawn term loan facility maturing 2030-03-01 (10-Q)"
+   ],
+   "dated_catalysts": [
+    "2026-10-06 FURVENT (NCT05607550) primary completion -- topline possibly disclosed in October 2026 8-Ks (7.01/8.01 on 2026-10-06/13/19/26), not read"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Amount already sold under the additional $250M ATM (2026 prospectus supplement): not found",
+    "Option and RSU counts not parsed",
+    "Content of the October 2026 8-Ks (likely the FURVENT readout) not read"
+   ],
+   "notes": "FLAG: ATM capacity of up to $250M is about 36% of market cap (>25%). Shape test: not binary-only, because a second Phase 3 runs to 2029 and an ADC pipeline exists; the FURVENT readout is logged as a supporting fact. 8-K 2026-11-09 includes item 5.02"
+  }
+ ]
+}

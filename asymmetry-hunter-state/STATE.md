@@ -1,6 +1,6 @@
 # STATE.md — Operation Asymmetry Hunter v3 (White Swan edition)
 
-**Run as-of:** 2026-11-11 (Wed) · **Current run stage:** R6 IN PROGRESS (red team relaunched; no memo on disk yet) — R1–R5 complete (R3 lean; swarm CUT for budget)
+**Run as-of:** 2026-11-11 (Wed) · **Current run stage:** R6 IN PROGRESS — red team DONE (4 memos + ANSWERS.md): all four finalists now FAIL the NO-TRADE bar; VA verification batches running for possible new finalists
 **Last updated:** 2026-11-11 (reset applied; R6 relaunched)
 
 > FIRST ACTION OF EVERY SESSION: read this file and every file it indexes, state in two lines where the run
@@ -80,7 +80,9 @@ Code: `ah/` (package), `scripts/` (stage runners), `tests/` (leakage tests). Dat
 - [x] **R5 — White-swan math + finalists** — COMPLETE 2026-11-10: `ranked_table.md` (`scripts/r5_math.py`, `scripts/r5_write_table.py`, `data/derived/r5_math.json`, `r5_finalists.json`)
   Finalists: VRRM, ALIT, KLC, FMC (one cluster; effective N ≈ 1.6). NO-TRADE branch fired individually for RXST, METC, TE, ABAT, BLNK; FLNC fails the white-swan class.
 - [ ] **R6 — Finalist deep verification + red team** (Sat Nov 14; started early)
-  - [ ] red-team memos in `redteam/<SYM>.md` — two earlier agents died at 5-hour walls with nothing written; relaunched 2026-11-11 with memo-by-memo saving.
+  - [x] red-team memos VRRM/ALIT/KLC/FMC written and answered (`redteam/ANSWERS.md`): all WOUNDED; after corrections LIFT 2.2/1.8/2.3/2.4x → NO TRADE for all four
+  - [ ] VA-01..VA-11 verification (98 pool names) → any SURVIVOR goes through r5_math + its own red-team pass before the lock. EXACT NEXT ACTION: `ls asymmetry-hunter-state/batches/VA-*.json`; relaunch agents for missing batches
+  - [ ] (superseded) red-team memos in `redteam/<SYM>.md` — two earlier agents died at 5-hour walls with nothing written; relaunched 2026-11-11 with memo-by-memo saving.
         EXACT NEXT ACTION if a wall hits: `ls asymmetry-hunter-state/redteam/`; for any of VRRM, ALIT, KLC, FMC without a memo, launch ONE subagent with `redteam/BRIEF.md` for the missing names only; then write `redteam/ANSWERS.md`
   - [ ] every ranked-table number re-traced; dilution trajectory re-modelled; Schwab tradability pre-flight (7.1.1) per name
 - [ ] **R7 — Buy set lock (Sun Nov 15), buy day + close-out (Mon Nov 16)**
