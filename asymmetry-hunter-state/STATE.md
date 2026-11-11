@@ -143,15 +143,7 @@ R6/R7 from the repository alone: `data/derived/` is committed (incl. `pit_finali
 
 ## Finalists
 
-| Ticker | Status | Verification | EV per $1 (5y) | LIFT | Proposed allocation (pre-R6) |
-|---|---|---|---|---|---|
-| VRRM | finalist, pending R6 | VERIFIED (10-Q 0001628280-26-068455) | +0.300 | 2.5x | $400 |
-| ALIT | finalist, pending R6 | VERIFIED (10-Q 0001628280-26-069567) | +0.350 | 2.5x | $200 |
-| KLC | finalist, pending R6 | VERIFIED (10-Q 0001193125-26-349480; Q3 10-Q due this week — re-read) | +0.293 | 2.5x | $120 |
-| FMC | finalist, pending R6 | VERIFIED (10-Q 0000037785-26-000171); covenant amendments April 2026 to be read | +0.293 | 2.5x | $80 |
-
-Kill conditions (7.4) to check at every session until the lock: `python3 scripts/tools.py recent SYM --months 1` for new 8-Ks (items 1.03, 2.04, 3.01, 4.01, 4.02, 5.02);
-a going-concern paragraph, covenant waiver, trading suspension or toxic financing removes the finalist.
+None remain. VRRM, ALIT, KLC, FMC removed at R6 (red team; see `redteam/ANSWERS.md`). All ten math names are on paper in `paper_shadow.csv`.
 
 ## Buy-set status
 
