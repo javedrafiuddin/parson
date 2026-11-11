@@ -1,0 +1,444 @@
+{
+ "batch": "VA-03",
+ "as_of": "2026-11-10",
+ "n_names": 6,
+ "themes": [
+  {
+   "sub_theme": "office REIT recovery (West Coast / Sunbelt office)",
+   "members": [
+    "HPP",
+    "FSP"
+   ],
+   "maturity_signals": [
+    "HPP 10-Q (filed 2026-11-06, 0001482512-26-000085): asset sales funded the 2026-10-14 repurchase of $100M 3.95% 2027 notes and $100M 5.95% notes -- balance-sheet repair rather than demand recovery",
+    "FSP 10-Q (filed 2026-10-27, 0001104659-26-119172): 9.0% TPG term loans with 6.0% OID; expanded strategic review continuing through October 2026 -- distressed-capital terms"
+   ],
+   "adoption_evidence": [
+    "No filing evidence of leasing demand turning: both issuers are selling assets to delever (HPP held-for-sale Skyport Plaza; FSP sale of a property on 2026-07-08 with proceeds used to repay term loans)"
+   ],
+   "comparable_prior_wave": {
+    "name": "Post-GFC REIT recovery",
+    "trough": "2009-03",
+    "crest": "2011-05",
+    "leader_basket": [
+     "SLG",
+     "HST",
+     "BXP",
+     "VNO"
+    ],
+    "leader_peak_multiples": {
+     "SLG": 10.4,
+     "HST": 5.9,
+     "BXP": 3.4,
+     "VNO": 3.4
+    },
+    "months_trough_to_crest": 27,
+    "similar": "Office/real-estate equity priced for insolvency, with deleveraging through asset sales and recapitalization",
+    "different": "2009's driver was the end of a credit freeze for structurally sound assets. Today's driver is secular office demand (remote work) plus high rates, and these names already had their 2009-2019 cycle. Even the best post-GFC leader (SLG) reached about 10x from a deep trough, short of 25x"
+   },
+   "wave_window_years": 4,
+   "wave_score": 1,
+   "wave_score_reason": "There is a measurable analogue, but primary-filing evidence shows deleveraging and asset sales, not adoption or demand recovery."
+  },
+  {
+   "sub_theme": "levered net-lease, hotel, ground-lease and hospital REITs (refinancing-driven)",
+   "members": [
+    "SVC",
+    "SAFE",
+    "MPT",
+    "AIV"
+   ],
+   "maturity_signals": [
+    "SVC 10-Q (filed 2026-11-04, 0000945394-26-000061): $850M of 2027 notes redeemed in 2026; net lease rent coverage 2.17x",
+    "SAFE 10-Q (filed 2026-11-04, 0001095651-26-000035): $1.2B undrawn on the 2024 unsecured revolver",
+    "MPT 10-Q (filed 2026-11-06, 0001193125-26-451995): about $1.0B new-note proceeds used to retire the 2026 notes and part of the 2027 notes; notes exchange captured about a $123M discount"
+   ],
+   "adoption_evidence": [
+    "Refinancings are closing at high coupons (SVC 8.625% 2031 secured, 8.875% 2032 notes per the 10-Q fair-value table) -- access exists but is expensive"
+   ],
+   "comparable_prior_wave": {
+    "name": "Post-GFC REIT recovery (also checked: 2020-03 to 2021 COVID rebound, SVC 3.6x in 15 months, MPT 1.8x)",
+    "trough": "2009-03",
+    "crest": "2011-05",
+    "leader_basket": [
+     "SLG",
+     "HST",
+     "BXP",
+     "VNO"
+    ],
+    "leader_peak_multiples": {
+     "SLG": 10.4,
+     "HST": 5.9,
+     "BXP": 3.4,
+     "VNO": 3.4
+    },
+    "months_trough_to_crest": 27,
+    "similar": "Levered REITs priced for refinancing failure",
+    "different": "A rate-driven recovery would lift all of them modestly; 25x would need equity tiny against an enterprise value that then recovers -- possible only for the most levered (SVC). The COVID rebound gave SVC 3.6x and MPT 1.8x (tools.py px)"
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "A rate/credit-spread recovery is plausible, but it is a leverage trade, not a theme with adoption evidence; prior REIT recoveries topped out at 2-10x."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "FSP",
+   "cik": 1031316,
+   "sub_theme": "office REIT recovery (West Coast / Sunbelt office)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-27",
+    "accession": "0001104659-26-119172",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-09",
+    "accession": "0001104659-26-025284"
+   },
+   "business": "Maryland REIT owning infill and CBD office properties, mainly in the US Southwest and Mountain West (10-K)",
+   "revenue_ttm_usd": 103600000,
+   "lead_asset": null,
+   "cash_usd": 34900000,
+   "debt_total_usd": 266900000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 8600000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 104011708,
+   "shares_asof": "2026-10-22",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Price $0.39 on NYSE American; no deficiency 8-K in the index. Low-price delisting risk if it persists",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "TPG term loans: $266.9M at 9.0% with 6% OID, no amortization, maturity 2029-02-26 plus a 1-year extension option; a change in control is an event of default (10-Q)"
+   ],
+   "dated_catalysts": [
+    "undated: outcome of the expanded strategic review (10-Q)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "TTM revenue and OCF taken from the pack XBRL",
+    "Whether TPG received warrants or equity kickers: not found in the 10-Q text; the 8-K of 2026-03-04 was not read",
+    "Equity awards outstanding not extracted"
+   ],
+   "notes": "Pack total debt of $247.3M is net of OID; principal is $266.9M per the 10-Q. A strategic review (possible sale) could cap upside -- not a dated binary, so the shape test passes"
+  },
+  {
+   "symbol": "HPP",
+   "cik": 1482512,
+   "sub_theme": "office REIT recovery (West Coast / Sunbelt office)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001482512-26-000085",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-27",
+    "accession": "0001482512-26-000038"
+   },
+   "business": "REIT owning West Coast office and the only public combined office-and-studio platform (10-K)",
+   "revenue_ttm_usd": 814500000,
+   "lead_asset": null,
+   "cash_usd": 160533000,
+   "debt_total_usd": 3360350000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 134700000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": "2026-10-14 repurchase of $100M 3.95% 2027 notes and $100M 5.95% notes, funded by asset-sale proceeds (10-Q Note 22) -- reduces debt, adds no new financing",
+   "going_concern_language": null,
+   "shares_outstanding": 54302575,
+   "shares_asof": "2026-11-03",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "17,000,000 4.750% Series C cumulative redeemable preferred, $425.0M liquidation preference (senior to common); 111,777 6.25% Series A preferred OP units",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 125000000,
+    "pct_of_mcap": 24.5
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1-for-7 reverse split effected 2025-12-01 (10-Q)",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Undrawn revolver capacity of $795.3M (10-Q)",
+    "Unique office-plus-studio platform (10-K)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Exact maturity of the 3.95% notes due 2027 (table cut off); with Hollywood Media CMBS of $1,069.8M maturing 2027-11-09 including extensions, both sit just outside the 12-month window",
+    "TTM OCF $134.7M is the pack's figure through Q1 2026; Q3 YTD OCF not extracted",
+    "OP/LTIP unit counts not extracted"
+   ],
+   "notes": "CONTRADICTION: the pack shows total debt $0.0M (stale Q1 XBRL). The Q3 10-Q shows total unsecured and secured debt of $3,360.4M plus $66.1M JV partner debt. Equity is thin against about $3.4B of debt and $425M of preferred. 9M 2026 net loss $377.8M. ATM is $125M, unused (24.5% of market cap, just under the flag)"
+  },
+  {
+   "symbol": "SVC",
+   "cik": 945394,
+   "sub_theme": "levered net-lease, hotel, ground-lease and hospital REITs (refinancing-driven)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0000945394-26-000061",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-25",
+    "accession": "0000945394-26-000012"
+   },
+   "business": "REIT owning 740 service-focused retail net lease properties and 87 hotels, managed by RMR (10-Q)",
+   "revenue_ttm_usd": 1179500000,
+   "lead_asset": null,
+   "cash_usd": 62500000,
+   "debt_total_usd": 4525438000,
+   "debt_due_12m_usd": null,
+   "ocf_ttm_usd": 113700000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": "Equity offering closed 2026-04-02 (424B5s 2026-03-30/04-02; RMR bought 8,333,333 post-split shares) -- before the balance-sheet date",
+   "going_concern_language": null,
+   "shares_outstanding": 129813906,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1-for-5 reverse share split effected in 2026 (10-Q Note 1/Note 9; 8-K 5.03 2026-07-06)",
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Most levered of the group: about $4.5B of financial liabilities against a $668M market cap",
+    "Revolver of $650M undrawn at 9/30 and 11/2/2026 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Maturity month of the $580.2M (at maturity) zero-coupon senior secured notes due 2027 (carrying $533.9M): not stated in the text read -- if before 2027-09-30 it is debt due within 12 months and exceeds cash; covered by the $650M undrawn revolver, which itself matures 2027-06-29 with two 6-month extensions"
+   ],
+   "notes": "Pack debt figure $2,821.5M disagrees with the 10-Q fair-value table total financial liabilities of $4,525.4M carrying value -- the pack likely excludes the secured notes and mortgage notes. Gate passes on positive OCF plus undrawn revolver, not on cash"
+  },
+  {
+   "symbol": "SAFE",
+   "cik": 1095651,
+   "sub_theme": "levered net-lease, hotel, ground-lease and hospital REITs (refinancing-driven)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001095651-26-000035",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-12",
+    "accession": "0001095651-26-000010"
+   },
+   "business": "Ground-lease REIT providing land capital beneath multifamily, office, industrial and other buildings (10-K)",
+   "revenue_ttm_usd": 442100000,
+   "lead_asset": null,
+   "cash_usd": 40800000,
+   "debt_total_usd": 4853500000,
+   "debt_due_12m_usd": 10000000,
+   "ocf_ttm_usd": 43800000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 69986454,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Caret units: Company owns 83.4%; 122,500 sold to third parties including MSD affiliates (10-Q)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Not a deSPAC or post-bankruptcy: 'New Common Stock' follows the 2023 Old SAFE/iStar merger (10-K references 'Following the Merger'); the ticker is the registrant's listed common stock",
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Created and leads the modern ground-lease category (10-K)",
+    "$1.2B undrawn revolver; buybacks cut the share count from 71.76M to 70.75M in 2026"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Remaining capacity of the $300M April-2023 ATM",
+    "Debt total and due-12m are pack XBRL figures, not re-seen"
+   ],
+   "notes": "EV/revenue of about 12.6x -- the equity is a thin slice of a long-duration asset book; rate-sensitive. Star Holdings term loan extended to 2029"
+  },
+  {
+   "symbol": "AIV",
+   "cik": 922864,
+   "sub_theme": "levered net-lease, hotel, ground-lease and hospital REITs (refinancing-driven)",
+   "outcome": "REJECTED: shape -- the company is liquidating under a Plan of Sale and Liquidation approved 2025-11-10 and uses liquidation-basis accounting (10-Q 0001193125-26-453646); one share is a claim on remaining liquidating distributions, so a theme-driven 25x re-rating cannot occur. Not a white swan",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-09",
+    "accession": "0001193125-26-453646",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-02",
+    "accession": "0001193125-26-085547"
+   },
+   "business": "Multifamily REIT now winding down; liquidating distributions of $1.45 and $1.30 per share paid in 2026 (10-Q)",
+   "revenue_ttm_usd": 7600000,
+   "lead_asset": null,
+   "cash_usd": 66200000,
+   "debt_total_usd": null,
+   "debt_due_12m_usd": null,
+   "ocf_ttm_usd": null,
+   "runway_years": null,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 145871230,
+   "shares_asof": "2026-11-06",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Not deSPAC/bankruptcy; in voluntary liquidation",
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Estimated remaining net assets in liquidation per share not extracted (statement cut off)",
+    "Debt at 9/30/2026 not extracted"
+   ],
+   "notes": "The pack's 83.7% drawdown is largely return of capital through $2.75 per share of liquidating distributions, not damage. Pack revenue and debt come from a stale Q1 going-concern XBRL"
+  },
+  {
+   "symbol": "MPT",
+   "cik": 1287865,
+   "sub_theme": "levered net-lease, hotel, ground-lease and hospital REITs (refinancing-driven)",
+   "outcome": "COULD_NOT_VERIFY: survival gate -- about $1.25B of debt scheduled to mature through October 2027 (revolver about $383M, term loan $200M, 5.000% 2027 notes $665.4M) against cash of $599.3M and 9M operating cash flow of about $89M. Management only 'expects' to refinance through a new multi-year credit facility; no closed post-balance-sheet financing found. Revolver/term-loan maturity dates were not extracted (10-Q 0001193125-26-451995)",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001193125-26-451995",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001193125-26-073587"
+   },
+   "business": "Self-advised REIT owning net-leased hospital real estate, about 365 facilities in nine countries (vendor lead; 10-K not read)",
+   "revenue_ttm_usd": 1000300000,
+   "lead_asset": null,
+   "cash_usd": 599282000,
+   "debt_total_usd": null,
+   "debt_due_12m_usd": 1248697000,
+   "ocf_ttm_usd": null,
+   "runway_years": "cash-positive by formula, but cash minus debt maturing through Oct-2027 is about -$649M",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 598100000,
+   "shares_asof": "2026-05-06",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 500000000,
+    "pct_of_mcap": 46.4
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Exact maturity dates of the revolver and term loan (whether within 12 months of 9/30/2026)",
+    "Q3 cover share count (the pack uses 2026-05-06); buybacks of 1.3M shares in Q3 and 8.6M after quarter-end",
+    "TTM OCF (pack $216.1M is through Q1; the 10-Q says about $89M for 9M 2026)",
+    "Total debt at 9/30/2026 (debt table partially read)"
+   ],
+   "notes": "Pack numbers are from the stale Q1 10-Q. Q3 cash is $599.3M (balance sheet). $500M ATM is unused (46% of market cap, flagged). Steward settlement reserve about $15M. Survives only if the announced refinancing closes; recheck on the next 8-K"
+  }
+ ]
+}

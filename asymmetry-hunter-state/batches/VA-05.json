@@ -1,0 +1,443 @@
+{
+ "batch": "VA-05",
+ "as_of": "2026-11-10",
+ "n_names": 6,
+ "themes": [
+  {
+   "sub_theme": "Oncology therapeutics and devices (Tumor Treating Fields, oral SERD for ER+/HER2- breast cancer, PD-1xVEGF bispecific/ADCs)",
+   "members": [
+    "NVCR",
+    "OLMA",
+    "CBIO"
+   ],
+   "maturity_signals": [
+    "NVCR net revenues Q3 2026 $193.4M vs $167.2M (+16%); 9M 2026 OCF +$17.3M vs -$31.0M (10-Q, filed 2026-10-29, 0001645113-26-000080)",
+    "OLMA runs two Phase 3 trials of palazestrant: pivotal OPERA-01 and OPERA-02 with Novartis supplying ribociclib (10-Q, filed 2026-11-10, 0001193125-26-454421)",
+    "CBIO has two recruiting Phase 1/2 trials (NCT07335497 CR-001, NCT07909031 CR-002) per ClinicalTrials.gov; filing text not readable"
+   ],
+   "adoption_evidence": [
+    "NVCR: commercial device revenue $551.0M in 9M 2026 (10-Q 0001645113-26-000080)",
+    "OLMA: 2024 Novartis clinical collaboration and supply agreement for OPERA-02 (10-Q 0001193125-26-454421) \u2014 supply, not a paid license",
+    "No government program of record relevant to these names was checked (awards tool not applicable to drug developers)"
+   ],
+   "comparable_prior_wave": {
+    "name": "NVCR's own TTFields commercial ramp 2016-2021",
+    "trough": "2016-11",
+    "crest": "2021-06",
+    "leader_basket": [
+     "NVCR"
+    ],
+    "leader_peak_multiples": {
+     "NVCR": 37.9
+    },
+    "months_trough_to_crest": 56,
+    "similar": "A single-platform oncology company with real revenue ran 37.9x trough-to-crest (tools.py px)",
+    "different": "That was NVCR's first wave and it is now 67% below that crest; today's case for NVCR is a second wave (new indications), and for OLMA/CBIO it is a first wave that depends on pivotal readouts. XBI had no price history in the tool for a sector basket."
+   },
+   "wave_window_years": 4,
+   "wave_score": 2,
+   "wave_score_reason": "Oncology is not a forming theme wave; one revenue-growing platform (NVCR) and pipeline-dependent names, with dispersion driven by single-asset data rather than a sector re-rating."
+  },
+  {
+   "sub_theme": "Non-oncology clinical-stage therapeutics (glucagon/GLP-1 for MASH, oral levosimendan for PH-HFpEF, PALI-2108 for ulcerative colitis)",
+   "members": [
+    "ALT",
+    "TENX",
+    "PALI"
+   ],
+   "maturity_signals": [
+    "ALT pemvidutide (1:1 glucagon/GLP-1) in development for MASH, AUD and ALD; drew $10.0M Tranche Three of a $125.0M Hercules loan on 2026-10-27 (10-K 0001326190-26-000018; 8-K 0001326190-26-000060)",
+    "TENX Phase 3 LEVEL 'did not meet its primary or key secondary endpoints' (announced 2026-08-10, per 10-Q filed 2026-11-05, 0001193125-26-449796); LEVEL-2 Phase 3 NCT07288398 active, primary completion 2028-06-30",
+    "PALI-2108 Phase 2 NCT07845487 in ulcerative colitis recruiting, primary completion 2027-10 (ClinicalTrials.gov)"
+   ],
+   "adoption_evidence": [
+    "None: all three are pre-revenue; no commercial contracts in filings"
+   ],
+   "comparable_prior_wave": {
+    "name": "Incretin / MASH wave 2022-2025",
+    "trough": "2022-06",
+    "crest": "2024-02",
+    "leader_basket": [
+     "VKTX",
+     "MDGL"
+    ],
+    "leader_peak_multiples": {
+     "VKTX": 44.8,
+     "MDGL": 10.3
+    },
+    "months_trough_to_crest": 20,
+    "similar": "ALT is in the same incretin/MASH class that produced 44.8x (VKTX, 2022-06 to 2024-02) and 10.3x (MDGL to 2025-12) (tools.py px)",
+    "different": "That wave has crested (VKTX -69% from high); ALT would be a late follower in a second leg. TENX and PALI have no analogous wave in their indications."
+   },
+   "wave_window_years": 3,
+   "wave_score": 1,
+   "wave_score_reason": "Only ALT sits in a theme that has had a wave, and that wave has already crested; the others are single-asset stories."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "NVCR",
+   "cik": 1645113,
+   "sub_theme": "Oncology therapeutics and devices (Tumor Treating Fields, oral SERD for ER+/HER2- breast cancer, PD-1xVEGF bispecific/ADCs)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-29",
+    "accession": "0001645113-26-000080",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001645113-26-000017"
+   },
+   "business": "Commercial oncology company selling Tumor Treating Fields therapy; net revenues $551.0M for 9M 2026 (10-Q).",
+   "revenue_ttm_usd": 725400000,
+   "lead_asset": null,
+   "cash_usd": 463500000,
+   "debt_total_usd": 200000000,
+   "debt_due_12m_usd": null,
+   "ocf_ttm_usd": -700000,
+   "runway_years": "cash-positive on 9M 2026 OCF (+$17.3M); ~5.5y on FY2025 burn ($49.0M) after $200M debt",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 116915959,
+   "shares_asof": "2026-10-23",
+   "dilutive": {
+    "options": "9,594,161 at $28.06 WAEP (6,595,152 exercisable at $32.97) at 2026-09-30",
+    "rsus": "RSUs and PSUs ~5.16M antidilutive (Q3 2026)",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "0% convertible notes repaid at maturity November 2025 (10-Q)",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Sole commercial TTFields platform with growing revenue (+16% Q3 YoY) (10-Q)",
+    "Cash, equivalents and ST investments $463.5M vs $200M senior secured term loans (Tranches A and B) (10-Q)",
+    "Tranche C/D no longer available (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Term-loan maturity date and any amortization due within 12 months \u2014 not extracted; pack shows $25.0M due <12m which I could not confirm",
+    "TTM OCF -$0.7M (pack) vs 9M 2026 +$17.3M and FY2025 -$49.0M \u2014 consistent only if Q4 2025 was ~-$18M; not checked"
+   ],
+   "notes": "PACK CONTRADICTED: pack cash $106.8M is cash+restricted cash only; 10-Q states $463.5M cash, equivalents and short-term investments. Pack total debt $25.0M contradicted: 10-Q says Tranche A + B aggregate principal $200,000k. $1.47B market cap; 25x would be ~$37B."
+  },
+  {
+   "symbol": "PALI",
+   "cik": 1357459,
+   "sub_theme": "Non-oncology clinical-stage therapeutics (glucagon/GLP-1 for MASH, oral levosimendan for PH-HFpEF, PALI-2108 for ulcerative colitis)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-10",
+    "accession": "0001357459-26-000016",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-20",
+    "accession": "0001357459-26-000004"
+   },
+   "business": "Clinical-stage biopharma developing PALI-2108 for inflammatory bowel disease (ulcerative colitis, Crohn's) (10-Q).",
+   "revenue_ttm_usd": 0,
+   "lead_asset": "PALI-2108 Phase 2 vs placebo in moderate/severe UC, NCT07845487, recruiting, primary completion 2027-10 (ClinicalTrials.gov)",
+   "cash_usd": 125200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -18200000,
+   "runway_years": 6.88,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "Statements 'prepared on a going concern basis'; no substantial-doubt language found in 10-Q search",
+   "shares_outstanding": 174270558,
+   "shares_asof": "2026-08-06",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "37,814,754 pre-funded warrants at $0.0001 (cover, 2026-08-06) plus common warrants (table in 10-Q, count not captured)",
+    "warrant_terms": "1,040,217 repriced warrants expiring 2027-07-31 to 2031-05-06 (10-K); new price not captured",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "200,000 Series A 4.5% Convertible Preferred outstanding (10-Q)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "Authorized common increased from 300,000,000 to 450,000,000 during 2026 (10-Q balance sheet); completed, not pending",
+   "listing_risk": "Price $1.19 vs $1.00 Nasdaq bid-price rule; 10-Q says in compliance; no deficiency notice in index",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Single Phase 2 asset; earlier LB1148 Phase 3 NCT05470387 terminated (ClinicalTrials.gov)",
+    "Well funded: $125.2M after October 2025 offering (net $127.6M) (10-Q)"
+   ],
+   "dated_catalysts": [
+    "2027-10 primary completion of NCT07845487 (ClinicalTrials.gov)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Q3 2026 10-Q not yet in mirror listing (pack's latest is Q2)",
+    "Common warrant counts/strikes beyond pre-funded"
+   ],
+   "notes": "Fully diluted share count ~212M incl. pre-funded; cash ~60% of market cap."
+  },
+  {
+   "symbol": "TENX",
+   "cik": 34956,
+   "sub_theme": "Non-oncology clinical-stage therapeutics (glucagon/GLP-1 for MASH, oral levosimendan for PH-HFpEF, PALI-2108 for ulcerative colitis)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-449796",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-10",
+    "accession": "0001193125-26-099393"
+   },
+   "business": "Development-stage company developing cardiopulmonary therapies, lead TNX-103 (oral levosimendan) for PH-HFpEF (10-Q).",
+   "revenue_ttm_usd": 0,
+   "lead_asset": "Oral levosimendan: Phase 3 LEVEL (NCT05983250) missed primary and key secondary endpoints (announced 2026-08-10); Phase 3 LEVEL-2 NCT07288398 active-not-recruiting, primary completion 2028-06-30; OLE NCT07436689",
+   "cash_usd": 113700000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -49400000,
+   "runway_years": 2.3,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 45536448,
+   "shares_asof": "2026-10-31",
+   "dilutive": {
+    "options": "9,515,984 options/RSU grants incl. inducement (10-Q antidilutive table)",
+    "rsus": null,
+    "warrants": "240,177 common warrants + 8,071,968 pre-funded at $0.01 (2026-09-30)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Series A convertible preferred, 210 shares outstanding (10-K)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "First Phase 3 failed; securities class action filed alleging misstatements about LEVEL (10-Q)",
+    "Company says cash funds plan 'through fiscal 2028' (10-Q)"
+   ],
+   "dated_catalysts": [
+    "2027-Q1 company update on levosimendan development (10-Q)",
+    "2028-06-30 LEVEL-2 primary completion (ClinicalTrials.gov)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Class action case details \u2014 only the 10-Q risk/legal text seen"
+   ],
+   "notes": "Market cap $81.1M below cash $113.7M; trading as a cash shell after the LEVEL miss. Not binary-shaped within 90 days (next update Q1 2027)."
+  },
+  {
+   "symbol": "ALT",
+   "cik": 1326190,
+   "sub_theme": "Non-oncology clinical-stage therapeutics (glucagon/GLP-1 for MASH, oral levosimendan for PH-HFpEF, PALI-2108 for ulcerative colitis)",
+   "outcome": "REJECTED: G cancelled-equity trap form blank \u2014 screen flags deSPAC lineage; effective date of the combination and what one share represents could not be traced (latest 10-K 0001326190-26-000018 has no merger history; 2017 documents referenced in its exhibit index are outside the mirror)",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-12",
+    "accession": "0001326190-26-000052",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-06",
+    "accession": "0001326190-26-000018"
+   },
+   "business": "Late clinical-stage developer of pemvidutide, a 1:1 glucagon/GLP-1 dual agonist for MASH, AUD and ALD (10-K).",
+   "revenue_ttm_usd": 0,
+   "lead_asset": "pemvidutide; 6 live/completed P2-P3 registered trials incl. 1 Phase 3 (screen, e.g. NCT03232567) \u2014 not individually checked",
+   "cash_usd": 326300000,
+   "debt_total_usd": 35000000,
+   "debt_due_12m_usd": 1700000,
+   "ocf_ttm_usd": -76500000,
+   "runway_years": 4.24,
+   "closed_financing_since_bs": "8-K 2026-10-29 (0001326190-26-000060): drew $10.0M Tranche Three on 2026-10-27 from $125.0M Hercules Loan and Security Agreement (debt, extends cash)",
+   "going_concern_language": null,
+   "shares_outstanding": 194517701,
+   "shares_asof": "2026-08-07",
+   "dilutive": {
+    "options": "12,041,212 at $6.64 WAEP (2026-06-30)",
+    "rsus": null,
+    "warrants": "April 2026 Offering: 64.25M shares + 10.75M pre-funded, each with one common warrant (~75.0M warrants)",
+    "warrant_terms": "exercise price $3.00, immediately exercisable; expiry not captured",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Screen lineage flag 'deSPAC lineage: Section 5.5 form required'. Ticker ALT is the registrant's current common stock (194,474,154 shares at 2026-06-30, 10-Q). Effective date: blank (not in readable filings). One share = one share of Altimmune, Inc. common stock per 10-Q.",
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Combination/merger effective date \u2014 searched 10-K for merger/PharmAthene/formerly; mirror lacks 2017 filings",
+    "ATM remaining capacity under November 2025 Leerink agreement \u2014 size not captured",
+    "Term loan maturity 2029-01-01, interest-only to 2027-12-01 (10-Q) \u2014 seen; total drawn after Tranche Three not computed"
+   ],
+   "notes": "Paper rejection under rule G only; on A-F it would pass (cash $326.3M, runway ~4y). Heavy issuance: shares 110.9M -> 194.5M in H1 2026 plus ~75M $3.00 warrants. Cure: confirm 2017 combination terms from the original 8-K."
+  },
+  {
+   "symbol": "OLMA",
+   "cik": 1750284,
+   "sub_theme": "Oncology therapeutics and devices (Tumor Treating Fields, oral SERD for ER+/HER2- breast cancer, PD-1xVEGF bispecific/ADCs)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-10",
+    "accession": "0001193125-26-454421",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-16",
+    "accession": "0001193125-26-107169"
+   },
+   "business": "Clinical-stage oncology company developing palazestrant (Phase 3 OPERA-01 and OPERA-02) and OP-3136 for ER+/HER2- breast cancer (10-Q).",
+   "revenue_ttm_usd": 0,
+   "lead_asset": "palazestrant: pivotal Phase 3 OPERA-01 and Phase 3 OPERA-02 (with ribociclib supplied by Novartis) (10-Q); screen shows 2 registered P3 e.g. NCT07085767",
+   "cash_usd": 413800000,
+   "debt_total_usd": null,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -164700000,
+   "runway_years": 2.3,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "Risk factor: 'we may be unable to continue as a going concern over the long term'; management: cash, marketable securities and Loan Agreement availability 'sufficient to fund the Company's current operating plan for at least the next 12 months' (10-Q)",
+   "shares_outstanding": 87606263,
+   "shares_asof": "2026-11-05",
+   "dilutive": {
+    "options": "11.40M at 2025-12-31 (1,528,982 under 2014 Plan + 9,873,692 under 2020 Plan) (10-K)",
+    "rsus": null,
+    "warrants": "13,594,149 pre-funded warrants excluded from cover count (10-Q cover)",
+    "warrant_terms": "pre-funded, exercise $0.0001, no expiry (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Two Phase 3 programs and a Novartis supply collaboration (10-Q)",
+    "$413.8M cash at 2026-09-30, largest balance sheet among pre-revenue oncology names in this batch (10-Q)",
+    "9M 2026 OCF -$139.0M (10-Q)"
+   ],
+   "dated_catalysts": [
+    "OPERA-01 milestones tied to loan draw-period extension to 2027-07-31 (10-Q); no dated readout found"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Amount drawn under the Silicon Valley Bank/First Citizens credit facility at 2026-09-30 \u2014 pack says $0; not confirmed",
+    "ATM capacity remaining (9M 2026 ATM sales: 1,712,739 shares, net $41.9M)",
+    "Runway uses pack TTM burn $164.7M (to June); 9M 2026 burn $139.0M implies ~$185M annualised, ~2.2y"
+   ],
+   "notes": "Pack listed the Q2 10-Q as latest balance sheet; a Q3 10-Q filed 2026-11-10 now exists and was used."
+  },
+  {
+   "symbol": "CBIO",
+   "cik": 1253689,
+   "sub_theme": "Oncology therapeutics and devices (Tumor Treating Fields, oral SERD for ER+/HER2- breast cancer, PD-1xVEGF bispecific/ADCs)",
+   "outcome": "COULD_NOT_VERIFY: no filing text readable \u2014 filing.py list returns no filings for CBIO (Nasdaq listing API empty, cached), pack has no snippets; EDGAR index shows 10-Q 2026-07-30 (0001628280-26-050869) and a 10-Q/A 2026-06-22 (0001628280-26-044713) whose reason is unknown",
+   "flag": "UNVERIFIABLE",
+   "latest_10q": {
+    "filed": "2026-07-30",
+    "accession": "0001628280-26-050869",
+    "period": "2026-06-30"
+   },
+   "latest_10k": null,
+   "business": "Unverified from filings; vendor lead: PD-1xVEGF bispecific and ADCs.",
+   "revenue_ttm_usd": 10800000,
+   "lead_asset": "CR-001 Phase 1/2 NCT07335497 (recruiting, primary completion 2029-02) and CR-002 Phase 1/2 NCT07909031 (ClinicalTrials.gov)",
+   "cash_usd": 171700000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -72700000,
+   "runway_years": 2.36,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 37143940,
+   "shares_asof": "2026-07-27",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "pack shows $4.0M preferred/temp equity \u2014 unverified",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": null,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "All XBRL numbers (cash $171.7M, burn $72.7M, shares 37,143,940) \u2014 pack only, not seen in filing text",
+    "10-Q/A of 2026-06-22 \u2014 reason (possible error correction) unknown",
+    "8 prospectus filings in 12 months incl. 424B5 2026-07-14/15 \u2014 offering terms not read",
+    "latest 10-K accession \u2014 not in 12-month index excerpt",
+    "Lineage: 3y high $349 and repeated 424B3 resale prospectuses suggest a recapitalised/merged entity; not traced"
+   ],
+   "notes": "Re-run after the 12h Nasdaq list cache for CBIO expires, or with an accession-level fetch."
+  }
+ ]
+}

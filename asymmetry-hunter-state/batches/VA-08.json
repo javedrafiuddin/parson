@@ -1,0 +1,783 @@
+{
+ "batch": "VA-08",
+ "as_of": "2026-11-10",
+ "n_names": 12,
+ "themes": [
+  {
+   "sub_theme": "AI-photonics / semicap materials & subsystems",
+   "members": [
+    "AXTI",
+    "UCTT"
+   ],
+   "maturity_signals": [
+    "UCTT: $2,444.3M TTM revenue from semiconductor subsystems; refinanced with $600M convertible notes (10-Q filed 2026-10-28, 0001628280-26-067880)",
+    "AXTI: H1 2026 net income driven by higher PRC-subsidiary sales; raised ~$600M equity (10-Q filed 2026-08-13, 0001437749-26-027677)"
+   ],
+   "adoption_evidence": [
+    "Revenue at scale at UCTT; no named customer contracts with values extracted for either issuer"
+   ],
+   "comparable_prior_wave": {
+    "name": "2025-26 AI-datacenter photonics/semicap wave (the same wave these names just rode)",
+    "trough": "2025-04",
+    "crest": "2026-05..2026-06",
+    "leader_basket": [
+     "AXTI",
+     "COHR",
+     "UCTT"
+    ],
+    "leader_peak_multiples": {
+     "AXTI": 121.4,
+     "COHR": 8.4,
+     "UCTT": 8.0
+    },
+    "months_trough_to_crest": 14,
+    "similar": "Same demand driver (AI optical interconnect, wafer-fab equipment)",
+    "different": "This IS the wave and it crested 5-6 months ago; AXTI/UCTT are down ~68-70% from peak. A further 25x would require a second wave \u2014 a different claim."
+   },
+   "wave_window_years": 3,
+   "wave_score": 2,
+   "wave_score_reason": "Real multi-issuer revenue, but the wave already formed and crested; names are post-crest, so a new 25x leg is not evidenced."
+  },
+  {
+   "sub_theme": "Energy-transition materials (isotopes, aerogel thermal barriers)",
+   "members": [
+    "ASPN",
+    "ASPI"
+   ],
+   "maturity_signals": [
+    "ASPN: $214.2M TTM revenue, cash-positive TTM (10-Q filed 2026-11-05, 0001193125-26-449947)",
+    "ASPI: $30.9M TTM revenue; subsidiary QLE loan agreement with TerraPower (10-Q filed 2026-08-14, 0001193125-26-352603)"
+   ],
+   "adoption_evidence": [
+    "No program-of-record or valued contracts verified (USAspending not queried)"
+   ],
+   "comparable_prior_wave": {
+    "name": "2023-25 nuclear fuel-cycle / advanced-reactor wave",
+    "trough": "2023-05",
+    "crest": "2025-10",
+    "leader_basket": [
+     "LEU",
+     "OKLO",
+     "CCJ"
+    ],
+    "leader_peak_multiples": {
+     "LEU": 16.0,
+     "OKLO": 31.2,
+     "CCJ": 6.0
+    },
+    "months_trough_to_crest": 29,
+    "similar": "Policy-driven nuclear/isotope supply narrative relevant to ASPI",
+    "different": "Wave crested 2025-10 and leaders are down 44-85%; ASPN's EV thermal-barrier market is a different (EV) cycle with no measured analogue here."
+   },
+   "wave_window_years": 4,
+   "wave_score": 1,
+   "wave_score_reason": "Only one cleanly verified survivor (ASPN) and the closest analogue wave already crested."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "MRDN",
+   "cik": 1437925,
+   "sub_theme": "Gaming / leisure (not theme-scored)",
+   "outcome": "COULD_NOT_VERIFY: the 2026 10-Qs (2026-07-29, 0001477932-26-004577; 2026-11-10, 0001477932-26-006791) and FY2025 10-K (2026-03-31, 0001477932-26-001750) are not in the filing mirror (filing.py list shows only the 2025-10-30 10-Q and 2025-03-24 10-K); cannot confirm cash, debt, Lind secured convertible note status, Nasdaq deficiency (8-K 3.01 2026-01-02) or reverse split (8-K 3.03/5.03 2026-03-03)",
+   "flag": "UNVERIFIABLE",
+   "latest_10q": {
+    "filed": "2026-11-10",
+    "accession": "0001477932-26-006791",
+    "period": null
+   },
+   "latest_10k": {
+    "filed": "2026-03-31",
+    "accession": "0001477932-26-001750"
+   },
+   "business": "B2B/B2C online sports-betting and iGaming group (Meridianbet, Expanse, GMAG) \u2014 per 2025 filings.",
+   "revenue_ttm_usd": 197200000,
+   "lead_asset": null,
+   "cash_usd": 17300000,
+   "debt_total_usd": 10200000,
+   "debt_due_12m_usd": 10000000,
+   "ocf_ttm_usd": 28200000,
+   "runway_years": "cash-positive (screen; unverified)",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 12669479,
+   "shares_asof": "2026-07-29",
+   "dilutive": {
+    "options": "280,000 @ $2.07 at 2025-09-30 (pre-split)",
+    "rsus": null,
+    "warrants": "Lind warrant 750,000 @ $4.00 (pre-split, 2025 10-Q)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "Lind $12.0M secured 2-yr convertible note; event of default if market cap < $250M for 10 days after 2025-03-03 (10-Q 2025-10-30, 0001477932-25-007805) \u2014 current status unknown",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": "possible: Lind secured convertible note \u2014 conversion terms and status not verifiable",
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "All 2026 balance-sheet figures (screen values shown are unverified XBRL)",
+    "Whether Lind convertible (variable-conversion features typical but not seen) remains outstanding \u2014 current market cap $104M is below its $250M default trigger",
+    "Resolution of Nasdaq 3.01 notice"
+   ],
+   "notes": "Screen numbers kept for reference only."
+  },
+  {
+   "symbol": "PLAY",
+   "cik": 1525769,
+   "sub_theme": "Gaming / leisure (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-09-14",
+    "accession": "0001525769-26-000038",
+    "period": "2026-08-04"
+   },
+   "latest_10k": {
+    "filed": "2026-03-31",
+    "accession": "0001525769-26-000008"
+   },
+   "business": "Operator of ~250 Dave & Buster's and Main Event entertainment-and-dining venues.",
+   "revenue_ttm_usd": 2081100000,
+   "lead_asset": null,
+   "cash_usd": 16000000,
+   "debt_total_usd": 1533800000,
+   "debt_due_12m_usd": 7000000,
+   "ocf_ttm_usd": 321600000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 34830644,
+   "shares_asof": "2026-09-09",
+   "dilutive": {
+    "options": "2.17M",
+    "rsus": "1.67M (incl. PSUs/market RSUs) at 2026-08-04",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Revolver $650M to 2029-11-01; Incremental Term B $700M to 2031-11-01; leverage covenant loosened by fifth amendment Dec 2025 (10-Q 0001525769-26-000038)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "Equity is ~16% of EV; cash-positive."
+  },
+  {
+   "symbol": "MYPS",
+   "cik": 1823878,
+   "sub_theme": "Gaming / leisure (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001823878-26-000070",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-16",
+    "accession": "0001823878-26-000020"
+   },
+   "business": "Mobile game publisher (myVIP loyalty, Tetris, social casino titles).",
+   "revenue_ttm_usd": 217700000,
+   "lead_asset": null,
+   "cash_usd": 95900000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 21100000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 11993000,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": "417K",
+    "rsus": "758K RSUs + 225K PSUs",
+    "warrants": "none outstanding at 2026-09-30 (expired)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": "SPAC earnout shares subject to price thresholds (10-K) \u2014 count not extracted"
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1:10 reverse split completed 2026-09-30",
+   "listing_risk": "Nasdaq notice (8-K 3.01, 2026-05-05 per index) addressed by 1-for-10 reverse split effective 2026-09-30; price now $4.72",
+   "fraud_flags": null,
+   "lineage_trap": {
+    "type": "deSPAC (Acies Acquisition merger)",
+    "effective_date": "2021-06-21 (inferred: warrants 'expire five years after completion' and 'scheduled to expire on June 21, 2026', 10-K 0001823878-26-000020)",
+    "ticker_is_new_equity": true,
+    "what_one_share_is": "one Class A common share of PLAYSTUDIOS, Inc., the post-combination issuer"
+   },
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "No debt, $95.9M cash (10-Q 0001823878-26-000070)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Reason for NT 10-Q filed 2026-08-11 \u2014 not read",
+    "Earnout share count",
+    "Delisting notice 8-K 2026-05-05 seen only in screen index"
+   ],
+   "notes": "Screen's 69.8M wavg shares is pre-split; post 1:10 split cover count ~12.0M (10,347K Class A + 1,646K Class B at 2026-09-30)."
+  },
+  {
+   "symbol": "TRON",
+   "cik": 1956744,
+   "sub_theme": "Crypto-token treasury (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001493152-26-050474",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-25",
+    "accession": "0001493152-26-012723"
+   },
+   "business": "Holds TRX tokens as a treasury asset; operating subsidiary makes custom merchandise.",
+   "revenue_ttm_usd": 5100000,
+   "lead_asset": null,
+   "cash_usd": 8576619,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -2300000,
+   "runway_years": 3.67,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 474432064,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "May-PIPE warrants 8,928,571; June-PIPE warrants up to 220,000,000 @ $0.50 (Bravemorning acquired 220M shares 2025-08-27 \u2014 exercise status not confirmed)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Series B fully converted; none outstanding at 2026-09-30",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 200000000,
+    "pct_of_mcap": 0.29
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Bravemorning holds 420,000,000 of 474,432,064 shares (~88.5%) \u2014 controlled company (10-Q 0001493152-26-050474)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revenue TTM $5.1M (screen) not seen in filing text",
+    "Fair value of TRX holdings not extracted"
+   ],
+   "notes": "FLAG: $200M ATM (2026-10-14, unused) = ~29% of market cap (>25%). Value is a function of TRX token price, not an operating theme."
+  },
+  {
+   "symbol": "OEC",
+   "cik": 1609804,
+   "sub_theme": "Commodity chemicals & metallurgical coal (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-04",
+    "accession": "0001628280-26-070226",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-17",
+    "accession": "0001628280-26-008601"
+   },
+   "business": "Global carbon-black producer (15 plants) for tires, coatings, batteries, plastics.",
+   "revenue_ttm_usd": 1844900000,
+   "lead_asset": null,
+   "cash_usd": 72800000,
+   "debt_total_usd": 987700000,
+   "debt_due_12m_usd": 336000000,
+   "ocf_ttm_usd": 165600000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 56522699,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Current debt $336.0M is mostly short-term working-capital lines ($320.9M) subject to periodic renewal; Term Loan $618.3M non-current (10-Q 0001628280-26-070226)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Options/RSU counts not extracted"
+   ],
+   "notes": "Pack's debt-due-<12m $656.9M and total debt $1,308.6M are contradicted by the 10-Q debt note: current $336.0M, long-term $651.7M (total $987.7M; screen figure may include other financial liabilities)."
+  },
+  {
+   "symbol": "TROX",
+   "cik": 1530804,
+   "sub_theme": "Commodity chemicals & metallurgical coal (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001530804-26-000018",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-20",
+    "accession": "0001530804-26-000006"
+   },
+   "business": "Vertically integrated TiO2 pigment, zircon and titanium-feedstock producer.",
+   "revenue_ttm_usd": 3185000000,
+   "lead_asset": null,
+   "cash_usd": 136000000,
+   "debt_total_usd": 3155000000,
+   "debt_due_12m_usd": 86000000,
+   "ocf_ttm_usd": 220000000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 159704662,
+   "shares_asof": "2026-10-20",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Term loans mature 2029; equity ~12% of EV (10-Q 0001530804-26-000018)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "RSU counts not extracted"
+   ],
+   "notes": "Pack cash $154.0M vs 10-Q cash and equivalents $136M (difference likely restricted cash)."
+  },
+  {
+   "symbol": "AMR",
+   "cik": 1704715,
+   "sub_theme": "Commodity chemicals & metallurgical coal (not theme-scored)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-06",
+    "accession": "0001704715-26-000042",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-27",
+    "accession": "0001704715-26-000010"
+   },
+   "business": "Central Appalachian metallurgical-coal producer supplying the steel industry.",
+   "revenue_ttm_usd": 2100600000,
+   "lead_asset": null,
+   "cash_usd": 463300000,
+   "debt_total_usd": 10600000,
+   "debt_due_12m_usd": 3100000,
+   "ocf_ttm_usd": 134800000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 12662046,
+   "shares_asof": "2026-10-31",
+   "dilutive": {
+    "options": null,
+    "rsus": "28,685 anti-dilutive Q3 2026",
+    "warrants": "none (Series A expired 2023-07-26)",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Net cash ~$453M; ABL matures 2029-05-04 (10-Q 0001704715-26-000042)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "DTA stacker-reclaimer damage impact not quantified"
+   ],
+   "notes": ""
+  },
+  {
+   "symbol": "ASPI",
+   "cik": 1921865,
+   "sub_theme": "Energy-transition materials (isotopes, aerogel thermal barriers)",
+   "outcome": "COULD_NOT_VERIFY: conversion terms of the $230.5M (principal+interest) 2025 Convertible Notes \u2014 carried at fair value $203.4M, larger than half the market cap \u2014 not found in 10-Q (2026-08-14, 0001193125-26-352603) or 10-K snippets, so the toxic-instrument test cannot be cleared; Q3 10-Q not in mirror; 10-K discloses a material weakness after NT 10-K (2026-03-31) and NT 10-Q (2026-05-15)",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-14",
+    "accession": "0001193125-26-352603",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-04-10",
+    "accession": "0001193125-26-151294"
+   },
+   "business": "Isotope-enrichment (ASP/QE technology) company with helium/LNG (Renergen) operations; subsidiary QLE has a TerraPower loan agreement.",
+   "revenue_ttm_usd": 30900000,
+   "lead_asset": null,
+   "cash_usd": 260800000,
+   "debt_total_usd": 263100000,
+   "debt_due_12m_usd": 54500000,
+   "ocf_ttm_usd": -67800000,
+   "runway_years": 3.04,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 153309380,
+   "shares_asof": "2026-08-14",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "Inducement warrant 1,225,000 @ $3.90 exp Oct 2029 (10-K)",
+    "warrant_terms": null,
+    "convert_shares": "unknown",
+    "convert_terms": "2025 Convertible Notes $230.5M incl. interest; terms not seen",
+    "preferred": null,
+    "earnout_shares": "RSUs tied to QLE listing event, count not calculable (10-Q)"
+   },
+   "atm": {
+    "exists": null,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "2025 Convertible Notes conversion price/variable features",
+    "Current debt total (screen $59.8M excludes the convertible notes; ~$263M here = $59.8M + $203.4M FV)",
+    "Q3 2026 10-Q"
+   ],
+   "notes": "No 'substantial doubt' language found in 10-K; late filings without going concern are not an exclusion by themselves."
+  },
+  {
+   "symbol": "AXTI",
+   "cik": 1051627,
+   "sub_theme": "AI-photonics / semicap materials & subsystems",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-13",
+    "accession": "0001437749-26-027677",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-17",
+    "accession": "0001437749-26-008612"
+   },
+   "business": "Maker of InP, GaAs and Ge compound-semiconductor substrate wafers for data-center photonics, 5G, PON and lasers.",
+   "revenue_ttm_usd": 125500000,
+   "lead_asset": null,
+   "cash_usd": 748800000,
+   "debt_total_usd": 84200000,
+   "debt_due_12m_usd": 84200000,
+   "ocf_ttm_usd": -5800000,
+   "runway_years": ">100 (burn ~0)",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 65573212,
+   "shares_asof": "2026-08-03",
+   "dilutive": {
+    "options": "835K @ $5.33 at 2025-12-31",
+    "rsus": "restricted stock ~3K anti-dilutive",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "883K Series A, $8.3M liquidation pref",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Liquidity $748.8M (cash $412.2M, restricted $33.1M, investments $303.6M) after 2026 equity raises; APIC $339.9M -> $943.8M in H1 2026 (10-Q 0001437749-26-027677)",
+    "Tongmei STAR IPO withdrawn 2026-07-08 triggering investor redemption rights; redeemable NCI $39.7M"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Q3 2026 10-Q not in mirror",
+    "Total shares issued in Apr-2026 424B5 offerings not tallied"
+   ],
+   "notes": "The stock already ran 121x (2025-04 to 2026-05) \u2014 this is post-crest wreckage, not a pre-wave name."
+  },
+  {
+   "symbol": "UCTT",
+   "cik": 1275014,
+   "sub_theme": "AI-photonics / semicap materials & subsystems",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-10-28",
+    "accession": "0001628280-26-067880",
+    "period": "2026-09-25"
+   },
+   "latest_10k": {
+    "filed": "2026-02-23",
+    "accession": "0001628280-26-010744"
+   },
+   "business": "Supplier of critical subsystems, components and ultra-high-purity cleaning/analytics services to semiconductor equipment makers.",
+   "revenue_ttm_usd": 2444300000,
+   "lead_asset": null,
+   "cash_usd": 270900000,
+   "debt_total_usd": 650000000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -108600000,
+   "runway_years": 2.49,
+   "closed_financing_since_bs": "ATM sales 2026-09-26..2026-10-28: 2.2M shares, net $169.1M (10-Q subsequent events, 0001628280-26-067880)",
+   "going_concern_language": null,
+   "shares_outstanding": 47960159,
+   "shares_asof": "2026-10-21",
+   "dilutive": {
+    "options": null,
+    "rsus": "1.4M RSU/PSU/RSA",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": "not seen",
+    "convert_terms": "$600.0M Convertible Notes issued March 2026; terms not extracted",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Repaid term loan in full; revolver $250M to 2031-04-23 with $50M drawn (10-Q 0001628280-26-067880)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Convertible note conversion price",
+    "ATM remaining capacity"
+   ],
+   "notes": "Operating cash flow negative TTM despite $2.4B revenue."
+  },
+  {
+   "symbol": "ASPN",
+   "cik": 1145986,
+   "sub_theme": "Energy-transition materials (isotopes, aerogel thermal barriers)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001193125-26-449947",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-13",
+    "accession": "0001193125-26-106453"
+   },
+   "business": "Aerogel maker: PyroThin EV thermal-runaway barriers and Cryogel/Pyrogel energy-infrastructure insulation.",
+   "revenue_ttm_usd": 214200000,
+   "lead_asset": null,
+   "cash_usd": 146000000,
+   "debt_total_usd": 51100000,
+   "debt_due_12m_usd": 22500000,
+   "ocf_ttm_usd": 30300000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 83128438,
+   "shares_asof": "2026-11-03",
+   "dilutive": {
+    "options": "3,545,570",
+    "rsus": "467,596",
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "Term loan used to repurchase Koch-affiliated $100M convertible for $150M (10-Q 0001193125-26-449947)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Last-2-quarter OCF -$20.0M (screen) not traced"
+   ],
+   "notes": "S-3 shelf filed 2026-11-05."
+  },
+  {
+   "symbol": "SLNH",
+   "cik": 64463,
+   "sub_theme": "Renewable-sited compute hosting (not theme-scored)",
+   "outcome": "REJECTED: C survival \u2014 depends on serial equity issuance: ATM sold 23,591,162 shares (net $34.2M) and a further 18,769,096 after 2026-06-30, plus 2024 and 2026 Standby Equity Purchase Agreements with YA II (equity lines) (10-Q 2026-08-13, 0001628280-26-056702); auditor's going-concern CAM in 10-K; also E: price $0.54 with Nasdaq 3.01 notice (8-K 2026-04-15)",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-13",
+    "accession": "0001628280-26-056702",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-30",
+    "accession": "0001628280-26-021847"
+   },
+   "business": "Develops and operates data centers co-located with renewable plants for bitcoin mining hosting and AI cloud.",
+   "revenue_ttm_usd": 29700000,
+   "lead_asset": null,
+   "cash_usd": 113400000,
+   "debt_total_usd": 33100000,
+   "debt_due_12m_usd": 30100000,
+   "ocf_ttm_usd": -19400000,
+   "runway_years": 4.28,
+   "closed_financing_since_bs": null,
+   "going_concern_language": "\"These conditions raised substantial doubt about the Company's ability to continue as a going concern within one year after the issuance of the consolidated financial statements.\" (auditor CAM, 10-K 2026-03-30, 0001628280-26-021847)",
+   "shares_outstanding": 244590575,
+   "shares_asof": "2026-08-10",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": "Generate pre-funded 700,000 + common 1,350,000 + 650,000; penny warrants sized by 5-day VWAP",
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "Series B conversion price reset to $0.96 on 2026-02-05 (6,510,416 shares); Green Cloud note convertible up to 2,500,000 @ $5.00",
+    "preferred": "4,920,045 9.0% Series A cumulative perpetual pref ($25 liq.)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": "SEPA equity lines with YA II; penny warrants sized by VWAP; resetting Series B conversion price",
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "price $0.54; Nasdaq deficiency 8-K item 3.01 filed 2026-04-15",
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "n/a",
+   "leadership_evidence": [],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Auditor-change 8-K 2026-03-31 \u2014 disagreement not read",
+    "Q3 10-Q not in mirror"
+   ],
+   "notes": ""
+  }
+ ]
+}
