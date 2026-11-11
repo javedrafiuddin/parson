@@ -1,0 +1,487 @@
+{
+ "batch": "VA-11",
+ "as_of": "2026-11-10",
+ "n_names": 7,
+ "themes": [
+  {
+   "sub_theme": "AI-underwritten consumer lending marketplaces",
+   "members": [
+    "UPST"
+   ],
+   "maturity_signals": [
+    "UPST TTM revenue $1,339.5M (XBRL, 10-Q filed 2026-11-03, 0001647639-26-000084); Upstart Loan Trust warehouse extended to 2029-06-15 with capacity raised to $400.0M (10-Q)",
+    "UPST funds part of its loan volume on balance sheet: up to $354.7M of cash and $26.2M restricted cash expected to go into existing funding arrangements in the next 12 months (10-Q) - the model still needs balance-sheet support"
+   ],
+   "adoption_evidence": [
+    "Multiple warehouse and funding arrangements with lenders in force and amended in 2026 (10-Q Note on borrowings)",
+    "Single-issuer evidence in this batch; no bank-partner contract values disclosed in the snippets read"
+   ],
+   "comparable_prior_wave": {
+    "name": "2020-21 fintech/AI-lending wave (this same theme)",
+    "trough": "2020-12",
+    "crest": "2021-10/2021-11",
+    "leader_basket": [
+     "UPST",
+     "AFRM"
+    ],
+    "leader_peak_multiples": {
+     "UPST": 13.2,
+     "AFRM": 3.5
+    },
+    "months_trough_to_crest": 10,
+    "similar": "Same company and narrative; tools.py px 2020-12-16..2021-12-31: UPST $29.47 (2020-12-16) -> $390.00 (2021-10-15), AFRM 2021-05-13 -> 2021-11-04.",
+    "different": "UPST is wreckage of that wave (and of a smaller 2024-25 rebound, 3y high $88.77 on 2025-02-12); a new wave would be a second wave from a $2.2B base and depends on credit-cycle and funding conditions, not zero rates."
+   },
+   "wave_window_years": 3,
+   "wave_score": 2,
+   "wave_score_reason": "Revenue is real and funding lines are being extended, but the theme already crested at 13x in 2021 and current filings show reliance on balance-sheet funding."
+  },
+  {
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "members": [
+    "CWH",
+    "AGNT",
+    "FUN",
+    "RILY",
+    "BARK",
+    "CDNL"
+   ],
+   "maturity_signals": [
+    "Not a theme: mature or recently-IPO'd operating businesses whose drawdowns are company- or cycle-specific (RV retail, residential brokerage, regional theme parks, a broker-dealer holding company, pet products, site/wet-utility construction)"
+   ],
+   "adoption_evidence": [
+    "None at theme level"
+   ],
+   "comparable_prior_wave": {
+    "name": "none",
+    "trough": null,
+    "crest": null,
+    "leader_basket": [],
+    "leader_peak_multiples": {},
+    "months_trough_to_crest": null,
+    "similar": "none",
+    "different": "No shared theme; recoveries would be idiosyncratic or cyclical, not a theme wave."
+   },
+   "wave_window_years": null,
+   "wave_score": 0,
+   "wave_score_reason": "No common theme and no wave evidence in the filings."
+  }
+ ],
+ "names": [
+  {
+   "symbol": "CWH",
+   "cik": 1669779,
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001104659-26-123402",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-27",
+    "accession": "0001104659-26-021548"
+   },
+   "business": "Retailer of new and used RVs and related products, services and Good Sam memberships through a national dealership network.",
+   "revenue_ttm_usd": 6045100000,
+   "lead_asset": null,
+   "cash_usd": 263800000,
+   "debt_total_usd": 1423400000,
+   "debt_due_12m_usd": 23900000,
+   "ocf_ttm_usd": 260800000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 103357092,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": 127000,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "Class B (39,466,964) is voting stock tied to common units of CWGS LLC; options 127k weighted anti-dilutive Q3",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "$6.0B TTM revenue; floor plan commitment $2.15B, maturity extended to 2030 (or 2028-03-05 springing) (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Floor plan notes payable balance (likely outside 'total debt') not extracted",
+    "Cause of Q3 2026 basic loss $(3.09)/share not traced",
+    "RSU count not in snippets"
+   ],
+   "notes": "Cover: 63,890,128 Class A + 39,466,964 Class B + 1 Class C at 2026-10-30."
+  },
+  {
+   "symbol": "AGNT",
+   "cik": 1495932,
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001104659-26-123301",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-24",
+    "accession": "0001104659-26-019145"
+   },
+   "business": "Parent of eXp Realty, a cloud-based agent-centric residential real estate brokerage, plus NextHome franchising and related platforms.",
+   "revenue_ttm_usd": 5039800000,
+   "lead_asset": null,
+   "cash_usd": 186200000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 91400000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 164714010,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "4,862,776 anti-dilutive shares excluded Q3 2026 (10-Q)",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": 0,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "participant",
+   "leadership_evidence": [
+    "$5.0B TTM gross revenue, debt-free, $0.05 quarterly dividend declared 2026-10-23 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "Brokerage gross revenue passes through to agents; economics are thin."
+  },
+  {
+   "symbol": "UPST",
+   "cik": 1647639,
+   "sub_theme": "AI-underwritten consumer lending marketplaces",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-03",
+    "accession": "0001647639-26-000084",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-02-10",
+    "accession": "0001647639-26-000027"
+   },
+   "business": "AI lending marketplace connecting consumers to bank and credit-union partners for personal, auto and HELOC loans.",
+   "revenue_ttm_usd": 1339500000,
+   "lead_asset": null,
+   "cash_usd": 461500000,
+   "debt_total_usd": 2027300000,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": -181100000,
+   "runway_years": 6.23,
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 98906930,
+   "shares_asof": "2026-09-30",
+   "dilutive": {
+    "options": 9204983,
+    "rsus": 2276156,
+    "warrants": null,
+    "warrant_terms": null,
+    "convert_shares": null,
+    "convert_terms": "2.00% 2029, 1.00% 2030 and 0% 2032 convertible senior notes with capped calls; conversion prices not seen",
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": true,
+    "remaining_usd": 500000000,
+    "pct_of_mcap": 22.7
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": null,
+   "leadership": "leader",
+   "leadership_evidence": [
+    "Largest revenue base of AI-lending pure plays at $1.34B TTM",
+    "Repurchased 3.2M shares for $100.1M in 2026; $122.1M buyback left (10-Q)"
+   ],
+   "dated_catalysts": [
+    "2026-11-30 Chief Accounting Officer resignation effective - 'not the result of any disagreement' (8-K filed 2026-11-09, 0001647639-26-000086)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Runway 6.23y uses pack cash+ST $1,128.5M; on cash and equivalents of $461.5M alone it is ~2.5y",
+    "Option/RSU counts are at 2025-12-31 (10-K)"
+   ],
+   "notes": "10-Q/A (2026-08-05) only fixed a typo in Risk Factors - not a restatement. OCF negative partly because loan purchases run through operating cash flow. ATM $500.0M unused (22.7% of mcap, just under the 25% flag)."
+  },
+  {
+   "symbol": "FUN",
+   "cik": 1999001,
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001999001-26-000107",
+    "period": "2026-09-27"
+   },
+   "latest_10k": {
+    "filed": "2026-02-26",
+    "accession": "0001999001-26-000048"
+   },
+   "business": "Operator of regional amusement parks, water parks and resorts in the US, Canada and Mexico (Six Flags).",
+   "revenue_ttm_usd": 2913700000,
+   "lead_asset": null,
+   "cash_usd": 267900000,
+   "debt_total_usd": 4923700000,
+   "debt_due_12m_usd": 15000000,
+   "ocf_ttm_usd": 460800000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 102309821,
+   "shares_asof": "2026-10-30",
+   "dilutive": {
+    "options": 300000,
+    "rsus": 2700000,
+    "warrants": null,
+    "warrant_terms": "Anti-dilutive 3.1M: PSUs 1.4M, RS/RSUs 1.3M, options 0.3M, other 0.1M",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": "Redeemable non-controlling interests $239.7M",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "Not bankruptcy/deSPAC (merger-of-equals entity); n/a",
+   "leadership": "participant",
+   "leadership_evidence": [
+    "$460.8M TTM OCF; term loan matures 2031-05-01; leverage ~4.9B debt vs $1.1B equity value"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [],
+   "notes": "9M 2026 basic loss $(8.23)/share; cause not traced."
+  },
+  {
+   "symbol": "RILY",
+   "cik": 1464790,
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001464790-26-000059",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-31",
+    "accession": "0001464790-26-000024"
+   },
+   "business": "Diversified holding company with investment banking, wealth management, communications (NetZero/Juno, magicJack) and consumer-products businesses.",
+   "revenue_ttm_usd": 902600000,
+   "lead_asset": null,
+   "cash_usd": 145700000,
+   "debt_total_usd": 1136034000,
+   "debt_due_12m_usd": 132888000,
+   "ocf_ttm_usd": 150100000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": "Sold remaining GA Holdings interest to Oaktree on 2026-11-03 for $62.25M ($10.57M cash + $51.68M debt reduction) (10-Q subsequent events)",
+   "going_concern_language": null,
+   "shares_outstanding": 40199755,
+   "shares_asof": "2026-11-02",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "Warrants issued with registration rights (count not seen); 1,602,885 anti-dilutive securities Q3 2026",
+    "convert_shares": null,
+    "convert_terms": "None; but 2026 Section 3(a)(9) exchanges of $69.1M senior notes into common with DBA Trading",
+    "preferred": "6.875% Series A and 7.375% Series B cumulative perpetual preferred (pack temp equity $128.2M)",
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": "Nasdaq 3.01 8-K 2025-11-28 (delinquent filings) and NT 10-K 2026-03-17; 10-Q cover now ticks 'filed all reports' Yes",
+   "fraud_flags": "Late-filing history (NT 10-K, catch-up 10-Qs Nov 2025-Jan 2026) but no going-concern or substantial-doubt language in the latest 10-Q, so the going-concern+delinquency combination is not triggered",
+   "lineage_trap": null,
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Stockholders' deficit; senior notes $988.3M vs $154.4M market cap (10-Q balance sheet)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Debt due within 12 months: snippet shows ~$123.9M of senior-note maturities plus $9.0M term-loan principal - attribution of the $123,888 figure partly truncated",
+    "10-K/A (2026-04-01) purpose not read",
+    "Warrant count and strike"
+   ],
+   "notes": "PACK CONTRADICTED: pack total debt $0 vs senior notes payable $988.3M + term loans $115.4M + revolvers $32.3M = $1,136.0M at 2026-09-30. Pending ~$169.6M cash acquisition of Sangoma Technologies. Common is a thin stub under the debt and preferred."
+  },
+  {
+   "symbol": "BARK",
+   "cik": 1819574,
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-11-05",
+    "accession": "0001628280-26-071128",
+    "period": "2026-09-30"
+   },
+   "latest_10k": {
+    "filed": "2026-06-10",
+    "accession": "0001628280-26-042242"
+   },
+   "business": "Omnichannel dog toys, treats and subscription-box brand (BarkBox, Super Chewer) sold DTC and through retail partners.",
+   "revenue_ttm_usd": 351400000,
+   "lead_asset": null,
+   "cash_usd": 19000000,
+   "debt_total_usd": 0,
+   "debt_due_12m_usd": 0,
+   "ocf_ttm_usd": 1500000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": null,
+   "going_concern_language": null,
+   "shares_outstanding": 8911437,
+   "shares_asof": "2026-11-03",
+   "dilutive": {
+    "options": 361065,
+    "rsus": 720839,
+    "warrants": 0,
+    "warrant_terms": null,
+    "convert_shares": 0,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": "1-for-20 reverse split effected 2026-04-01 (10-Q)",
+   "listing_risk": "NYSE 3.01 8-K 2025-12-19 preceded the split; no later notice",
+   "fraud_flags": null,
+   "lineage_trap": "deSPAC: Northern Star Acquisition Corp. completed acquisition of Barkbox, Inc. on 2021-06-01 and became BARK, Inc.; BARK is its common stock; one share = one common share of BARK, Inc. (post 1:20 split)",
+   "leadership": "laggard",
+   "leadership_evidence": [
+    "Revenue $351.4M, cash $19.0M, revolver up to $35.0M maturing 2027-02-25 (10-Q)"
+   ],
+   "dated_catalysts": [],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Revolver drawn balance not seen (pack shows $0 debt)",
+    "Pack cash $24.4M vs $19.0M cash in MD&A (difference likely restricted cash)"
+   ],
+   "notes": "Credit facility matures within 12 months (2027-02-25) - refinancing needed. Convertible note repurchased in the prior year."
+  },
+  {
+   "symbol": "CDNL",
+   "cik": 2079999,
+   "sub_theme": "cyclical consumer, housing and services incumbents with leverage (no common theme)",
+   "outcome": "SURVIVOR",
+   "flag": "PARTIALLY_VERIFIED",
+   "latest_10q": {
+    "filed": "2026-08-12",
+    "accession": "0001193125-26-345109",
+    "period": "2026-06-30"
+   },
+   "latest_10k": {
+    "filed": "2026-03-23",
+    "accession": "0001193125-26-120014"
+   },
+   "business": "Site-development and infrastructure contractor: wet utilities (water, sewer, stormwater), clearing, grading, blasting and paving.",
+   "revenue_ttm_usd": 456000000,
+   "lead_asset": null,
+   "cash_usd": 339100000,
+   "debt_total_usd": 199500000,
+   "debt_due_12m_usd": 11000000,
+   "ocf_ttm_usd": 37900000,
+   "runway_years": "cash-positive",
+   "closed_financing_since_bs": "Credit agreement Second Amendment 2026-09-10 (8-K 0001193125-26-389363); terms not extracted",
+   "going_concern_language": null,
+   "shares_outstanding": 47473059,
+   "shares_asof": "2026-06-30",
+   "dilutive": {
+    "options": null,
+    "rsus": null,
+    "warrants": null,
+    "warrant_terms": "Class B 27,234,449 with LLC interests exchangeable 1:1 into Class A (Up-C); tax receivable agreement liability $47.2M",
+    "convert_shares": null,
+    "convert_terms": null,
+    "preferred": null,
+    "earnout_shares": null
+   },
+   "atm": {
+    "exists": false,
+    "remaining_usd": null,
+    "pct_of_mcap": null
+   },
+   "toxic_instruments": null,
+   "pending_auth_increase_or_reverse_split": null,
+   "listing_risk": null,
+   "fraud_flags": null,
+   "lineage_trap": "IPO (424B4 2025-12-10) with Up-C reorganization; not deSPAC or bankruptcy",
+   "leadership": "participant",
+   "leadership_evidence": [
+    "$339.1M cash after June 2026 follow-on (424B4 2026-06-25); $120.0M term loan to 2030-10-01"
+   ],
+   "dated_catalysts": [
+    "Pending merger with HBC Holdco, Inc. for stock and other consideration (8-K filed 2026-10-19, 0001193125-26-424737)"
+   ],
+   "binary_flip_shape": false,
+   "could_not_verify": [
+    "Q3 2026 10-Q not yet in filing index",
+    "Revenue TTM in pack only through 2025-12-31",
+    "Reason for -83.9% fall from the 2026-06-29 high of $94.31 not found in filings read"
+   ],
+   "notes": "Share count = 20,238,610 Class A + 27,234,449 Class B at 2026-06-30."
+  }
+ ]
+}
